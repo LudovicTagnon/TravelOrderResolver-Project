@@ -7,6 +7,7 @@
 - `students_project/sample_nlp_output.txt` : sorties attendues.
 - `project.pdf` : sujet et contraintes.
 - `tests/test_sample.py` : test de cohérence sur les exemples fournis.
+- `scripts/evaluate.py` : métriques simples sur le jeu d'exemple.
 
 ## Format des données
 - Entrée : `id,phrase`.

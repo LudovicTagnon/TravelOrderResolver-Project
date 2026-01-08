@@ -2,6 +2,8 @@
 import argparse
 import re
 import sys
+import urllib.request
+from typing import Iterable
 import unicodedata
 from pathlib import Path
 
@@ -149,12 +151,28 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
     return origin, destination
 
 
-def iter_input_lines(paths: list[Path]) -> list[str]:
-    if not paths:
+def read_url_lines(url: str) -> Iterable[str]:
+    with urllib.request.urlopen(url) as response:
+        content = response.read().decode("utf-8", errors="replace")
+    for line in content.splitlines():
+        yield line
+
+
+def iter_input_lines(inputs: list[str]) -> Iterable[str]:
+    if not inputs:
         for line in sys.stdin:
             yield line.rstrip("\n")
         return
-    for path in paths:
+    for item in inputs:
+        if item == "-":
+            for line in sys.stdin:
+                yield line.rstrip("\n")
+            continue
+        if item.startswith("http://") or item.startswith("https://"):
+            for line in read_url_lines(item):
+                yield line.rstrip("\n")
+            continue
+        path = Path(item)
         with path.open("r", encoding="utf-8") as handle:
             for line in handle:
                 yield line.rstrip("\n")
@@ -163,7 +181,7 @@ def iter_input_lines(paths: list[Path]) -> list[str]:
 def main() -> int:
     default_places = Path(__file__).resolve().parents[1] / "data" / "places.txt"
     parser = argparse.ArgumentParser(description="Extract origin and destination from travel orders.")
-    parser.add_argument("inputs", nargs="*", type=Path, help="Input files (default: stdin)")
+    parser.add_argument("inputs", nargs="*", help="Input files, URLs, or '-' for stdin")
     parser.add_argument("--places", type=Path, default=default_places, help="Path to places list")
     args = parser.parse_args()
 

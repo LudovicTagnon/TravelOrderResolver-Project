@@ -48,14 +48,18 @@ def build_place_pattern(variants: list[str]) -> str:
     return rf"(?<!\w)(?:{combined})(?!\w)"
 
 
-def build_place_index(mapping: dict) -> tuple[dict[int, list[tuple[str, str]]], int]:
+def build_place_index(mapping: dict) -> tuple[dict[int, dict[str, list[tuple[str, str]]]], int]:
     index = {}
     max_tokens = 1
     for variant, canonical in mapping.items():
         tokens = variant.split()
         length = len(tokens)
         max_tokens = max(max_tokens, length)
-        index.setdefault(length, []).append((variant, canonical))
+        if length not in index:
+            index[length] = {"_all": []}
+        index[length]["_all"].append((variant, canonical))
+        first_char = tokens[0][0] if tokens and tokens[0] else ""
+        index[length].setdefault(first_char, []).append((variant, canonical))
     return index, max_tokens
 
 
@@ -154,7 +158,7 @@ def collect_candidates(
 def collect_fuzzy_candidates(
     sentence_norm: str,
     cue_specs: list[tuple[str, int]],
-    place_index: dict[int, list[tuple[str, str]]],
+    place_index: dict[int, dict[str, list[tuple[str, str]]]],
     max_place_tokens: int,
     blocked_spans: list[tuple[int, int]] | None = None,
 ) -> list:
@@ -182,7 +186,10 @@ def collect_fuzzy_candidates(
                     break
                 candidate_tokens = tokens[token_index : token_index + length]
                 candidate = " ".join(token for token, _, _ in candidate_tokens)
-                for variant, canonical in place_index.get(length, []):
+                first_char = candidate[0] if candidate else ""
+                buckets = place_index.get(length, {})
+                variants = buckets.get(first_char) or buckets.get("_all", [])
+                for variant, canonical in variants:
                     distance = levenshtein(candidate, variant)
                     if distance > max_distance(variant):
                         continue
@@ -214,7 +221,7 @@ def extract_places(sentence_norm: str, place_pattern: str, mapping: dict) -> lis
 
 def extract_places_fuzzy(
     sentence_norm: str,
-    place_index: dict[int, list[tuple[str, str]]],
+    place_index: dict[int, dict[str, list[tuple[str, str]]]],
     max_place_tokens: int,
 ) -> list:
     tokens = tokenize_with_positions(sentence_norm)
@@ -227,7 +234,10 @@ def extract_places_fuzzy(
                 break
             candidate_tokens = tokens[idx : idx + length]
             candidate = " ".join(token for token, _, _ in candidate_tokens)
-            for variant, canonical in place_index.get(length, []):
+            first_char = candidate[0] if candidate else ""
+            buckets = place_index.get(length, {})
+            variants = buckets.get(first_char) or buckets.get("_all", [])
+            for variant, canonical in variants:
                 distance = levenshtein(candidate, variant)
                 if distance > max_distance(variant):
                     continue
@@ -254,7 +264,13 @@ def is_in_spans(position: int, spans: list[tuple[int, int]]) -> bool:
     return False
 
 
-def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
+def resolve_order(
+    sentence: str,
+    mapping: dict,
+    place_pattern: str,
+    place_index: dict[int, dict[str, list[tuple[str, str]]]] | None = None,
+    max_place_tokens: int | None = None,
+) -> tuple:
     sentence_norm = normalize(sentence)
     origin_specs = [
         (r"\bdepuis\b", 3),
@@ -290,9 +306,28 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
         "depuis",
         "faire",
     }
+    english_markers = {"from", "to", "going", "any"}
+    french_markers = {
+        "depuis",
+        "vers",
+        "pour",
+        "aller",
+        "rendre",
+        "billet",
+        "partir",
+        "partant",
+        "gare",
+        "trajet",
+        "depart",
+        "destination",
+        "besoin",
+        "voudrais",
+        "souhaite",
+    }
 
     place_spans = extract_place_spans(sentence_norm, place_pattern)
-    place_index, max_place_tokens = build_place_index(mapping)
+    if place_index is None or max_place_tokens is None:
+        place_index, max_place_tokens = build_place_index(mapping)
     origin_candidates = collect_candidates(
         sentence_norm, origin_specs, place_pattern, mapping, place_spans
     )
@@ -309,7 +344,11 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
         )
 
     all_places = extract_places(sentence_norm, place_pattern, mapping)
-    marker_hit = bool(set(sentence_norm.split()) & fallback_markers)
+    tokens = set(sentence_norm.split())
+    marker_hit = bool(tokens & fallback_markers)
+    english_only = bool(tokens & english_markers) and not bool(tokens & french_markers)
+    if english_only and not (origin_candidates or dest_candidates):
+        return None, None
     fallback_allowed = bool(origin_candidates or dest_candidates) or marker_hit
     if fallback_allowed and len(all_places) < 2:
         fuzzy_places = extract_places_fuzzy(sentence_norm, place_index, max_place_tokens)
@@ -391,6 +430,7 @@ def main() -> int:
         return 1
 
     place_pattern = build_place_pattern(list(mapping.keys()))
+    place_index, max_place_tokens = build_place_index(mapping)
 
     for line in iter_input_lines(args.inputs):
         if not line.strip():
@@ -398,7 +438,9 @@ def main() -> int:
         if "," not in line:
             continue
         sentence_id, sentence = line.split(",", 1)
-        origin, destination = resolve_order(sentence, mapping, place_pattern)
+        origin, destination = resolve_order(
+            sentence, mapping, place_pattern, place_index, max_place_tokens
+        )
         if origin and destination:
             print(f"{sentence_id},{origin},{destination}")
         else:

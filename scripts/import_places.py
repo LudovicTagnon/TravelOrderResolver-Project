@@ -38,7 +38,13 @@ def main() -> int:
 
     names = []
     with args.input.open("r", encoding="utf-8") as handle:
-        reader = csv.DictReader(handle)
+        sample = handle.read(2048)
+        handle.seek(0)
+        try:
+            dialect = csv.Sniffer().sniff(sample, delimiters=";,\t")
+        except csv.Error:
+            dialect = csv.excel
+        reader = csv.DictReader(handle, dialect=dialect)
         if not reader.fieldnames:
             return 1
         column = select_column(reader.fieldnames, args.column)

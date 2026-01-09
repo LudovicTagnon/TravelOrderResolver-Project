@@ -36,6 +36,11 @@ def evaluate(input_path: Path, expected_path: Path, places_path: Path, show_mism
     correct = 0
     invalid_expected = 0
     invalid_correct = 0
+    valid_expected = 0
+    valid_predicted = 0
+    valid_correct = 0
+    origin_correct = 0
+    destination_correct = 0
     mismatches = []
 
     with input_path.open("r", encoding="utf-8") as handle:
@@ -51,19 +56,39 @@ def evaluate(input_path: Path, expected_path: Path, places_path: Path, show_mism
             total += 1
             if expected_origin is None:
                 invalid_expected += 1
+            else:
+                valid_expected += 1
             if origin is None or destination is None:
                 predicted = (None, None)
             else:
                 predicted = (origin, destination)
+                valid_predicted += 1
             if predicted == (expected_origin, expected_destination):
                 correct += 1
                 if expected_origin is None:
                     invalid_correct += 1
+                else:
+                    valid_correct += 1
+                    origin_correct += 1
+                    destination_correct += 1
             else:
+                if expected_origin is not None and predicted != (None, None):
+                    if predicted[0] == expected_origin:
+                        origin_correct += 1
+                    if predicted[1] == expected_destination:
+                        destination_correct += 1
                 mismatches.append((sentence_id, predicted, (expected_origin, expected_destination)))
 
     accuracy = (correct / total) if total else 0.0
     invalid_accuracy = (invalid_correct / invalid_expected) if invalid_expected else 0.0
+    valid_precision = (valid_correct / valid_predicted) if valid_predicted else 0.0
+    valid_recall = (valid_correct / valid_expected) if valid_expected else 0.0
+    if valid_precision + valid_recall:
+        valid_f1 = (2 * valid_precision * valid_recall) / (valid_precision + valid_recall)
+    else:
+        valid_f1 = 0.0
+    origin_accuracy = (origin_correct / valid_expected) if valid_expected else 0.0
+    destination_accuracy = (destination_correct / valid_expected) if valid_expected else 0.0
 
     print(f"total={total}")
     print(f"correct={correct}")
@@ -71,6 +96,14 @@ def evaluate(input_path: Path, expected_path: Path, places_path: Path, show_mism
     print(f"invalid_expected={invalid_expected}")
     print(f"invalid_correct={invalid_correct}")
     print(f"invalid_accuracy={invalid_accuracy:.3f}")
+    print(f"valid_expected={valid_expected}")
+    print(f"valid_predicted={valid_predicted}")
+    print(f"valid_correct={valid_correct}")
+    print(f"valid_precision={valid_precision:.3f}")
+    print(f"valid_recall={valid_recall:.3f}")
+    print(f"valid_f1={valid_f1:.3f}")
+    print(f"origin_accuracy={origin_accuracy:.3f}")
+    print(f"destination_accuracy={destination_accuracy:.3f}")
 
     if show_mismatches and mismatches:
         print("mismatches=")

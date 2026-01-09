@@ -11,6 +11,7 @@
 - `scripts/generate_dataset.py` : génération de jeux synthétiques (entrées + sorties attendues).
 - `scripts/dataset_report.py` : statistiques sur un jeu (volumétrie, lieux, tokens).
 - `scripts/split_dataset.py` : découpage train/dev/test.
+- `datasets/` : jeu synthétique (all/train/dev/test).
 
 ## Format des données
 - Entrée : `id,phrase`.

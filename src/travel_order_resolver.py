@@ -6,6 +6,7 @@ import urllib.request
 from typing import Iterable
 import unicodedata
 from pathlib import Path
+from typing import Iterable
 
 
 def normalize(text: str) -> str:
@@ -38,6 +39,63 @@ def build_place_pattern(variants: list[str]) -> str:
         patterns.append(pattern)
     combined = "|".join(patterns)
     return rf"(?<!\w)(?:{combined})(?!\w)"
+
+
+def build_place_index(mapping: dict) -> tuple[dict[int, list[tuple[str, str]]], int]:
+    index = {}
+    max_tokens = 1
+    for variant, canonical in mapping.items():
+        tokens = variant.split()
+        length = len(tokens)
+        max_tokens = max(max_tokens, length)
+        index.setdefault(length, []).append((variant, canonical))
+    return index, max_tokens
+
+
+def tokenize_with_positions(sentence_norm: str) -> list[tuple[str, int, int]]:
+    return [
+        (match.group(0), match.start(), match.end())
+        for match in re.finditer(r"\w+", sentence_norm)
+    ]
+
+
+def max_distance(value: str) -> int:
+    length = len(value)
+    if length <= 4:
+        return 0
+    if length <= 6:
+        return 1
+    if length <= 9:
+        return 2
+    return 3
+
+
+def levenshtein(a: str, b: str) -> int:
+    if a == b:
+        return 0
+    rows = len(a) + 1
+    cols = len(b) + 1
+    distance = [[0] * cols for _ in range(rows)]
+    for i in range(rows):
+        distance[i][0] = i
+    for j in range(cols):
+        distance[0][j] = j
+    for i in range(1, rows):
+        for j in range(1, cols):
+            cost = 0 if a[i - 1] == b[j - 1] else 1
+            distance[i][j] = min(
+                distance[i - 1][j] + 1,
+                distance[i][j - 1] + 1,
+                distance[i - 1][j - 1] + cost,
+            )
+            if (
+                i > 1
+                and j > 1
+                and a[i - 1] == b[j - 2]
+                and a[i - 2] == b[j - 1]
+            ):
+                distance[i][j] = min(distance[i][j], distance[i - 2][j - 2] + 1)
+    return distance[-1][-1]
 
 
 def extract_candidates(
@@ -86,6 +144,56 @@ def collect_candidates(
     return sorted(candidates, key=lambda item: item[0])
 
 
+def collect_fuzzy_candidates(
+    sentence_norm: str,
+    cue_specs: list[tuple[str, int]],
+    place_index: dict[int, list[tuple[str, str]]],
+    max_place_tokens: int,
+    blocked_spans: list[tuple[int, int]] | None = None,
+) -> list:
+    candidates = []
+    seen = set()
+    tokens = tokenize_with_positions(sentence_norm)
+    if not tokens:
+        return candidates
+
+    for cue_pattern, _ in cue_specs:
+        regex = re.compile(cue_pattern)
+        for match in regex.finditer(sentence_norm):
+            if blocked_spans and is_in_spans(match.start(), blocked_spans):
+                continue
+            token_index = None
+            for idx, (_, start, _) in enumerate(tokens):
+                if start >= match.end():
+                    token_index = idx
+                    break
+            if token_index is None:
+                continue
+            best = None
+            for length in range(1, max_place_tokens + 1):
+                if token_index + length > len(tokens):
+                    break
+                candidate_tokens = tokens[token_index : token_index + length]
+                candidate = " ".join(token for token, _, _ in candidate_tokens)
+                for variant, canonical in place_index.get(length, []):
+                    distance = levenshtein(candidate, variant)
+                    if distance > max_distance(variant):
+                        continue
+                    if best is None or distance < best[2]:
+                        best = (
+                            candidate_tokens[0][1],
+                            canonical,
+                            distance,
+                        )
+            if best is None:
+                continue
+            key = (best[0], best[1])
+            if key not in seen:
+                candidates.append((best[0], best[1]))
+                seen.add(key)
+    return sorted(candidates, key=lambda item: item[0])
+
+
 def extract_places(sentence_norm: str, place_pattern: str, mapping: dict) -> list:
     regex = re.compile(rf"(?P<place>{place_pattern})")
     matches = []
@@ -95,6 +203,36 @@ def extract_places(sentence_norm: str, place_pattern: str, mapping: dict) -> lis
         if canonical:
             matches.append((match.start(), canonical))
     return matches
+
+
+def extract_places_fuzzy(
+    sentence_norm: str,
+    place_index: dict[int, list[tuple[str, str]]],
+    max_place_tokens: int,
+) -> list:
+    tokens = tokenize_with_positions(sentence_norm)
+    matches = []
+    seen = set()
+    for idx in range(len(tokens)):
+        best = None
+        for length in range(1, max_place_tokens + 1):
+            if idx + length > len(tokens):
+                break
+            candidate_tokens = tokens[idx : idx + length]
+            candidate = " ".join(token for token, _, _ in candidate_tokens)
+            for variant, canonical in place_index.get(length, []):
+                distance = levenshtein(candidate, variant)
+                if distance > max_distance(variant):
+                    continue
+                if best is None or distance < best[2]:
+                    best = (candidate_tokens[0][1], canonical, distance)
+        if best is None:
+            continue
+        key = (best[0], best[1])
+        if key not in seen:
+            matches.append((best[0], best[1]))
+            seen.add(key)
+    return sorted(matches, key=lambda item: item[0])
 
 
 def extract_place_spans(sentence_norm: str, place_pattern: str) -> list[tuple[int, int]]:
@@ -115,6 +253,7 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
         (r"\bdepuis\b", 3),
         (r"\ben\s+partant\s+de\b", 1),
         (r"\bpartant\s+de\b", 1),
+        (r"\bdepart\b", 1),
         (r"\bde\b", 1),
     ]
     dest_specs = [
@@ -122,6 +261,7 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
         (r"\bvers\b", 1),
         (r"\bpour\b", 1),
         (r"\bjusqu\s*a\b", 1),
+        (r"\bdestination\b", 1),
     ]
     fallback_markers = {
         "je",
@@ -145,13 +285,33 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
     }
 
     place_spans = extract_place_spans(sentence_norm, place_pattern)
+    place_index, max_place_tokens = build_place_index(mapping)
     origin_candidates = collect_candidates(
         sentence_norm, origin_specs, place_pattern, mapping, place_spans
     )
     dest_candidates = collect_candidates(
         sentence_norm, dest_specs, place_pattern, mapping, place_spans
     )
+    if not origin_candidates:
+        origin_candidates = collect_fuzzy_candidates(
+            sentence_norm, origin_specs, place_index, max_place_tokens, place_spans
+        )
+    if not dest_candidates:
+        dest_candidates = collect_fuzzy_candidates(
+            sentence_norm, dest_specs, place_index, max_place_tokens, place_spans
+        )
+
     all_places = extract_places(sentence_norm, place_pattern, mapping)
+    marker_hit = bool(set(sentence_norm.split()) & fallback_markers)
+    fallback_allowed = bool(origin_candidates or dest_candidates) or marker_hit
+    if fallback_allowed and len(all_places) < 2:
+        fuzzy_places = extract_places_fuzzy(sentence_norm, place_index, max_place_tokens)
+        known = {place for _, place in all_places}
+        for pos, place in fuzzy_places:
+            if place not in known:
+                all_places.append((pos, place))
+                known.add(place)
+        all_places.sort(key=lambda item: item[0])
 
     ordered = []
     for _, place in sorted(all_places, key=lambda item: item[0]):
@@ -160,9 +320,6 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
 
     origin = origin_candidates[-1][1] if origin_candidates else None
     destination = dest_candidates[-1][1] if dest_candidates else None
-    fallback_allowed = bool(origin_candidates or dest_candidates) or bool(
-        set(sentence_norm.split()) & fallback_markers
-    )
 
     if origin is None and ordered and fallback_allowed:
         origin = ordered[0]

@@ -3,6 +3,7 @@
 ## Contenu
 - `src/travel_order_resolver.py` : extracteur CLI (origine/destination).
 - `data/places.txt` : gazetteer de lieux.
+- `data/places_imported.txt` : liste de gares importées (SNCF).
 - `students_project/sample_nlp_input.txt` : entrées d'exemple.
 - `students_project/sample_nlp_output.txt` : sorties attendues.
 - `project.pdf` : sujet et contraintes.
@@ -30,3 +31,4 @@
 ## Exemples de commandes
 - `python3 src/travel_order_resolver.py --places data/places.txt < students_project/sample_nlp_input.txt`
 - `python3 src/travel_order_resolver.py --places data/places.txt students_project/sample_nlp_input.txt`
+- `python3 src/travel_order_resolver.py --places data/places_imported.txt students_project/sample_nlp_input.txt`

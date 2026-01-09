@@ -1,7 +1,12 @@
 import unittest
 from pathlib import Path
 
-from src.travel_order_resolver import build_place_pattern, load_places, resolve_order
+from src.travel_order_resolver import (
+    build_place_index,
+    build_place_pattern,
+    load_places,
+    resolve_order,
+)
 
 
 class SampleInputOutputTest(unittest.TestCase):
@@ -12,6 +17,7 @@ class SampleInputOutputTest(unittest.TestCase):
         places_path = root / "data" / "places.txt"
         self.mapping = load_places(places_path)
         self.place_pattern = build_place_pattern(list(self.mapping.keys()))
+        self.place_index, self.max_place_tokens = build_place_index(self.mapping)
 
     def test_sample_file_matches_expected(self) -> None:
         expected = {}
@@ -31,7 +37,11 @@ class SampleInputOutputTest(unittest.TestCase):
                     continue
                 sentence_id, sentence = line.split(",", 1)
                 origin, destination = resolve_order(
-                    sentence, self.mapping, self.place_pattern
+                    sentence,
+                    self.mapping,
+                    self.place_pattern,
+                    self.place_index,
+                    self.max_place_tokens,
                 )
                 if origin and destination:
                     actual = f"{sentence_id},{origin},{destination}"

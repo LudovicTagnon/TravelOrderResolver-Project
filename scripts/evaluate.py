@@ -7,7 +7,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from src.travel_order_resolver import build_place_pattern, load_places, resolve_order
+from src.travel_order_resolver import (
+    build_place_index,
+    build_place_pattern,
+    load_places,
+    resolve_order,
+)
 
 
 def load_expected(path: Path) -> dict:
@@ -36,6 +41,7 @@ def compute_metrics(
 ) -> tuple[dict, list]:
     mapping = load_places(places_path)
     place_pattern = build_place_pattern(list(mapping.keys()))
+    place_index, max_place_tokens = build_place_index(mapping)
     expected = load_expected(expected_path)
 
     total = 0
@@ -57,7 +63,9 @@ def compute_metrics(
             if "," not in line:
                 continue
             sentence_id, sentence = line.split(",", 1)
-            origin, destination = resolve_order(sentence, mapping, place_pattern)
+            origin, destination = resolve_order(
+                sentence, mapping, place_pattern, place_index, max_place_tokens
+            )
             expected_origin, expected_destination = expected.get(sentence_id, (None, None))
             total += 1
             if expected_origin is None:

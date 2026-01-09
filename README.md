@@ -12,6 +12,8 @@
 - `scripts/dataset_report.py` : statistiques sur un jeu (volumétrie, lieux, tokens).
 - `scripts/split_dataset.py` : découpage train/dev/test.
 - `datasets/` : jeu synthétique (all/train/dev/test).
+- `scripts/run_benchmarks.py` : exécution des métriques sur train/dev/test.
+- `reports/metrics.json` : résultats des métriques par split.
 
 ## Format des données
 - Entrée : `id,phrase`.

@@ -46,11 +46,14 @@ def extract_candidates(
     place_pattern: str,
     mapping: dict,
     max_gap_tokens: int = 3,
+    blocked_spans: list[tuple[int, int]] | None = None,
 ) -> list:
     gap = rf"(?:\s+\w+){{0,{max_gap_tokens}}}"
     regex = re.compile(rf"(?:{cue_pattern}){gap}\s+(?P<place>{place_pattern})")
     matches = []
     for match in regex.finditer(sentence_norm):
+        if blocked_spans and is_in_spans(match.start(), blocked_spans):
+            continue
         raw = re.sub(r"\s+", " ", match.group("place")).strip()
         canonical = mapping.get(raw)
         if canonical:
@@ -63,12 +66,18 @@ def collect_candidates(
     cue_specs: list[tuple[str, int]],
     place_pattern: str,
     mapping: dict,
+    blocked_spans: list[tuple[int, int]] | None = None,
 ) -> list:
     candidates = []
     seen = set()
     for cue_pattern, max_gap_tokens in cue_specs:
         for pos, place in extract_candidates(
-            sentence_norm, cue_pattern, place_pattern, mapping, max_gap_tokens
+            sentence_norm,
+            cue_pattern,
+            place_pattern,
+            mapping,
+            max_gap_tokens,
+            blocked_spans,
         ):
             key = (pos, place)
             if key not in seen:
@@ -86,6 +95,18 @@ def extract_places(sentence_norm: str, place_pattern: str, mapping: dict) -> lis
         if canonical:
             matches.append((match.start(), canonical))
     return matches
+
+
+def extract_place_spans(sentence_norm: str, place_pattern: str) -> list[tuple[int, int]]:
+    regex = re.compile(rf"(?P<place>{place_pattern})")
+    return [(match.start("place"), match.end("place")) for match in regex.finditer(sentence_norm)]
+
+
+def is_in_spans(position: int, spans: list[tuple[int, int]]) -> bool:
+    for start, end in spans:
+        if start <= position < end:
+            return True
+    return False
 
 
 def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
@@ -123,8 +144,13 @@ def resolve_order(sentence: str, mapping: dict, place_pattern: str) -> tuple:
         "faire",
     }
 
-    origin_candidates = collect_candidates(sentence_norm, origin_specs, place_pattern, mapping)
-    dest_candidates = collect_candidates(sentence_norm, dest_specs, place_pattern, mapping)
+    place_spans = extract_place_spans(sentence_norm, place_pattern)
+    origin_candidates = collect_candidates(
+        sentence_norm, origin_specs, place_pattern, mapping, place_spans
+    )
+    dest_candidates = collect_candidates(
+        sentence_norm, dest_specs, place_pattern, mapping, place_spans
+    )
     all_places = extract_places(sentence_norm, place_pattern, mapping)
 
     ordered = []

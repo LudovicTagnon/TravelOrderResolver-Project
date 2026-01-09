@@ -1,1000 +1,1000 @@
-208,depart troyes destination port boulet
-5058,je veux un billet de marseille pour saint-denis
-7465,je parle de Versailles mais sans voyage
-8016,trains annecy vannes
-5876,je veux un billet de avignon pour orleans
-8626,comment aller a le havre depuis saint denis
-427,merci pour dijon
-1770,je pars de Besancon pour Lille
-9587,comment aller a albert depuis colmar en passant par Cherbourg
-2172,je veux aller a port-boulet en partant de reims
-5792,je pars de versailles pour lyon
-6302,je souhaite me rendre a Annecy depuis Besancon
-3829,je souhaite me rendre a lyon depuis saint-jean-de-luz en passant par Bayonne
-2165,depart vannes destination toulon
-3856,je pars de amiens pour clermont-ferrand
-9090,bonjour je voulais juste demander
-8139,je pars de valence pour saint-raphael
-3384,je veux un billet de cannes pour valence
-2222,billet Angers Aix-en-Provence
-1253,je veux aller a Saint Jean de Luz en partant de Angers
-8364,je veux un billet de amiens pour grenoble
-2897,est ce quil y a des trains vers dijon depuis rennes
-2544,je voudrais aller de Saint-Jean-de-Luz a Toulon
-6482,aller de Nancy vers Troyes en passant par Saint-Raphael
-2128,une phrase sans trajet
-415,est ce quil y a des trains vers lyon depuis perpignan
-6013,trains albert reims en passant par Strasbourg
-5373,aller de orleans vers annecy
-8272,depuis Le Mans je veux aller a Marseille
-254,depart Port-Boulet destination Nantes
-2250,trains Colmar Nice
-2808,aller de aix-en-provence vers annecy
-4700,je pars de Saint-Nazaire pour Rennes
-7869,horaires pour demain
-6115,aller de amiens vers albert en passant par Saint-Etienne
-3828,billet toulon albert
-5363,besoin d un trajet Nice Paris
-5039,comment aller a reims depuis la rochelle
-8490,billet avignon lille
-1062,photo de saint-etienne
-9796,est ce quil y a des trains vers valence depuis la rochelle en passant par Cherbourg
-3631,y a t il un train de Bordeaux a Paris
-4624,y a t il un train de saint-denis a saint-malo
-8957,est ce quil y a des trains vers Saint-Nazaire depuis Port-Boulet
-3762,comment aller a dijon depuis rouen
-5881,besoin d un trajet Bayonne Metz
-1938,je pars de la rochelle pour versailles
-4465,depuis grenoble je veux aller a biarritz
-9115,je voudrais aller de paris a tours
-1996,trains saint denis rouen
-9184,y a t il un train de bordeaux a colmar
-7017,est ce quil y a des trains vers amiens depuis bayonne
-8443,je pars de angers pour port-boulet
-8775,aller de limoges vers saint denis
-9222,y a t il un train de la rochelle a annecy en passant par Le Havre
-4663,je souhaite me rendre a paris depuis valence
-3573,depart Saint-Etienne destination Colmar
-4076,train en retard
-6794,y a t il un train de toulon a rouen en passant par Lille
-2828,je pars de Cannes pour Versailles
-1621,aller de Tours vers Besancon
-1946,aller de cherbourg vers lyon
-272,depuis saint-jean-de-luz je veux aller a limoges
-3798,depuis Nancy je veux aller a Avignon
-4466,besoin d un trajet Montpellier Annecy
-4277,est ce quil y a des trains vers valence depuis marseille
-8785,comment aller a biarritz depuis cannes
-7571,trains avignon albert en passant par Colmar
-8422,billet tours limoges
-7239,je voudrais aller de cherbourg a strasbourg en passant par Nantes
-4861,je pars de Toulouse pour Saint-Etienne
-3297,comment aller a La Rochelle depuis Cannes en passant par Saint-Nazaire
-8865,billet annecy brest
-4678,photo de Paris
-1758,trains Rennes Saint-Raphael
-7125,je veux aller a biarritz en partant de poitiers
-5237,je souhaite me rendre a Dijon depuis Le Mans
-5769,est ce quil y a des trains vers valence depuis bayonne
-4572,je veux aller a La Rochelle en partant de Orleans
-2099,train en retard
-3606,comment aller a clermont-ferrand depuis metz
-8029,le mans
-4092,besoin d un trajet Aix-en-Provence Limoges en passant par Saint-Denis
-2956,aller de Nice vers Saint Malo
-645,la rochelle
-6464,je voudrais aller de la rochelle a annecy
-6995,trains nice metz
-1264,je veux aller a Lyon en partant de Montpellier
-7220,je pars de montaigu pour strasbourg en passant par Saint-Denis
-3498,une phrase sans trajet
-6784,une phrase sans trajet
-2520,je pars de caen pour marseille
-1618,je veux un billet de cannes pour versailles
-3951,trains avignon nice en passant par Marseille
-1335,comment aller a bayonne depuis limoges
-9137,y a t il un train de Nancy a Lille
-1936,je veux aller a Caen en partant de Aix en Provence
-7211,une phrase sans trajet
-7546,je veux un billet de saint malo pour amiens en passant par Reims
-9957,je pars de rouen pour toulouse en passant par Toulon
-6753,je souhaite me rendre a metz depuis toulouse en passant par Colmar
-778,comment aller a Lille depuis Perpignan
-7180,aller de angers vers caen
-8116,je pars de toulouse pour port-boulet
-9209,je veux un billet de nice pour troyes
-151,je connais avignon
-1186,depart montaigu destination saint-denis
-9044,photo de marseille
-5011,aller de marseille vers rennes
-730,aller de toulouse vers saint-nazaire
-3932,est ce quil y a des trains vers nantes depuis saint etienne en passant par Bordeaux
-5636,comment aller a le havre depuis grenoble
-7899,besoin d un trajet saint nazaire vannes
-4173,y a t il un train de aix-en-provence a biarritz
-6303,depuis bordeaux je veux aller a annecy
-8469,je veux aller a cherbourg en partant de montpellier
-5116,je veux aller a Besancon en partant de Lyon
-4937,besoin d un trajet la rochelle biarritz en passant par Port-Boulet
-4117,trains aix en provence versailles en passant par Strasbourg
-3304,besoin d un trajet tours saint-raphael
-3077,depuis la rochelle je veux aller a saint-nazaire
-5665,besoin d un trajet avignon lyon en passant par Nantes
-8594,billet vannes montpellier
-3434,est ce quil y a des trains vers strasbourg depuis nice
-1313,horaires pour demain
-6041,je veux aller a clermont ferrand en partant de orleans
-3116,je pars de nice pour port-boulet
-727,je souhaite me rendre a bordeaux depuis toulouse
-8553,je souhaite me rendre a montpellier depuis grenoble
-473,je souhaite me rendre a port-boulet depuis limoges
-4187,je voudrais aller de Nice a Lyon
-5328,depuis Perpignan je veux aller a Besancon
-7467,je pars de le havre pour cannes
-8781,je connais Caen
-5291,je parle de Valence mais sans voyage
-5227,est ce quil y a des trains vers Clermont Ferrand depuis Nantes
-1403,trains Angers Biarritz
-1677,aller de toulon vers orleans
-5563,besoin d un trajet metz limoges
-3160,depart strasbourg destination cannes
-7434,trains clermont ferrand lyon
-3621,je souhaite me rendre a nancy depuis le mans
-9139,billet cannes lille
-6497,y a t il un train de Colmar a Cannes
-3640,y a t il un train de saint-nazaire a orleans
-7009,aller de albert vers le mans
-1044,est ce quil y a des trains vers brest depuis aix-en-provence
-2301,je veux un billet de Saint-Etienne pour Saint-Raphael
-117,je souhaite me rendre a Vannes depuis Aix en Provence
-9632,billet Rouen Strasbourg
-64,aller de tours vers reims
-5732,je pars de versailles pour cannes
-2669,je voudrais aller de Saint Jean de Luz a Amiens
-862,trains tours dijon
-718,merci pour saint-malo
-692,billet montpellier saint-denis
-4357,je veux aller a saint-etienne en partant de clermont-ferrand
-5525,je veux aller a cherbourg en partant de nice
-3530,besoin d un trajet poitiers amiens
-7794,comment aller a Poitiers depuis Saint-Malo
-4174,est ce quil y a des trains vers amiens depuis vannes
-8032,je souhaite me rendre a Paris depuis Valence en passant par Saint-Nazaire
-7449,aller de reims vers saint-nazaire
-7056,je veux un billet de Cherbourg pour Clermont-Ferrand
-9930,photo de Nice
-8457,je veux un billet de toulon pour lille
-884,billet avignon biarritz
-7509,comment aller a saint-raphael depuis reims
-6741,comment aller a toulon depuis paris
-5785,merci pour avignon
-4661,comment aller a Vannes depuis La Rochelle
-8391,besoin d un trajet Rennes La Rochelle
-1420,depuis Toulon je veux aller a Colmar
-4875,je souhaite me rendre a brest depuis nancy
-3819,comment aller a Nice depuis Strasbourg
-2841,je voudrais aller de nice a la rochelle
-934,je parle de angers mais sans voyage
-5958,besoin d un trajet albert metz
-9917,je veux aller a bayonne en partant de saint-denis
-9642,aller de valence vers brest
-3835,je voudrais aller de Montaigu a Limoges
-546,je veux aller a cherbourg en partant de dijon en passant par Avignon
-6363,je parle de Nantes mais sans voyage
-816,y a t il un train de Bayonne a Montpellier
-3347,billet Toulouse Amiens
-7198,besoin d un trajet Bordeaux Toulon
-3215,je veux un billet de aix-en-provence pour troyes
-3608,depuis montpellier je veux aller a metz
-6383,depuis Dijon je veux aller a Bayonne en passant par Troyes
-8061,je veux aller a port-boulet en partant de saint-jean-de-luz en passant par Aix-en-Provence
-7001,je souhaite me rendre a nantes depuis le mans
-6372,depart saint-nazaire destination saint-denis
-5721,trains Montpellier Le Mans en passant par Marseille
-7277,je souhaite me rendre a marseille depuis vannes
-3061,billet Rouen Amiens
-3423,je veux un billet de saint-nazaire pour albert
-2118,je voudrais aller de poitiers a biarritz
-5179,depart Saint-Malo destination Colmar
-8588,je voudrais aller de Montpellier a Saint-Raphael
-2417,je parle de saint-jean-de-luz mais sans voyage
-7329,aller de amiens vers rennes
-2426,je voudrais aller de rennes a poitiers
-7132,je pars de montpellier pour biarritz
-9332,est ce quil y a des trains vers Bayonne depuis Lille en passant par Nice
-5419,depart vannes destination rennes
-2757,est ce quil y a des trains vers montaigu depuis poitiers
-6294,une phrase sans trajet
-9976,besoin d un trajet saint-denis poitiers
-7552,je veux un billet de tours pour nantes
-7111,je pars de Nancy pour Troyes
-1728,je veux aller a Tours en partant de Saint-Raphael
-3133,depuis paris je veux aller a rouen
-4718,trains dijon bordeaux
-2305,je voudrais aller de cannes a marseille
-3715,je veux un billet de montpellier pour toulon
-4793,je pars de nancy pour perpignan
-4430,comment aller a perpignan depuis saint malo
-62,avignon
-1904,rennes
-675,trains saint-malo vannes en passant par Strasbourg
-5920,depuis caen je veux aller a saint-nazaire
-106,depuis Valence je veux aller a Paris
-6474,trains saint-etienne port-boulet
-1334,une phrase sans trajet
-1089,je connais rouen
-8632,billet Besancon Saint-Jean-de-Luz
-166,depart vannes destination reims
-6406,je pars de Angers pour Saint-Jean-de-Luz en passant par Biarritz
-7726,je souhaite me rendre a port boulet depuis montaigu
-9324,troyes
-419,est ce quil y a des trains vers toulouse depuis dijon
-3535,depart besancon destination port-boulet
-859,une phrase sans trajet
-8119,est ce quil y a des trains vers Saint-Nazaire depuis Nancy
-2340,je pars de metz pour reims
-4919,je veux un billet de Strasbourg pour Caen en passant par Montaigu
-7275,je pars de rennes pour saint-malo en passant par Le Havre
-987,je veux un billet de saint jean de luz pour avignon
-8073,je voudrais aller de angers a saint raphael
-9580,aller de saint-denis vers versailles
-8218,bonjour je voulais juste demander
-8010,je veux un billet de le havre pour colmar
-9404,je veux aller a grenoble en partant de montaigu
-3572,je voudrais aller de cherbourg a annecy
-9753,je connais besancon
-7745,y a t il un train de angers a le mans
-5801,je veux aller a reims en partant de saint-etienne
-4899,une phrase sans trajet
-9169,je veux aller a Versailles en partant de Reims
-2287,je veux aller a montaigu en partant de reims
-7667,je voudrais aller de rouen a toulon en passant par Brest
-6574,trains saint denis montaigu
-6250,je souhaite me rendre a cherbourg depuis troyes
-1975,depart tours destination montaigu
-2021,je veux un billet de Bayonne pour La Rochelle
-2574,billet colmar orleans
-2258,y a t il un train de Bayonne a Colmar en passant par Lyon
-6092,je souhaite me rendre a rouen depuis la rochelle
-7248,aller de Lyon vers Toulon
-4789,depart caen destination saint-raphael
-4565,besoin d un trajet metz dijon
-6610,besoin d un trajet Tours Clermont Ferrand
-8906,photo de La Rochelle
-6731,bonjour je voulais juste demander
-9493,je voudrais aller de albert a colmar
-8707,je souhaite me rendre a colmar depuis saint-etienne
-3446,y a t il un train de toulon a orleans
-9670,y a t il un train de lyon a avignon
-2203,besoin d un trajet toulouse amiens
-8517,depart valence destination angers
-4633,trains paris saint malo
-4747,je voudrais aller de Vannes a Valence
-6797,aller de cherbourg vers dijon
-1116,je parle de Brest mais sans voyage
-2680,je parle de orleans mais sans voyage
-4081,billet troyes grenoble
-8687,est ce quil y a des trains vers nancy depuis angers
-1937,trains Biarritz Rouen
-5569,comment aller a limoges depuis biarritz en passant par Toulon
-8744,je connais orleans
-5008,je souhaite me rendre a Vannes depuis Nice
-4301,trains Annecy Vannes
-1155,train en retard
-581,bonjour je voulais juste demander
-1397,je souhaite me rendre a poitiers depuis bayonne
-3212,est ce quil y a des trains vers orleans depuis dijon
-4644,comment aller a reims depuis clermont-ferrand
-5798,trains saint-raphael versailles
-9922,trains poitiers saint raphael
-1672,je souhaite me rendre a Montaigu depuis Limoges
-7285,y a t il un train de bordeaux a tours en passant par Nantes
-6492,je souhaite me rendre a saint raphael depuis lyon
-8620,je souhaite me rendre a bordeaux depuis montaigu en passant par Rouen
-6528,besoin d un trajet amiens lyon
-4204,trains amiens biarritz
-5,comment aller a Poitiers depuis Nantes
-665,y a t il un train de Caen a Besancon en passant par Paris
-4425,aller de Dijon vers Albert
-1980,bonjour je voulais juste demander
-9858,je pars de brest pour marseille en passant par Perpignan
-4589,comment aller a nantes depuis tours
-6641,je pars de montpellier pour besancon
-8909,je voudrais aller de reims a toulon
-3808,aller de toulouse vers marseille
-8154,trains vannes tours
-1517,comment aller a troyes depuis port-boulet
-7724,trains saint jean de luz vannes
-6951,je souhaite me rendre a nice depuis bordeaux
-2560,je souhaite me rendre a Metz depuis Caen
-8933,y a t il un train de Le Havre a Bayonne
-4935,bonjour je voulais juste demander
-1876,je voudrais aller de grenoble a montpellier
-4892,trains Saint-Etienne Valence
-3584,je voudrais aller de strasbourg a perpignan
-128,je parle de le mans mais sans voyage
-7570,je pars de limoges pour cherbourg
-7358,une phrase sans trajet
-31,trains Rennes Nice
-4829,trains saint-malo amiens
-3337,je parle de angers mais sans voyage
-7919,je voudrais aller de strasbourg a versailles
-1418,est ce quil y a des trains vers reims depuis nantes en passant par Tours
-7577,je voudrais aller de nice a troyes
-5823,je voudrais aller de troyes a saint jean de luz
-2336,comment aller a limoges depuis lyon
-8575,je parle de limoges mais sans voyage
-5577,y a t il un train de Montaigu a Port-Boulet
-7430,je veux aller a saint-raphael en partant de troyes
-4063,grenoble
-2863,je veux aller a brest en partant de bordeaux
-7074,je veux un billet de paris pour grenoble en passant par Toulouse
-6910,depuis Caen je veux aller a La Rochelle
-3038,une phrase sans trajet
-6534,trains tours la rochelle
-7310,aller de Metz vers Limoges
-2522,besoin d un trajet limoges versailles en passant par Rennes
-9146,je voudrais aller de poitiers a le mans en passant par Valence
-1838,je pars de nantes pour rouen
-4538,bonjour je voulais juste demander
-1780,comment aller a saint-raphael depuis saint-jean-de-luz
-3039,je veux aller a Rouen en partant de Caen
-1492,je connais biarritz
-9499,je pars de cherbourg pour saint malo
-4806,je veux un billet de Reims pour Poitiers
-6089,est ce quil y a des trains vers nancy depuis montpellier
-3343,depuis limoges je veux aller a le mans
-7231,billet versailles cannes
-5254,depart troyes destination bordeaux
-6836,aller de lille vers versailles en passant par Toulon
-139,besoin d un trajet Saint-Denis Amiens
-6695,y a t il un train de marseille a saint raphael en passant par Le Havre
-6168,y a t il un train de Cannes a Rouen
-948,une phrase sans trajet
-8671,une phrase sans trajet
-6050,est ce quil y a des trains vers nancy depuis bayonne
-7288,je souhaite me rendre a Le Havre depuis Brest
-4065,aller de lille vers vannes
-1386,billet Le Havre Lille
-5810,je voudrais aller de Amiens a Aix-en-Provence en passant par Vannes
-4883,je parle de Strasbourg mais sans voyage
-6918,depuis caen je veux aller a paris
-2332,merci pour Avignon
-6829,je voudrais aller de bayonne a dijon
-9024,je pars de toulouse pour rouen
-4906,aller de grenoble vers tours
-6886,je veux aller a versailles en partant de bayonne
-2164,je pars de annecy pour nice
-1200,je voudrais aller de rennes a bayonne
-1277,je voudrais aller de Albert a Port-Boulet
-9635,je souhaite me rendre a versailles depuis troyes
-337,je veux aller a rennes en partant de biarritz en passant par Nancy
-2167,je pars de tours pour saint-raphael en passant par Nice
-758,y a t il un train de annecy a lyon
-6878,nancy
-9704,comment aller a saint raphael depuis biarritz
-9698,saint-jean-de-luz
-3014,je pars de cherbourg pour lyon en passant par Albert
-3878,photo de toulouse
-3979,aller de nantes vers caen
-8329,comment aller a Avignon depuis Saint-Nazaire
-5176,y a t il un train de orleans a lille
-3651,je veux un billet de metz pour besancon en passant par Saint-Malo
-2052,horaires pour demain
-9980,je veux un billet de Saint Nazaire pour Poitiers
-6171,y a t il un train de saint-malo a cherbourg
-2563,billet avignon saint-malo
-5043,je souhaite me rendre a troyes depuis cherbourg
-8737,je pars de perpignan pour bordeaux
-1681,y a t il un train de colmar a cherbourg
-1324,je parle de Dijon mais sans voyage
-3016,comment aller a orleans depuis saint-raphael
-5358,aller de La Rochelle vers Nantes
-9064,trains Angers Nancy
-9482,bonjour je voulais juste demander
-4795,je souhaite me rendre a amiens depuis le mans
-7756,je veux un billet de bayonne pour poitiers
-5489,je souhaite me rendre a angers depuis amiens
-5935,aller de nice vers aix-en-provence en passant par Besancon
-3410,je souhaite me rendre a orleans depuis bayonne
-458,trains Saint-Jean-de-Luz Brest
-2133,je veux un billet de angers pour saint-nazaire
-4231,est ce quil y a des trains vers le havre depuis biarritz
-5644,est ce quil y a des trains vers paris depuis le havre
-7811,trains strasbourg nancy
-1842,je pars de angers pour orleans
-7440,billet Albert Bayonne
-3064,je veux aller a perpignan en partant de strasbourg
-2325,billet troyes caen
-3816,je veux aller a vannes en partant de saint etienne
-404,depart Montaigu destination Poitiers en passant par Toulouse
-6048,y a t il un train de rennes a dijon
-4805,comment aller a rouen depuis brest
-118,besoin d un trajet saint etienne montpellier
-2019,aller de cherbourg vers versailles
-3356,trains troyes montpellier
-53,je pars de valence pour rennes
-3408,bonjour je voulais juste demander
-2348,billet Versailles Albert
-1156,je veux un billet de Lyon pour Dijon
-5994,je pars de Brest pour Annecy en passant par Tours
-3777,aller de cherbourg vers besancon
-164,je souhaite me rendre a le havre depuis annecy
-2915,je pars de Perpignan pour Nantes
-5700,photo de lille
-5660,je pars de lyon pour metz
-482,je voudrais aller de strasbourg a bordeaux
-5887,y a t il un train de Grenoble a Troyes
-1989,une phrase sans trajet
-1153,billet Besancon Orleans en passant par Limoges
-5776,merci pour clermont-ferrand
-1287,aller de saint-malo vers grenoble en passant par Le Havre
-4139,trains Limoges Colmar en passant par Saint-Denis
-5317,est ce quil y a des trains vers albert depuis toulouse
-8137,comment aller a limoges depuis port-boulet
-494,trains annecy limoges
-6833,je souhaite me rendre a Le Havre depuis Rennes
-7063,y a t il un train de strasbourg a besancon
-7320,je veux un billet de Lyon pour Valence
-504,depart Lyon destination Biarritz
-2559,billet montaigu poitiers
-6803,est ce quil y a des trains vers clermont-ferrand depuis le havre
-1626,je veux aller a saint etienne en partant de caen
-1031,depuis Saint-Etienne je veux aller a Cannes
-6810,photo de rennes
-9596,je voudrais aller de perpignan a poitiers
-1377,est ce quil y a des trains vers Metz depuis Poitiers
-6915,je veux aller a metz en partant de brest
-9274,est ce quil y a des trains vers clermont-ferrand depuis marseille
-6980,y a t il un train de port-boulet a montpellier
-2387,merci pour troyes
-1859,bonjour je voulais juste demander
-5003,je souhaite me rendre a vannes depuis poitiers
-8309,billet limoges montaigu
-6884,je veux un billet de Poitiers pour Nice en passant par Cannes
-8581,besoin d un trajet versailles marseille en passant par Besancon
-9550,comment aller a montpellier depuis nice
-1532,billet Le Mans Amiens en passant par Paris
-3763,comment aller a Rouen depuis Port Boulet
-3539,billet Le Mans Nice
-9369,trains orleans la rochelle
-9327,je veux aller a vannes en partant de nancy
-8521,billet Saint-Malo Nice
-437,je voudrais aller de perpignan a cannes
-4185,est ce quil y a des trains vers annecy depuis colmar en passant par Cherbourg
-7966,est ce quil y a des trains vers metz depuis reims
-656,est ce quil y a des trains vers toulouse depuis besancon
-732,je veux aller a Nancy en partant de Brest
-1235,est ce quil y a des trains vers valence depuis saint-jean-de-luz
-5842,besoin d un trajet vannes aix-en-provence
-7463,je pars de Valence pour Port-Boulet
-9738,comment aller a saint malo depuis saint jean de luz
-6088,est ce quil y a des trains vers Toulouse depuis Limoges
-7284,bonjour je voulais juste demander
-6423,depuis Avignon je veux aller a Lyon
-626,billet nancy poitiers
-3099,horaires pour demain
-9633,y a t il un train de brest a bayonne
-1992,comment aller a bordeaux depuis poitiers
-4814,je pars de angers pour le mans
-6352,train en retard
-2083,je veux un billet de Perpignan pour Bayonne
-4856,est ce quil y a des trains vers orleans depuis annecy
-9656,je veux un billet de clermont ferrand pour cannes
-5536,je souhaite me rendre a Troyes depuis Saint-Nazaire
-7655,comment aller a Nice depuis Versailles
-986,je souhaite me rendre a caen depuis albert
-1819,je voudrais aller de saint jean de luz a bordeaux
-8034,y a t il un train de Avignon a Clermont-Ferrand
-6282,y a t il un train de rouen a port-boulet
-3195,je pars de saint nazaire pour bordeaux
-5680,depuis metz je veux aller a montpellier
-8998,depart biarritz destination saint-nazaire
-1726,comment aller a orleans depuis lille
-5307,depuis le havre je veux aller a reims
-2175,je veux aller a la rochelle en partant de versailles
-532,besoin d un trajet Nancy Valence
-332,je veux aller a versailles en partant de montpellier en passant par Paris
-9508,est ce quil y a des trains vers colmar depuis grenoble en passant par Aix-en-Provence
-7716,je veux aller a Toulouse en partant de Cherbourg
-9848,je connais saint-denis
-771,je souhaite me rendre a toulon depuis reims
-7519,train en retard
-6336,je veux aller a cherbourg en partant de tours
-7640,je veux un billet de Biarritz pour Bordeaux
-577,comment aller a metz depuis troyes
-6737,je souhaite me rendre a marseille depuis angers en passant par Lille
-5780,bonjour je voulais juste demander
-2481,je veux aller a reims en partant de metz
-1338,bonjour je voulais juste demander
-8059,merci pour saint-nazaire
-2309,Bordeaux
-6847,est ce quil y a des trains vers biarritz depuis saint etienne en passant par Valence
-7887,je voudrais aller de cherbourg a nice
-589,je pars de lyon pour troyes
-910,aller de Poitiers vers Lille
-5473,billet aix-en-provence cherbourg
-4704,est ce quil y a des trains vers Annecy depuis Cherbourg
-3915,depuis grenoble je veux aller a avignon
-2087,y a t il un train de perpignan a saint-nazaire
-2684,besoin d un trajet amiens grenoble en passant par Aix-en-Provence
-9963,depart Cannes destination Amiens
-6287,y a t il un train de rouen a orleans
-6295,je connais Lyon
-6686,une phrase sans trajet
-4962,depart Reims destination Biarritz
-4293,aller de saint-raphael vers dijon
-8086,y a t il un train de Montpellier a Clermont Ferrand
-1076,depart cannes destination toulouse
-5451,depuis Tours je veux aller a Poitiers
-4170,bonjour je voulais juste demander
-9344,est ce quil y a des trains vers Saint-Raphael depuis Montpellier
-8305,je souhaite me rendre a cannes depuis bayonne
-4956,je veux aller a brest en partant de versailles en passant par Aix-en-Provence
-2982,billet biarritz poitiers en passant par Versailles
-4,y a t il un train de cherbourg a tours
-336,depuis Metz je veux aller a Saint-Etienne en passant par Cherbourg
-3827,je veux un billet de port-boulet pour brest
-6367,je voudrais aller de Le Havre a Strasbourg
-7901,je pars de saint jean de luz pour paris
-6846,bonjour je voulais juste demander
-8773,je pars de limoges pour metz
-4746,je pars de Perpignan pour Clermont-Ferrand
-3377,le havre
-6986,je souhaite me rendre a nantes depuis le havre
-1252,depuis montpellier je veux aller a cannes
-8487,y a t il un train de le havre a saint-jean-de-luz
-1486,billet perpignan nice
-9872,je veux aller a Dijon en partant de Rennes
-551,billet saint-denis dijon
-8232,billet le havre saint malo en passant par Nantes
-8681,y a t il un train de poitiers a clermont-ferrand
-6263,depart toulouse destination saint-jean-de-luz
-8274,est ce quil y a des trains vers limoges depuis toulon
-6084,aller de angers vers bordeaux
-7549,comment aller a Cannes depuis Marseille
-2439,billet valence troyes
-2633,besoin d un trajet biarritz montpellier
-5417,je souhaite me rendre a Limoges depuis Montaigu
-7350,est ce quil y a des trains vers albert depuis lyon
-251,trains valence avignon en passant par Reims
-4923,je connais le mans
-666,je parle de bordeaux mais sans voyage
-9749,je veux un billet de biarritz pour perpignan en passant par Marseille
-3688,photo de valence
-9569,une phrase sans trajet
-9836,est ce quil y a des trains vers saint-nazaire depuis colmar
-8463,je souhaite me rendre a cherbourg depuis cannes
-1387,billet colmar avignon
-1088,depart valence destination la rochelle
-7708,trains vannes cherbourg
-4824,aller de biarritz vers rouen
-9552,je pars de reims pour la rochelle
-6210,depuis le havre je veux aller a strasbourg
-2555,train en retard
-4209,besoin d un trajet biarritz angers
-2431,trains toulouse bayonne
-8604,je voudrais aller de Clermont-Ferrand a Rouen
-582,je veux aller a valence en partant de metz
-5273,comment aller a orleans depuis toulouse en passant par Albert
-5215,merci pour tours
-5575,je parle de nantes mais sans voyage
-160,trains saint-etienne besancon
-9874,trains amiens paris
-8894,depuis saint-nazaire je veux aller a dijon
-3310,y a t il un train de grenoble a port boulet
-8170,y a t il un train de Port-Boulet a Besancon
-8167,je parle de cannes mais sans voyage
-5284,je pars de lyon pour marseille
-8117,comment aller a Amiens depuis Bayonne en passant par Troyes
-8540,depart Le Havre destination Lille
-6935,depart annecy destination la rochelle
-6651,trains vannes saint etienne
-9240,je parle de lille mais sans voyage
-2432,je voudrais aller de aix-en-provence a angers
-7994,bonjour je voulais juste demander
-1717,est ce quil y a des trains vers grenoble depuis saint-malo en passant par Rennes
-2480,aller de Orleans vers Cherbourg
-8953,je voudrais aller de nantes a toulon
-5926,je souhaite me rendre a dijon depuis limoges
-6194,comment aller a dijon depuis strasbourg
-7511,merci pour Besancon
-3244,je voudrais aller de Saint-Raphael a Saint-Jean-de-Luz
-1715,aller de metz vers saint-nazaire
-9875,depart Rouen destination Vannes en passant par Caen
-3538,je veux aller a perpignan en partant de nantes
-690,billet saint malo biarritz
-3396,je voudrais aller de metz a port-boulet en passant par Saint-Raphael
-9724,depuis vannes je veux aller a limoges
-6521,aller de la rochelle vers rouen
-8145,je voudrais aller de Orleans a Saint-Etienne
-9737,je veux aller a Strasbourg en partant de Lyon en passant par Poitiers
-3305,est ce quil y a des trains vers montaigu depuis bordeaux
-7400,je veux un billet de rennes pour albert
-8615,merci pour lille
-453,je veux un billet de rennes pour nice
-9767,comment aller a albert depuis bordeaux
-1885,aller de toulon vers tours
-5874,billet nantes brest
-3145,y a t il un train de strasbourg a saint nazaire
-7066,je souhaite me rendre a bordeaux depuis biarritz
-2730,une phrase sans trajet
-9589,y a t il un train de versailles a vannes
-4275,je voudrais aller de limoges a besancon en passant par Cherbourg
-3607,je veux aller a aix-en-provence en partant de le havre en passant par Amiens
-6035,est ce quil y a des trains vers Saint Malo depuis La Rochelle
-1371,besoin d un trajet saint-raphael metz
-6932,je voudrais aller de Cannes a Reims en passant par Nancy
-3560,je veux un billet de valence pour besancon en passant par Marseille
-9583,est ce quil y a des trains vers caen depuis amiens
-8006,je voudrais aller de amiens a colmar
-7349,trains bordeaux amiens
-4749,besoin d un trajet Marseille Reims
-8504,je voudrais aller de caen a albert en passant par Saint-Etienne
-9118,je souhaite me rendre a albert depuis le mans
-6453,y a t il un train de tours a montaigu
-1607,est ce quil y a des trains vers bayonne depuis rennes
-129,je voudrais aller de Besancon a Biarritz
-6305,comment aller a bordeaux depuis lyon
-1002,besoin d un trajet cannes paris en passant par Montaigu
-3622,je connais vannes
-3245,je veux un billet de avignon pour albert
-1388,aller de orleans vers dijon
-1079,je pars de Le Havre pour Saint-Raphael
-1425,depuis toulouse je veux aller a valence en passant par Besancon
-9700,merci pour saint-malo
-9249,je voudrais aller de valence a besancon
-2729,depuis tours je veux aller a montpellier
-2551,je veux aller a caen en partant de rouen
-5490,une phrase sans trajet
-4947,est ce quil y a des trains vers lyon depuis bordeaux
-620,aller de la rochelle vers saint-jean-de-luz
-6989,je veux aller a perpignan en partant de le havre
-8155,merci pour angers
-1901,billet nancy montpellier
-7850,depuis Rennes je veux aller a Strasbourg
-2037,je veux aller a Brest en partant de Orleans
-5631,je veux un billet de la rochelle pour le mans
-5523,je souhaite me rendre a perpignan depuis le havre
-7767,depart Cannes destination Marseille
-7884,trains Perpignan Toulon
-9189,comment aller a Bordeaux depuis Dijon
-1629,je voudrais aller de Aix en Provence a Reims
-1781,aller de toulon vers nancy
-6795,est ce quil y a des trains vers besancon depuis troyes
-4903,y a t il un train de caen a troyes
-5383,besoin d un trajet Avignon Grenoble
-6606,trains Avignon Besancon
-4959,je veux aller a orleans en partant de saint jean de luz
-1162,billet Port-Boulet Nice
-8570,je veux aller a lyon en partant de bayonne
-2943,je souhaite me rendre a reims depuis la rochelle
-5045,bonjour je voulais juste demander
-791,je souhaite me rendre a Versailles depuis Biarritz
-3928,y a t il un train de montaigu a albert
-7833,est ce quil y a des trains vers montpellier depuis versailles
-1883,je connais Saint-Denis
-4808,besoin d un trajet le havre paris
-2125,je pars de dijon pour besancon
-8987,je voudrais aller de montaigu a rennes en passant par Lille
-6469,horaires pour demain
-5914,aller de montaigu vers cherbourg
-4744,y a t il un train de nantes a dijon
-9560,depart Montpellier destination Cannes
-2449,est ce quil y a des trains vers perpignan depuis angers
-2685,horaires pour demain
-4418,depart Lille destination Cherbourg
-676,depart nantes destination le havre en passant par Saint-Jean-de-Luz
-585,je veux un billet de Tours pour Limoges
-5542,est ce quil y a des trains vers dijon depuis metz
-1536,besoin d un trajet Nice Amiens
-6017,comment aller a Versailles depuis La Rochelle
-5530,depart Albert destination Strasbourg
-5463,photo de angers
-4447,depuis Reims je veux aller a Dijon
-2475,je veux un billet de Tours pour Albert
-2269,je pars de strasbourg pour clermont-ferrand
-146,est ce quil y a des trains vers limoges depuis montaigu
-4769,je pars de saint-malo pour reims
-9620,comment aller a valence depuis besancon
-6154,aller de marseille vers lille
-3406,je souhaite me rendre a lyon depuis montaigu
-2922,je voudrais aller de metz a amiens
-8814,Troyes
-6103,je voudrais aller de Le Mans a Clermont-Ferrand
-7135,horaires pour demain
-7515,je connais Metz
-8102,je pars de rouen pour toulouse en passant par Brest
-689,billet cherbourg saint-malo
-9772,depuis paris je veux aller a cannes
-6012,je veux aller a Nantes en partant de Reims
-5157,photo de montaigu
-9149,je parle de biarritz mais sans voyage
-4255,photo de saint malo
-3371,je pars de Marseille pour Nantes
-667,est ce quil y a des trains vers Bayonne depuis Troyes en passant par Metz
-694,je souhaite me rendre a Reims depuis Amiens en passant par Tours
-305,je parle de bayonne mais sans voyage
-4562,depuis Nancy je veux aller a Clermont-Ferrand
-2531,billet strasbourg aix-en-provence
-1886,horaires pour demain
-5687,est ce quil y a des trains vers port-boulet depuis saint-nazaire
-8534,une phrase sans trajet
-2186,photo de Saint Malo
-4203,bonjour je voulais juste demander
-1897,je veux un billet de Lyon pour Saint-Etienne en passant par Brest
-7422,je pars de cherbourg pour amiens
-4501,billet Albert Montpellier en passant par Saint-Malo
-358,comment aller a Metz depuis Amiens en passant par Orleans
-1333,trains Caen Saint Nazaire en passant par Toulouse
-6500,est ce quil y a des trains vers Biarritz depuis Cherbourg
-7793,horaires pour demain
-1642,je connais Saint-Denis
-2986,une phrase sans trajet
-4588,est ce quil y a des trains vers rouen depuis besancon
-4955,bonjour je voulais juste demander
-3253,Montpellier
-1949,je veux aller a Saint Denis en partant de Bordeaux en passant par Le Mans
-3121,depart aix en provence destination annecy
-1603,train en retard
-8657,je souhaite me rendre a saint-nazaire depuis reims
-39,je souhaite me rendre a paris depuis dijon
-235,y a t il un train de Metz a Versailles
-3499,besoin d un trajet tours montaigu
-56,je souhaite me rendre a annecy depuis troyes
-9970,depuis Valence je veux aller a Clermont-Ferrand
-6841,depart vannes destination avignon
-6584,billet marseille le havre
-242,comment aller a Rouen depuis Reims
-2139,y a t il un train de valence a le havre
-1368,je parle de Le Havre mais sans voyage
-8988,photo de cannes
-3081,depuis la rochelle je veux aller a troyes
-6802,je souhaite me rendre a Annecy depuis Brest
-817,comment aller a Saint Raphael depuis Avignon en passant par Saint-Nazaire
-7650,aller de poitiers vers le mans
-5113,billet brest paris
-5341,est ce quil y a des trains vers lille depuis montaigu
-8104,trains Saint-Jean-de-Luz Cherbourg
-638,est ce quil y a des trains vers troyes depuis le havre
-2,comment aller a albert depuis amiens
-9199,aller de Paris vers Biarritz
-7984,depart Limoges destination Bayonne
-8644,valence
-7314,depuis Toulouse je veux aller a Troyes en passant par Vannes
-2584,depart Tours destination Rennes
-4248,je parle de caen mais sans voyage
-1047,bonjour je voulais juste demander
-7297,photo de grenoble
-2715,comment aller a paris depuis saint-jean-de-luz
-767,billet le mans reims
-6853,train en retard
-9298,y a t il un train de strasbourg a marseille
-6591,trains troyes angers
-517,je pars de nice pour cherbourg
-9787,merci pour montpellier
-9309,besoin d un trajet limoges besancon
-6204,je souhaite me rendre a toulouse depuis valence
-7343,je voudrais aller de La Rochelle a Bordeaux
-3656,trains orleans troyes
-3923,est ce quil y a des trains vers orleans depuis toulouse
-2623,est ce quil y a des trains vers Rennes depuis Cherbourg
-5479,je veux un billet de caen pour angers
-3151,je voudrais aller de metz a brest
-9742,je pars de paris pour la rochelle
-25,une phrase sans trajet
-1323,depart poitiers destination angers
-6790,je veux un billet de vannes pour saint-malo
-6358,trains saint denis angers
-5084,merci pour nancy
-2169,depuis marseille je veux aller a strasbourg
-9672,je souhaite me rendre a Troyes depuis Aix-en-Provence
-5886,est ce quil y a des trains vers Troyes depuis Montaigu
-4717,comment aller a saint etienne depuis biarritz
-5771,billet Toulouse Toulon
-7895,aller de Colmar vers Rouen
-3935,billet Bordeaux Le Havre
-2210,je veux aller a metz en partant de saint-denis
-4602,besoin d un trajet Nice Montaigu en passant par Strasbourg
-8919,y a t il un train de bayonne a le havre en passant par Le Mans
-749,aller de montpellier vers perpignan
-5504,je souhaite me rendre a biarritz depuis bayonne
-1296,une phrase sans trajet
-7504,je pars de Saint-Nazaire pour Biarritz
-204,est ce quil y a des trains vers le havre depuis la rochelle
-9185,depuis Saint-Etienne je veux aller a Dijon
-2514,aller de annecy vers saint jean de luz
-4112,une phrase sans trajet
-6368,je voudrais aller de montpellier a amiens
-5852,je veux aller a le havre en partant de grenoble en passant par Lille
-5103,je veux aller a Versailles en partant de Nantes en passant par Port-Boulet
-8333,depuis Saint-Nazaire je veux aller a Bordeaux
-9325,billet Troyes La Rochelle
-6716,besoin d un trajet grenoble perpignan
-7728,rennes
-217,merci pour saint denis
-2865,je veux un billet de port-boulet pour grenoble
-7247,trains bordeaux nice
-9778,y a t il un train de rouen a vannes
-1921,billet dijon saint-jean-de-luz
-4108,je pars de Troyes pour Marseille
-8675,je pars de versailles pour toulon en passant par Saint-Denis
-5609,depuis albert je veux aller a aix-en-provence
-2654,est ce quil y a des trains vers saint-malo depuis colmar
-2593,je veux un billet de troyes pour dijon
-952,billet toulouse annecy
-3333,depart grenoble destination avignon
-2776,y a t il un train de Nice a Grenoble en passant par Reims
-9336,depuis aix-en-provence je veux aller a limoges
-7705,besoin d un trajet le havre tours
-5875,je parle de Reims mais sans voyage
-4263,aller de saint-nazaire vers colmar
-3267,trains nantes montaigu
-9906,je voudrais aller de Perpignan a Nantes
-1654,je souhaite me rendre a saint malo depuis tours
-9773,je pars de vannes pour amiens
-646,est ce quil y a des trains vers orleans depuis nantes
-7654,depuis paris je veux aller a dijon
-8252,comment aller a Vannes depuis Avignon
-9852,depuis biarritz je veux aller a lille
-2955,besoin d un trajet rouen grenoble
-7145,y a t il un train de Orleans a Strasbourg en passant par Bordeaux
-5740,je pars de versailles pour toulon
-4933,besoin d un trajet Troyes Saint Jean de Luz en passant par Nancy
-1180,photo de Lille
-3619,billet le havre versailles
-1147,je pars de vannes pour aix en provence
-4259,depuis saint etienne je veux aller a toulouse
-1663,aller de strasbourg vers avignon
-6974,depart avignon destination dijon
-8917,est ce quil y a des trains vers besancon depuis saint-malo
-374,est ce quil y a des trains vers Montpellier depuis Reims
-1001,merci pour Le Havre
-3451,depart poitiers destination strasbourg
-7852,je voudrais aller de saint-etienne a annecy
-2030,je veux un billet de versailles pour besancon
-3031,y a t il un train de Reims a Annecy
-3189,trains caen la rochelle
-355,besoin d un trajet besancon clermont-ferrand
-597,comment aller a montpellier depuis saint-malo
-1902,je veux aller a albert en partant de troyes
-6065,besoin d un trajet orleans versailles
-1500,je veux un billet de troyes pour bayonne
-6410,est ce quil y a des trains vers toulouse depuis reims en passant par La Rochelle
-1962,je veux aller a Saint-Jean-de-Luz en partant de Lyon en passant par La Rochelle
-9437,y a t il un train de Montaigu a Valence
-3089,trains Colmar Strasbourg
-2039,train en retard
-438,je pars de marseille pour paris
-1213,je veux un billet de saint-etienne pour reims
-9866,je veux un billet de nancy pour saint-etienne
-8753,trains bordeaux lille
-9403,je pars de poitiers pour valence
-742,aller de Montaigu vers Cannes
-3585,besoin d un trajet saint-malo valence
-2398,billet montpellier toulon
-1649,horaires pour demain
-1019,comment aller a Amiens depuis Lyon
-6982,je voudrais aller de nantes a avignon en passant par Clermont-Ferrand
-5449,colmar
-2794,je voudrais aller de paris a lyon
-6096,y a t il un train de aix en provence a avignon
-3613,trains Angers Le Mans
-1920,je connais dijon
-4441,aller de saint-malo vers nantes
-266,depuis montaigu je veux aller a bordeaux
-3982,je pars de le havre pour saint-nazaire
-3120,je voudrais aller de Clermont Ferrand a Saint Jean de Luz
-5494,je pars de Strasbourg pour Saint-Denis
-9619,est ce quil y a des trains vers bordeaux depuis aix-en-provence
-7970,depart Lille destination Montaigu en passant par Saint-Raphael
-1890,bonjour je voulais juste demander
-5314,est ce quil y a des trains vers Lyon depuis Saint-Etienne
-1350,je pars de versailles pour lille
-5856,trains perpignan vannes
-8072,y a t il un train de Saint-Denis a Paris
-7383,une phrase sans trajet
-4510,je voudrais aller de rennes a aix en provence
-9498,depuis poitiers je veux aller a rennes en passant par Valence
-6872,besoin d un trajet Orleans Avignon
-9664,y a t il un train de amiens a saint-denis
-3526,je pars de orleans pour saint-etienne
-3859,je voudrais aller de biarritz a lille
-8550,depart metz destination valence
-4516,comment aller a montaigu depuis bayonne en passant par Strasbourg
-8595,je parle de marseille mais sans voyage
-6411,comment aller a poitiers depuis albert
-8858,trains toulouse nancy en passant par Vannes
-1315,une phrase sans trajet
-634,photo de nancy
-2451,comment aller a La Rochelle depuis Toulon
-2134,comment aller a nice depuis annecy
-1472,billet cannes le mans
-1132,photo de lyon
-7808,je voudrais aller de amiens a grenoble
-4261,je voudrais aller de biarritz a lyon
-541,train en retard
-3060,y a t il un train de metz a perpignan
-3103,est ce quil y a des trains vers aix en provence depuis nantes
-3013,je voudrais aller de versailles a limoges en passant par Colmar
-4757,depart saint-denis destination orleans
-3967,je veux un billet de versailles pour port-boulet
-9432,je voudrais aller de Rouen a Rennes
-5195,depart Saint-Denis destination Lyon
-6307,depuis montaigu je veux aller a le mans
-9770,je voudrais aller de Cherbourg a Rouen
-1502,y a t il un train de Saint-Malo a Brest
-7291,billet caen dijon
-4713,je voudrais aller de saint jean de luz a paris
-9628,est ce quil y a des trains vers saint nazaire depuis albert
-8966,je veux un billet de limoges pour avignon
-9883,je connais port boulet
-3330,y a t il un train de Metz a Grenoble
-8853,je souhaite me rendre a Metz depuis Colmar
-5452,je veux un billet de rouen pour versailles en passant par Le Havre
-8970,aller de amiens vers albert
-2045,je veux aller a Bordeaux en partant de Port-Boulet
-4770,est ce quil y a des trains vers orleans depuis tours
-9032,aller de port-boulet vers albert en passant par Le Mans
-4939,comment aller a Bordeaux depuis Le Mans
-1787,besoin d un trajet cannes rouen
-8017,je voudrais aller de reims a colmar
-8323,merci pour saint-denis
-5244,je voudrais aller de vannes a albert
-1319,depuis saint-denis je veux aller a orleans
-1495,depart nancy destination troyes en passant par Valence
-7340,est ce quil y a des trains vers Poitiers depuis Metz
-8897,merci pour bayonne
-2335,besoin d un trajet biarritz reims
-3910,je veux un billet de saint-raphael pour port-boulet en passant par Poitiers
-3633,depart reims destination aix-en-provence
-9299,besoin d un trajet port-boulet aix-en-provence
-3131,Saint Etienne
-1032,je pars de Montpellier pour Paris en passant par Marseille
-5329,je souhaite me rendre a besancon depuis la rochelle
-3997,comment aller a le mans depuis albert
-5459,aller de saint-etienne vers saint-jean-de-luz
-8087,je veux aller a saint-denis en partant de tours en passant par Versailles
-19,je veux un billet de versailles pour annecy
-6535,y a t il un train de orleans a nancy
-1529,je veux un billet de cherbourg pour avignon en passant par Montaigu
-231,je connais nice
-8990,depuis cherbourg je veux aller a montaigu
-1021,troyes
-4268,merci pour nice
-8542,je souhaite me rendre a valence depuis albert
-7254,je connais amiens
-7816,depuis cannes je veux aller a dijon
-9053,est ce quil y a des trains vers saint-jean-de-luz depuis le havre en passant par Toulouse
-3351,je pars de saint-malo pour valence
-5181,depart Orleans destination Saint Raphael
-7114,aller de Nantes vers Valence
-5797,billet Montpellier Toulouse
-1650,aller de Le Havre vers Saint-Nazaire
-9172,je veux un billet de Limoges pour Port Boulet
-7736,je voudrais aller de grenoble a rennes en passant par Orleans
-5410,merci pour rennes
-1209,depuis Saint-Malo je veux aller a Dijon
-1619,je veux aller a saint raphael en partant de saint malo en passant par Poitiers
-5082,je veux un billet de Saint Malo pour Montaigu
-2408,je connais Caen
-9862,comment aller a limoges depuis orleans en passant par Bordeaux
-8726,je veux aller a angers en partant de orleans en passant par Metz
-4105,je souhaite me rendre a toulouse depuis reims
-1554,depuis angers je veux aller a metz
-2290,grenoble
-4618,je veux aller a Strasbourg en partant de Saint Jean de Luz
-2282,comment aller a Paris depuis Le Havre
-8269,je voudrais aller de nancy a cherbourg en passant par Strasbourg
-3579,depart Poitiers destination Bordeaux
-9559,je veux aller a Saint-Raphael en partant de Marseille
-5867,je veux un billet de saint denis pour cannes en passant par Rennes
-7809,je voudrais aller de le mans a saint-nazaire
-4970,une phrase sans trajet
-6635,trains Saint-Malo Saint-Etienne
-7962,bonjour je voulais juste demander
-8377,depart reims destination dijon
-4243,je parle de Saint Jean de Luz mais sans voyage
-664,aller de amiens vers grenoble
-6891,aller de Nantes vers Port-Boulet
-6312,aller de lille vers angers
+208,depart montpellier destination port-boulet en passant par Marseille
+5058,depart saint-jean-de-luz destination aix-en-provence
+7465,je souhaite me rendre a valence depuis port boulet
+8016,besoin d un trajet Lille Angers
+5876,depuis Saint-Jaen-de-Luz je veux aller a Cannes
+8626,je veux un billet de versailles pour caen
+427,je veux un billet de cannes pour colmar
+1770,besoin d un trajet saint etienne cherbourg
+9587,est ce quil y a des trains vers caen depuis metz
+2172,je veux un billet de grenoble pour la rochelle
+5792,je voudrais aller de Perpignan a Avignon en passant par Saint-Etienne
+6302,aller de nice vers poitiers
+3829,billet tours metz
+2165,besoin d un trajet Port-Boulet Metz
+3856,depart Limoges destination Montpellir
+9090,y a t il un train de port-boulet a paris
+8139,je voudrais aller de besancon a toulon
+3384,aller de metz vers lyon
+2222,est ce quil y a des trains vers montpellier depuis poiiters
+1253,bayonne
+8364,je veux aller a Reims en partant de Rennes en passant par Paris
+2897,besoin d un trajet qayonne Besancon
+2544,je veux un billet de strasbourg pour orleans en passant par Cannes
+6482,y a t il un train de saint-raphael a perpignan
+2128,aller de metz vers bordeaux
+415,aller de Dijon vers Le Havre
+6013,je veux un billet de touloube pour tours
+5373,billet cherbourg troyes
+8272,je connais nantes
+254,besoin d un trajet besancon troyes
+2250,je veux aller a brest en partant de troyes
+2808,je pars de brest pour troyes en passant par Toulouse
+4700,billet vannes saint-etiene
+7869,depuis Annecy je veux aller a Versailles en passant par Nice
+6115,besoin d un trajet cannes montpellier
+3828,merci pour perpignan
+5363,est ce quil y a des trains vers montpellier depuis metz en passant par Valence
+5039,billet saint-malo le havre
+8490,horaires pour demain
+1062,billet Montpellier La Rochelle
+9796,train en retard
+3631,je pars de angers pour nice
+4624,je connais avignon
+8957,je veux aller a dijon en partant de rouen
+3762,comment aller a grenoble depuis nice
+5881,je veux un billet de vannes pour aix-en-provence
+1938,je souhaite me rendre a saint-etienne depuis reims
+4465,je souhaite me rendre a troyes depuis clermont-ferrand
+9115,je voudrais aller de Vanne a Le Mans
+1996,depart eordeaux destination Strasbourg en passant par Perpignan
+9184,besoin d un trajet marseille besacon
+7017,est ce quil y a des trains vers Saint-Jean-de-Luz depuis Lyon
+8443,je voudrais aller de bayonne a la rochelle en passant par Versailles
+8775,train en retard
+9222,je voudrais aller de bordeaux a brest
+4663,y a t il un train de Clermont-Ferrand a Grenoble en passant par Bordeaux
+3573,je veux aller a iax en provence en partant de voulon
+4076,je parle de rouen mais sans voyage
+6794,bonjour je voulais juste demander
+2828,je voudrais aller de brest a biarritz
+1621,besoin d un trajet Rouen La Rochell
+1946,je souhaite me rendre a avignon depuis montpellier
+272,merci pour valence
+3798,je connais poitiers
+4466,billet albert aix-en-provence
+4277,horaires pour demain
+8785,billet troyes albert
+7571,depart Metz destination Le Havre
+8422,depuis paris je veux aller a limoges en passant par La Rochelle
+7239,billet lyon metz
+4861,y a t il un train de nice a grenoble
+3297,je souhaite me rendre a lyon depuis nancy en passant par Rouen
+8865,depuis Saint Denis je veux aller a Colmar
+4678,trains Metz Best
+1758,trains Nantes Lille
+7125,je pars de bayonne pour nice
+5237,trains montpellier port boulet
+5769,comment aller a Toulon depuis Ljlle
+4572,y a t il un train de port boulet a orleas
+2099,aller de Troyes vers Orleans
+3606,trains montaigu caen
+8029,je parle de Marseille mais sans voyage
+4092,depart Reims destination Angers
+2956,y a t il un train de Limoges a Angers
+645,depart Montaigu destination Metz
+6464,je veux un billet de marseille pour caen
+6995,depuis Vannes je veux aller a Nancy
+1264,besoin d un trajet reims saint-eienne
+7220,je parle de la rochelle mais sans voyage
+3498,est ce quil y a des trains vers Bayonne depuis Poitiers
+6784,trains Metz Dijon
+2520,trains bayonne le havre
+1618,je pars de Perpignan pour Tours
+3951,horaires pour demain
+1335,depart Brest destination Metz
+9137,je connais Caen
+1936,est ce quil y a des trains vers perpignan depuis cherbourg
+7211,Rouen
+7546,trains annecy angers
+9957,y a t il un train de aix-en-provence a biarritz
+6753,je souhaite me rendre a le havre depuis saint-denis
+778,je voudrais aller de caen a amiens
+7180,je pars de caen pour rennes
+8116,comment aller a albert depuis rennes
+9209,je veux un billet de brest pour saint-raphael en passant par Nantes
+151,est ce quil y a des trains vers vamence depuis amiens
+1186,comment aller a rennes depuis bordeaux
+9044,comment aller a Saint Eitenne depuis Cannes
+5011,depart orleans destination annecy
+730,je connais Grenoble
+3932,depuis saint-raphael je veux aller a avignon
+5636,depart angers destination limoges
+7899,une phrase sans trajet
+4173,merci pour la rochelle
+6303,est ce quil y a des trains vers grenoble depuis cherbourk
+8469,y a t il un train de lyon a saint-raphael
+5116,merci pour Marseille
+4937,est ce quil y a des trains vers aix-en-provence depuis grenoble
+4117,besoin d un trajet grenoble colmar
+3304,depuis toulon je veux aller a lille
+3077,je voudrais aller de Saint-Raphael a Saint-Jean-de-Luz
+5665,je pars de tours pour dijon
+8594,comment aller a Rouen depuis Montigu
+3434,je veux aller a nancy en partant de le mans
+1313,est ce quil y a des trains vers biarritz depuis albert
+6041,est ce quil y a des trains vers Chefbourg depuis Nantes
+3116,je souhaite me rendre a cannes depuis saint-denis en passant par Nice
+727,aller de caen vers dijon
+8553,depuis Grenoble je veux aller a Clermont-Ferrand en passant par Orleans
+473,y a t il un train de Toulon a aVnnes
+4187,besoin d un trajet vannes saint-raphael
+5328,depuis brest je veux aller a saint nazaire
+7467,trains versailles nantes
+8781,je veux un billet de Le Mans pour Avignon
+5291,aller de rouen vers saint-jean-de-luz
+5227,y a t il un train de rouen a strasbourg en passant par Le Havre
+1403,je souhaite me rendre a touzs depuis roun
+1677,est ce quil y a des trains vers Pris depuis Valence en passant par Saint-Jean-de-Luz
+5563,valence
+3160,je veux un billet de Lyon pour Limoges en passant par Angers
+7434,je souhaite me rendre a Besancon depuis Bordeaux
+3621,depuis cannes je veux aller a troyes en passant par Rennes
+9139,train en retard
+6497,aller de saint-malo vers amiens
+3640,je parle de clermont-ferrand mais sans voyage
+7009,aller de avignon vers montaigu
+1044,trains Clermont Ferrand Besancon en passant par Toulouse
+2301,je souhaite me rendre a avignon depuis anntes
+117,est ce quil y a des trains vers montpellier depuis vannes
+9632,train en retard
+64,aller de Rennes vers Lyon
+5732,je pars de Saint Jean de Luz pour Annecy
+2669,depart Rennes destination Vannes
+862,je souhaite me rendre a saint-nazaire depuis montpellier en passant par Aix-en-Provence
+718,billet orleans toulon
+692,comment aller a saint-etienne depuis montpellier
+4357,une phrase sans trajet
+5525,aller de le havre vers orleans
+3530,aller de rouen vers saint-nazaier
+7794,je voudrais aller de colmar a avigron
+4174,je voudrais aller de port boulet a versailles
+8032,bonjour je voulais juste demander
+7449,je pars de tours pour annecy
+7056,est ce quil y a des trains vers besancon depuis reims
+9930,besoin d un trajet Montaiu Limoges
+8457,aller de Montaigu vers Cannes
+884,une phrase sans trajet
+7509,besoin d un trajet Colmar Toulvuse
+6741,photo de nancy
+5785,je pars de Strasbourg pour Nantes
+4661,depart Clermont-Ferrand destination Angers
+8391,je pars de dijon pour saint jea de luz
+1420,train en retard
+4875,billet Toulon Troyes
+3819,je veux aller a port-boulet en partant de cherbourg
+2841,merci pour Saint-Raphael
+934,billet montpellier grenoble
+5958,depart strasbourg destination saidt-nazaire
+9917,est ce quil y a des trains vers la rochelle depuis toulouse
+9642,trains reims perpignan
+3835,je parle de la rochelle mais sans voyage
+546,depuis rouen je veux aller a toulouse
+6363,train en retard
+816,je veux aller a angers en partant de cannes
+3347,je parle de Lille mais sans voyage
+7198,je connais Clermont-Ferrand
+3215,y a t il un train de nantes a marseille
+3608,depart saint-etienne destination la rochelle
+6383,trains biarritz marseille
+8061,trains colmar la rochelle
+7001,je parle de brest mais sans voyage
+6372,je veux un billet de vannes pour bordeaxu
+5721,je veux aller a Troyes en partant de Lyon en passant par Cannes
+7277,trains saint-raphael annecy
+3061,besoin d un trajet Besancon Metz
+3423,je voudrais aller de Rennes a Montaigu
+2118,depart Albert destination Cherbourg
+5179,depuis saint-nazaire je veux aller a le havre
+8588,depart Dijon destination Biarritz
+2417,je veux aller a Marseille en partant de Cherbourg
+7329,je souhaite me rendre a cannes depuis lille en passant par Saint-Etienne
+2426,je souhaite me rendre a saint jean de luz depuis limogs
+7132,albert
+9332,est ce quil y a des trains vers saint-malo depuis toulouse
+5419,billet besancon loyn
+2757,est ce quil y a des trains vers Marseille depuis Lyon
+6294,je souhaite me rendre a herbourg depuis angers
+9976,je parle de clermont ferrand mais sans voyage
+7552,je voudrais aller de versaills a nice
+7111,depuis Llile je veux aller a Metz
+1728,besoin d un trajet Montpellier Renens
+3133,je pars de nice pour vannes
+4718,trains strasbourg dijon
+2305,je veux aller a tours en partant de limoges
+3715,y a t il un train de toulon a colmar
+4793,je pars de port-boulet pour bordeaux
+4430,je voudrais aller de nijon a besancon
+62,train en retard
+1904,y a t il un train de port-boulet a cannes
+675,je souhaite me rendre a strasbourg depuis brest
+5920,besoin d un trajet reims la rochelle
+106,comment aller a besancon depuis cannes
+6474,depuis Vannes je veux aller a Brest
+1334,je veux aller a orlens en partant de la rochclle
+1089,horaires pour demain
+8632,je pars de bordeaux pour rennes
+166,bordeaux
+6406,besoin d un trajet valence saint jean de luz en passant par Le Havre
+7726,je veux un billet de grenoble pour rouen
+9324,horaires pour demain
+419,je veux aller a perpignaw en partant de vannes
+3535,bonjour je voulais juste demander
+859,je veux aller a saint-etienne en partant de toulon
+8119,depuis caen je veux aller a tours
+2340,depuis limoges je veux aller a orleans
+4919,depuis saint-nazaire je veux aller a saint-raphael
+7275,bonjour je voulais juste demander
+987,je pars de colmar pour nice
+8073,trains bayonne biarritz en passant par Brest
+9580,besoin d un trajet Brest Bayonne
+8218,besoin d un trajet Le Havre Comar en passant par Reims
+8010,je voudrais aller de troye a avignon
+9404,billet Strasbourg Avignon en passant par Vannes
+3572,trains orleans kroyes en passant par Le Mans
+9753,je veux un billet de versailles pour amiens
+7745,je pars de valence pour nants
+5801,je veux un billet de besancon pour montaigu
+4899,y a t il un train de nice a strasbourg
+9169,je voudrais aller de paris a marseille en passant par Aix-en-Provence
+2287,je veux un billet de saint malo pour tulouse
+7667,je pars de Aix-en-Provence pour Sait-Etienne
+6574,je connais Le Mans
+6250,bonjour je voulais juste demander
+1975,depart valence destination biarritz
+2021,trains bayonne rennes
+2574,y a t il un train de le havre a brest en passant par Saint-Denis
+2258,rouen
+6092,depart Cannes destination Toulon
+7248,billet Rouen Troyes
+4789,billet antes Amiens
+4565,train en retard
+6610,horaires pour demain
+8906,depart Troyes destination Angers
+6731,depart toulo destination mnotaigu
+9493,je souhaite me rendre a Lyon depuis Montaigm en passant par Niec
+8707,une phrase sans trajet
+3446,une phrase sans trajet
+9670,bonjour je voulais juste demander
+2203,je veux un billet de orleasn pour grenoble
+8517,est ce quil y a des trains vers Strasbourg depuis Biarritz
+4633,je veux aller a Caen en partant de Saint-Malo
+4747,depart strasbourg destination saint raphael
+6797,aller de strasbpurg vers toulon
+1116,y a t il un train de poitiers a reims
+2680,depart Toulouse destination Vannes
+4081,Strasbourg
+8687,je souhaite me rendre a saint-nazaire depuis saint-etienne en passant par Angers
+1937,je voudrais aller de Avignon a Grenoble
+5569,je pars de avignon pour aix-en-provence
+8744,je connais grenoble
+5008,trains montaigu montpellier en passant par Brest
+4301,depart Dijon destination Port-Boulet
+1155,est ce quil y a des trains vers paris depuis nantes
+581,je souhaite me rendre a Nantes depuis Saint-Denis en passant par Toulon
+1397,comment aller a Marseille depuis Amiens
+3212,comment aller a saint rapahel depuis nantes en passant par Saint-Malo
+4644,je souhaite me rendre a rouyn depuis troyes en passant par Avignon
+5798,je voudrais aller de Versailles a Orleans
+9922,y a t il un train de lille a perpignan
+1672,je veux un billet de Toulon pour Angers
+7285,je veux un billet de grenoble pour albert
+6492,billet Nice Grenoble
+8620,est ce quil y a des trains vers troyes depuis saine ttienne
+6528,trains lyon bsyonne
+4204,trains montaigu nice
+5,comment aller a Amiens depuis Annecy
+665,billet avignon nantes
+4425,besoin d un trajet Albert La Rochelle en passant par Orleans
+1980,je veux un billet de Poitiers pour Montaigu
+9858,train en retard
+4589,trains amiens valence
+6641,depuis Nice je veux aller a Saint-Malo
+8909,je veux un billet de le havre pour vannes
+3808,je voudrais aller de Montpellier a Dijon
+8154,y a t il un train de ruoen a versailles
+1517,je voudrais aller de nantes a toulon
+7724,je pars de dijon pour cannes en passant par Lyon
+6951,je veux un billet de rToyes pour Valence en passant par Strasbourg
+2560,je pars de saint-malo pour aix-en-provence
+8933,est ce quil y a des trains vers Marseille depuis Annecy
+4935,y a t il un train de la rochelle a aners
+1876,y a t il un train de aix-en-provence a bayonne
+4892,comment aller a lyon depuis paris
+3584,est ce quil y a des trains vers paris depuis nice
+128,depart cannes destination caen
+7570,comment aller a nancy depuis prpignan
+7358,depart Paris destination Perpigna
+31,depuis amiens je veux aller a aix-en-provence en passant par Toulon
+4829,depart Saint-Raphael destination Cherbourg
+3337,y a t il un train de Lille a Vannes en passant par Nantes
+7919,je veux aller a limoges en partant de saint-etienne
+1418,trains versailles toulouse
+7577,depuis saint-denis je veux aller a rouen
+5823,depuis lyon je veux aller a colmar
+2336,je veux un billet de Strasbourg pour Lile
+8575,besoin d un trajet le mans caen
+5577,comment aller a rennes depuis saint-jean-de-luz en passant par La Rochelle
+7430,depart angdrs destination rouen
+4063,depart Port Boulet destination Paris
+2863,je veux aller a saint jean de luz en partant de clermont ferrand en passant par Poitiers
+7074,je pars de Brest pour Toulon
+6910,je veux aller a troyes en partant de limoges
+3038,je pars de Colmar pour Amiens
+6534,je veux un billet de paris pour la rochelle
+7310,merci pour grenoble
+2522,y a t il un train de annecy a albert en passant par Cherbourg
+9146,train en retard
+1838,une phrase sans trajet
+4538,je veux aller a Amines en partant de Poitiers
+1780,billet Saint-Jean-de-Luz Rouen en passant par Bordeaux
+3039,depuis clermont ferrand je veux aller a le havre
+1492,horaires pour demain
+9499,je pars de rennes pour montaigu
+4806,depuis Nantes je veux aller a Troyes
+6089,trains Strasbourg Reims
+3343,photo de Orleans
+7231,y a t il un train de albert a nice
+5254,depuis valence je veux aller a amiens en passant par Colmar
+6836,trains Nacy Metz
+139,je veux un billet de colmar pour nancy
+6695,billet valence vannes
+6168,je voudrais aller de Toulouse a Nancy en passant par Grenoble
+948,aller de brest vers reims
+8671,je voudrais aller de Troyes a Nantes
+6050,billet Cherbourg Toulouse
+7288,aller de Saint-Denis vers Clermont-Ferrand
+4065,cannes
+1386,y a t il un train de orleans a rouen en passant par Annecy
+5810,je souhaite me rendre a amiens depuis le havre
+4883,est ce quil y a des trains vers saint-nazaire depuis cannes
+6918,comment aller a Rwuen depuis Saint Denis
+2332,je veux un billet de rouen pour vannes
+6829,est ce quil y a des trains vers bayonne depuis amiens
+9024,aller de vanens vers biarritz
+4906,je veux un billet de montpellier pour port-boulet en passant par Nantes
+6886,besoin d un trajet dijon annecy
+2164,je veux un billet de albert pour saint-nazaire
+1200,trains avignon vannes
+1277,je veux aller a Marseille en partant de Versailles
+9635,y a t il un train de Nancy a Grenoble
+337,billet Reims Nantes
+2167,est ce quil y a des trains vers rouen depuis cannes
+758,besoin d un trajet toulouse troyes en passant par imoges
+6878,aller de Saint-Etienne vers Marseille
+9704,besoin d un trajet avignon caen
+9698,je voudrais aller de Annecy a Cannes
+3014,depuis cherbourg je veux aller a dijn
+3878,billet valence bayonne
+3979,aller de antes vers valence
+8329,besoin d un trajet tours amiens
+5176,y a t il un train de clermont ferrand a avignon
+3651,je pars de Dijon pour Reims
+2052,billet nantes orleans
+9980,je voudrais aller de caen a toulouse
+6171,aller de port-boulet vers limoges
+2563,aller de grenoble vers nice
+5043,billet Metz Albert
+8737,billet Troyes Perpignan
+1681,je pars de marseill pour angers en passant par Bayonne
+1324,je veux un billet de le mans pour rouen
+3016,je pars de aix-en-provence pour grenoble
+5358,comment aller a valence depuis besancon
+9064,depart brest destination montpellier
+9482,je veux aller a le mans en partant de cherborg
+4795,merci pour valence
+7756,trains bayonne grenoble en passant par Strasbourg
+5489,je voudrais aller de saint-etienne a port-boulet
+5935,je pars de Reims pour Saint Denis en passant par Metz
+3410,je parle de Bayonne mais sans voyage
+458,depuis dijon je veux aller a amiens
+2133,depart xrleans destination Aix en Provence
+4231,est ce quil y a des trains vers strasbourg depuis poitiers en passant par Bayonne
+5644,trains toulon poitiers en passant par Brest
+7811,je souhaite me rendre a Aix en Provence depuis Saint Malo
+1842,comment aller a Port-Boulet depuis Aix-en-Provence
+7440,je veux aller a reims en partant de montaigu
+3064,je pars de metz pour montpellier
+2325,je veux aller a limoges en partant de nancy
+3816,merci pour brest
+404,trains biarritz reims
+6048,je veux aller a bayonne en partant de montpellier en passant par Clermont-Ferrand
+4805,billet paris toulouse
+118,y a t il un train de albert a caen en passant par Troyes
+2019,je veux aller a cannes en partant de angers
+3356,depart clermont-rerrand destination albert
+53,y a t il un train de biarritz a nantes
+3408,je souhaite me rendre a Le Havre depuis Le Mans
+2348,je veux un billet de brest pour lyon
+1156,je souhaite me rendre a Saint-Nazaire depuis Amiens
+5994,je pars de albert pour strasbourg
+3777,est ce quil y a des trains vers nice depuis saint-etienne
+164,je voudrais aller de Troyes a Biarritz
+2915,depuis clermont ferrand je veux aller a limoges
+5700,aller de vannes vers versailles
+5660,billet aix-en-provence metz
+482,depuis marseille je veux aller a rennes en passant par Saint-Nazaire
+5887,est ce quil y a des trains vers saint-nazaire depuis marseille
+1989,Marseille
+1153,est ce quil y a des trains vers lyon depuis avigmon
+5776,une phrase sans trajet
+1287,billet saint-jean-de-luz metz
+4139,trains Annecy Sain Nazaire
+5317,depart Besancon destination Port-Boulet
+8137,train en retard
+494,aller de Nice vers Biarritz
+6833,depart nantes destination sanit-malo
+7063,je souhaite me rendre a rouen depuis toulouse en passant par Le Havre
+7320,depuis troyes je veux aller a saint malo
+504,billet Nancy La Rochelle
+2559,depuis grenoble je veux aller a metz
+6803,besoin d un trajet nancy cannes
+1626,depart Clermont-Ferrand destination Biarritz
+1031,depuis limoges je veux aller a rouen en passant par Port-Boulet
+6810,billet reims montpellier en passant par Le Havre
+9596,je souhaite me rendre a rngers depuis bordeaux
+1377,est ce quil y a des trains vers Nice depuis Le Havre
+6915,une phrase sans trajet
+9274,trains nantes montaigu
+6980,je veux un billet de la rochelle pour bordeaux
+2387,je voudrais aller de toulouse a amiens
+1859,besoin d un trajet lille marseille
+5003,billet Saint Etienne Troyes
+8309,depart troyes destination saint-raphael
+6884,je connais saint-nazaire
+8581,je veux un billet de motnpellier pour metz
+9550,depart cherbourg destination port-boulet
+1532,bonjour je voulais juste demander
+3763,y a t il un train de valeqce a saint-denis en passant par Caen
+3539,y a t il un train de Montaigu a Cannes en passant par Biwrritz
+9369,aller de Port-Boulet vers Le Mans
+9327,est ce quil y a des trains vers Strasbourg depuis Lille
+8521,aller de toulon vers aix en provence en passant par Annecy
+437,je veux un billet de reims pour saint-jean-de-luz
+4185,comment aller a clermont-fetrand depuis dijon
+7966,billet versailles ymiens
+656,est ce quil y a des trains vers Saint Jean de Luz depuis Albert
+732,billet port-boujet nancy
+1235,besoin d un trajet caen tours
+5842,depuis amiens je veux aller a bordeaux
+7463,depuis avignon je veux aller a nantes
+9738,je veux un billet de Lyon pour Saint Etienne
+6088,une phrase sans trajet
+7284,est ce quil y a des trains vers saint-jean-de-luz depuis saint-denis
+6423,train en retard
+626,aller de limoges vers marseille en passant par Valence
+3099,est ce quil y a des trains vers Saint-Jean-de-Luz depuis Saint-Nazaire
+9633,depuis saint-nazaire je veux aller a poitiers
+1992,train en retard
+4814,aller de besancon vers limoges
+6352,besoin d un trajet Cannes Sint-Nazaire
+2083,je voudrais aller de Poitiers a Saint-Malo
+4856,y a t il un train de montpellier a vannes en passant par Poitiers
+9656,depart orleans destination amiens en passant par Troyes
+5536,je voudrais aller de clermont-ferrand a avignon
+7655,depuis grenoble je veux aller a lyon en passant par Saint-Raphael
+986,billet albert caen
+1819,depuis caen je veux aller a agers
+8034,je veux aller a grenoble en partant de montaigu
+6282,trains Saint Raphael Perpignan
+3195,aller de strasbourg vers reims
+5680,bonjour je voulais juste demander
+8998,je veux un billet de Poitiers pour Cherbourg
+1726,comment aller a vannes depuis nantes
+5307,je pars de toulouse pour brst
+2175,billet Tours Rims
+532,aller de cherbourg vers versailles
+332,je veux aller a versailles en partant de reims
+9508,y a t il un train de la rochelle a orleans
+7716,est ce quil y a des trains vers caen depuis troyes
+9848,je voudrais aller de biarritz a lille en passant par Caen
+771,depuis biarritz je veux aller a tours
+7519,depart reims destination brest
+6336,est ce quil y a des trains vers saint-denis depuis albert
+7640,comment aller a Orleans depuis Brest en passant par Troyes
+577,je souhaite me rendre a saint nazaire depuis bordeaux
+6737,trains montpellir lyon
+5780,besoin d un trajet caen versailles en passant par Clemont-Ferrand
+2481,aller de colmar vers toulpuse
+1338,depuis saint-raphael je veux aller a saint-nazaire
+8059,besoin d un trajet perpignan cherbourg
+2309,je veux un billet de Reims pour Rouen
+6847,une phrase sans trajet
+7887,aller de paris vers colmar en passant par Saint-Raphael
+589,je veux un billet de saint-raphael pour lille
+910,aller de bordeaux vers marseille
+5473,je veux un billet de Colmar pour Lille
+4704,je pars de saint malo pour la rochelle
+3915,y a t il un train de versailles a marseille en passant par Colmar
+2087,je veux aller a le havre en partant de tours
+2684,le mans
+9963,depuis Bayonne je veux aller a Bordeaux
+6287,depart evrsailles destination valence
+6295,je veux un billet de avignn pour bordeaux
+6686,train en retard
+4962,je veux aller a Cannes en partant de Valence
+4293,depuis layonne je veux aller a saint-jean-de-luz
+8086,je souhaite me rendre a la rochelle depuis paris
+1076,aller de Troyes vers Le Mans
+5451,merci pour vannes
+4170,horaires pour demain
+9344,y a t il un train de angers a dijon
+8305,billet caen marseille
+4956,est ce quil y a des trains vers le mans depuis valence
+2982,y a t il un train de saint raphael a limoges
+4,aller de toulon vers nantes
+336,aller de rdnnes vers saint-denis
+3827,trains saint-jean-de-luz albert
+6367,comment aller a cehrbourg depuis rennes
+7901,est ce quil y a des trains vers saint-raphael depuis nice
+6846,je voudrais aller de besancon a montpellier
+8773,y a t il un train de nice a poitiers
+4746,je veux un billet de Avignon pour Perpignan
+3377,est ce quil y a des trains vers toulouse depuis aix-en-provence
+6986,je voudrais aller de Limoges a Poitiers
+1252,est ce quil y a des trains vers le mals depuis aix-en-provence
+8487,je souhaite me rendre a Cherbourg depuis Mrtz
+1486,je souhaite me rendre a saint-etienne depuis toulouse en passant par Orleans
+9872,billet marseille le havre en passant par Bayonne
+551,depart Toulouse destination Tours en passant par Nancy
+8232,je voudrais aller de clermont-ferrand a saint-jean-de-luz
+8681,depart Bayonne destination Amiens
+6263,aller de nantes vers perpignan en passant par Le Mans
+8274,aller de clermont-ferrand vers nice
+6084,je voudrais aller de bordeaux a colmar
+7549,y a t il un train de limoges a cherbourg
+2439,je voudrais aller de Port Boulet a Albert
+2633,comment aller a lyon depuis la rochelle en passant par Marseille
+5417,une phrase sans trajet
+7350,est ce quil y a des trains vers clermont ferrand depuis nice
+251,depuis rleans je veux aller a brest
+4923,je veux aller a avignon en partant de saint nazaire
+666,je souhaite me rendre a Besancon depuis Reims
+9749,aller de amiens vers limoges
+3688,je voudrais aller de la rochelle a strasbourg
+9569,comment aller a strsbourg depuis rennes en passant par Annecy
+9836,aller de bayonne vers marseille
+8463,depart bordeaux destination saint-nazaire
+1387,depart grenoble destination biarritz en passant par Saint-Jean-de-Luz
+1088,je voudrais aller de le mans a saint-raphael
+7708,y a t il un train de vannes a rennes
+4824,je pars de rouen pour nantes
+9552,besoin d un trajet Dijon Toulon
+6210,y a t il un train de amiens a saint-malo
+2555,Saint Nazaire
+4209,trains clermont ferrand angers
+2431,je pars de reims pour poitiers
+8604,je veux aller a Brest en partant de Anecy
+582,y a t il un train de besancon a nantes
+5273,bonjour je voulais juste demander
+5215,train en retard
+5575,je veux un billet de Le Mans pour Besancon
+160,horaires pour demain
+9874,horaires pour demain
+8894,trains marseille besancon
+3310,comment aller a Reims depuis Dijon en passant par Colmar
+8170,est ce quil y a des trains vers cherbourg depuis saint-malo
+8167,je pars de la rochelle pour toulouse
+5284,horaires pour demain
+8117,aller de saint-jean-de-luz vers vannes
+8540,depuis Saint-Nazaire je veux aller a Tours
+6935,besoin d un trajet saint jean de luz versailles en passant par Troyes
+6651,je souhaite me rendre a angers depuis le mans
+9240,merci pour toulon
+2432,y a t il un train de Albert a Port-Boulet
+7994,une phrase sans trajet
+1717,comment aller a nantes depuis besancon
+2480,est ce quil y a des trains vers troyes depuis toulon
+8953,trains biarritz versailles
+5926,je veux un billet de Saint Raphael pour Paris
+6194,je veux un billet de Saint-Raphael pour Marseilve
+7511,Nice
+3244,bonjour je voulais juste demander
+1715,je pars de limoges pour nantes en passant par Aix-en-Provence
+9875,je veux un billet de nancy pour besancon
+3538,bonjour je voulais juste demander
+690,je pars de Saint-Malo pour Toulouse
+3396,je pars de saint-etienne pour nice en passant par Poitiers
+9724,une phrase sans trajet
+6521,je veux aller a rennes en partant de marseille en passant par Montpellier
+8145,train en retard
+9737,y a t il un train de potiiers a troyes
+3305,trains Saint-Nazaire Montaigu
+7400,depuis Paris je veux aller a Rennes
+8615,besoin d un trajet avignon strasbourg
+453,comment aller a amiens depuis toulouse
+9767,besoin d un trajet la rochelle albert
+1885,depart Brest destination Montaigu
+5874,je veux aller a grenoble en partant de brest
+3145,y a t il un train de Grenoble a Amiens
+7066,billet Valence Le Mans en passant par Grenobe
+2730,horaires pour demain
+9589,depart prpignan destination rouen
+4275,je souhaite me rendre a lyon depuis orleans
+3607,je veux aller a versailles en partant de perpignan
+6035,train en retard
+1371,je souhaite me rendre a vannes depuis nice
+6932,y a t il un train de lyon a saint-malo
+3560,est ce quil y a des trains vers la rochelle depuis troyes
+9583,besoin d un trajet besancon saint raphael en passant par Avigon
+8006,une phrase sans trajet
+7349,aller de Bordeaux vers Aix-en-Provence
+4749,horaires pour demain
+8504,je souhaite me rendre a saint-nazaire depuis biarritz
+9118,y a t il un train de Rouen a Troyes
+6453,je veux aller a la rochelle en partant de metz
+1607,est ce quil y a des trains vers Caen depuis Besancon en passant par Angers
+129,y a t il un train de Saint Nazaire a Reims
+6305,depart canges destination brest en passant par Montpellier
+1002,je veux aller a biarritz en partant de tours
+3622,saint raphael
+3245,y a t il un train de toulouse a rennes en passant par Perpignan
+1388,je veux un billet de colmar pour clermont-ferrand
+1079,trains lyon poitiers
+1425,je pars de Metz pour Montpellier
+9700,depart Port-Boulet destination oMntpellier
+9249,je souhaite me rendre a Cannes depuis Besancon
+2729,y a t il un train de bordeaux a saint-jean-de-luz
+2551,est ce quil y a des trains vers albert depuis la rochelle
+5490,train en retard
+4947,est ce quil y a des trains vers Port-Boulet depuis Saint-Etienne en passant par Dijon
+620,billet Nancy Rouen
+6989,brest
+8155,je pars de angers pour rouen
+1901,je voudrais aller de bayonne a marseille
+7850,je veux un billet de tours pour limoges
+2037,je veux un billet de Tours pour Grenoble
+5631,je voudrais aller de Le Havre a Dijon
+5523,trains limoges vannes
+7767,photo de Annecy
+7884,je pars de Metz pour Dijon en passant par Aix-en-Provence
+9189,billet toulouse rouen en passant par Troyes
+1629,y a t il un train de lyon a nancy
+1781,depart saint-malo destination biarritz
+6795,je veux aller a saint-etienne en partant de limoges
+4903,je voudrais aller de port boulet a bordeaux
+5383,je souhaite me rendre a Limoges depuis Paris
+6606,comment aller a colmar depuis nantes
+4959,je connais port-boulet
+1162,besoin d un trajet strasbourg brest en passant par Le Havre
+8570,comment aller a Paris depuis Limoges
+2943,je voudrais aller de toulon a troyes
+5045,aller de port-boulet vers paris
+791,je veux aller a troyes en partant de marseille
+3928,est ce quil y a des trains vers cannes depuis rouen en passant par Nancy
+7833,trains Nice La Rochelle
+1883,je voudrais aller de clermont-ferrand a moatpellier
+4808,je veux un billet de Bayonne pour Le Havre
+2125,Saint Malo
+8987,y a t il un train de Avignon a Colmar en passant par Toulouse
+6469,est ce quil y a des trains vers Nice depuis Comlar
+5914,je pars de rennes pour biarritz
+4744,je souhaite me rendre a Port-Boulet depuis Rouen
+9560,je veux un billet de Brest pour Amiens
+2449,je pars de vannes pour angers en passant par Nice
+2685,depuis angers je veux aller a amiens
+4418,est ce quil y a des trains vers Le Havre depuis Clermont-Ferrand
+676,depuis bordeaux je veux aller a besancon
+585,je pars de Le Mans pour Montpellier en passant par Paris
+5542,je souhaite me rendre a cherborg depuis saint-jean-de-luz
+1536,est ce quil y a des trains vers le havre depuis paris
+6017,je veux un billet de marseille pour saint nazaire
+5530,aller de nantes vers annecy en passant par Valence
+5463,je veux un billet de Perpignan pour La Rochelle
+4447,y a t il un train de cherbourg a amiens
+2475,je voudrais aller de Perpignan a Colmar en passant par Saint-Etienne
+2269,comment aller a Grenoble depuis Clermont-Ferrand
+146,je pars de la rochelle pour colzar en passant par Poitiers
+4769,billet amiens lyon
+9620,depart grenoble destination avignon
+6154,je souhaite me rendre a montaigu depuis montpellier
+3406,je veux aller a aix en proence en partant de saint denis
+2922,billet clermont ferrand rgenoble
+8814,depart Aix-en-Provence destination Albert
+6103,je voudrais aller de saint nazaire a valence
+7135,je veux aller a Perpignan en partant de Besancon
+7515,train en retard
+8102,depart Vannes destination Nice en passant par Valence
+689,aller de toulouse vers rouen
+9772,horaires pour demain
+6012,je connais Perpignan
+5157,je souhaite me rendre a nice depuis vannes
+9149,depart Rennes destination Strasbourg
+4255,est ce quil y a des trains vers brest depuis rennes
+3371,je veux aller a lille en partant de aix-en-provence
+667,aller de Grenoble vers La Rochelle
+694,aller de Bayonne vers Saint-Etienne
+305,comment aller a Le Mans depuis Limoges en passant par Cherbourg
+4562,merci pour Saint-Raphael
+2531,y a t il un train de le mans a cherbougr en passant par Valence
+1886,est ce quil y a des trains vers nantes depuis versailles
+5687,est ce quil y a des trains vers rennes depuis rouen
+8534,je pars de biarritz pour poitiers
+2186,aller de clermont-ferrand vers saint-nazaire
+4203,train en retard
+1897,billet saint-etienne aix-en-provence en passant par Saint-Jean-de-Luz
+7422,billet nancy caen
+4501,je pars de metz pour saint-denis
+358,depart montaigu destination tmiens
+1333,est ce quil y a des trains vers tours depuis clermont-ferrand
+6500,je connais biarritz
+7793,je veux aller a bordeaux en partant de caen
+1642,comment aller a Cannes depuis Annecy
+2986,y a t il un train de saint-nazaire a strasbourg
+4588,billet poitiers perpignan
+4955,y a t il un train de amiens a aix-en-provence
+3253,depuis fille je veux aller a birritz en passant par Saint-Etienne
+1949,merci pour saint jean de luz
+3121,je veux un billet de Vannes pour Tours
+1603,je pars de caen pour bordeaux
+8657,je veux aller a amiens en partant de saint etienne
+39,je pars de montpellier pour rouen
+235,comment aller a Grenoble depuis Marseille
+3499,aller de biarritz vers perpignan
+56,comment aller a Rouen depuis Brest
+9970,aller de Brest vers Colmar
+6841,y a t il un train de mez a limoges
+6584,je voudrais aller de angers a paris
+242,depuis limogos je veux aller a nice en passant par Brest
+2139,trains vannes nantes
+1368,je souhaite me rendre a dijon depuis avignon en passant par Cgen
+8988,trains lyon le havre
+3081,je souhaite me rendre a le havre depuis bordeaux
+6802,est ce quil y a des trains vers Annecy depuis Biarritz
+817,bonjour je voulais juste demander
+7650,depart troyes destination versailles en passant par Grenoble
+5113,une phrase sans trajet
+5341,je veux un billet de brest pour bordeaux
+8104,je veux un billet de Caej pour Toulouse
+638,depart vannes destination toulouse
+2,trains albert port boulet
+9199,billet Perpignan Limges
+7984,depuis vannes je veux aller a dijon
+8644,besoin d un trajet saint-denis tours
+7314,aller de bordeaux vers teurs
+2584,je connais albert
+4248,y a t il un train de poitiers a orleasn
+1047,depuis montaigu je veux aller a saint jean de luz
+7297,trains Montpellier Rouen
+2715,aller de annecy vers dijon
+767,est ce quil y a des trains vers montpellier depuis le havre
+6853,depart Nice destination Saint-Jean-de-Luz en passant par Albert
+9298,depart Saint-Nazaire destination Lyon
+6591,est ce quil y a des trains vers saint-etienne depuis caen
+517,je voudrais aller de reims a toulon
+9787,est ce quil y a des trains vers port-boulet depuis caen
+9309,y a t il un train de versailles a strasbourg
+6204,je veux aller a rennes en partant de lyon
+7343,je souhaite me rendre a orleans depuis nancy
+3656,besoin d un trajet rennes montaigu
+3923,une phrase sans trajet
+2623,besoin d un trajet bordbaux toulon
+5479,je veux aller a besacon en partant de versailles
+3151,besoin d un trajet l mans aix-en-proence en passant par Annecy
+9742,je voudrais aller de montaigu a saint etienne en passant par Albert
+25,je pars de annecy pour saint-nazaire
+1323,je voudrais aller de troyes a angers
+6790,est ce quil y a des trains vers Marsealle depuis Saint-Raphael
+6358,je veux un billet de perpignan pour saint-jean-de-luz
+5084,y a t il un train de le mans a metz en passant par Amiens
+2169,depuis Toulon je veux aller a Versailles en passant par Marseille
+9672,trains Vannes Brest
+5886,aller de saint-raphael vers avignon
+4717,y a t il un train de Versailles a Anneyc
+5771,horaires pour demain
+7895,une phrase sans trajet
+3935,je voudrais aller de Caen a Aix-en-Provence
+2210,trains Brest Biarritz
+4602,Versailles
+8919,je veux un billet de Rennes pour Tours
+749,besoin d un trajet angers amiens
+5504,y a t il un train de Saint-Raphael a Besancon
+1296,depuis brest je veux aller a angers
+7504,je veux aller a reims en partant de limoges
+204,je veux aller a Colmar en partant de Clermont Ferrand
+9185,depuis montpellier je veux aller a nancy
+2514,merci pour montaigu
+4112,billet cherbourg dijon
+6368,est ce quil y a des trains vers Orleans depuis Albert
+5852,horaires pour demain
+5103,depart Marseille destination Caen
+8333,billet le mans paris
+9325,trains paris biarritz
+6716,depuis marseille je veux aller a cherbourg
+7728,depart Amiens destination Paris
+217,comment aller a Angers depuis Saint-Jean-de-Luz
+2865,aller de nancy vers lyon
+7247,je veux un billet de Rouen pour Perpignan
+9778,est ce quil y a des trains vers colmar depuis clermont-ferrand
+1921,je pars de reims pour nantes
+4108,je voudrais aller de limoges a port-boulet
+8675,je veux aller a port boulet en partant de perpignan en passant par Tours
+5609,aller de versailles vers bordeaux
+2654,je souhaite me rendre a saint-etienne depuis annecy
+2593,je souhaite me rendre a Port-Boulet depuis Cannes en passant par Rouen
+952,je veux aller a colmar en partant de caen
+3333,depart Reims destination Bordeaux en passant par Montaigu
+2776,je veux un billet de nantes pour rouen
+9336,y a t il un train de Orleans a Versailles en passant par Angers
+7705,est ce quil y a des trains vers aix-en-provence depuis nantes
+5875,est ce quil y a des trains vers Strasbourg depuis Grenoble
+4263,depart poitiers destination grenoble
+3267,besoin d un trajet Saint-Malo Rennes en passant par Poitiers
+9906,je voudrais aller de montaigu a metz en passant par Tours
+1654,une phrase sans trajet
+9773,besancon
+646,je souhaite me rendre a saint-malo depuis cherbourg
+7654,je voudrais aller de lyon a clermont-ferrand
+8252,je voudrais aller de saint-nazaire a bayonne
+9852,est ce quil y a des trains vers limsges depuis brest
+2955,je pars de tours pour colmar
+7145,est ce quil y a des trains vers bayonne depuis lille en passant par Le Mans
+5740,nice
+4933,depart annecy destination nantes en passant par Lille
+1180,je voudrais aller de Le Havre a Montpellier
+3619,trains aix-en-provence saint-nazaire
+1147,je pars de Colmar pour Marseille en passant par Le Havre
+4259,y a t il un train de cannes a vannes en passant par La Rochelle
+1663,je voudrais aller de Nice a Tulon
+6974,comment aller a Perpignan depuis Paris
+8917,je pars de nancy pour montaigu
+374,je veux aller a rouen en partant de toulouse
+1001,je souhaite me rendre a strasbourg depuis saint nazaire
+3451,besoin d un trajet perpignan aix-en-provence
+7852,je veux aller a Toulon en partant de Saint Jean de Luz
+2030,depart port-boulet destination limoges en passant par Saint-Jean-de-Luz
+3031,je pars de le havre pour tours
+3189,je veux un billet de Nancy pour Saint-Malo
+355,billet Nice Limoges
+597,je souhaite me rendre a lille depuis rennes
+1902,je voudrais aller de aix-en-provence a le mans
+6065,depart aix-en-provence destination caen
+1500,je voudrais aller de Nancy a Valence
+6410,depart lille destination uaint-nazaire en passant par Bayonne
+1962,je veux un billet de poitiers pour biarritz
+9437,billet reius saint jean de luz
+3089,je veux aller a avignon en partant de strasbourg
+2039,comment aller a troyes depuis poitiers en passant par Lyon
+438,est ce quil y a des trains vers la rochelle depuis saint-denis
+1213,comment aller a Nantes depuis Cherbourg
+9866,y a t il un train de amiens a strasbourg en passant par Saint-Nazaire
+8753,train en retard
+9403,je pars de Cherbourg pour Aix-en-Provence
+742,je connais Clermont-Ferrand
+3585,je veux un billet de versailles pour saint-malo
+2398,trains strasbourg angers
+1649,est ce quil y a des trains vers saint-malo depuis la rochelle
+1019,je connais toulon
+6982,y a t il un train de bayonne a orleans
+5449,comment aller a toulon depuis cannes
+2794,je connais toulouse
+6096,je veux un billet de Poitiers pour Port-Boulet
+3613,aller de lille vers nantes en passant par Aix-en-Provence
+1920,besoin d un trajet Bordeaux Le Havre en passant par Saint-Denis
+4441,billet marseille avignon
+266,je veux un billet de Le Mans pour Lyon en passant par Ruoen
+3982,je pars de Besancon pour Dijon
+3120,angers
+5494,aller de biarritz vers fennes
+9619,y a t il un train de besancon a bayonne
+7970,depart paris destination montpellier
+1890,je veux aller a strasbouxg en partant de clermont-ferrand en passant par Orleans
+5314,je pars de nice pour valence
+1350,aller de orleans vers saint nazaire
+5856,depart Nice destination Tours
+8072,je pars de dijon pour troyes
+7383,depart Dijon destination Nantes
+4510,y a t il un train de Toulon a aen
+9498,photo de clermont ferrand
+6872,besoin d un trajet Saint-Denis Lyon
+9664,amiens
+3526,comment aller a perpignan depuis dijon
+3859,merci pour Saint-Malo
+8550,je connais metz
+4516,billet grenoble biarritz
+8595,comment aller a aix-en-provence depuis avignon
+6411,y a t il un train de bayonne a caen
+8858,je voudrais aller de reims a port boulet
+1315,aller de clermont-ferrand vers cannes
+634,est ce quil y a des trains vers paris depuis orleans
+2451,depart Grenoble destination Saint-Etienne
+2134,je veux aller a avignon en partant de rennes
+1472,je veux aller a Perpignan en partant de Saint-Malo
+1132,aller de nantes vers aix-en-provence en passant par Nice
+7808,une phrase sans trajet
+4261,y a t il un train de Orleans a Colmar
+541,trains Montpellier Saint Denis en passant par Paris
+3060,trains saint etienne bayonne en passant par Vlaence
+3103,je veux un billet de rennjs pour port-boulet en passant par Marseille
+3013,je veux un billet de Clermont Ferrand pour Vannes
+4757,je voudrais aller de metz a bimoges
+3967,billet versailles saint etienne
+9432,je pars de Dijon pour Rouen
+5195,billet Colmar Angers
+6307,je voudrais aller de poitiers a orleans
+9770,trains Saint-Denis Versailles
+1502,comment aller a la rochelle depuis nice en passant par Metz
+7291,est ce quil y a des trains vers besancon depuis bayonne
+4713,train en retard
+9628,depuis montpellier je veux aller a valence
+8966,aller de Reims vers Aix-en-Provence
+9883,billet Toulouse Nantes en passant par Nancy
+3330,est ce quil y a des trains vers Orleans depuis Cherbourg
+8853,je pars de biarritz pour besancon
+5452,bonjour je voulais juste demander
+8970,Grenoble
+2045,depuis Bordeaux je veux aller a Nancy
+4770,je veux un billet de Saint-Jean-d-Luz pour Metz en passant par Amiens
+9032,trains perpignan aix-en-provence
+4939,une phrase sans trajet
+1787,je veux aller a lille en partant de saint-etienne
+8017,je pars de besancon pour rennes
+8323,depuis Poitiers je veux aller a qort-Boulet en passant par Toulon
+5244,je veux un billet de reims pour rennes
+1319,je souhaite me rendre a Le Mans depuis Clermont-Ferrand
+1495,je pars de Besancon pour Port Boulet
+7340,billet perpignan strasbourg
+8897,y a t il un train de Brest a Toulouse en passant par Colmar
+2335,je voudrais aller de amiens a rouen
+3910,aller de amiens vers limoges
+3633,je parle de tours mais sans voyage
+9299,comment aller a Rouen depuis Caen
+3131,je parle de Orleans mais sans voyage
+1032,je souhaite me rendre a Limoges depuis Versailles
+5329,je veux aller a limoges en partant de verstilles
+3997,je voudrais aller de saind-tenis a valence en passant par Nicq
+5459,train en retard
+8087,trains saint-etienne troyes
+19,je souhaite me rendre a Saint-Malo depuis Bayonne en passant par Tours
+6535,je veux aller a Saint-Raphael en partant de srenoble en passant par Marseille
+1529,billet orleans montpellier
+231,aller de port boulet vers colmar
+8990,je souhaite me rendre a montpellier depuis saint-malo
+1021,y a t il un train de besancon a orleans
+4268,besoin d un trajet dicon troyes en passant par Grenokle
+8542,y a t il un train de Avignon a Paris
+7254,je veux aller a rouen en partant de angers
+7816,je veux un billet de montaigu pour strasbourg en passant par Perpignan
+9053,est ce quil y a des trains vers caen depuis lille
+3351,je voudrais aller de sanit etienne a saint raphael
+5181,comment aller a valence depuis la rochelle
+7114,je pars de rennes pour marseille
+5797,bonjour je voulais juste demander
+1650,trains besancon nancy
+9172,je veux un billet de marseille pour le havre
+7736,depuis Aix-en-Provence je veux aller a Saint-Denis en passant par Perpignan
+5410,bonjour je voulais juste demander
+1209,comment aller a strasbourg depuis bayonne
+1619,depart Aix en Provence destination Saint Malo
+5082,depart paris destination dijon
+2408,comment aller a lille depuis besancon en passant par Montpellier
+9862,je voudrais aller de saint-raphael a bayonne
+8726,y a t il un train de nantes a lyon en passant par Orleans
+4105,je pars de saint-nazaire pour brest
+1554,je souhaite me rendre a paris depuis versailles
+2290,billet Rennes Paris
+4618,je veux un billet de toulon pour caen
+2282,comment aller a cannes depuis saint-malo
+8269,y a t il un train de perpignan a saint-nazaire
+3579,depart montaigu destination nantes
+9559,besoin d un trajet angers perpignan
+5867,je veux aller a Nantes en partant de Rennes
+7809,besoin d un trajet Perpignan Rouen
+4970,comment aller a bayonne depuis albert
+6635,comment aller a reims depuis anecy
+7962,albert
+8377,je connais perpignan
+4243,trains Rouen Rennes
+664,je parle de reims mais sans voyage
+6891,photo de perpignan
+6312,est ce quil y a des trains vers Annecy depuis Le Havre

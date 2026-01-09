@@ -26,8 +26,15 @@ def load_places(path: Path) -> dict:
             name = line.strip()
             if not name or name.startswith("#"):
                 continue
-            variant = normalize(name)
-            variants[variant] = name
+            if "|" in name:
+                alias, canonical = [part.strip() for part in name.split("|", 1)]
+            else:
+                alias = name
+                canonical = name
+            if not alias or not canonical:
+                continue
+            variant = normalize(alias)
+            variants[variant] = canonical
     return variants
 
 

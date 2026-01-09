@@ -14,6 +14,8 @@
 - `datasets/` : jeu synthétique (all/train/dev/test, variantes avec fautes).
 - `scripts/run_benchmarks.py` : exécution des métriques sur train/dev/test.
 - `reports/metrics.json` : résultats des métriques par split.
+- `scripts/import_places.py` : import CSV de lieux (option d'alias gare).
+- `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
 - Entrée : `id,phrase`.

@@ -8,6 +8,7 @@
 - `project.pdf` : sujet et contraintes.
 - `tests/test_sample.py` : test de cohérence sur les exemples fournis.
 - `scripts/evaluate.py` : métriques simples sur le jeu d'exemple.
+- `scripts/generate_dataset.py` : génération de jeux synthétiques (entrées + sorties attendues).
 
 ## Format des données
 - Entrée : `id,phrase`.

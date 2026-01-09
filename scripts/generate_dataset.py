@@ -53,6 +53,11 @@ def build_valid_sentence(origin: str, destination: str, rng: random.Random) -> s
         "aller de {origin} vers {destination}",
         "je souhaite me rendre a {destination} depuis {origin}",
         "trains {origin} {destination}",
+        "je pars de {origin} pour {destination}",
+        "depart {origin} destination {destination}",
+        "besoin d un trajet {origin} {destination}",
+        "je veux un billet de {origin} pour {destination}",
+        "est ce quil y a des trains vers {destination} depuis {origin}",
     ]
     sentence = rng.choice(templates).format(origin=origin, destination=destination)
     return degrade(sentence, rng)
@@ -66,6 +71,9 @@ def build_invalid_sentence(place: str, rng: random.Random) -> str:
         "je parle de {place} mais sans voyage",
         "train en retard",
         "horaires pour demain",
+        "merci pour {place}",
+        "photo de {place}",
+        "je connais {place}",
     ]
     sentence = rng.choice(templates).format(place=place)
     return degrade(sentence, rng)
@@ -81,6 +89,7 @@ def main() -> int:
     parser.add_argument("--places", type=Path, default=Path("data/places.txt"))
     parser.add_argument("--count", type=int, default=200)
     parser.add_argument("--valid-ratio", type=float, default=0.8)
+    parser.add_argument("--intermediate-ratio", type=float, default=0.1)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--output", default="-")
     parser.add_argument("--expected", default=None)
@@ -99,6 +108,9 @@ def main() -> int:
         if rng.random() < args.valid_ratio and len(places) >= 2:
             origin, destination = pick_two_distinct(places, rng)
             sentence = build_valid_sentence(origin, destination, rng)
+            if rng.random() < args.intermediate_ratio and len(places) >= 3:
+                intermediate = rng.choice([p for p in places if p not in (origin, destination)])
+                sentence = f"{sentence} en passant par {intermediate}"
             input_lines.append(f"{sentence_id},{sentence}")
             expected_lines.append(f"{sentence_id},{origin},{destination}")
         else:

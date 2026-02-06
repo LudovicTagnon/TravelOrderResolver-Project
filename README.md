@@ -24,6 +24,7 @@
 - `scripts/pathfind.py` : plus court chemin entre deux gares à partir d'un triplet `id,origin,destination`.
 - `scripts/fetch_gtfs.py` : téléchargement/extraction du GTFS SNCF.
 - `data/graph.json` : graphe généré (liaisons entre stop areas).
+- `docs/report_outline.md` : plan de rapport (NLP + métriques).
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données

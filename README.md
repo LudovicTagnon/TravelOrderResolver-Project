@@ -29,6 +29,9 @@
 - `docs/report_outline.md` : plan de rapport (NLP + métriques).
 - `scripts/train_ml.py` : entraînement baseline ML (origine/destination).
 - `scripts/evaluate_ml.py` : évaluation baseline ML.
+- `docs/annotation_guide.md` : guide d'annotation manuel.
+- `docs/manual_dataset_template.md` : modèle de format pour dataset manuel.
+- `scripts/validate_manual_dataset.py` : contrôle rapide d'un dataset annoté.
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
@@ -55,3 +58,4 @@
 - `python3 scripts/validate_pathfinding.py --graph data/graph.json --stops-index data/stops_index.json --triplets datasets/path_triplets.csv --expected datasets/path_expected.csv`
 - `python3 scripts/train_ml.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models`
 - `python3 scripts/evaluate_ml.py --input datasets/dev_input.txt --expected datasets/dev_output.txt --model-dir models`
+- `python3 scripts/validate_manual_dataset.py --input datasets/manual/input.csv --output datasets/manual/output.csv`

@@ -27,6 +27,8 @@
 - `scripts/sample_triplets.py` : génération de triplets connectés pour test pathfinding.
 - `scripts/validate_pathfinding.py` : validation des trajets attendus.
 - `docs/report_outline.md` : plan de rapport (NLP + métriques).
+- `scripts/train_ml.py` : entraînement baseline ML (origine/destination).
+- `scripts/evaluate_ml.py` : évaluation baseline ML.
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
@@ -51,3 +53,5 @@
 - `python3 src/travel_order_resolver.py --places data/places.txt input.txt | python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json`
 - `python3 scripts/sample_triplets.py --graph data/graph.json --stops-areas data/stops_areas.csv --output-triplets datasets/path_triplets.csv --output-expected datasets/path_expected.csv`
 - `python3 scripts/validate_pathfinding.py --graph data/graph.json --stops-index data/stops_index.json --triplets datasets/path_triplets.csv --expected datasets/path_expected.csv`
+- `python3 scripts/train_ml.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models`
+- `python3 scripts/evaluate_ml.py --input datasets/dev_input.txt --expected datasets/dev_output.txt --model-dir models`

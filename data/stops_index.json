@@ -265,7 +265,7 @@
   },
   "kn ringen essingen": {
     "names": [
-      "Kn\u221a\u2202ringen-Essingen"
+      "Kn\u2202ringen-Essingen"
     ],
     "stop_ids": [
       "StopArea:OCE80194233"
@@ -345,7 +345,7 @@
   },
   "tr ves": {
     "names": [
-      "Tr\u221a\u00aeves"
+      "Tr\u00aeves"
     ],
     "stop_ids": [
       "StopArea:OCE80251819"
@@ -439,9 +439,9 @@
       "StopArea:OCE80659714"
     ]
   },
-  "neustadt weinstra ue s d": {
+  "neustadt weinstraue s d": {
     "names": [
-      "Neustadt (Weinstra\u221a\u00fce) S\u221a\u00bad"
+      "Neustadt (Weinstra\u00fce) S\u00bad"
     ],
     "stop_ids": [
       "StopArea:OCE80920793"
@@ -625,7 +625,7 @@
   },
   "gen ve cornavin": {
     "names": [
-      "Gen\u221a\u00aeve Cornavin"
+      "Gen\u00aeve Cornavin"
     ],
     "stop_ids": [
       "StopArea:OCE85010082"
@@ -647,9 +647,9 @@
       "StopArea:OCE85010124"
     ]
   },
-  "pont c ard": {
+  "pont ceard": {
     "names": [
-      "Pont-C\u221a\u00a9ard"
+      "Pont-Ceard"
     ],
     "stop_ids": [
       "StopArea:OCE85010132"
@@ -671,9 +671,9 @@
       "StopArea:OCE85010157"
     ]
   },
-  "chamb sy": {
+  "chambesy": {
     "names": [
-      "Chamb\u221a\u00a9sy"
+      "Chambesy"
     ],
     "stop_ids": [
       "StopArea:OCE85010207"
@@ -751,17 +751,17 @@
       "StopArea:OCE85015628"
     ]
   },
-  "les mar cottes": {
+  "les marecottes": {
     "names": [
-      "Les Mar\u221a\u00a9cottes"
+      "Les Marecottes"
     ],
     "stop_ids": [
       "StopArea:OCE85015636"
     ]
   },
-  "le tr tien": {
+  "le tretien": {
     "names": [
-      "Le Tr\u221a\u00a9tien"
+      "Le Tretien"
     ],
     "stop_ids": [
       "StopArea:OCE85015644"
@@ -785,7 +785,7 @@
   },
   "le ch telard fronti re": {
     "names": [
-      "Le Ch\u221a\u00a2telard Fronti\u221a\u00aere"
+      "Le Ch\u00a2telard Fronti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE85015685"
@@ -825,7 +825,7 @@
   },
   "le cr t du locle": {
     "names": [
-      "Le Cr\u221a\u2122t-du-Locle"
+      "Le Cr\u2122t-du-Locle"
     ],
     "stop_ids": [
       "StopArea:OCE85043158"
@@ -865,7 +865,7 @@
   },
   "gen ve champel": {
     "names": [
-      "Gen\u221a\u00aeve-Champel"
+      "Gen\u00aeve-Champel"
     ],
     "stop_ids": [
       "StopArea:OCE85162727"
@@ -873,7 +873,7 @@
   },
   "gen ve eaux vives": {
     "names": [
-      "Gen\u221a\u00aeve-Eaux-Vives"
+      "Gen\u00aeve-Eaux-Vives"
     ],
     "stop_ids": [
       "StopArea:OCE85162735"
@@ -881,15 +881,15 @@
   },
   "ch ne bourg": {
     "names": [
-      "Ch\u221a\u2122ne-Bourg"
+      "Ch\u2122ne-Bourg"
     ],
     "stop_ids": [
       "StopArea:OCE85162743"
     ]
   },
-  "gen ve s cheron": {
+  "gen ve secheron": {
     "names": [
-      "Gen\u221a\u00aeve-S\u221a\u00a9cheron"
+      "Gen\u00aeve-Secheron"
     ],
     "stop_ids": [
       "StopArea:OCE85162834"
@@ -911,9 +911,9 @@
       "StopArea:OCE85303032"
     ]
   },
-  "la m dettaz": {
+  "la medettaz": {
     "names": [
-      "La M\u221a\u00a9dettaz"
+      "La Medettaz"
     ],
     "stop_ids": [
       "StopArea:OCE85303347"
@@ -921,7 +921,7 @@
   },
   "ch ne bourg place favre": {
     "names": [
-      "Ch\u221a\u2122ne-Bourg Place Favre"
+      "Ch\u2122ne-Bourg Place Favre"
     ],
     "stop_ids": [
       "StopArea:OCE85927137"
@@ -929,7 +929,7 @@
   },
   "gen ve eaux vives gare": {
     "names": [
-      "Gen\u221a\u00aeve Eaux-Vives Gare"
+      "Gen\u00aeve Eaux-Vives Gare"
     ],
     "stop_ids": [
       "StopArea:OCE85928291"
@@ -937,7 +937,7 @@
   },
   "la douzill re": {
     "names": [
-      "La Douzill\u221a\u00aere"
+      "La Douzill\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87009696"
@@ -961,7 +961,7 @@
   },
   "chaumont h pital": {
     "names": [
-      "Chaumont H\u221a\u00a5pital"
+      "Chaumont H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87107417"
@@ -969,7 +969,7 @@
   },
   "bologne salle des f tes": {
     "names": [
-      "Bologne Salle des F\u221a\u2122tes"
+      "Bologne Salle des F\u2122tes"
     ],
     "stop_ids": [
       "StopArea:OCE87107425"
@@ -1025,7 +1025,7 @@
   },
   "marnaval aglise": {
     "names": [
-      "Marnaval \u221a\u00e2glise"
+      "Marnaval \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87107508"
@@ -1039,9 +1039,9 @@
       "StopArea:OCE87108829"
     ]
   },
-  "lille centre hospitalier r gional": {
+  "lille centre hospitalier regional": {
     "names": [
-      "Lille Centre Hospitalier R\u221a\u00a9gional"
+      "Lille Centre Hospitalier Regional"
     ],
     "stop_ids": [
       "StopArea:OCE87109306"
@@ -1049,7 +1049,7 @@
   },
   "ervy le ch tel halles": {
     "names": [
-      "Ervy-le-Ch\u221a\u00a2tel Halles"
+      "Ervy-le-Ch\u00a2tel Halles"
     ],
     "stop_ids": [
       "StopArea:OCE87110346"
@@ -1071,9 +1071,9 @@
       "StopArea:OCE87110379"
     ]
   },
-  "marne la vall e chessy": {
+  "marne la vallee chessy": {
     "names": [
-      "Marne-la-Vall\u221a\u00a9e Chessy"
+      "Marne-la-Vallee Chessy"
     ],
     "stop_ids": [
       "StopArea:OCE87111849"
@@ -1081,7 +1081,7 @@
   },
   "balsi ges bourg": {
     "names": [
-      "Balsi\u221a\u00aeges Bourg"
+      "Balsi\u00aeges Bourg"
     ],
     "stop_ids": [
       "StopArea:OCE87111864"
@@ -1095,9 +1095,9 @@
       "StopArea:OCE87112326"
     ]
   },
-  "w": {
+  "we": {
     "names": [
-      "W\u221a\u00a9"
+      "We"
     ],
     "stop_ids": [
       "StopArea:OCE87112334"
@@ -1143,9 +1143,9 @@
       "StopArea:OCE87116137"
     ]
   },
-  "la fert sous jouarre": {
+  "la ferte sous jouarre": {
     "names": [
-      "La Fert\u221a\u00a9-sous-Jouarre"
+      "La Ferte-sous-Jouarre"
     ],
     "stop_ids": [
       "StopArea:OCE87116517"
@@ -1153,7 +1153,7 @@
   },
   "ch teau thierry": {
     "names": [
-      "Ch\u221a\u00a2teau-Thierry"
+      "Ch\u00a2teau-Thierry"
     ],
     "stop_ids": [
       "StopArea:OCE87116582"
@@ -1161,7 +1161,7 @@
   },
   "auxon aglise": {
     "names": [
-      "Auxon \u221a\u00e2glise"
+      "Auxon \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87117119"
@@ -1247,9 +1247,9 @@
       "StopArea:OCE87117689"
     ]
   },
-  "b bing route nationale": {
+  "bebing route nationale": {
     "names": [
-      "B\u221a\u00a9bing Route Nationale"
+      "Bebing Route Nationale"
     ],
     "stop_ids": [
       "StopArea:OCE87117697"
@@ -1273,7 +1273,7 @@
   },
   "jeugny aglise": {
     "names": [
-      "Jeugny \u221a\u00e2glise"
+      "Jeugny \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87117929"
@@ -1289,7 +1289,7 @@
   },
   "saint jean de bonneval aglise": {
     "names": [
-      "Saint-Jean-de-Bonneval \u221a\u00e2glise"
+      "Saint-Jean-de-Bonneval \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87117952"
@@ -1321,7 +1321,7 @@
   },
   "brienon sur arman on mairie": {
     "names": [
-      "Brienon-sur-Arman\u221a\u00dfon Mairie"
+      "Brienon-sur-Arman\u00dfon Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87117994"
@@ -1335,9 +1335,9 @@
       "StopArea:OCE87118000"
     ]
   },
-  "saint ly eglise": {
+  "saint lye eglise": {
     "names": [
-      "Saint-Ly\u221a\u00a9 Eglise"
+      "Saint-Lye Eglise"
     ],
     "stop_ids": [
       "StopArea:OCE87118067"
@@ -1353,7 +1353,7 @@
   },
   "savi res impasse st phal": {
     "names": [
-      "Savi\u221a\u00aeres  Impasse St-Phal"
+      "Savi\u00aeres  Impasse St-Phal"
     ],
     "stop_ids": [
       "StopArea:OCE87118083"
@@ -1377,7 +1377,7 @@
   },
   "ch tres salle polyvalente": {
     "names": [
-      "Ch\u221a\u00a2tres Salle Polyvalente"
+      "Ch\u00a2tres Salle Polyvalente"
     ],
     "stop_ids": [
       "StopArea:OCE87118133"
@@ -1385,7 +1385,7 @@
   },
   "maizi res la grande paroisse eglise": {
     "names": [
-      "Maizi\u221a\u00aeres-la-Grande-Paroisse Eglise"
+      "Maizi\u00aeres-la-Grande-Paroisse Eglise"
     ],
     "stop_ids": [
       "StopArea:OCE87118141"
@@ -1433,7 +1433,7 @@
   },
   "ervy le ch tel gare": {
     "names": [
-      "Ervy-le-Ch\u221a\u00a2tel Gare"
+      "Ervy-le-Ch\u00a2tel Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87118414"
@@ -1457,10 +1457,12 @@
   },
   "merens les vals": {
     "names": [
-      "Merens-Les-Vals"
+      "Merens-Les-Vals",
+      "Merens-les-Vals"
     ],
     "stop_ids": [
-      "StopArea:OCE87130849"
+      "StopArea:OCE87130849",
+      "StopArea:OCE87611525"
     ]
   },
   "le vernet": {
@@ -1479,9 +1481,9 @@
       "StopArea:OCE87130898"
     ]
   },
-  "brion montr al la cluse gare": {
+  "brion montreal la cluse gare": {
     "names": [
-      "Brion - Montr\u221a\u00a9al-la-Cluse Gare"
+      "Brion - Montreal-la-Cluse Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87131961"
@@ -1497,7 +1499,7 @@
   },
   "tarascon sur ari ge espace francois mitterrand": {
     "names": [
-      "Tarascon-sur-Ari\u221a\u00aege Espace Francois Mitterrand"
+      "Tarascon-sur-Ari\u00aege Espace Francois Mitterrand"
     ],
     "stop_ids": [
       "StopArea:OCE87137158"
@@ -1521,7 +1523,7 @@
   },
   "onet le ch teau la roquette": {
     "names": [
-      "Onet-le-Ch\u221a\u00a2teau la Roquette"
+      "Onet-le-Ch\u00a2teau la Roquette"
     ],
     "stop_ids": [
       "StopArea:OCE87138362"
@@ -1554,7 +1556,7 @@
   },
   "troyes gare routi re": {
     "names": [
-      "Troyes Gare Routi\u221a\u00aere"
+      "Troyes Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87139501"
@@ -1584,9 +1586,9 @@
       "StopArea:OCE87139550"
     ]
   },
-  "m ry sur seine h tel de ville": {
+  "mery sur seine h tel de ville": {
     "names": [
-      "M\u221a\u00a9ry-sur-Seine H\u221a\u00a5tel de Ville"
+      "Mery-sur-Seine H\u00a5tel de Ville"
     ],
     "stop_ids": [
       "StopArea:OCE87139568"
@@ -1594,7 +1596,7 @@
   },
   "maizi res la grande paroisse tabac": {
     "names": [
-      "Maizi\u221a\u00aeres-la-Grande-Paroisse Tabac"
+      "Maizi\u00aeres-la-Grande-Paroisse Tabac"
     ],
     "stop_ids": [
       "StopArea:OCE87139584"
@@ -1712,9 +1714,9 @@
       "StopArea:OCE87141093"
     ]
   },
-  "varang ville saint nicolas": {
+  "varangeville saint nicolas": {
     "names": [
-      "Varang\u221a\u00a9ville - Saint-Nicolas"
+      "Varangeville - Saint-Nicolas"
     ],
     "stop_ids": [
       "StopArea:OCE87141101"
@@ -1730,7 +1732,7 @@
   },
   "rosi res aux salines": {
     "names": [
-      "Rosi\u221a\u00aeres-aux-Salines"
+      "Rosi\u00aeres-aux-Salines"
     ],
     "stop_ids": [
       "StopArea:OCE87141127"
@@ -1738,7 +1740,7 @@
   },
   "blainville damelevi res": {
     "names": [
-      "Blainville - Damelevi\u221a\u00aeres"
+      "Blainville - Damelevi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87141135"
@@ -1752,9 +1754,9 @@
       "StopArea:OCE87141143"
     ]
   },
-  "lun ville": {
+  "luneville": {
     "names": [
-      "Lun\u221a\u00a9ville"
+      "Luneville"
     ],
     "stop_ids": [
       "StopArea:OCE87141150"
@@ -1786,15 +1788,15 @@
   },
   "neufch teau": {
     "names": [
-      "Neufch\u221a\u00a2teau"
+      "Neufch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87141291"
     ]
   },
-  "saint cl ment laronxe": {
+  "saint clement laronxe": {
     "names": [
-      "Saint-Cl\u221a\u00a9ment - Laronxe"
+      "Saint-Clement - Laronxe"
     ],
     "stop_ids": [
       "StopArea:OCE87141374"
@@ -1802,15 +1804,15 @@
   },
   "chenevi res": {
     "names": [
-      "Chenevi\u221a\u00aeres"
+      "Chenevi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87141382"
     ]
   },
-  "m nil flin": {
+  "menil flin": {
     "names": [
-      "M\u221a\u00a9nil - Flin"
+      "Menil - Flin"
     ],
     "stop_ids": [
       "StopArea:OCE87141390"
@@ -1888,9 +1890,9 @@
       "StopArea:OCE87141523"
     ]
   },
-  "bl nod l s toul les naux": {
+  "blenod l s toul les naux": {
     "names": [
-      "Bl\u221a\u00a9nod-l\u221a\u00aes-Toul Les Naux"
+      "Blenod-l\u00aes-Toul Les Naux"
     ],
     "stop_ids": [
       "StopArea:OCE87141721"
@@ -1906,7 +1908,7 @@
   },
   "barisey la c te gare": {
     "names": [
-      "Barisey-la-C\u221a\u00a5te Gare"
+      "Barisey-la-C\u00a5te Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87141754"
@@ -1946,7 +1948,7 @@
   },
   "pont mousson": {
     "names": [
-      "Pont-\u221a\u2020-Mousson"
+      "Pont-\u2020-Mousson"
     ],
     "stop_ids": [
       "StopArea:OCE87141820"
@@ -2026,23 +2028,23 @@
   },
   "apinal": {
     "names": [
-      "\u221a\u00e2pinal"
+      "\u00e2pinal"
     ],
     "stop_ids": [
       "StopArea:OCE87144006"
     ]
   },
-  "saint di des vosges": {
+  "saint die des vosges": {
     "names": [
-      "Saint-Di\u221a\u00a9-des-Vosges"
+      "Saint-Die-des-Vosges"
     ],
     "stop_ids": [
       "StopArea:OCE87144014"
     ]
   },
-  "docelles chenim nil gare": {
+  "docelles chenimenil gare": {
     "names": [
-      "Docelles-Chenim\u221a\u00a9nil Gare"
+      "Docelles-Chenimenil Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87144030"
@@ -2066,7 +2068,7 @@
   },
   "ch tel nomexy": {
     "names": [
-      "Ch\u221a\u00a2tel - Nomexy"
+      "Ch\u00a2tel - Nomexy"
     ],
     "stop_ids": [
       "StopArea:OCE87144071"
@@ -2106,7 +2108,7 @@
   },
   "bruy res": {
     "names": [
-      "Bruy\u221a\u00aeres"
+      "Bruy\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87144154"
@@ -2128,9 +2130,9 @@
       "StopArea:OCE87144279"
     ]
   },
-  "contrex ville": {
+  "contrexeville": {
     "names": [
-      "Contrex\u221a\u00a9ville"
+      "Contrexeville"
     ],
     "stop_ids": [
       "StopArea:OCE87144287"
@@ -2154,7 +2156,7 @@
   },
   "rozi res sur mouzon": {
     "names": [
-      "Rozi\u221a\u00aeres-sur-Mouzon"
+      "Rozi\u00aeres-sur-Mouzon"
     ],
     "stop_ids": [
       "StopArea:OCE87144311"
@@ -2162,7 +2164,7 @@
   },
   "provench res sur fave": {
     "names": [
-      "Provench\u221a\u00aeres-sur-Fave"
+      "Provench\u00aeres-sur-Fave"
     ],
     "stop_ids": [
       "StopArea:OCE87144345"
@@ -2186,7 +2188,7 @@
   },
   "aloyes": {
     "names": [
-      "\u221a\u00e2loyes"
+      "\u00e2loyes"
     ],
     "stop_ids": [
       "StopArea:OCE87144436"
@@ -2202,7 +2204,7 @@
   },
   "raon l atape": {
     "names": [
-      "Raon-l'\u221a\u00e2tape"
+      "Raon-l'\u00e2tape"
     ],
     "stop_ids": [
       "StopArea:OCE87144626"
@@ -2210,7 +2212,7 @@
   },
   "atival clairefontaine": {
     "names": [
-      "\u221a\u00e2tival-Clairefontaine"
+      "\u00e2tival-Clairefontaine"
     ],
     "stop_ids": [
       "StopArea:OCE87144642"
@@ -2274,7 +2276,7 @@
   },
   "montastruc la conseill re rn 88": {
     "names": [
-      "Montastruc-la-Conseill\u221a\u00aere RN 88"
+      "Montastruc-la-Conseill\u00aere RN 88"
     ],
     "stop_ids": [
       "StopArea:OCE87165852"
@@ -2346,7 +2348,7 @@
   },
   "apernay": {
     "names": [
-      "\u221a\u00e2pernay"
+      "\u00e2pernay"
     ],
     "stop_ids": [
       "StopArea:OCE87171553"
@@ -2458,7 +2460,7 @@
   },
   "coucy l s eppes": {
     "names": [
-      "Coucy-l\u221a\u00aes-Eppes"
+      "Coucy-l\u00aes-Eppes"
     ],
     "stop_ids": [
       "StopArea:OCE87171769"
@@ -2472,9 +2474,9 @@
       "StopArea:OCE87171926"
     ]
   },
-  "charleville m zi res": {
+  "charleville mezi res": {
     "names": [
-      "Charleville-M\u221a\u00a9zi\u221a\u00aeres"
+      "Charleville-Mezi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87172007"
@@ -2504,9 +2506,9 @@
       "StopArea:OCE87172049"
     ]
   },
-  "montherm": {
+  "montherme": {
     "names": [
-      "Montherm\u221a\u00a9"
+      "Montherme"
     ],
     "stop_ids": [
       "StopArea:OCE87172056"
@@ -2736,9 +2738,9 @@
       "StopArea:OCE87172858"
     ]
   },
-  "f pin": {
+  "fepin": {
     "names": [
-      "F\u221a\u00a9pin"
+      "Fepin"
     ],
     "stop_ids": [
       "StopArea:OCE87172874"
@@ -2752,9 +2754,9 @@
       "StopArea:OCE87173302"
     ]
   },
-  "la fert sur chiers": {
+  "la ferte sur chiers": {
     "names": [
-      "La Fert\u221a\u00a9-sur-Chiers"
+      "La Ferte-sur-Chiers"
     ],
     "stop_ids": [
       "StopArea:OCE87173401"
@@ -2762,7 +2764,7 @@
   },
   "ch lons en champagne": {
     "names": [
-      "Ch\u221a\u00a2lons-en-Champagne"
+      "Ch\u00a2lons-en-Champagne"
     ],
     "stop_ids": [
       "StopArea:OCE87174003"
@@ -2770,7 +2772,7 @@
   },
   "vitry le fran ois": {
     "names": [
-      "Vitry-le-Fran\u221a\u00dfois"
+      "Vitry-le-Fran\u00dfois"
     ],
     "stop_ids": [
       "StopArea:OCE87174276"
@@ -2810,7 +2812,7 @@
   },
   "nan ois tronville": {
     "names": [
-      "Nan\u221a\u00dfois - Tronville"
+      "Nan\u00dfois - Tronville"
     ],
     "stop_ids": [
       "StopArea:OCE87175067"
@@ -2840,9 +2842,9 @@
       "StopArea:OCE87175117"
     ]
   },
-  "l rouville": {
+  "lerouville": {
     "names": [
-      "L\u221a\u00a9rouville"
+      "Lerouville"
     ],
     "stop_ids": [
       "StopArea:OCE87175240"
@@ -2866,7 +2868,7 @@
   },
   "atain": {
     "names": [
-      "\u221a\u00e2tain"
+      "\u00e2tain"
     ],
     "stop_ids": [
       "StopArea:OCE87175794"
@@ -2898,15 +2900,15 @@
   },
   "ternay barbi res": {
     "names": [
-      "Ternay Barbi\u221a\u00aeres"
+      "Ternay Barbi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87177576"
     ]
   },
-  "saint louis la chauss e": {
+  "saint louis la chaussee": {
     "names": [
-      "Saint-Louis la Chauss\u221a\u00a9e"
+      "Saint-Louis la Chaussee"
     ],
     "stop_ids": [
       "StopArea:OCE87181016"
@@ -2952,9 +2954,9 @@
       "StopArea:OCE87181289"
     ]
   },
-  "saint gilles lyc e haut rhin": {
+  "saint gilles lycee haut rhin": {
     "names": [
-      "Saint-Gilles Lyc\u221a\u00a9e Haut-Rhin"
+      "Saint-Gilles Lycee Haut-Rhin"
     ],
     "stop_ids": [
       "StopArea:OCE87181552"
@@ -3058,7 +3060,7 @@
   },
   "herrlisheim pr s colmar": {
     "names": [
-      "Herrlisheim-pr\u221a\u00aes-Colmar"
+      "Herrlisheim-pr\u00aes-Colmar"
     ],
     "stop_ids": [
       "StopArea:OCE87182329"
@@ -3138,7 +3140,7 @@
   },
   "luttenbach pr s munster": {
     "names": [
-      "Luttenbach-pr\u221a\u00aes-Munster"
+      "Luttenbach-pr\u00aes-Munster"
     ],
     "stop_ids": [
       "StopArea:OCE87182543"
@@ -3162,7 +3164,7 @@
   },
   "bitschwiller l s thann": {
     "names": [
-      "Bitschwiller-l\u221a\u00aes-Thann"
+      "Bitschwiller-l\u00aes-Thann"
     ],
     "stop_ids": [
       "StopArea:OCE87182576"
@@ -3314,7 +3316,7 @@
   },
   "bas avette": {
     "names": [
-      "Bas \u221a\u00e2vette"
+      "Bas \u00e2vette"
     ],
     "stop_ids": [
       "StopArea:OCE87184200"
@@ -3322,7 +3324,7 @@
   },
   "trois ch nes": {
     "names": [
-      "Trois Ch\u221a\u2122nes"
+      "Trois Ch\u2122nes"
     ],
     "stop_ids": [
       "StopArea:OCE87184242"
@@ -3344,9 +3346,9 @@
       "StopArea:OCE87184275"
     ]
   },
-  "m roux": {
+  "meroux": {
     "names": [
-      "M\u221a\u00a9roux"
+      "Meroux"
     ],
     "stop_ids": [
       "StopArea:OCE87184408"
@@ -3376,17 +3378,17 @@
       "StopArea:OCE87184440"
     ]
   },
-  "h ricourt": {
+  "hericourt": {
     "names": [
-      "H\u221a\u00a9ricourt"
+      "Hericourt"
     ],
     "stop_ids": [
       "StopArea:OCE87184507"
     ]
   },
-  "montb liard": {
+  "montbeliard": {
     "names": [
-      "Montb\u221a\u00a9liard"
+      "Montbeliard"
     ],
     "stop_ids": [
       "StopArea:OCE87184523"
@@ -3482,7 +3484,7 @@
   },
   "b le saint jean": {
     "names": [
-      "B\u221a\u00a2le Saint-Jean"
+      "B\u00a2le Saint-Jean"
     ],
     "stop_ids": [
       "StopArea:OCE87187930"
@@ -3514,7 +3516,7 @@
   },
   "maizi res l s metz": {
     "names": [
-      "Maizi\u221a\u00aeres-l\u221a\u00aes-Metz"
+      "Maizi\u00aeres-l\u00aes-Metz"
     ],
     "stop_ids": [
       "StopArea:OCE87191106"
@@ -3568,9 +3570,9 @@
       "StopArea:OCE87191304"
     ]
   },
-  "k dange gare": {
+  "kedange gare": {
     "names": [
-      "K\u221a\u00a9dange Gare"
+      "Kedange Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87191346"
@@ -3586,7 +3588,7 @@
   },
   "freistroff passage a niveau": {
     "names": [
-      "Freistroff Passage \u221a\u00c4 Niveau"
+      "Freistroff Passage \u00c4 Niveau"
     ],
     "stop_ids": [
       "StopArea:OCE87191395"
@@ -3648,17 +3650,17 @@
       "StopArea:OCE87191643"
     ]
   },
-  "aubou": {
+  "auboue": {
     "names": [
-      "Aubou\u221a\u00a9"
+      "Auboue"
     ],
     "stop_ids": [
       "StopArea:OCE87191684"
     ]
   },
-  "hom court": {
+  "homecourt": {
     "names": [
-      "Hom\u221a\u00a9court"
+      "Homecourt"
     ],
     "stop_ids": [
       "StopArea:OCE87191692"
@@ -3688,9 +3690,9 @@
       "StopArea:OCE87191734"
     ]
   },
-  "gandrange amn ville": {
+  "gandrange amneville": {
     "names": [
-      "Gandrange - Amn\u221a\u00a9ville"
+      "Gandrange - Amneville"
     ],
     "stop_ids": [
       "StopArea:OCE87191742"
@@ -3776,9 +3778,9 @@
       "StopArea:OCE87192187"
     ]
   },
-  "marimont l s b nestroff eglise": {
+  "marimont l s benestroff eglise": {
     "names": [
-      "Marimont-l\u221a\u00aes-B\u221a\u00a9nestroff Eglise"
+      "Marimont-l\u00aes-Benestroff Eglise"
     ],
     "stop_ids": [
       "StopArea:OCE87192195"
@@ -3808,9 +3810,9 @@
       "StopArea:OCE87192229"
     ]
   },
-  "r milly": {
+  "remilly": {
     "names": [
-      "R\u221a\u00a9milly"
+      "Remilly"
     ],
     "stop_ids": [
       "StopArea:OCE87192237"
@@ -3848,9 +3850,9 @@
       "StopArea:OCE87192286"
     ]
   },
-  "b nestroff": {
+  "benestroff": {
     "names": [
-      "B\u221a\u00a9nestroff"
+      "Benestroff"
     ],
     "stop_ids": [
       "StopArea:OCE87192302"
@@ -3872,9 +3874,9 @@
       "StopArea:OCE87192419"
     ]
   },
-  "nov ant sur moselle": {
+  "noveant sur moselle": {
     "names": [
-      "Nov\u221a\u00a9ant-sur-Moselle"
+      "Noveant-sur-Moselle"
     ],
     "stop_ids": [
       "StopArea:OCE87192427"
@@ -3898,7 +3900,7 @@
   },
   "vandi res": {
     "names": [
-      "Vandi\u221a\u00aeres"
+      "Vandi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87192476"
@@ -3960,9 +3962,9 @@
       "StopArea:OCE87193110"
     ]
   },
-  "vahl l s b nestroff mairie": {
+  "vahl l s benestroff mairie": {
     "names": [
-      "Vahl-l\u221a\u00aes-B\u221a\u00a9nestroff Mairie"
+      "Vahl-l\u00aes-Benestroff Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87193128"
@@ -4016,9 +4018,9 @@
       "StopArea:OCE87193219"
     ]
   },
-  "b ning l s saint avold": {
+  "bening l s saint avold": {
     "names": [
-      "B\u221a\u00a9ning-l\u221a\u00aes-Saint-Avold"
+      "Bening-l\u00aes-Saint-Avold"
     ],
     "stop_ids": [
       "StopArea:OCE87193250"
@@ -4064,17 +4066,17 @@
       "StopArea:OCE87193383"
     ]
   },
-  "theding all e de la for t": {
+  "theding allee de la for t": {
     "names": [
-      "Theding All\u221a\u00a9e de la For\u221a\u2122t"
+      "Theding Allee de la For\u2122t"
     ],
     "stop_ids": [
       "StopArea:OCE87193508"
     ]
   },
-  "far bersviller": {
+  "farebersviller": {
     "names": [
-      "Far\u221a\u00a9bersviller"
+      "Farebersviller"
     ],
     "stop_ids": [
       "StopArea:OCE87193516"
@@ -4098,7 +4100,7 @@
   },
   "hundling h tel de ville": {
     "names": [
-      "Hundling H\u221a\u00a5tel de Ville"
+      "Hundling H\u00a5tel de Ville"
     ],
     "stop_ids": [
       "StopArea:OCE87193540",
@@ -4123,7 +4125,7 @@
   },
   "welferding cimeti re": {
     "names": [
-      "Welferding Cimeti\u221a\u00aere"
+      "Welferding Cimeti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87193607"
@@ -4147,7 +4149,7 @@
   },
   "woelfling l s sarreguemines": {
     "names": [
-      "Woelfling-l\u221a\u00aes-Sarreguemines"
+      "Woelfling-l\u00aes-Sarreguemines"
     ],
     "stop_ids": [
       "StopArea:OCE87193771"
@@ -4155,15 +4157,15 @@
   },
   "rohrbach l s bitche": {
     "names": [
-      "Rohrbach-l\u221a\u00aes-Bitche"
+      "Rohrbach-l\u00aes-Bitche"
     ],
     "stop_ids": [
       "StopArea:OCE87193789"
     ]
   },
-  "petit r derching": {
+  "petit rederching": {
     "names": [
-      "Petit-R\u221a\u00a9derching"
+      "Petit-Rederching"
     ],
     "stop_ids": [
       "StopArea:OCE87193797"
@@ -4201,9 +4203,9 @@
       "StopArea:OCE87194019"
     ]
   },
-  "montm dy": {
+  "montmedy": {
     "names": [
-      "Montm\u221a\u00a9dy"
+      "Montmedy"
     ],
     "stop_ids": [
       "StopArea:OCE87194209"
@@ -4225,9 +4227,9 @@
       "StopArea:OCE87194357"
     ]
   },
-  "r hon la chapelle": {
+  "rehon la chapelle": {
     "names": [
-      "R\u221a\u00a9hon La Chapelle"
+      "Rehon La Chapelle"
     ],
     "stop_ids": [
       "StopArea:OCE87194449"
@@ -4257,9 +4259,9 @@
       "StopArea:OCE87194498"
     ]
   },
-  "gros r derching": {
+  "gros rederching": {
     "names": [
-      "Gros-R\u221a\u00a9derching"
+      "Gros-Rederching"
     ],
     "stop_ids": [
       "StopArea:OCE87199604"
@@ -4627,7 +4629,7 @@
   },
   "soultz sous for ts": {
     "names": [
-      "Soultz-sous-For\u221a\u2122ts"
+      "Soultz-sous-For\u2122ts"
     ],
     "stop_ids": [
       "StopArea:OCE87213421"
@@ -4737,9 +4739,9 @@
       "StopArea:OCE87213884"
     ]
   },
-  "s lestat": {
+  "selestat": {
     "names": [
-      "S\u221a\u00a9lestat"
+      "Selestat"
     ],
     "stop_ids": [
       "StopArea:OCE87214056"
@@ -4881,9 +4883,9 @@
       "StopArea:OCE87214502"
     ]
   },
-  "entzheim a roport": {
+  "entzheim aeroport": {
     "names": [
-      "Entzheim A\u221a\u00a9roport"
+      "Entzheim Aeroport"
     ],
     "stop_ids": [
       "StopArea:OCE87214528"
@@ -5033,17 +5035,17 @@
       "StopArea:OCE87214783"
     ]
   },
-  "sainte marie aux mines cit scolaire": {
+  "sainte marie aux mines cite scolaire": {
     "names": [
-      "Sainte-Marie-aux-Mines Cit\u221a\u00a9 Scolaire"
+      "Sainte-Marie-aux-Mines Cite Scolaire"
     ],
     "stop_ids": [
       "StopArea:OCE87214858"
     ]
   },
-  "le m nilot": {
+  "le menilot": {
     "names": [
-      "Le M\u221a\u00a9nilot"
+      "Le Menilot"
     ],
     "stop_ids": [
       "StopArea:OCE87214940"
@@ -5073,9 +5075,9 @@
       "StopArea:OCE87215012"
     ]
   },
-  "r ding": {
+  "reding": {
     "names": [
-      "R\u221a\u00a9ding"
+      "Reding"
     ],
     "stop_ids": [
       "StopArea:OCE87215079"
@@ -5097,9 +5099,9 @@
       "StopArea:OCE87215111"
     ]
   },
-  "r chicourt le ch teau": {
+  "rechicourt le ch teau": {
     "names": [
-      "R\u221a\u00a9chicourt-le-Ch\u221a\u00a2teau"
+      "Rechicourt-le-Ch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87215129"
@@ -5139,7 +5141,7 @@
   },
   "domnom l s dieuze mairie": {
     "names": [
-      "Domnom-l\u221a\u00aes-Dieuze Mairie"
+      "Domnom-l\u00aes-Dieuze Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87215285"
@@ -5219,7 +5221,7 @@
   },
   "bar sur aube h pital": {
     "names": [
-      "Bar-sur-Aube H\u221a\u00a5pital"
+      "Bar-sur-Aube H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87215608"
@@ -5347,7 +5349,7 @@
   },
   "romilly sur seine h pital": {
     "names": [
-      "Romilly-sur-Seine H\u221a\u00a5pital"
+      "Romilly-sur-Seine H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87216127"
@@ -5369,17 +5371,17 @@
       "StopArea:OCE87216143"
     ]
   },
-  "nogent sur seine avenue du g naral de gaulle": {
+  "nogent sur seine avenue du genaral de gaulle": {
     "names": [
-      "Nogent-sur-Seine Avenue du G\u221a\u00a9naral de Gaulle"
+      "Nogent-sur-Seine Avenue du Genaral de Gaulle"
     ],
     "stop_ids": [
       "StopArea:OCE87216150"
     ]
   },
-  "nogent sur seine th atre": {
+  "nogent sur seine theatre": {
     "names": [
-      "Nogent-sur-Seine Th\u221a\u00a9atre"
+      "Nogent-sur-Seine Theatre"
     ],
     "stop_ids": [
       "StopArea:OCE87216168"
@@ -5401,17 +5403,17 @@
       "StopArea:OCE87223263"
     ]
   },
-  "serri res mont e": {
+  "serri res montee": {
     "names": [
-      "Serri\u221a\u00aeres Mont\u221a\u00a9e"
+      "Serri\u00aeres Montee"
     ],
     "stop_ids": [
       "StopArea:OCE87233262"
     ]
   },
-  "dav zieux aglise": {
+  "davezieux aglise": {
     "names": [
-      "Dav\u221a\u00a9zieux \u221a\u00e2glise"
+      "Davezieux \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87233395"
@@ -5425,9 +5427,9 @@
       "StopArea:OCE87271007"
     ]
   },
-  "a roport charles de gaulle 2 tgv": {
+  "aeroport charles de gaulle 2 tgv": {
     "names": [
-      "A\u221a\u00a9roport Charles de Gaulle 2 TGV"
+      "Aeroport Charles de Gaulle 2 TGV"
     ],
     "stop_ids": [
       "StopArea:OCE87271494"
@@ -5457,9 +5459,9 @@
       "StopArea:OCE87271577"
     ]
   },
-  "cr py en valois": {
+  "crepy en valois": {
     "names": [
-      "Cr\u221a\u00a9py-en-Valois"
+      "Crepy-en-Valois"
     ],
     "stop_ids": [
       "StopArea:OCE87271593"
@@ -5475,7 +5477,7 @@
   },
   "villers cotter ts": {
     "names": [
-      "Villers-Cotter\u221a\u2122ts"
+      "Villers-Cotter\u2122ts"
     ],
     "stop_ids": [
       "StopArea:OCE87271734"
@@ -5603,7 +5605,7 @@
   },
   "chevri res": {
     "names": [
-      "Chevri\u221a\u00aeres"
+      "Chevri\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87276311"
@@ -5651,7 +5653,7 @@
   },
   "compi gne": {
     "names": [
-      "Compi\u221a\u00aegne"
+      "Compi\u00aegne"
     ],
     "stop_ids": [
       "StopArea:OCE87276691"
@@ -5659,7 +5661,7 @@
   },
   "bornel belle aglise": {
     "names": [
-      "Bornel - Belle-\u221a\u00e2glise"
+      "Bornel - Belle-\u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87276717"
@@ -5689,9 +5691,9 @@
       "StopArea:OCE87276741"
     ]
   },
-  "rib court": {
+  "ribecourt": {
     "names": [
-      "Rib\u221a\u00a9court"
+      "Ribecourt"
     ],
     "stop_ids": [
       "StopArea:OCE87276766"
@@ -5713,17 +5715,17 @@
       "StopArea:OCE87276782"
     ]
   },
-  "m rignac arlac": {
+  "merignac arlac": {
     "names": [
-      "M\u221a\u00a9rignac Arlac"
+      "Merignac Arlac"
     ],
     "stop_ids": [
       "StopArea:OCE87278259"
     ]
   },
-  "vou court": {
+  "vouecourt": {
     "names": [
-      "Vou\u221a\u00a9court"
+      "Vouecourt"
     ],
     "stop_ids": [
       "StopArea:OCE87279869"
@@ -5739,7 +5741,7 @@
   },
   "bayel aglise": {
     "names": [
-      "Bayel \u221a\u00e2glise"
+      "Bayel \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87279901"
@@ -5747,7 +5749,7 @@
   },
   "jessains aglise": {
     "names": [
-      "Jessains \u221a\u00e2glise"
+      "Jessains \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87279919"
@@ -5763,15 +5765,15 @@
   },
   "la villeneuve au ch ne rn19": {
     "names": [
-      "La Villeneuve-au-Ch\u221a\u2122ne RN19"
+      "La Villeneuve-au-Ch\u2122ne RN19"
     ],
     "stop_ids": [
       "StopArea:OCE87279935"
     ]
   },
-  "monti ramey aglise": {
+  "montieramey aglise": {
     "names": [
-      "Monti\u221a\u00a9ramey \u221a\u00e2glise"
+      "Montieramey \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87279943"
@@ -5793,9 +5795,9 @@
       "StopArea:OCE87279968"
     ]
   },
-  "rouilly saint loup la gu rade": {
+  "rouilly saint loup la guerade": {
     "names": [
-      "Rouilly-Saint-Loup la Gu\u221a\u00a9rade"
+      "Rouilly-Saint-Loup la Guerade"
     ],
     "stop_ids": [
       "StopArea:OCE87280016"
@@ -5817,9 +5819,9 @@
       "StopArea:OCE87281055"
     ]
   },
-  "calais fr thun": {
+  "calais frethun": {
     "names": [
-      "Calais - Fr\u221a\u00a9thun"
+      "Calais - Frethun"
     ],
     "stop_ids": [
       "StopArea:OCE87281071"
@@ -5843,7 +5845,7 @@
   },
   "arn ke": {
     "names": [
-      "Arn\u221a\u00aeke"
+      "Arn\u00aeke"
     ],
     "stop_ids": [
       "StopArea:OCE87281121"
@@ -5907,7 +5909,7 @@
   },
   "watten aperlecques": {
     "names": [
-      "Watten - \u221a\u00e2perlecques"
+      "Watten - \u00e2perlecques"
     ],
     "stop_ids": [
       "StopArea:OCE87281436"
@@ -5945,9 +5947,9 @@
       "StopArea:OCE87282335"
     ]
   },
-  "lyon jean mac": {
+  "lyon jean mace": {
     "names": [
-      "Lyon Jean Mac\u221a\u00a9"
+      "Lyon Jean Mace"
     ],
     "stop_ids": [
       "StopArea:OCE87282624"
@@ -5987,7 +5989,7 @@
   },
   "armenti res": {
     "names": [
-      "Armenti\u221a\u00aeres"
+      "Armenti\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87286146"
@@ -6017,9 +6019,9 @@
       "StopArea:OCE87286187"
     ]
   },
-  "saint andr": {
+  "saint andre": {
     "names": [
-      "Saint-Andr\u221a\u00a9"
+      "Saint-Andre"
     ],
     "stop_ids": [
       "StopArea:OCE87286195"
@@ -6033,9 +6035,9 @@
       "StopArea:OCE87286203"
     ]
   },
-  "p renchies": {
+  "perenchies": {
     "names": [
-      "P\u221a\u00a9renchies"
+      "Perenchies"
     ],
     "stop_ids": [
       "StopArea:OCE87286278"
@@ -6473,17 +6475,17 @@
       "StopArea:OCE87296129"
     ]
   },
-  "origny en thi rache": {
+  "origny en thierache": {
     "names": [
-      "Origny-en-Thi\u221a\u00a9rache"
+      "Origny-en-Thierache"
     ],
     "stop_ids": [
       "StopArea:OCE87296145"
     ]
   },
-  "cr py couvron": {
+  "crepy couvron": {
     "names": [
-      "Cr\u221a\u00a9py - Couvron"
+      "Crepy - Couvron"
     ],
     "stop_ids": [
       "StopArea:OCE87296152"
@@ -6579,7 +6581,7 @@
   },
   "la f re": {
     "names": [
-      "La F\u221a\u00aere"
+      "La F\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87296632"
@@ -6651,7 +6653,7 @@
   },
   "les bons p res": {
     "names": [
-      "Les Bons P\u221a\u00aeres"
+      "Les Bons P\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87297515"
@@ -6673,25 +6675,25 @@
       "StopArea:OCE87297531"
     ]
   },
-  "belfort montb liard tgv": {
+  "belfort montbeliard tgv": {
     "names": [
-      "Belfort - Montb\u221a\u00a9liard TGV"
+      "Belfort - Montbeliard TGV"
     ],
     "stop_ids": [
       "StopArea:OCE87300822"
     ]
   },
-  "besan on franche comt tgv": {
+  "besan on franche comte tgv": {
     "names": [
-      "Besan\u221a\u00dfon Franche-Comt\u221a\u00a9 TGV"
+      "Besan\u00dfon Franche-Comte TGV"
     ],
     "stop_ids": [
       "StopArea:OCE87300863"
     ]
   },
-  "ingersheim cit scolaire": {
+  "ingersheim cite scolaire": {
     "names": [
-      "Ingersheim Cit\u221a\u00a9 Scolaire"
+      "Ingersheim Cite Scolaire"
     ],
     "stop_ids": [
       "StopArea:OCE87303875"
@@ -6721,9 +6723,9 @@
       "StopArea:OCE87313056"
     ]
   },
-  "m ricourt ribemont": {
+  "mericourt ribemont": {
     "names": [
-      "M\u221a\u00a9ricourt - Ribemont"
+      "Mericourt - Ribemont"
     ],
     "stop_ids": [
       "StopArea:OCE87313064"
@@ -6769,9 +6771,9 @@
       "StopArea:OCE87313114"
     ]
   },
-  "longpr les corps saints": {
+  "longpre les corps saints": {
     "names": [
-      "Longpr\u221a\u00a9-les-Corps-Saints"
+      "Longpre-les-Corps-Saints"
     ],
     "stop_ids": [
       "StopArea:OCE87313122"
@@ -6825,9 +6827,9 @@
       "StopArea:OCE87313262"
     ]
   },
-  "saint just en chauss e": {
+  "saint just en chaussee": {
     "names": [
-      "Saint-Just-en-Chauss\u221a\u00a9e"
+      "Saint-Just-en-Chaussee"
     ],
     "stop_ids": [
       "StopArea:OCE87313270"
@@ -6897,9 +6899,9 @@
       "StopArea:OCE87313379"
     ]
   },
-  "estr es saint denis": {
+  "estrees saint denis": {
     "names": [
-      "Estr\u221a\u00a9es-Saint-Denis"
+      "Estrees-Saint-Denis"
     ],
     "stop_ids": [
       "StopArea:OCE87313387"
@@ -6913,9 +6915,9 @@
       "StopArea:OCE87313395"
     ]
   },
-  "r my": {
+  "remy": {
     "names": [
-      "R\u221a\u00a9my"
+      "Remy"
     ],
     "stop_ids": [
       "StopArea:OCE87313403"
@@ -6939,7 +6941,7 @@
   },
   "rosi res": {
     "names": [
-      "Rosi\u221a\u00aeres"
+      "Rosi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87313460"
@@ -6987,7 +6989,7 @@
   },
   "cires l s mello": {
     "names": [
-      "Cires-l\u221a\u00aes-Mello"
+      "Cires-l\u00aes-Mello"
     ],
     "stop_ids": [
       "StopArea:OCE87313551"
@@ -6995,7 +6997,7 @@
   },
   "balagny saint apin": {
     "names": [
-      "Balagny Saint-\u221a\u00e2pin"
+      "Balagny Saint-\u00e2pin"
     ],
     "stop_ids": [
       "StopArea:OCE87313569"
@@ -7017,33 +7019,33 @@
       "StopArea:OCE87313585"
     ]
   },
-  "villers saint s pulcre": {
+  "villers saint sepulcre": {
     "names": [
-      "Villers-Saint-S\u221a\u00a9pulcre"
+      "Villers-Saint-Sepulcre"
     ],
     "stop_ids": [
       "StopArea:OCE87313593"
     ]
   },
-  "rochy cond": {
+  "rochy conde": {
     "names": [
-      "Rochy-Cond\u221a\u00a9"
+      "Rochy-Conde"
     ],
     "stop_ids": [
       "StopArea:OCE87313601"
     ]
   },
-  "m ru": {
+  "meru": {
     "names": [
-      "M\u221a\u00a9ru"
+      "Meru"
     ],
     "stop_ids": [
       "StopArea:OCE87313668"
     ]
   },
-  "laboissi re le d luge": {
+  "laboissi re le deluge": {
     "names": [
-      "Laboissi\u221a\u00aere - Le D\u221a\u00a9luge"
+      "Laboissi\u00aere - Le Deluge"
     ],
     "stop_ids": [
       "StopArea:OCE87313676"
@@ -7065,17 +7067,17 @@
       "StopArea:OCE87313692"
     ]
   },
-  "milly sur th rain": {
+  "milly sur therain": {
     "names": [
-      "Milly-sur-Th\u221a\u00a9rain"
+      "Milly-sur-Therain"
     ],
     "stop_ids": [
       "StopArea:OCE87313700"
     ]
   },
-  "saint omer en chauss e": {
+  "saint omer en chaussee": {
     "names": [
-      "Saint-Omer-en-Chauss\u221a\u00a9e"
+      "Saint-Omer-en-Chaussee"
     ],
     "stop_ids": [
       "StopArea:OCE87313718"
@@ -7099,7 +7101,7 @@
   },
   "feuqui res broquiers": {
     "names": [
-      "Feuqui\u221a\u00aeres - Broquiers"
+      "Feuqui\u00aeres - Broquiers"
     ],
     "stop_ids": [
       "StopArea:OCE87313742"
@@ -7195,7 +7197,7 @@
   },
   "dreuil l s amiens": {
     "names": [
-      "Dreuil-l\u221a\u00aes-Amiens"
+      "Dreuil-l\u00aes-Amiens"
     ],
     "stop_ids": [
       "StopArea:OCE87316075"
@@ -7209,9 +7211,9 @@
       "StopArea:OCE87316109"
     ]
   },
-  "th zy glimont": {
+  "thezy glimont": {
     "names": [
-      "Th\u221a\u00a9zy-Glimont"
+      "Thezy-Glimont"
     ],
     "stop_ids": [
       "StopArea:OCE87316125"
@@ -7233,9 +7235,9 @@
       "StopArea:OCE87316398"
     ]
   },
-  "montreuil sur th rain": {
+  "montreuil sur therain": {
     "names": [
-      "Montreuil-sur-Th\u221a\u00a9rain"
+      "Montreuil-sur-Therain"
     ],
     "stop_ids": [
       "StopArea:OCE87316406"
@@ -7283,7 +7285,7 @@
   },
   "ataples le touquet": {
     "names": [
-      "\u221a\u00e2taples - Le Touquet"
+      "\u00e2taples - Le Touquet"
     ],
     "stop_ids": [
       "StopArea:OCE87317065"
@@ -7299,7 +7301,7 @@
   },
   "neufch tel hardelot": {
     "names": [
-      "Neufch\u221a\u00a2tel-Hardelot"
+      "Neufch\u00a2tel-Hardelot"
     ],
     "stop_ids": [
       "StopArea:OCE87317099"
@@ -7371,7 +7373,7 @@
   },
   "auchy l s hesdin": {
     "names": [
-      "Auchy-l\u221a\u00aes-Hesdin"
+      "Auchy-l\u00aes-Hesdin"
     ],
     "stop_ids": [
       "StopArea:OCE87317230"
@@ -7449,9 +7451,9 @@
       "StopArea:OCE87317404"
     ]
   },
-  "le tr port mers les bains": {
+  "le treport mers les bains": {
     "names": [
-      "Le Tr\u221a\u00a9port - Mers-les-Bains"
+      "Le Treport - Mers-les-Bains"
     ],
     "stop_ids": [
       "StopArea:OCE87317529"
@@ -7497,17 +7499,17 @@
       "StopArea:OCE87319012"
     ]
   },
-  "vi ville": {
+  "vieville": {
     "names": [
-      "Vi\u221a\u00a9ville"
+      "Vieville"
     ],
     "stop_ids": [
       "StopArea:OCE87319756"
     ]
   },
-  "montaulin vall e verte": {
+  "montaulin vallee verte": {
     "names": [
-      "Montaulin Vall\u221a\u00a9e Verte"
+      "Montaulin Vallee Verte"
     ],
     "stop_ids": [
       "StopArea:OCE87319764"
@@ -7515,7 +7517,7 @@
   },
   "penho t": {
     "names": [
-      "Penho\u221a\u00b4t"
+      "Penho\u00b4t"
     ],
     "stop_ids": [
       "StopArea:OCE87321745"
@@ -7539,7 +7541,7 @@
   },
   "montlu on rimard": {
     "names": [
-      "Montlu\u221a\u00dfon Rimard"
+      "Montlu\u00dfon Rimard"
     ],
     "stop_ids": [
       "StopArea:OCE87323675"
@@ -7555,7 +7557,7 @@
   },
   "hirson acoles": {
     "names": [
-      "Hirson \u221a\u00e2coles"
+      "Hirson \u00e2coles"
     ],
     "stop_ids": [
       "StopArea:OCE87324335"
@@ -7563,7 +7565,7 @@
   },
   "ro court la c te": {
     "names": [
-      "Ro\u221a\u00a5court-la-C\u221a\u00a5te"
+      "Ro\u00a5court-la-C\u00a5te"
     ],
     "stop_ids": [
       "StopArea:OCE87326462"
@@ -7577,9 +7579,9 @@
       "StopArea:OCE87328021"
     ]
   },
-  "th s e": {
+  "thesee": {
     "names": [
-      "Th\u221a\u00a9s\u221a\u00a9e"
+      "Thesee"
     ],
     "stop_ids": [
       "StopArea:OCE87328195"
@@ -7594,9 +7596,9 @@
       "StopArea:OCE87487314"
     ]
   },
-  "cesson s vign": {
+  "cesson sevigne": {
     "names": [
-      "Cesson-S\u221a\u00a9vign\u221a\u00a9"
+      "Cesson-Sevigne"
     ],
     "stop_ids": [
       "StopArea:OCE87334490"
@@ -7645,7 +7647,7 @@
   },
   "la voulte sur rh ne mairie": {
     "names": [
-      "La Voulte-sur-Rh\u221a\u00a5ne Mairie"
+      "La Voulte-sur-Rh\u00a5ne Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87336974"
@@ -7659,9 +7661,9 @@
       "StopArea:OCE87336982"
     ]
   },
-  "flaviac ren cassin": {
+  "flaviac rene cassin": {
     "names": [
-      "FLAVIAC Ren\u221a\u00a9 Cassin"
+      "FLAVIAC Rene Cassin"
     ],
     "stop_ids": [
       "StopArea:OCE87336990"
@@ -7723,9 +7725,9 @@
       "StopArea:OCE87337378"
     ]
   },
-  "reignac caf brul": {
+  "reignac cafe brule": {
     "names": [
-      "Reignac Caf\u221a\u00a9 Brul\u221a\u00a9"
+      "Reignac Cafe Brule"
     ],
     "stop_ids": [
       "StopArea:OCE87337527"
@@ -7739,9 +7741,9 @@
       "StopArea:OCE87337543"
     ]
   },
-  "lafert sur aube": {
+  "laferte sur aube": {
     "names": [
-      "Lafert\u221a\u00a9-sur-Aube"
+      "Laferte-sur-Aube"
     ],
     "stop_ids": [
       "StopArea:OCE87338137"
@@ -7819,17 +7821,17 @@
       "StopArea:OCE87338590"
     ]
   },
-  "la voulte sur rh ne cit": {
+  "la voulte sur rh ne cite": {
     "names": [
-      "La Voulte-sur-Rh\u221a\u00a5ne Cit\u221a\u00a9"
+      "La Voulte-sur-Rh\u00a5ne Cite"
     ],
     "stop_ids": [
       "StopArea:OCE87338707"
     ]
   },
-  "b thune": {
+  "bethune": {
     "names": [
-      "B\u221a\u00a9thune"
+      "Bethune"
     ],
     "stop_ids": [
       "StopArea:OCE87342006"
@@ -7939,9 +7941,9 @@
       "StopArea:OCE87342204"
     ]
   },
-  "fr vin capelle": {
+  "frevin capelle": {
     "names": [
-      "Fr\u221a\u00a9vin-Capelle"
+      "Frevin-Capelle"
     ],
     "stop_ids": [
       "StopArea:OCE87342212"
@@ -8027,9 +8029,9 @@
       "StopArea:OCE87342337"
     ]
   },
-  "beuvry l s b thune": {
+  "beuvry l s bethune": {
     "names": [
-      "Beuvry l\u221a\u00aes B\u221a\u00a9thune"
+      "Beuvry l\u00aes Bethune"
     ],
     "stop_ids": [
       "StopArea:OCE87342402"
@@ -8043,17 +8045,17 @@
       "StopArea:OCE87342410"
     ]
   },
-  "la bass e": {
+  "la bassee": {
     "names": [
-      "La Bass\u221a\u00a9e"
+      "La Bassee"
     ],
     "stop_ids": [
       "StopArea:OCE87342436"
     ]
   },
-  "salom": {
+  "salome": {
     "names": [
-      "Salom\u221a\u00a9"
+      "Salome"
     ],
     "stop_ids": [
       "StopArea:OCE87342451"
@@ -8077,7 +8079,7 @@
   },
   "vis marles": {
     "names": [
-      "Vis \u221a\u2020 Marles"
+      "Vis \u2020 Marles"
     ],
     "stop_ids": [
       "StopArea:OCE87342535"
@@ -8147,9 +8149,9 @@
       "StopArea:OCE87343160"
     ]
   },
-  "le poirier universit": {
+  "le poirier universite": {
     "names": [
-      "Le Poirier Universit\u221a\u00a9"
+      "Le Poirier Universite"
     ],
     "stop_ids": [
       "StopArea:OCE87343210"
@@ -8171,9 +8173,9 @@
       "StopArea:OCE87343319"
     ]
   },
-  "trith saint l ger": {
+  "trith saint leger": {
     "names": [
-      "Trith-Saint-L\u221a\u00a9ger"
+      "Trith-Saint-Leger"
     ],
     "stop_ids": [
       "StopArea:OCE87343400"
@@ -8203,9 +8205,9 @@
       "StopArea:OCE87343475"
     ]
   },
-  "saint ly maisons br l es": {
+  "saint lye maisons br lees": {
     "names": [
-      "Saint-Ly\u221a\u00a9 Maisons br\u221a\u00aal\u221a\u00a9es"
+      "Saint-Lye Maisons br\u00aalees"
     ],
     "stop_ids": [
       "StopArea:OCE87344127"
@@ -8251,9 +8253,9 @@
       "StopArea:OCE87345033"
     ]
   },
-  "li vin": {
+  "lievin": {
     "names": [
-      "Li\u221a\u00a9vin"
+      "Lievin"
     ],
     "stop_ids": [
       "StopArea:OCE87345041"
@@ -8261,7 +8263,7 @@
   },
   "brebi res sud": {
     "names": [
-      "Brebi\u221a\u00aeres Sud"
+      "Brebi\u00aeres Sud"
     ],
     "stop_ids": [
       "StopArea:OCE87345108"
@@ -8283,9 +8285,9 @@
       "StopArea:OCE87345124"
     ]
   },
-  "coron de m ricourt": {
+  "coron de mericourt": {
     "names": [
-      "Coron de M\u221a\u00a9ricourt"
+      "Coron de Mericourt"
     ],
     "stop_ids": [
       "StopArea:OCE87345132"
@@ -8299,9 +8301,9 @@
       "StopArea:OCE87345140"
     ]
   },
-  "h nin beaumont": {
+  "henin beaumont": {
     "names": [
-      "H\u221a\u00a9nin-Beaumont"
+      "Henin-Beaumont"
     ],
     "stop_ids": [
       "StopArea:OCE87345157"
@@ -8317,7 +8319,7 @@
   },
   "pont de la de le": {
     "names": [
-      "Pont de la De\u221a\u00aale"
+      "Pont de la De\u00aale"
     ],
     "stop_ids": [
       "StopArea:OCE87345207"
@@ -8365,7 +8367,7 @@
   },
   "pont vendin": {
     "names": [
-      "Pont-\u221a\u2020-Vendin"
+      "Pont-\u2020-Vendin"
     ],
     "stop_ids": [
       "StopArea:OCE87345264"
@@ -8443,9 +8445,9 @@
       "StopArea:OCE87345421"
     ]
   },
-  "brun mont": {
+  "brunemont": {
     "names": [
-      "Brun\u221a\u00a9mont"
+      "Brunemont"
     ],
     "stop_ids": [
       "StopArea:OCE87345439"
@@ -8501,7 +8503,7 @@
   },
   "catteni res": {
     "names": [
-      "Catteni\u221a\u00aeres"
+      "Catteni\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87345587"
@@ -8517,7 +8519,7 @@
   },
   "champagnole paul amile victor": {
     "names": [
-      "Champagnole Paul-\u221a\u00e2mile Victor"
+      "Champagnole Paul-\u00e2mile Victor"
     ],
     "stop_ids": [
       "StopArea:OCE87352047"
@@ -8547,17 +8549,17 @@
       "StopArea:OCE87353599"
     ]
   },
-  "saint s bastien pas enchant s": {
+  "saint sebastien pas enchantes": {
     "names": [
-      "Saint-S\u221a\u00a9bastien Pas Enchant\u221a\u00a9s"
+      "Saint-Sebastien Pas Enchantes"
     ],
     "stop_ids": [
       "StopArea:OCE87354589"
     ]
   },
-  "saint s bastien fr ne rond": {
+  "saint sebastien fr ne rond": {
     "names": [
-      "Saint-S\u221a\u00a9bastien Fr\u221a\u2122ne Rond"
+      "Saint-Sebastien Fr\u2122ne Rond"
     ],
     "stop_ids": [
       "StopArea:OCE87354597"
@@ -8565,7 +8567,7 @@
   },
   "rosiers d agletons": {
     "names": [
-      "Rosiers-d'\u221a\u00e2gletons"
+      "Rosiers-d'\u00e2gletons"
     ],
     "stop_ids": [
       "StopArea:OCE87361980"
@@ -8587,9 +8589,9 @@
       "StopArea:OCE87381509"
     ]
   },
-  "br val": {
+  "breval": {
     "names": [
-      "Br\u221a\u00a9val"
+      "Breval"
     ],
     "stop_ids": [
       "StopArea:OCE87381624"
@@ -8613,7 +8615,7 @@
   },
   "avreux normandie": {
     "names": [
-      "\u221a\u00e2vreux Normandie"
+      "\u00e2vreux Normandie"
     ],
     "stop_ids": [
       "StopArea:OCE87387001"
@@ -8695,7 +8697,7 @@
   },
   "saint martin d h res": {
     "names": [
-      "Saint-Martin-d'H\u221a\u00aeres"
+      "Saint-Martin-d'H\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87392829"
@@ -8781,19 +8783,17 @@
       "StopArea:OCE87394007"
     ]
   },
-  "luc": {
+  "luce": {
     "names": [
-      "Luc",
-      "Luc\u221a\u00a9"
+      "Luce"
     ],
     "stop_ids": [
-      "StopArea:OCE87394015",
-      "StopArea:OCE87734368"
+      "StopArea:OCE87394015"
     ]
   },
   "apernon": {
     "names": [
-      "\u221a\u00e2pernon"
+      "\u00e2pernon"
     ],
     "stop_ids": [
       "StopArea:OCE87394114"
@@ -8879,9 +8879,9 @@
       "StopArea:OCE87394270"
     ]
   },
-  "cond sur huisne": {
+  "conde sur huisne": {
     "names": [
-      "Cond\u221a\u00a9-sur-Huisne"
+      "Conde-sur-Huisne"
     ],
     "stop_ids": [
       "StopArea:OCE87394288"
@@ -8951,41 +8951,41 @@
       "StopArea:OCE87394494"
     ]
   },
-  "brassac les mines lyc e rabelais": {
+  "brassac les mines lycee rabelais": {
     "names": [
-      "Brassac-les-Mines Lyc\u221a\u00a9e Rabelais"
+      "Brassac-les-Mines Lycee Rabelais"
     ],
     "stop_ids": [
       "StopArea:OCE87395657"
     ]
   },
-  "issoire lyc e deville": {
+  "issoire lycee deville": {
     "names": [
-      "Issoire Lyc\u221a\u00a9e Deville"
+      "Issoire Lycee Deville"
     ],
     "stop_ids": [
       "StopArea:OCE87395665"
     ]
   },
-  "issoire lyc e murat": {
+  "issoire lycee murat": {
     "names": [
-      "Issoire Lyc\u221a\u00a9e Murat"
+      "Issoire Lycee Murat"
     ],
     "stop_ids": [
       "StopArea:OCE87395673"
     ]
   },
-  "le breuil sur couze lyc e agricole": {
+  "le breuil sur couze lycee agricole": {
     "names": [
-      "Le Breuil-sur-Couze Lyc\u221a\u00a9e Agricole"
+      "Le Breuil-sur-Couze Lycee Agricole"
     ],
     "stop_ids": [
       "StopArea:OCE87395830"
     ]
   },
-  "sainte florine lyc e claude favard": {
+  "sainte florine lycee claude favard": {
     "names": [
-      "Sainte-Florine Lyc\u221a\u00a9e Claude Favard"
+      "Sainte-Florine Lycee Claude Favard"
     ],
     "stop_ids": [
       "StopArea:OCE87395962"
@@ -9023,9 +9023,9 @@
       "StopArea:OCE87396044"
     ]
   },
-  "teill": {
+  "teille": {
     "names": [
-      "Teill\u221a\u00a9"
+      "Teille"
     ],
     "stop_ids": [
       "StopArea:OCE87396051"
@@ -9063,17 +9063,17 @@
       "StopArea:OCE87396218"
     ]
   },
-  "sill le guillaume": {
+  "sille le guillaume": {
     "names": [
-      "Sill\u221a\u00a9-le-Guillaume"
+      "Sille-le-Guillaume"
     ],
     "stop_ids": [
       "StopArea:OCE87396234"
     ]
   },
-  "champagn": {
+  "champagne": {
     "names": [
-      "Champagn\u221a\u00a9"
+      "Champagne"
     ],
     "stop_ids": [
       "StopArea:OCE87396275"
@@ -9081,7 +9081,7 @@
   },
   "saint mars la bri re": {
     "names": [
-      "Saint-Mars-la-Bri\u221a\u00aere"
+      "Saint-Mars-la-Bri\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87396283"
@@ -9095,25 +9095,25 @@
       "StopArea:OCE87396291"
     ]
   },
-  "connerr beill": {
+  "connerre beille": {
     "names": [
-      "Connerr\u221a\u00a9 - Beill\u221a\u00a9"
+      "Connerre - Beille"
     ],
     "stop_ids": [
       "StopArea:OCE87396309"
     ]
   },
-  "sceaux bo ss": {
+  "sceaux bo sse": {
     "names": [
-      "Sceaux - Bo\u221a\u00b4ss\u221a\u00a9"
+      "Sceaux - Bo\u00b4sse"
     ],
     "stop_ids": [
       "StopArea:OCE87396317"
     ]
   },
-  "la fert bernard": {
+  "la ferte bernard": {
     "names": [
-      "La Fert\u221a\u00a9-Bernard"
+      "La Ferte-Bernard"
     ],
     "stop_ids": [
       "StopArea:OCE87396325"
@@ -9151,9 +9151,9 @@
       "StopArea:OCE87396374"
     ]
   },
-  "sabl sur sarthe": {
+  "sable sur sarthe": {
     "names": [
-      "Sabl\u221a\u00a9-sur-Sarthe"
+      "Sable-sur-Sarthe"
     ],
     "stop_ids": [
       "StopArea:OCE87396408"
@@ -9167,9 +9167,9 @@
       "StopArea:OCE87396549"
     ]
   },
-  "laign saint gervais": {
+  "laigne saint gervais": {
     "names": [
-      "Laign\u221a\u00a9 - Saint-Gervais"
+      "Laigne - Saint-Gervais"
     ],
     "stop_ids": [
       "StopArea:OCE87396556"
@@ -9177,15 +9177,15 @@
   },
   "acommoy": {
     "names": [
-      "\u221a\u00e2commoy"
+      "\u00e2commoy"
     ],
     "stop_ids": [
       "StopArea:OCE87396564"
     ]
   },
-  "aubign racan": {
+  "aubigne racan": {
     "names": [
-      "Aubign\u221a\u00a9-Racan"
+      "Aubigne-Racan"
     ],
     "stop_ids": [
       "StopArea:OCE87396572"
@@ -9209,7 +9209,7 @@
   },
   "ch teau du loir": {
     "names": [
-      "Ch\u221a\u00a2teau-du-Loir"
+      "Ch\u00a2teau-du-Loir"
     ],
     "stop_ids": [
       "StopArea:OCE87396606"
@@ -9225,7 +9225,7 @@
   },
   "bar sur aube h tel de ville": {
     "names": [
-      "Bar-sur-Aube H\u221a\u00a5tel de Ville"
+      "Bar-sur-Aube H\u00a5tel de Ville"
     ],
     "stop_ids": [
       "StopArea:OCE87398735"
@@ -9247,9 +9247,9 @@
       "StopArea:OCE87401323"
     ]
   },
-  "colmar m sanges": {
+  "colmar mesanges": {
     "names": [
-      "Colmar M\u221a\u00a9sanges"
+      "Colmar Mesanges"
     ],
     "stop_ids": [
       "StopArea:OCE87402297"
@@ -9273,7 +9273,7 @@
   },
   "barisey la c te mairie": {
     "names": [
-      "Barisey-la-C\u221a\u00a5te Mairie"
+      "Barisey-la-C\u00a5te Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87405712"
@@ -9281,7 +9281,7 @@
   },
   "neufch teau h pital": {
     "names": [
-      "Neufch\u221a\u00a2teau H\u221a\u00a5pital"
+      "Neufch\u00a2teau H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87405746"
@@ -9289,15 +9289,15 @@
   },
   "toul gare routi re": {
     "names": [
-      "Toul Gare Routi\u221a\u00aere"
+      "Toul Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87405753"
     ]
   },
-  "mirecourt lyc e agricole": {
+  "mirecourt lycee agricole": {
     "names": [
-      "Mirecourt Lyc\u221a\u00a9e Agricole"
+      "Mirecourt Lycee Agricole"
     ],
     "stop_ids": [
       "StopArea:OCE87405993"
@@ -9369,7 +9369,7 @@
   },
   "creutzwald gare routi re": {
     "names": [
-      "Creutzwald Gare Routi\u221a\u00aere"
+      "Creutzwald Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87406736"
@@ -9377,7 +9377,7 @@
   },
   "distroff aglise": {
     "names": [
-      "Distroff \u221a\u00e2glise"
+      "Distroff \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87406744"
@@ -9415,9 +9415,9 @@
       "StopArea:OCE87406793"
     ]
   },
-  "k dange aglise": {
+  "kedange aglise": {
     "names": [
-      "K\u221a\u00a9dange \u221a\u00e2glise"
+      "Kedange \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87406801"
@@ -9431,9 +9431,9 @@
       "StopArea:OCE87406819"
     ]
   },
-  "kuntzig place de la libert": {
+  "kuntzig place de la liberte": {
     "names": [
-      "Kuntzig Place de la Libert\u221a\u00a9"
+      "Kuntzig Place de la Liberte"
     ],
     "stop_ids": [
       "StopArea:OCE87406827"
@@ -9449,7 +9449,7 @@
   },
   "metzervisse aglise": {
     "names": [
-      "Metzervisse \u221a\u00e2glise"
+      "Metzervisse \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87406843"
@@ -9463,17 +9463,17 @@
       "StopArea:OCE87406850"
     ]
   },
-  "far bersviller cit": {
+  "farebersviller cite": {
     "names": [
-      "Far\u221a\u00a9bersviller Cit\u221a\u00a9"
+      "Farebersviller Cite"
     ],
     "stop_ids": [
       "StopArea:OCE87406868"
     ]
   },
-  "far bersviller rue du moulin": {
+  "farebersviller rue du moulin": {
     "names": [
-      "Far\u221a\u00a9bersviller Rue du Moulin"
+      "Farebersviller Rue du Moulin"
     ],
     "stop_ids": [
       "StopArea:OCE87406884"
@@ -9535,17 +9535,17 @@
       "StopArea:OCE87406967"
     ]
   },
-  "f n trange gendarmerie": {
+  "fenetrange gendarmerie": {
     "names": [
-      "F\u221a\u00a9n\u221a\u00a9trange Gendarmerie"
+      "Fenetrange Gendarmerie"
     ],
     "stop_ids": [
       "StopArea:OCE87406975"
     ]
   },
-  "f n trange le val fleuri": {
+  "fenetrange le val fleuri": {
     "names": [
-      "F\u221a\u00a9n\u221a\u00a9trange Le Val Fleuri"
+      "Fenetrange Le Val Fleuri"
     ],
     "stop_ids": [
       "StopArea:OCE87406983"
@@ -9567,9 +9567,9 @@
       "StopArea:OCE87407015"
     ]
   },
-  "sarrebourg m phisto": {
+  "sarrebourg mephisto": {
     "names": [
-      "Sarrebourg M\u221a\u00a9phisto"
+      "Sarrebourg Mephisto"
     ],
     "stop_ids": [
       "StopArea:OCE87407031"
@@ -9599,9 +9599,9 @@
       "StopArea:OCE87407064"
     ]
   },
-  "r chicourt le ch teau centre": {
+  "rechicourt le ch teau centre": {
     "names": [
-      "R\u221a\u00a9chicourt-le-Ch\u221a\u00a2teau Centre"
+      "Rechicourt-le-Ch\u00a2teau Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87407098"
@@ -9615,17 +9615,17 @@
       "StopArea:OCE87407106"
     ]
   },
-  "b nestroff centre": {
+  "benestroff centre": {
     "names": [
-      "B\u221a\u00a9nestroff Centre"
+      "Benestroff Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87407114"
     ]
   },
-  "f n trange carrefour des atangs": {
+  "fenetrange carrefour des atangs": {
     "names": [
-      "F\u221a\u00a9n\u221a\u00a9trange Carrefour des \u221a\u00e2tangs"
+      "Fenetrange Carrefour des \u00e2tangs"
     ],
     "stop_ids": [
       "StopArea:OCE87407122"
@@ -9647,9 +9647,9 @@
       "StopArea:OCE87407148"
     ]
   },
-  "morhange place de la r publique": {
+  "morhange place de la republique": {
     "names": [
-      "Morhange Place de la R\u221a\u00a9publique"
+      "Morhange Place de la Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87407155"
@@ -9687,9 +9687,9 @@
       "StopArea:OCE87407262"
     ]
   },
-  "niederbronn les bains arch ologie": {
+  "niederbronn les bains archeologie": {
     "names": [
-      "Niederbronn-les-Bains Arch\u221a\u00a9ologie"
+      "Niederbronn-les-Bains Archeologie"
     ],
     "stop_ids": [
       "StopArea:OCE87407270"
@@ -9817,7 +9817,7 @@
   },
   "urcay h tel du lyon d or": {
     "names": [
-      "Urcay H\u221a\u00a5tel du Lyon d'Or"
+      "Urcay H\u00a5tel du Lyon d'Or"
     ],
     "stop_ids": [
       "StopArea:OCE87409490"
@@ -9825,15 +9825,15 @@
   },
   "sainte florine place fran ois": {
     "names": [
-      "Sainte-Florine Place Fran\u221a\u00dfois"
+      "Sainte-Florine Place Fran\u00dfois"
     ],
     "stop_ids": [
       "StopArea:OCE87409524"
     ]
   },
-  "sainte eug nie de villeneuve": {
+  "sainte eugenie de villeneuve": {
     "names": [
-      "Sainte-Eug\u221a\u00a9nie-de-Villeneuve"
+      "Sainte-Eugenie-de-Villeneuve"
     ],
     "stop_ids": [
       "StopArea:OCE87409532"
@@ -9855,9 +9855,9 @@
       "StopArea:OCE87409763"
     ]
   },
-  "l tra gabodi re": {
+  "letra gabodi re": {
     "names": [
-      "L\u221a\u00a9tra Gabodi\u221a\u00aere"
+      "Letra Gabodi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87409771"
@@ -9897,7 +9897,7 @@
   },
   "saint atienne du rouvray": {
     "names": [
-      "Saint-\u221a\u00e2tienne-du-Rouvray"
+      "Saint-\u00e2tienne-du-Rouvray"
     ],
     "stop_ids": [
       "StopArea:OCE87411215"
@@ -9967,9 +9967,9 @@
       "StopArea:OCE87411447"
     ]
   },
-  "mont rolier buchy": {
+  "monterolier buchy": {
     "names": [
-      "Mont\u221a\u00a9rolier - Buchy"
+      "Monterolier - Buchy"
     ],
     "stop_ids": [
       "StopArea:OCE87411454"
@@ -10001,7 +10001,7 @@
   },
   "cl res": {
     "names": [
-      "Cl\u221a\u00aeres"
+      "Cl\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87411819"
@@ -10033,15 +10033,15 @@
   },
   "atainhus saint romain": {
     "names": [
-      "\u221a\u00e2tainhus - Saint-Romain"
+      "\u00e2tainhus - Saint-Romain"
     ],
     "stop_ids": [
       "StopArea:OCE87413328"
     ]
   },
-  "br aut beuzeville": {
+  "breaute beuzeville": {
     "names": [
-      "Br\u221a\u00a9aut\u221a\u00a9 - Beuzeville"
+      "Breaute - Beuzeville"
     ],
     "stop_ids": [
       "StopArea:OCE87413344"
@@ -10063,9 +10063,9 @@
       "StopArea:OCE87413385"
     ]
   },
-  "f camp": {
+  "fecamp": {
     "names": [
-      "F\u221a\u00a9camp"
+      "Fecamp"
     ],
     "stop_ids": [
       "StopArea:OCE87413542"
@@ -10111,9 +10111,9 @@
       "StopArea:OCE87415166"
     ]
   },
-  "bourgtheroulde thuit h bert": {
+  "bourgtheroulde thuit hebert": {
     "names": [
-      "Bourgtheroulde - Thuit-H\u221a\u00a9bert"
+      "Bourgtheroulde - Thuit-Hebert"
     ],
     "stop_ids": [
       "StopArea:OCE87415323"
@@ -10169,7 +10169,7 @@
   },
   "bonni res": {
     "names": [
-      "Bonni\u221a\u00aeres"
+      "Bonni\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87415893"
@@ -10201,7 +10201,7 @@
   },
   "montlu on lem": {
     "names": [
-      "Montlu\u221a\u00dfon LEM"
+      "Montlu\u00dfon LEM"
     ],
     "stop_ids": [
       "StopArea:OCE87417840"
@@ -10231,17 +10231,17 @@
       "StopArea:OCE87417907"
     ]
   },
-  "peaugres d viation": {
+  "peaugres deviation": {
     "names": [
-      "Peaugres D\u221a\u00a9viation"
+      "Peaugres Deviation"
     ],
     "stop_ids": [
       "StopArea:OCE87420414"
     ]
   },
-  "f lines la remise": {
+  "felines la remise": {
     "names": [
-      "F\u221a\u00a9lines la Remise"
+      "Felines la Remise"
     ],
     "stop_ids": [
       "StopArea:OCE87420430"
@@ -10257,7 +10257,7 @@
   },
   "st atienne de b col d auriol": {
     "names": [
-      "St-\u221a\u00e2tienne-de-B Col d'Auriol"
+      "St-\u00e2tienne-de-B Col d'Auriol"
     ],
     "stop_ids": [
       "StopArea:OCE87420489"
@@ -10265,7 +10265,7 @@
   },
   "privas h pital sainte marie": {
     "names": [
-      "Privas H\u221a\u00a5pital Sainte-Marie"
+      "Privas H\u00a5pital Sainte-Marie"
     ],
     "stop_ids": [
       "StopArea:OCE87420497"
@@ -10319,17 +10319,17 @@
       "StopArea:OCE87437798"
     ]
   },
-  "aytr plage": {
+  "aytre plage": {
     "names": [
-      "Aytr\u221a\u00a9 Plage"
+      "Aytre Plage"
     ],
     "stop_ids": [
       "StopArea:OCE87437806"
     ]
   },
-  "vitrolles a roport marseille p": {
+  "vitrolles aeroport marseille p": {
     "names": [
-      "Vitrolles A\u221a\u00a9roport Marseille P"
+      "Vitrolles Aeroport Marseille P"
     ],
     "stop_ids": [
       "StopArea:OCE87439554"
@@ -10391,9 +10391,9 @@
       "StopArea:OCE87444083"
     ]
   },
-  "fr nouville cagny": {
+  "frenouville cagny": {
     "names": [
-      "Fr\u221a\u00a9nouville - Cagny"
+      "Frenouville - Cagny"
     ],
     "stop_ids": [
       "StopArea:OCE87444182"
@@ -10407,9 +10407,9 @@
       "StopArea:OCE87444190"
     ]
   },
-  "m zidon canon": {
+  "mezidon canon": {
     "names": [
-      "M\u221a\u00a9zidon - Canon"
+      "Mezidon - Canon"
     ],
     "stop_ids": [
       "StopArea:OCE87444208"
@@ -10457,7 +10457,7 @@
   },
   "pont l av que": {
     "names": [
-      "Pont-l'\u221a\u00e2v\u221a\u2122que"
+      "Pont-l'\u00e2v\u2122que"
     ],
     "stop_ids": [
       "StopArea:OCE87444349"
@@ -10535,9 +10535,9 @@
       "StopArea:OCE87444638"
     ]
   },
-  "s es": {
+  "sees": {
     "names": [
-      "S\u221a\u00a9es"
+      "Sees"
     ],
     "stop_ids": [
       "StopArea:OCE87444695"
@@ -10545,7 +10545,7 @@
   },
   "alen on": {
     "names": [
-      "Alen\u221a\u00dfon"
+      "Alen\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87444711"
@@ -10561,7 +10561,7 @@
   },
   "saint cyprien ar nes": {
     "names": [
-      "Saint-Cyprien Ar\u221a\u00aenes"
+      "Saint-Cyprien Ar\u00aenes"
     ],
     "stop_ids": [
       "StopArea:OCE87446179"
@@ -10569,7 +10569,7 @@
   },
   "saint l": {
     "names": [
-      "Saint-L\u221a\u00a5"
+      "Saint-L\u00a5"
     ],
     "stop_ids": [
       "StopArea:OCE87447003"
@@ -10625,7 +10625,7 @@
   },
   "villedieu les po les": {
     "names": [
-      "Villedieu-les-Po\u221a\u2122les"
+      "Villedieu-les-Po\u2122les"
     ],
     "stop_ids": [
       "StopArea:OCE87447698"
@@ -10671,9 +10671,9 @@
       "StopArea:OCE87450064"
     ]
   },
-  "gr zes s verac l eglise": {
+  "gr zes severac l eglise": {
     "names": [
-      "Gr\u221a\u00aezes S\u221a\u00a9verac-l'Eglise"
+      "Gr\u00aezes Severac-l'Eglise"
     ],
     "stop_ids": [
       "StopArea:OCE87450874"
@@ -10713,7 +10713,7 @@
   },
   "atain centre": {
     "names": [
-      "\u221a\u00e2tain Centre"
+      "\u00e2tain Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87458828"
@@ -10727,9 +10727,9 @@
       "StopArea:OCE87458836"
     ]
   },
-  "neufch teau lyc e professionnel": {
+  "neufch teau lycee professionnel": {
     "names": [
-      "Neufch\u221a\u00a2teau Lyc\u221a\u00a9e Professionnel"
+      "Neufch\u00a2teau Lycee Professionnel"
     ],
     "stop_ids": [
       "StopArea:OCE87458869"
@@ -10777,7 +10777,7 @@
   },
   "cholet h tel de ville": {
     "names": [
-      "Cholet H\u221a\u00a5tel de Ville"
+      "Cholet H\u00a5tel de Ville"
     ],
     "stop_ids": [
       "StopArea:OCE87462960"
@@ -10865,7 +10865,7 @@
   },
   "la brohini re": {
     "names": [
-      "La Brohini\u221a\u00aere"
+      "La Brohini\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87471094"
@@ -10879,9 +10879,9 @@
       "StopArea:OCE87471102"
     ]
   },
-  "laill": {
+  "laille": {
     "names": [
-      "Laill\u221a\u00a9"
+      "Laille"
     ],
     "stop_ids": [
       "StopArea:OCE87471144"
@@ -10895,17 +10895,17 @@
       "StopArea:OCE87471151"
     ]
   },
-  "saint senoux pl ch tel": {
+  "saint senoux plech tel": {
     "names": [
-      "Saint-Senoux - Pl\u221a\u00a9ch\u221a\u00a2tel"
+      "Saint-Senoux - Plech\u00a2tel"
     ],
     "stop_ids": [
       "StopArea:OCE87471169"
     ]
   },
-  "pl ch tel": {
+  "plech tel": {
     "names": [
-      "Pl\u221a\u00a9ch\u221a\u00a2tel"
+      "Plech\u00a2tel"
     ],
     "stop_ids": [
       "StopArea:OCE87471177"
@@ -10927,17 +10927,17 @@
       "StopArea:OCE87471201"
     ]
   },
-  "besl": {
+  "besle": {
     "names": [
-      "Besl\u221a\u00a9"
+      "Besle"
     ],
     "stop_ids": [
       "StopArea:OCE87471219"
     ]
   },
-  "mass rac": {
+  "masserac": {
     "names": [
-      "Mass\u221a\u00a9rac"
+      "Masserac"
     ],
     "stop_ids": [
       "StopArea:OCE87471227"
@@ -10967,9 +10967,9 @@
       "StopArea:OCE87471326"
     ]
   },
-  "janz": {
+  "janze": {
     "names": [
-      "Janz\u221a\u00a9"
+      "Janze"
     ],
     "stop_ids": [
       "StopArea:OCE87471334"
@@ -10991,9 +10991,9 @@
       "StopArea:OCE87471359"
     ]
   },
-  "martign ferchaud": {
+  "martigne ferchaud": {
     "names": [
-      "Martign\u221a\u00a9-Ferchaud"
+      "Martigne-Ferchaud"
     ],
     "stop_ids": [
       "StopArea:OCE87471367"
@@ -11007,17 +11007,17 @@
       "StopArea:OCE87471391"
     ]
   },
-  "chevaign": {
+  "chevaigne": {
     "names": [
-      "Chevaign\u221a\u00a9"
+      "Chevaigne"
     ],
     "stop_ids": [
       "StopArea:OCE87471458"
     ]
   },
-  "vitr": {
+  "vitre": {
     "names": [
-      "Vitr\u221a\u00a9"
+      "Vitre"
     ],
     "stop_ids": [
       "StopArea:OCE87471508"
@@ -11033,7 +11033,7 @@
   },
   "ch teaubourg": {
     "names": [
-      "Ch\u221a\u00a2teaubourg"
+      "Ch\u00a2teaubourg"
     ],
     "stop_ids": [
       "StopArea:OCE87471524"
@@ -11047,9 +11047,9 @@
       "StopArea:OCE87471532"
     ]
   },
-  "noyal acign": {
+  "noyal acigne": {
     "names": [
-      "Noyal - Acign\u221a\u00a9"
+      "Noyal - Acigne"
     ],
     "stop_ids": [
       "StopArea:OCE87471540"
@@ -11079,9 +11079,9 @@
       "StopArea:OCE87473009"
     ]
   },
-  "qu dillac": {
+  "quedillac": {
     "names": [
-      "Qu\u221a\u00a9dillac"
+      "Quedillac"
     ],
     "stop_ids": [
       "StopArea:OCE87473058"
@@ -11103,9 +11103,9 @@
       "StopArea:OCE87473074"
     ]
   },
-  "pl n e jugon": {
+  "plenee jugon": {
     "names": [
-      "Pl\u221a\u00a9n\u221a\u00a9e-Jugon"
+      "Plenee-Jugon"
     ],
     "stop_ids": [
       "StopArea:OCE87473082"
@@ -11135,9 +11135,9 @@
       "StopArea:OCE87473116"
     ]
   },
-  "la m augon": {
+  "la meaugon": {
     "names": [
-      "La M\u221a\u00a9augon"
+      "La Meaugon"
     ],
     "stop_ids": [
       "StopArea:OCE87473124"
@@ -11153,31 +11153,31 @@
   },
   "ch telaudren plouagat": {
     "names": [
-      "Ch\u221a\u00a2telaudren - Plouagat"
+      "Ch\u00a2telaudren - Plouagat"
     ],
     "stop_ids": [
       "StopArea:OCE87473140"
     ]
   },
-  "belle isle b gard": {
+  "belle isle begard": {
     "names": [
-      "Belle-Isle - B\u221a\u00a9gard"
+      "Belle-Isle - Begard"
     ],
     "stop_ids": [
       "StopArea:OCE87473165"
     ]
   },
-  "plouaret tr gor": {
+  "plouaret tregor": {
     "names": [
-      "Plouaret Tr\u221a\u00a9gor"
+      "Plouaret Tregor"
     ],
     "stop_ids": [
       "StopArea:OCE87473181"
     ]
   },
-  "ploun rin": {
+  "plounerin": {
     "names": [
-      "Ploun\u221a\u00a9rin"
+      "Plounerin"
     ],
     "stop_ids": [
       "StopArea:OCE87473199"
@@ -11199,9 +11199,9 @@
       "StopArea:OCE87473223"
     ]
   },
-  "land bia": {
+  "landebia": {
     "names": [
-      "Land\u221a\u00a9bia"
+      "Landebia"
     ],
     "stop_ids": [
       "StopArea:OCE87473264"
@@ -11209,7 +11209,7 @@
   },
   "planco t": {
     "names": [
-      "Planco\u221a\u00b4t"
+      "Planco\u00b4t"
     ],
     "stop_ids": [
       "StopArea:OCE87473272"
@@ -11223,9 +11223,9 @@
       "StopArea:OCE87473504"
     ]
   },
-  "moust ru": {
+  "mousteru": {
     "names": [
-      "Moust\u221a\u00a9ru"
+      "Mousteru"
     ],
     "stop_ids": [
       "StopArea:OCE87473512"
@@ -11255,9 +11255,9 @@
       "StopArea:OCE87473546"
     ]
   },
-  "le p nity": {
+  "le penity": {
     "names": [
-      "Le P\u221a\u00a9nity"
+      "Le Penity"
     ],
     "stop_ids": [
       "StopArea:OCE87473553"
@@ -11265,15 +11265,15 @@
   },
   "carno t locarn": {
     "names": [
-      "Carno\u221a\u00b4t - Locarn"
+      "Carno\u00b4t - Locarn"
     ],
     "stop_ids": [
       "StopArea:OCE87473561"
     ]
   },
-  "coat gu gan": {
+  "coat guegan": {
     "names": [
-      "Coat Gu\u221a\u00a9gan"
+      "Coat Guegan"
     ],
     "stop_ids": [
       "StopArea:OCE87473579"
@@ -11295,17 +11295,17 @@
       "StopArea:OCE87473801"
     ]
   },
-  "tr gonneau squiffiec": {
+  "tregonneau squiffiec": {
     "names": [
-      "Tr\u221a\u00a9gonneau - Squiffiec"
+      "Tregonneau - Squiffiec"
     ],
     "stop_ids": [
       "StopArea:OCE87473819"
     ]
   },
-  "br lidy plouec": {
+  "brelidy plouec": {
     "names": [
-      "Br\u221a\u00a9lidy - Plouec"
+      "Brelidy - Plouec"
     ],
     "stop_ids": [
       "StopArea:OCE87473827"
@@ -11377,7 +11377,7 @@
   },
   "ch teaulin": {
     "names": [
-      "Ch\u221a\u00a2teaulin"
+      "Ch\u00a2teaulin"
     ],
     "stop_ids": [
       "StopArea:OCE87474064"
@@ -11455,9 +11455,9 @@
       "StopArea:OCE87474296"
     ]
   },
-  "saint th gonnec": {
+  "saint thegonnec": {
     "names": [
-      "Saint-Th\u221a\u00a9gonnec"
+      "Saint-Thegonnec"
     ],
     "stop_ids": [
       "StopArea:OCE87474312"
@@ -11511,17 +11511,17 @@
       "StopArea:OCE87476226"
     ]
   },
-  "land vant": {
+  "landevant": {
     "names": [
-      "Land\u221a\u00a9vant"
+      "Landevant"
     ],
     "stop_ids": [
       "StopArea:OCE87476234"
     ]
   },
-  "brand rion": {
+  "branderion": {
     "names": [
-      "Brand\u221a\u00a9rion"
+      "Branderion"
     ],
     "stop_ids": [
       "StopArea:OCE87476242"
@@ -11559,9 +11559,9 @@
       "StopArea:OCE87476309"
     ]
   },
-  "quimperl": {
+  "quimperle": {
     "names": [
-      "Quimperl\u221a\u00a9"
+      "Quimperle"
     ],
     "stop_ids": [
       "StopArea:OCE87476317"
@@ -11585,7 +11585,7 @@
   },
   "penthi vre": {
     "names": [
-      "Penthi\u221a\u00aevre"
+      "Penthi\u00aevre"
     ],
     "stop_ids": [
       "StopArea:OCE87476424"
@@ -11647,9 +11647,9 @@
       "StopArea:OCE87476689"
     ]
   },
-  "s v rac": {
+  "severac": {
     "names": [
-      "S\u221a\u00a9v\u221a\u00a9rac"
+      "Severac"
     ],
     "stop_ids": [
       "StopArea:OCE87476754"
@@ -11663,9 +11663,9 @@
       "StopArea:OCE87476762"
     ]
   },
-  "dreff ac": {
+  "dreffeac": {
     "names": [
-      "Dreff\u221a\u00a9ac"
+      "Dreffeac"
     ],
     "stop_ids": [
       "StopArea:OCE87476770"
@@ -11681,15 +11681,15 @@
   },
   "diebling maison foresti re": {
     "names": [
-      "Diebling Maison Foresti\u221a\u00aere"
+      "Diebling Maison Foresti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87476861"
     ]
   },
-  "f n trange mairie": {
+  "fenetrange mairie": {
     "names": [
-      "F\u221a\u00a9n\u221a\u00a9trange Mairie"
+      "Fenetrange Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87476879"
@@ -11705,7 +11705,7 @@
   },
   "romelfing aglise": {
     "names": [
-      "Romelfing \u221a\u00e2glise"
+      "Romelfing \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87476911"
@@ -11735,9 +11735,9 @@
       "StopArea:OCE87477141"
     ]
   },
-  "merten r publique": {
+  "merten republique": {
     "names": [
-      "Merten R\u221a\u00a9publique"
+      "Merten Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87477158"
@@ -11799,9 +11799,9 @@
       "StopArea:OCE87478016"
     ]
   },
-  "saint m dard sur ille": {
+  "saint medard sur ille": {
     "names": [
-      "Saint-M\u221a\u00a9dard-sur-Ille"
+      "Saint-Medard-sur-Ille"
     ],
     "stop_ids": [
       "StopArea:OCE87478024"
@@ -11815,9 +11815,9 @@
       "StopArea:OCE87478032"
     ]
   },
-  "ding": {
+  "dinge": {
     "names": [
-      "Ding\u221a\u00a9"
+      "Dinge"
     ],
     "stop_ids": [
       "StopArea:OCE87478040"
@@ -11857,7 +11857,7 @@
   },
   "la gouesni re cancale": {
     "names": [
-      "La Gouesni\u221a\u00aere - Cancale"
+      "La Gouesni\u00aere - Cancale"
     ],
     "stop_ids": [
       "StopArea:OCE87478099"
@@ -11937,7 +11937,7 @@
   },
   "monts rs": {
     "names": [
-      "Monts\u221a\u00aars"
+      "Monts\u00aars"
     ],
     "stop_ids": [
       "StopArea:OCE87478537"
@@ -11953,23 +11953,23 @@
   },
   "avron": {
     "names": [
-      "\u221a\u00e2vron"
+      "\u00e2vron"
     ],
     "stop_ids": [
       "StopArea:OCE87478552"
     ]
   },
-  "voutr": {
+  "voutre": {
     "names": [
-      "Voutr\u221a\u00a9"
+      "Voutre"
     ],
     "stop_ids": [
       "StopArea:OCE87478560"
     ]
   },
-  "digoin lyc e": {
+  "digoin lycee": {
     "names": [
-      "Digoin Lyc\u221a\u00a9e"
+      "Digoin Lycee"
     ],
     "stop_ids": [
       "StopArea:OCE87478693"
@@ -12015,9 +12015,9 @@
       "StopArea:OCE87481002"
     ]
   },
-  "rez pont rousseau": {
+  "reze pont rousseau": {
     "names": [
-      "Rez\u221a\u00a9 Pont-Rousseau"
+      "Reze Pont-Rousseau"
     ],
     "stop_ids": [
       "StopArea:OCE87481036"
@@ -12039,9 +12039,9 @@
       "StopArea:OCE87481069"
     ]
   },
-  "thouar": {
+  "thouare": {
     "names": [
-      "Thouar\u221a\u00a9"
+      "Thouare"
     ],
     "stop_ids": [
       "StopArea:OCE87481143"
@@ -12065,7 +12065,7 @@
   },
   "boussay la bruffi re": {
     "names": [
-      "Boussay - La Bruffi\u221a\u00aere"
+      "Boussay - La Bruffi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87481176"
@@ -12097,7 +12097,7 @@
   },
   "port saint p re saint mars": {
     "names": [
-      "Port-Saint-P\u221a\u00aere - Saint-Mars"
+      "Port-Saint-P\u00aere - Saint-Mars"
     ],
     "stop_ids": [
       "StopArea:OCE87481218"
@@ -12111,9 +12111,9 @@
       "StopArea:OCE87481226"
     ]
   },
-  "saint hilaire de chal ons": {
+  "saint hilaire de chaleons": {
     "names": [
-      "Saint-Hilaire-de-Chal\u221a\u00a9ons"
+      "Saint-Hilaire-de-Chaleons"
     ],
     "stop_ids": [
       "StopArea:OCE87481234"
@@ -12177,7 +12177,7 @@
   },
   "la haie fouassi re": {
     "names": [
-      "La Haie-Fouassi\u221a\u00aere"
+      "La Haie-Fouassi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87481416"
@@ -12247,9 +12247,9 @@
       "StopArea:OCE87481614"
     ]
   },
-  "iss": {
+  "isse": {
     "names": [
-      "Iss\u221a\u00a9"
+      "Isse"
     ],
     "stop_ids": [
       "StopArea:OCE87481622"
@@ -12257,15 +12257,15 @@
   },
   "ch teaubriant": {
     "names": [
-      "Ch\u221a\u00a2teaubriant"
+      "Ch\u00a2teaubriant"
     ],
     "stop_ids": [
       "StopArea:OCE87481648"
     ]
   },
-  "la croix de m an": {
+  "la croix de mean": {
     "names": [
-      "La Croix de M\u221a\u00a9an"
+      "La Croix de Mean"
     ],
     "stop_ids": [
       "StopArea:OCE87481689"
@@ -12345,7 +12345,7 @@
   },
   "cou ron": {
     "names": [
-      "Cou\u221a\u00b4ron"
+      "Cou\u00b4ron"
     ],
     "stop_ids": [
       "StopArea:OCE87481804"
@@ -12353,7 +12353,7 @@
   },
   "saint atienne de montluc": {
     "names": [
-      "Saint-\u221a\u00e2tienne-de-Montluc"
+      "Saint-\u00e2tienne-de-Montluc"
     ],
     "stop_ids": [
       "StopArea:OCE87481812"
@@ -12377,7 +12377,7 @@
   },
   "pontch teau": {
     "names": [
-      "Pontch\u221a\u00a2teau"
+      "Pontch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87481846"
@@ -12393,7 +12393,7 @@
   },
   "angers ma tre acole": {
     "names": [
-      "Angers Ma\u221a\u00c6tre \u221a\u00e2cole"
+      "Angers Ma\u00c6tre \u00e2cole"
     ],
     "stop_ids": [
       "StopArea:OCE87484048"
@@ -12407,17 +12407,17 @@
       "StopArea:OCE87484139"
     ]
   },
-  "tierc": {
+  "tierce": {
     "names": [
-      "Tierc\u221a\u00a9"
+      "Tierce"
     ],
     "stop_ids": [
       "StopArea:OCE87484147"
     ]
   },
-  "atrich ch teauneuf": {
+  "atriche ch teauneuf": {
     "names": [
-      "\u221a\u00e2trich\u221a\u00a9 - Ch\u221a\u00a2teauneuf"
+      "\u00e2triche - Ch\u00a2teauneuf"
     ],
     "stop_ids": [
       "StopArea:OCE87484154"
@@ -12439,9 +12439,9 @@
       "StopArea:OCE87484204"
     ]
   },
-  "chemill": {
+  "chemille": {
     "names": [
-      "Chemill\u221a\u00a9"
+      "Chemille"
     ],
     "stop_ids": [
       "StopArea:OCE87484246"
@@ -12455,9 +12455,9 @@
       "StopArea:OCE87484303"
     ]
   },
-  "savenni res b huard": {
+  "savenni res behuard": {
     "names": [
-      "Savenni\u221a\u00aeres - B\u221a\u00a9huard"
+      "Savenni\u00aeres - Behuard"
     ],
     "stop_ids": [
       "StopArea:OCE87484329"
@@ -12465,15 +12465,15 @@
   },
   "la possonni re": {
     "names": [
-      "La Possonni\u221a\u00aere"
+      "La Possonni\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87484337"
     ]
   },
-  "champtoc sur loire": {
+  "champtoce sur loire": {
     "names": [
-      "Champtoc\u221a\u00a9-sur-Loire"
+      "Champtoce-sur-Loire"
     ],
     "stop_ids": [
       "StopArea:OCE87484352"
@@ -12497,7 +12497,7 @@
   },
   "lamure sur azergues coll ge": {
     "names": [
-      "Lamure-sur-Azergues Coll\u221a\u00aege"
+      "Lamure-sur-Azergues Coll\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87484576"
@@ -12505,7 +12505,7 @@
   },
   "poule les acharmeaux mairie": {
     "names": [
-      "Poule-les-\u221a\u00e2charmeaux Mairie"
+      "Poule-les-\u00e2charmeaux Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87484584"
@@ -12529,15 +12529,15 @@
   },
   "ch telaillon": {
     "names": [
-      "Ch\u221a\u00a2telaillon"
+      "Ch\u00a2telaillon"
     ],
     "stop_ids": [
       "StopArea:OCE87485110"
     ]
   },
-  "saint laurent de la pr e fouras": {
+  "saint laurent de la pree fouras": {
     "names": [
-      "Saint-Laurent-de-la-Pr\u221a\u00a9e - Fouras"
+      "Saint-Laurent-de-la-Pree - Fouras"
     ],
     "stop_ids": [
       "StopArea:OCE87485136"
@@ -12577,15 +12577,15 @@
   },
   "surg res": {
     "names": [
-      "Surg\u221a\u00aeres"
+      "Surg\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87485227"
     ]
   },
-  "mauz": {
+  "mauze": {
     "names": [
-      "Mauz\u221a\u00a9"
+      "Mauze"
     ],
     "stop_ids": [
       "StopArea:OCE87485250"
@@ -12593,7 +12593,7 @@
   },
   "prin deyran on": {
     "names": [
-      "Prin-Deyran\u221a\u00dfon"
+      "Prin-Deyran\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87485268"
@@ -12631,9 +12631,9 @@
       "StopArea:OCE87485342"
     ]
   },
-  "priss la charri re": {
+  "prisse la charri re": {
     "names": [
-      "Priss\u221a\u00a9-la-Charri\u221a\u00aere"
+      "Prisse-la-Charri\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87485359"
@@ -12641,7 +12641,7 @@
   },
   "la cr che": {
     "names": [
-      "La Cr\u221a\u00aeche"
+      "La Cr\u00aeche"
     ],
     "stop_ids": [
       "StopArea:OCE87485474"
@@ -12649,15 +12649,15 @@
   },
   "saint maixent l acole": {
     "names": [
-      "Saint-Maixent-L'\u221a\u00e2cole"
+      "Saint-Maixent-L'\u00e2cole"
     ],
     "stop_ids": [
       "StopArea:OCE87485490"
     ]
   },
-  "la mothe saint h ray": {
+  "la mothe saint heray": {
     "names": [
-      "La Mothe-Saint-H\u221a\u00a9ray"
+      "La Mothe-Saint-Heray"
     ],
     "stop_ids": [
       "StopArea:OCE87485508"
@@ -12671,9 +12671,9 @@
       "StopArea:OCE87485524"
     ]
   },
-  "rouill": {
+  "rouille": {
     "names": [
-      "Rouill\u221a\u00a9"
+      "Rouille"
     ],
     "stop_ids": [
       "StopArea:OCE87485532"
@@ -12703,9 +12703,9 @@
       "StopArea:OCE87486126"
     ]
   },
-  "belleville vend e": {
+  "belleville vendee": {
     "names": [
-      "Belleville-Vend\u221a\u00a9e"
+      "Belleville-Vendee"
     ],
     "stop_ids": [
       "StopArea:OCE87486142"
@@ -12713,7 +12713,7 @@
   },
   "lu on": {
     "names": [
-      "Lu\u221a\u00dfon"
+      "Lu\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87486258"
@@ -12727,9 +12727,9 @@
       "StopArea:OCE87486308"
     ]
   },
-  "fouger": {
+  "fougere": {
     "names": [
-      "Fouger\u221a\u00a9"
+      "Fougere"
     ],
     "stop_ids": [
       "StopArea:OCE87486316"
@@ -12841,7 +12841,7 @@
   },
   "brion pr s thouet": {
     "names": [
-      "Brion-pr\u221a\u00aes-Thouet"
+      "Brion-pr\u00aes-Thouet"
     ],
     "stop_ids": [
       "StopArea:OCE87487611"
@@ -12871,9 +12871,9 @@
       "StopArea:OCE87487876"
     ]
   },
-  "la m nitr": {
+  "la menitre": {
     "names": [
-      "La M\u221a\u00a9nitr\u221a\u00a9"
+      "La Menitre"
     ],
     "stop_ids": [
       "StopArea:OCE87487884"
@@ -12983,9 +12983,9 @@
       "StopArea:OCE87491233"
     ]
   },
-  "saint andr de cubzac": {
+  "saint andre de cubzac": {
     "names": [
-      "Saint-Andr\u221a\u00a9-de-Cubzac"
+      "Saint-Andre-de-Cubzac"
     ],
     "stop_ids": [
       "StopArea:OCE87491241"
@@ -13009,7 +13009,7 @@
   },
   "la grave d ambar s": {
     "names": [
-      "La Grave d'Ambar\u221a\u00aes"
+      "La Grave d'Ambar\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87491274"
@@ -13039,9 +13039,9 @@
       "StopArea:OCE87491324"
     ]
   },
-  "saint jean d ang ly": {
+  "saint jean d angely": {
     "names": [
-      "Saint-Jean-d'Ang\u221a\u00a9ly"
+      "Saint-Jean-d'Angely"
     ],
     "stop_ids": [
       "StopArea:OCE87491357"
@@ -13065,7 +13065,7 @@
   },
   "ch teauneuf sur charente": {
     "names": [
-      "Ch\u221a\u00a2teauneuf-sur-Charente"
+      "Ch\u00a2teauneuf-sur-Charente"
     ],
     "stop_ids": [
       "StopArea:OCE87491506"
@@ -13095,17 +13095,17 @@
       "StopArea:OCE87497222"
     ]
   },
-  "gallieni canc rop le": {
+  "gallieni cancerop le": {
     "names": [
-      "Gallieni-Canc\u221a\u00a9rop\u221a\u00a5le"
+      "Gallieni-Cancerop\u00a5le"
     ],
     "stop_ids": [
       "StopArea:OCE87497461"
     ]
   },
-  "decize caf bel air": {
+  "decize cafe bel air": {
     "names": [
-      "Decize Caf\u221a\u00a9 Bel-Air"
+      "Decize Cafe Bel-Air"
     ],
     "stop_ids": [
       "StopArea:OCE87499897"
@@ -13153,7 +13153,7 @@
   },
   "saint ouen arr t cars": {
     "names": [
-      "Saint-Ouen Arr\u221a\u2122t Cars"
+      "Saint-Ouen Arr\u2122t Cars"
     ],
     "stop_ids": [
       "StopArea:OCE87500876"
@@ -13175,9 +13175,9 @@
       "StopArea:OCE87500934"
     ]
   },
-  "saint l ger des vignes faubourg les valettes": {
+  "saint leger des vignes faubourg les valettes": {
     "names": [
-      "Saint-L\u221a\u00a9ger-des-Vignes Faubourg les Valettes"
+      "Saint-Leger-des-Vignes Faubourg les Valettes"
     ],
     "stop_ids": [
       "StopArea:OCE87500991"
@@ -13185,7 +13185,7 @@
   },
   "tannay place de l aglise": {
     "names": [
-      "Tannay Place de l'\u221a\u00e2glise"
+      "Tannay Place de l'\u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87501049"
@@ -13215,9 +13215,9 @@
       "StopArea:OCE87526574"
     ]
   },
-  "b ard bourg": {
+  "beard bourg": {
     "names": [
-      "B\u221a\u00a9ard Bourg"
+      "Beard Bourg"
     ],
     "stop_ids": [
       "StopArea:OCE87533547"
@@ -13271,9 +13271,9 @@
       "StopArea:OCE87533653"
     ]
   },
-  "mulhouse r publique": {
+  "mulhouse republique": {
     "names": [
-      "Mulhouse R\u221a\u00a9publique"
+      "Mulhouse Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87533661"
@@ -13295,9 +13295,9 @@
       "StopArea:OCE87534321"
     ]
   },
-  "mulhouse mus es": {
+  "mulhouse musees": {
     "names": [
-      "Mulhouse Mus\u221a\u00a9es"
+      "Mulhouse Musees"
     ],
     "stop_ids": [
       "StopArea:OCE87534339"
@@ -13313,15 +13313,15 @@
   },
   "aubenas gare routi re": {
     "names": [
-      "Aubenas Gare Routi\u221a\u00aere"
+      "Aubenas Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87535096"
     ]
   },
-  "orl ans": {
+  "orleans": {
     "names": [
-      "Orl\u221a\u00a9ans"
+      "Orleans"
     ],
     "stop_ids": [
       "StopArea:OCE87543009"
@@ -13361,7 +13361,7 @@
   },
   "ch teau gaillard": {
     "names": [
-      "Ch\u221a\u00a2teau-Gaillard"
+      "Ch\u00a2teau-Gaillard"
     ],
     "stop_ids": [
       "StopArea:OCE87543066"
@@ -13399,9 +13399,9 @@
       "StopArea:OCE87543116"
     ]
   },
-  "la fert saint aubin": {
+  "la ferte saint aubin": {
     "names": [
-      "La Fert\u221a\u00a9-Saint-Aubin"
+      "La Ferte-Saint-Aubin"
     ],
     "stop_ids": [
       "StopArea:OCE87543124"
@@ -13465,7 +13465,7 @@
   },
   "atampes": {
     "names": [
-      "\u221a\u00e2tampes"
+      "\u00e2tampes"
     ],
     "stop_ids": [
       "StopArea:OCE87545137"
@@ -13513,15 +13513,15 @@
   },
   "ch teaudun": {
     "names": [
-      "Ch\u221a\u00a2teaudun"
+      "Ch\u00a2teaudun"
     ],
     "stop_ids": [
       "StopArea:OCE87545756"
     ]
   },
-  "pont de rungis a roport d orly": {
+  "pont de rungis aeroport d orly": {
     "names": [
-      "Pont de Rungis A\u221a\u00a9roport d'Orly"
+      "Pont de Rungis Aeroport d'Orly"
     ],
     "stop_ids": [
       "StopArea:OCE87546192"
@@ -13537,7 +13537,7 @@
   },
   "ribeauville gare routi re": {
     "names": [
-      "Ribeauville Gare Routi\u221a\u00aere"
+      "Ribeauville Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87552141"
@@ -13545,7 +13545,7 @@
   },
   "valence gare routi re": {
     "names": [
-      "Valence Gare Routi\u221a\u00aere"
+      "Valence Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87556506"
@@ -13553,7 +13553,7 @@
   },
   "montelimar gare routi re": {
     "names": [
-      "Montelimar Gare Routi\u221a\u00aere"
+      "Montelimar Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87556522"
@@ -13567,17 +13567,17 @@
       "StopArea:OCE87559070"
     ]
   },
-  "aulnat a roport": {
+  "aulnat aeroport": {
     "names": [
-      "Aulnat A\u221a\u00a9roport"
+      "Aulnat Aeroport"
     ],
     "stop_ids": [
       "StopArea:OCE87562421"
     ]
   },
-  "halte de fontanil lyc e de drap": {
+  "halte de fontanil lycee de drap": {
     "names": [
-      "Halte de Fontanil - Lyc\u221a\u00a9e de Drap"
+      "Halte de Fontanil - Lycee de Drap"
     ],
     "stop_ids": [
       "StopArea:OCE87565143"
@@ -13601,7 +13601,7 @@
   },
   "vend me villiers sur loir": {
     "names": [
-      "Vend\u221a\u00a5me - Villiers-sur-Loir"
+      "Vend\u00a5me - Villiers-sur-Loir"
     ],
     "stop_ids": [
       "StopArea:OCE87571216"
@@ -13631,9 +13631,9 @@
       "StopArea:OCE87571406"
     ]
   },
-  "veign": {
+  "veigne": {
     "names": [
-      "Veign\u221a\u00a9"
+      "Veigne"
     ],
     "stop_ids": [
       "StopArea:OCE87571414"
@@ -13711,9 +13711,9 @@
       "StopArea:OCE87571539"
     ]
   },
-  "neuill pont pierre": {
+  "neuille pont pierre": {
     "names": [
-      "Neuill\u221a\u00a9-Pont-Pierre"
+      "Neuille-Pont-Pierre"
     ],
     "stop_ids": [
       "StopArea:OCE87571547"
@@ -13809,7 +13809,7 @@
   },
   "savonni res": {
     "names": [
-      "Savonni\u221a\u00aeres"
+      "Savonni\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87571844"
@@ -13823,9 +13823,9 @@
       "StopArea:OCE87571851"
     ]
   },
-  "jou l s tours": {
+  "joue l s tours": {
     "names": [
-      "Jou\u221a\u00a9-l\u221a\u00aes-Tours"
+      "Joue-l\u00aes-Tours"
     ],
     "stop_ids": [
       "StopArea:OCE87571885"
@@ -13889,7 +13889,7 @@
   },
   "su vres": {
     "names": [
-      "Su\u221a\u00aevres"
+      "Su\u00aevres"
     ],
     "stop_ids": [
       "StopArea:OCE87574236"
@@ -13903,9 +13903,9 @@
       "StopArea:OCE87574244"
     ]
   },
-  "la chauss e saint victor": {
+  "la chaussee saint victor": {
     "names": [
-      "La Chauss\u221a\u00a9e-Saint-Victor"
+      "La Chaussee-Saint-Victor"
     ],
     "stop_ids": [
       "StopArea:OCE87574251"
@@ -13959,9 +13959,9 @@
       "StopArea:OCE87574368"
     ]
   },
-  "v retz montlouis": {
+  "veretz montlouis": {
     "names": [
-      "V\u221a\u00a9retz - Montlouis"
+      "Veretz - Montlouis"
     ],
     "stop_ids": [
       "StopArea:OCE87574434"
@@ -13983,9 +13983,9 @@
       "StopArea:OCE87574459"
     ]
   },
-  "bl r la croix": {
+  "blere la croix": {
     "names": [
-      "Bl\u221a\u00a9r\u221a\u00a9 - la Croix"
+      "Blere - la Croix"
     ],
     "stop_ids": [
       "StopArea:OCE87574475"
@@ -14007,9 +14007,9 @@
       "StopArea:OCE87574509"
     ]
   },
-  "fr teval mor e": {
+  "freteval moree": {
     "names": [
-      "Fr\u221a\u00a9teval - Mor\u221a\u00a9e"
+      "Freteval - Moree"
     ],
     "stop_ids": [
       "StopArea:OCE87574533"
@@ -14025,7 +14025,7 @@
   },
   "vend me": {
     "names": [
-      "Vend\u221a\u00a5me"
+      "Vend\u00a5me"
     ],
     "stop_ids": [
       "StopArea:OCE87574558"
@@ -14033,7 +14033,7 @@
   },
   "saint amand de vend me": {
     "names": [
-      "Saint-Amand de Vend\u221a\u00a5me"
+      "Saint-Amand de Vend\u00a5me"
     ],
     "stop_ids": [
       "StopArea:OCE87574640"
@@ -14041,7 +14041,7 @@
   },
   "ch teau renault": {
     "names": [
-      "Ch\u221a\u00a2teau-Renault"
+      "Ch\u00a2teau-Renault"
     ],
     "stop_ids": [
       "StopArea:OCE87574665"
@@ -14055,9 +14055,9 @@
       "StopArea:OCE87574681"
     ]
   },
-  "notre dame d o": {
+  "notre dame d oe": {
     "names": [
-      "Notre-Dame-d'O\u221a\u00a9"
+      "Notre-Dame-d'Oe"
     ],
     "stop_ids": [
       "StopArea:OCE87574699"
@@ -14119,9 +14119,9 @@
       "StopArea:OCE87575050"
     ]
   },
-  "maill": {
+  "maille": {
     "names": [
-      "Maill\u221a\u00a9"
+      "Maille"
     ],
     "stop_ids": [
       "StopArea:OCE87575068"
@@ -14143,9 +14143,9 @@
       "StopArea:OCE87575118"
     ]
   },
-  "dang saint romain": {
+  "dange saint romain": {
     "names": [
-      "Dang\u221a\u00a9-Saint-Romain"
+      "Dange-Saint-Romain"
     ],
     "stop_ids": [
       "StopArea:OCE87575126"
@@ -14161,7 +14161,7 @@
   },
   "ch tellerault": {
     "names": [
-      "Ch\u221a\u00a2tellerault"
+      "Ch\u00a2tellerault"
     ],
     "stop_ids": [
       "StopArea:OCE87575142"
@@ -14175,9 +14175,9 @@
       "StopArea:OCE87575167"
     ]
   },
-  "naintr les barres": {
+  "naintre les barres": {
     "names": [
-      "Naintr\u221a\u00a9 les Barres"
+      "Naintre les Barres"
     ],
     "stop_ids": [
       "StopArea:OCE87575175"
@@ -14215,9 +14215,9 @@
       "StopArea:OCE87575225"
     ]
   },
-  "ligug": {
+  "liguge": {
     "names": [
-      "Ligug\u221a\u00a9"
+      "Liguge"
     ],
     "stop_ids": [
       "StopArea:OCE87575274"
@@ -14231,9 +14231,9 @@
       "StopArea:OCE87575290"
     ]
   },
-  "anch voulon": {
+  "anche voulon": {
     "names": [
-      "Anch\u221a\u00a9 - Voulon"
+      "Anche - Voulon"
     ],
     "stop_ids": [
       "StopArea:OCE87575332"
@@ -14241,7 +14241,7 @@
   },
   "apanvilliers": {
     "names": [
-      "\u221a\u00e2panvilliers"
+      "\u00e2panvilliers"
     ],
     "stop_ids": [
       "StopArea:OCE87575357"
@@ -14271,9 +14271,9 @@
       "StopArea:OCE87575498"
     ]
   },
-  "mignaloux nouaill": {
+  "mignaloux nouaille": {
     "names": [
-      "Mignaloux - Nouaill\u221a\u00a9"
+      "Mignaloux - Nouaille"
     ],
     "stop_ids": [
       "StopArea:OCE87575704"
@@ -14281,7 +14281,7 @@
   },
   "lussac les ch teaux": {
     "names": [
-      "Lussac-les-Ch\u221a\u00a2teaux"
+      "Lussac-les-Ch\u00a2teaux"
     ],
     "stop_ids": [
       "StopArea:OCE87575845"
@@ -14303,9 +14303,9 @@
       "StopArea:OCE87576025"
     ]
   },
-  "la fert imbault": {
+  "la ferte imbault": {
     "names": [
-      "La Fert\u221a\u00a9-Imbault"
+      "La Ferte-Imbault"
     ],
     "stop_ids": [
       "StopArea:OCE87576082"
@@ -14321,7 +14321,7 @@
   },
   "fo cy": {
     "names": [
-      "Fo\u221a\u00b4cy"
+      "Fo\u00b4cy"
     ],
     "stop_ids": [
       "StopArea:OCE87576108"
@@ -14329,7 +14329,7 @@
   },
   "mehun sur y vre": {
     "names": [
-      "Mehun-sur-Y\u221a\u00aevre"
+      "Mehun-sur-Y\u00aevre"
     ],
     "stop_ids": [
       "StopArea:OCE87576116"
@@ -14367,9 +14367,9 @@
       "StopArea:OCE87576165"
     ]
   },
-  "faubourg d orl ans": {
+  "faubourg d orleans": {
     "names": [
-      "Faubourg d'Orl\u221a\u00a9ans"
+      "Faubourg d'Orleans"
     ],
     "stop_ids": [
       "StopArea:OCE87576173"
@@ -14401,7 +14401,7 @@
   },
   "valen ay": {
     "names": [
-      "Valen\u221a\u00dfay"
+      "Valen\u00dfay"
     ],
     "stop_ids": [
       "StopArea:OCE87576215"
@@ -14441,7 +14441,7 @@
   },
   "ch teauneuf sur cher": {
     "names": [
-      "Ch\u221a\u00a2teauneuf-sur-Cher"
+      "Ch\u00a2teauneuf-sur-Cher"
     ],
     "stop_ids": [
       "StopArea:OCE87576298"
@@ -14465,7 +14465,7 @@
   },
   "ur ay": {
     "names": [
-      "Ur\u221a\u00dfay"
+      "Ur\u00dfay"
     ],
     "stop_ids": [
       "StopArea:OCE87576348"
@@ -14481,7 +14481,7 @@
   },
   "lu ay le m le": {
     "names": [
-      "Lu\u221a\u00dfay-le-M\u221a\u00a2le"
+      "Lu\u00dfay-le-M\u00a2le"
     ],
     "stop_ids": [
       "StopArea:OCE87576363"
@@ -14511,9 +14511,9 @@
       "StopArea:OCE87576447"
     ]
   },
-  "n rondes": {
+  "nerondes": {
     "names": [
-      "N\u221a\u00a9rondes"
+      "Nerondes"
     ],
     "stop_ids": [
       "StopArea:OCE87576454"
@@ -14545,7 +14545,7 @@
   },
   "gi vres": {
     "names": [
-      "Gi\u221a\u00aevres"
+      "Gi\u00aevres"
     ],
     "stop_ids": [
       "StopArea:OCE87576876"
@@ -14575,9 +14575,9 @@
       "StopArea:OCE87578229"
     ]
   },
-  "marseille arenc eurom diterran e": {
+  "marseille arenc euromediterranee": {
     "names": [
-      "Marseille Arenc Eurom\u221a\u00a9diterran\u221a\u00a9e"
+      "Marseille Arenc Euromediterranee"
     ],
     "stop_ids": [
       "StopArea:OCE87580340"
@@ -14655,9 +14655,9 @@
       "StopArea:OCE87581389"
     ]
   },
-  "caud ran m rignac": {
+  "cauderan merignac": {
     "names": [
-      "Caud\u221a\u00a9ran-M\u221a\u00a9rignac"
+      "Cauderan-Merignac"
     ],
     "stop_ids": [
       "StopArea:OCE87581538"
@@ -14713,7 +14713,7 @@
   },
   "b gles": {
     "names": [
-      "B\u221a\u00aegles"
+      "B\u00aegles"
     ],
     "stop_ids": [
       "StopArea:OCE87581801"
@@ -14735,9 +14735,9 @@
       "StopArea:OCE87581850"
     ]
   },
-  "bo": {
+  "boe": {
     "names": [
-      "Bo\u221a\u00a9"
+      "Boe"
     ],
     "stop_ids": [
       "StopArea:OCE87582346"
@@ -14745,7 +14745,7 @@
   },
   "sainte m re": {
     "names": [
-      "Sainte-M\u221a\u00aere"
+      "Sainte-M\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87582353"
@@ -14839,9 +14839,9 @@
       "StopArea:OCE87582684"
     ]
   },
-  "saint m dard d eyrans": {
+  "saint medard d eyrans": {
     "names": [
-      "Saint-M\u221a\u00a9dard-d'Eyrans"
+      "Saint-Medard-d'Eyrans"
     ],
     "stop_ids": [
       "StopArea:OCE87582692"
@@ -14879,9 +14879,9 @@
       "StopArea:OCE87582734"
     ]
   },
-  "c rons": {
+  "cerons": {
     "names": [
-      "C\u221a\u00a9rons"
+      "Cerons"
     ],
     "stop_ids": [
       "StopArea:OCE87582742"
@@ -14943,9 +14943,9 @@
       "StopArea:OCE87582858"
     ]
   },
-  "la r ole": {
+  "la reole": {
     "names": [
-      "La R\u221a\u00a9ole"
+      "La Reole"
     ],
     "stop_ids": [
       "StopArea:OCE87582866"
@@ -14961,7 +14961,7 @@
   },
   "angoul me": {
     "names": [
-      "Angoul\u221a\u2122me"
+      "Angoul\u2122me"
     ],
     "stop_ids": [
       "StopArea:OCE87583005"
@@ -14991,9 +14991,9 @@
       "StopArea:OCE87583690"
     ]
   },
-  "lux": {
+  "luxe": {
     "names": [
-      "Lux\u221a\u00a9"
+      "Luxe"
     ],
     "stop_ids": [
       "StopArea:OCE87583823"
@@ -15017,7 +15017,7 @@
   },
   "saint amilion": {
     "names": [
-      "Saint-\u221a\u00e2milion"
+      "Saint-\u00e2milion"
     ],
     "stop_ids": [
       "StopArea:OCE87584102"
@@ -15039,9 +15039,9 @@
       "StopArea:OCE87584151"
     ]
   },
-  "v lines": {
+  "velines": {
     "names": [
-      "V\u221a\u00a9lines"
+      "Velines"
     ],
     "stop_ids": [
       "StopArea:OCE87584177"
@@ -15103,9 +15103,9 @@
       "StopArea:OCE87584466"
     ]
   },
-  "tr molat": {
+  "tremolat": {
     "names": [
-      "Tr\u221a\u00a9molat"
+      "Tremolat"
     ],
     "stop_ids": [
       "StopArea:OCE87584474"
@@ -15129,7 +15129,7 @@
   },
   "les aglisottes": {
     "names": [
-      "Les \u221a\u00e2glisottes"
+      "Les \u00e2glisottes"
     ],
     "stop_ids": [
       "StopArea:OCE87584532"
@@ -15143,9 +15143,9 @@
       "StopArea:OCE87584540"
     ]
   },
-  "saint m dard de guizi res": {
+  "saint medard de guizi res": {
     "names": [
-      "Saint-M\u221a\u00a9dard-de-Guizi\u221a\u00aeres"
+      "Saint-Medard-de-Guizi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87584607"
@@ -15177,7 +15177,7 @@
   },
   "saint loub s": {
     "names": [
-      "Saint-Loub\u221a\u00aes"
+      "Saint-Loub\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87584730"
@@ -15239,9 +15239,9 @@
       "StopArea:OCE87586321"
     ]
   },
-  "fleurance all e aristide briand": {
+  "fleurance allee aristide briand": {
     "names": [
-      "Fleurance All\u221a\u00a9e Aristide Briand"
+      "Fleurance Allee Aristide Briand"
     ],
     "stop_ids": [
       "StopArea:OCE87586339"
@@ -15303,9 +15303,9 @@
       "StopArea:OCE87586479"
     ]
   },
-  "sauveterre la l mance": {
+  "sauveterre la lemance": {
     "names": [
-      "Sauveterre-la-L\u221a\u00a9mance"
+      "Sauveterre-la-Lemance"
     ],
     "stop_ids": [
       "StopArea:OCE87586495"
@@ -15369,7 +15369,7 @@
   },
   "le puy en velay h pital e roux": {
     "names": [
-      "Le Puy En Velay H\u221a\u00a5pital E.Roux"
+      "Le Puy En Velay H\u00a5pital E.Roux"
     ],
     "stop_ids": [
       "StopArea:OCE87589598"
@@ -15393,7 +15393,7 @@
   },
   "haluch re batignolles beaujoire": {
     "names": [
-      "Haluch\u221a\u00aere Batignolles Beaujoire"
+      "Haluch\u00aere Batignolles Beaujoire"
     ],
     "stop_ids": [
       "StopArea:OCE87590331"
@@ -15401,7 +15401,7 @@
   },
   "babini re": {
     "names": [
-      "Babini\u221a\u00aere"
+      "Babini\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87590349"
@@ -15425,23 +15425,23 @@
   },
   "ch teaubriant tram train": {
     "names": [
-      "Ch\u221a\u00a2teaubriant Tram Train"
+      "Ch\u00a2teaubriant Tram Train"
     ],
     "stop_ids": [
       "StopArea:OCE87590372"
     ]
   },
-  "suc sur erdre": {
+  "suce sur erdre": {
     "names": [
-      "Suc\u221a\u00a9-sur-Erdre"
+      "Suce-sur-Erdre"
     ],
     "stop_ids": [
       "StopArea:OCE87590828"
     ]
   },
-  "limoges b n dictins": {
+  "limoges benedictins": {
     "names": [
-      "Limoges B\u221a\u00a9n\u221a\u00a9dictins"
+      "Limoges Benedictins"
     ],
     "stop_ids": [
       "StopArea:OCE87592006"
@@ -15479,9 +15479,9 @@
       "StopArea:OCE87592063"
     ]
   },
-  "saint l onard de noblat": {
+  "saint leonard de noblat": {
     "names": [
-      "Saint-L\u221a\u00a9onard-de-Noblat"
+      "Saint-Leonard-de-Noblat"
     ],
     "stop_ids": [
       "StopArea:OCE87592071"
@@ -15497,7 +15497,7 @@
   },
   "ch teauneuf bujaleuf": {
     "names": [
-      "Ch\u221a\u00a2teauneuf - Bujaleuf"
+      "Ch\u00a2teauneuf - Bujaleuf"
     ],
     "stop_ids": [
       "StopArea:OCE87592105"
@@ -15505,7 +15505,7 @@
   },
   "eymoutiers vassivi re": {
     "names": [
-      "Eymoutiers Vassivi\u221a\u00aere"
+      "Eymoutiers Vassivi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87592121"
@@ -15513,7 +15513,7 @@
   },
   "lacelle corr ze": {
     "names": [
-      "Lacelle Corr\u221a\u00aeze"
+      "Lacelle Corr\u00aeze"
     ],
     "stop_ids": [
       "StopArea:OCE87592147"
@@ -15527,9 +15527,9 @@
       "StopArea:OCE87592162"
     ]
   },
-  "p rols sur v z re": {
+  "perols sur vez re": {
     "names": [
-      "P\u221a\u00a9rols-sur-V\u221a\u00a9z\u221a\u00aere"
+      "Perols-sur-Vez\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87592170"
@@ -15545,7 +15545,7 @@
   },
   "pierre buffi re": {
     "names": [
-      "Pierre-Buffi\u221a\u00aere"
+      "Pierre-Buffi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87592253"
@@ -15585,7 +15585,7 @@
   },
   "la jonch re": {
     "names": [
-      "La Jonch\u221a\u00aere"
+      "La Jonch\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87592337"
@@ -15593,7 +15593,7 @@
   },
   "saint sulpice lauri re": {
     "names": [
-      "Saint-Sulpice-Lauri\u221a\u00aere"
+      "Saint-Sulpice-Lauri\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87592345"
@@ -15655,9 +15655,9 @@
       "StopArea:OCE87592485"
     ]
   },
-  "saint s bastien": {
+  "saint sebastien": {
     "names": [
-      "Saint-S\u221a\u00a9bastien"
+      "Saint-Sebastien"
     ],
     "stop_ids": [
       "StopArea:OCE87592493"
@@ -15745,7 +15745,7 @@
   },
   "bussi re galant": {
     "names": [
-      "Bussi\u221a\u00aere-Galant"
+      "Bussi\u00aere-Galant"
     ],
     "stop_ids": [
       "StopArea:OCE87592741"
@@ -15793,7 +15793,7 @@
   },
   "corr ze": {
     "names": [
-      "Corr\u221a\u00aeze"
+      "Corr\u00aeze"
     ],
     "stop_ids": [
       "StopArea:OCE87594119"
@@ -15809,7 +15809,7 @@
   },
   "agletons": {
     "names": [
-      "\u221a\u00e2gletons"
+      "\u00e2gletons"
     ],
     "stop_ids": [
       "StopArea:OCE87594168"
@@ -15881,7 +15881,7 @@
   },
   "la rivi re de mansac": {
     "names": [
-      "La Rivi\u221a\u00aere de Mansac"
+      "La Rivi\u00aere de Mansac"
     ],
     "stop_ids": [
       "StopArea:OCE87594416"
@@ -15929,7 +15929,7 @@
   },
   "saint denis pr s martel": {
     "names": [
-      "Saint-Denis-Pr\u221a\u00aes-Martel"
+      "Saint-Denis-Pr\u00aes-Martel"
     ],
     "stop_ids": [
       "StopArea:OCE87594572"
@@ -15983,9 +15983,9 @@
       "StopArea:OCE87594739"
     ]
   },
-  "b taille": {
+  "betaille": {
     "names": [
-      "B\u221a\u00a9taille"
+      "Betaille"
     ],
     "stop_ids": [
       "StopArea:OCE87594747"
@@ -16009,7 +16009,7 @@
   },
   "laval de c re": {
     "names": [
-      "Laval-de-C\u221a\u00aere"
+      "Laval-de-C\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87594796"
@@ -16023,9 +16023,9 @@
       "StopArea:OCE87594820"
     ]
   },
-  "p rigueux": {
+  "perigueux": {
     "names": [
-      "P\u221a\u00a9rigueux"
+      "Perigueux"
     ],
     "stop_ids": [
       "StopArea:OCE87595009"
@@ -16039,9 +16039,9 @@
       "StopArea:OCE87595124"
     ]
   },
-  "n grondes": {
+  "negrondes": {
     "names": [
-      "N\u221a\u00a9grondes"
+      "Negrondes"
     ],
     "stop_ids": [
       "StopArea:OCE87595132"
@@ -16057,7 +16057,7 @@
   },
   "ch teau l av que": {
     "names": [
-      "Ch\u221a\u00a2teau-l'\u221a\u00e2v\u221a\u2122que"
+      "Ch\u00a2teau-l'\u00e2v\u2122que"
     ],
     "stop_ids": [
       "StopArea:OCE87595165"
@@ -16087,9 +16087,9 @@
       "StopArea:OCE87595249"
     ]
   },
-  "saint l on sur l isle": {
+  "saint leon sur l isle": {
     "names": [
-      "Saint-L\u221a\u00a9on-sur-l'Isle"
+      "Saint-Leon-sur-l'Isle"
     ],
     "stop_ids": [
       "StopArea:OCE87595264"
@@ -16111,9 +16111,9 @@
       "StopArea:OCE87595298"
     ]
   },
-  "montpon m nest rol": {
+  "montpon menesterol": {
     "names": [
-      "Montpon-M\u221a\u00a9nest\u221a\u00a9rol"
+      "Montpon-Menesterol"
     ],
     "stop_ids": [
       "StopArea:OCE87595322"
@@ -16175,9 +16175,9 @@
       "StopArea:OCE87595751"
     ]
   },
-  "siorac en p rigord": {
+  "siorac en perigord": {
     "names": [
-      "Siorac-en-P\u221a\u00a9rigord"
+      "Siorac-en-Perigord"
     ],
     "stop_ids": [
       "StopArea:OCE87595769"
@@ -16201,15 +16201,15 @@
   },
   "belv s": {
     "names": [
-      "Belv\u221a\u00aes"
+      "Belv\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87595876"
     ]
   },
-  "villefranche du p rigord": {
+  "villefranche du perigord": {
     "names": [
-      "Villefranche-du-P\u221a\u00a9rigord"
+      "Villefranche-du-Perigord"
     ],
     "stop_ids": [
       "StopArea:OCE87595892"
@@ -16225,7 +16225,7 @@
   },
   "ch teauroux": {
     "names": [
-      "Ch\u221a\u00a2teauroux"
+      "Ch\u00a2teauroux"
     ],
     "stop_ids": [
       "StopArea:OCE87597005"
@@ -16297,15 +16297,15 @@
   },
   "aguzon": {
     "names": [
-      "\u221a\u00e2guzon"
+      "\u00e2guzon"
     ],
     "stop_ids": [
       "StopArea:OCE87597153"
     ]
   },
-  "gu ret": {
+  "gueret": {
     "names": [
-      "Gu\u221a\u00a9ret"
+      "Gueret"
     ],
     "stop_ids": [
       "StopArea:OCE87597609"
@@ -16407,9 +16407,9 @@
       "StopArea:OCE87611046"
     ]
   },
-  "longages no": {
+  "longages noe": {
     "names": [
-      "Longages - No\u221a\u00a9"
+      "Longages - Noe"
     ],
     "stop_ids": [
       "StopArea:OCE87611053"
@@ -16425,7 +16425,7 @@
   },
   "caz res": {
     "names": [
-      "Caz\u221a\u00aeres"
+      "Caz\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87611079"
@@ -16463,9 +16463,9 @@
       "StopArea:OCE87611137"
     ]
   },
-  "montr jeau gourdan polignan": {
+  "montrejeau gourdan polignan": {
     "names": [
-      "Montr\u221a\u00a9jeau - Gourdan-Polignan"
+      "Montrejeau - Gourdan-Polignan"
     ],
     "stop_ids": [
       "StopArea:OCE87611152"
@@ -16479,9 +16479,9 @@
       "StopArea:OCE87611178"
     ]
   },
-  "marignac saint b at": {
+  "marignac saint beat": {
     "names": [
-      "Marignac - Saint-B\u221a\u00a9at"
+      "Marignac - Saint-Beat"
     ],
     "stop_ids": [
       "StopArea:OCE87611194"
@@ -16529,7 +16529,7 @@
   },
   "le vernet d ari ge": {
     "names": [
-      "Le Vernet d'Ari\u221a\u00aege"
+      "Le Vernet d'Ari\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87611350"
@@ -16615,9 +16615,9 @@
       "StopArea:OCE87611483"
     ]
   },
-  "port puymorens": {
+  "porte puymorens": {
     "names": [
-      "Port\u221a\u00a9-Puymorens"
+      "Porte-Puymorens"
     ],
     "stop_ids": [
       "StopArea:OCE87611509"
@@ -16629,14 +16629,6 @@
     ],
     "stop_ids": [
       "StopArea:OCE87611517"
-    ]
-  },
-  "m rens les vals": {
-    "names": [
-      "M\u221a\u00a9rens-les-Vals"
-    ],
-    "stop_ids": [
-      "StopArea:OCE87611525"
     ]
   },
   "ax les thermes": {
@@ -16657,7 +16649,7 @@
   },
   "v bre": {
     "names": [
-      "V\u221a\u00aebre"
+      "V\u00aebre"
     ],
     "stop_ids": [
       "StopArea:OCE87611566"
@@ -16681,7 +16673,7 @@
   },
   "tarascon sur ari ge": {
     "names": [
-      "Tarascon-sur-Ari\u221a\u00aege"
+      "Tarascon-sur-Ari\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87611590"
@@ -16719,9 +16711,9 @@
       "StopArea:OCE87611657"
     ]
   },
-  "castelnau d estr tefonds": {
+  "castelnau d estretefonds": {
     "names": [
-      "Castelnau-d'Estr\u221a\u00a9tefonds"
+      "Castelnau-d'Estretefonds"
     ],
     "stop_ids": [
       "StopArea:OCE87611665"
@@ -16761,7 +16753,7 @@
   },
   "bazi ge": {
     "names": [
-      "Bazi\u221a\u00aege"
+      "Bazi\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87611723"
@@ -16799,17 +16791,17 @@
       "StopArea:OCE87611806"
     ]
   },
-  "m renvielle": {
+  "merenvielle": {
     "names": [
-      "M\u221a\u00a9renvielle"
+      "Merenvielle"
     ],
     "stop_ids": [
       "StopArea:OCE87611814"
     ]
   },
-  "brax l guevin": {
+  "brax leguevin": {
     "names": [
-      "Brax - L\u221a\u00a9guevin"
+      "Brax - Leguevin"
     ],
     "stop_ids": [
       "StopArea:OCE87611822"
@@ -16823,9 +16815,9 @@
       "StopArea:OCE87611830"
     ]
   },
-  "montrab": {
+  "montrabe": {
     "names": [
-      "Montrab\u221a\u00a9"
+      "Montrabe"
     ],
     "stop_ids": [
       "StopArea:OCE87611848"
@@ -16833,7 +16825,7 @@
   },
   "lamagist re": {
     "names": [
-      "Lamagist\u221a\u00aere"
+      "Lamagist\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87611855"
@@ -16863,9 +16855,9 @@
       "StopArea:OCE87611897"
     ]
   },
-  "colomiers lyc e international": {
+  "colomiers lycee international": {
     "names": [
-      "Colomiers Lyc\u221a\u00a9e International"
+      "Colomiers Lycee International"
     ],
     "stop_ids": [
       "StopArea:OCE87611921"
@@ -16881,7 +16873,7 @@
   },
   "lab ge innopole": {
     "names": [
-      "Lab\u221a\u00aege Innopole"
+      "Lab\u00aege Innopole"
     ],
     "stop_ids": [
       "StopArea:OCE87612002"
@@ -16897,7 +16889,7 @@
   },
   "lab ge village": {
     "names": [
-      "Lab\u221a\u00aege Village"
+      "Lab\u00aege Village"
     ],
     "stop_ids": [
       "StopArea:OCE87612028"
@@ -16959,9 +16951,9 @@
       "StopArea:OCE87613141"
     ]
   },
-  "d gagnac": {
+  "degagnac": {
     "names": [
-      "D\u221a\u00a9gagnac"
+      "Degagnac"
     ],
     "stop_ids": [
       "StopArea:OCE87613174"
@@ -17023,9 +17015,9 @@
       "StopArea:OCE87613463"
     ]
   },
-  "lagu pie": {
+  "laguepie": {
     "names": [
-      "Lagu\u221a\u00a9pie"
+      "Laguepie"
     ],
     "stop_ids": [
       "StopArea:OCE87613471"
@@ -17065,7 +17057,7 @@
   },
   "salles courbati s": {
     "names": [
-      "Salles-Courbati\u221a\u00aes"
+      "Salles-Courbati\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87613877"
@@ -17119,9 +17111,9 @@
       "StopArea:OCE87615054"
     ]
   },
-  "l zignan corbi res": {
+  "lezignan corbi res": {
     "names": [
-      "L\u221a\u00a9zignan-Corbi\u221a\u00aeres"
+      "Lezignan-Corbi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87615112"
@@ -17183,9 +17175,9 @@
       "StopArea:OCE87615203"
     ]
   },
-  "esp raza": {
+  "esperaza": {
     "names": [
-      "Esp\u221a\u00a9raza"
+      "Esperaza"
     ],
     "stop_ids": [
       "StopArea:OCE87615211"
@@ -17193,7 +17185,7 @@
   },
   "tessonni res": {
     "names": [
-      "Tessonni\u221a\u00aeres"
+      "Tessonni\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87615245"
@@ -17247,9 +17239,9 @@
       "StopArea:OCE87615344"
     ]
   },
-  "roques ri re buzet": {
+  "roqueseri re buzet": {
     "names": [
-      "Roques\u221a\u00a9ri\u221a\u00aere - Buzet"
+      "Roqueseri\u00aere - Buzet"
     ],
     "stop_ids": [
       "StopArea:OCE87615351"
@@ -17257,7 +17249,7 @@
   },
   "montastruc la conseill re": {
     "names": [
-      "Montastruc-la-Conseill\u221a\u00aere"
+      "Montastruc-la-Conseill\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87615369"
@@ -17313,7 +17305,7 @@
   },
   "labrugui re": {
     "names": [
-      "Labrugui\u221a\u00aere"
+      "Labrugui\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87615526"
@@ -17407,9 +17399,9 @@
       "StopArea:OCE87618348"
     ]
   },
-  "sal chan siradan": {
+  "salechan siradan": {
     "names": [
-      "Sal\u221a\u00a9chan - Siradan"
+      "Salechan - Siradan"
     ],
     "stop_ids": [
       "StopArea:OCE87618710"
@@ -17417,7 +17409,7 @@
   },
   "montgen vre gare routi re": {
     "names": [
-      "Montgen\u221a\u00aevre Gare Routi\u221a\u00aere"
+      "Montgen\u00aevre Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87635367"
@@ -17457,7 +17449,7 @@
   },
   "apach aglise": {
     "names": [
-      "Apach \u221a\u00e2glise"
+      "Apach \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87635854"
@@ -17487,9 +17479,9 @@
       "StopArea:OCE87635920"
     ]
   },
-  "sainte m n hould m diath que": {
+  "sainte menehould mediath que": {
     "names": [
-      "Sainte-M\u221a\u00a9n\u221a\u00a9hould M\u221a\u00a9diath\u221a\u00aeque"
+      "Sainte-Menehould Mediath\u00aeque"
     ],
     "stop_ids": [
       "StopArea:OCE87635938"
@@ -17527,9 +17519,9 @@
       "StopArea:OCE87639955"
     ]
   },
-  "ettendorf place de l cole": {
+  "ettendorf place de l ecole": {
     "names": [
-      "Ettendorf Place de l'\u221a\u00a9cole"
+      "Ettendorf Place de l'ecole"
     ],
     "stop_ids": [
       "StopArea:OCE87639963"
@@ -17551,33 +17543,33 @@
       "StopArea:OCE87640144"
     ]
   },
-  "s lestat schweisguth": {
+  "selestat schweisguth": {
     "names": [
-      "S\u221a\u00a9lestat  Schweisguth"
+      "Selestat  Schweisguth"
     ],
     "stop_ids": [
       "StopArea:OCE87640375"
     ]
   },
-  "s lestat koeberl": {
+  "selestat koeberle": {
     "names": [
-      "S\u221a\u00a9lestat Koeberl\u221a\u00a9"
+      "Selestat Koeberle"
     ],
     "stop_ids": [
       "StopArea:OCE87640383"
     ]
   },
-  "s lestat schwilgu": {
+  "selestat schwilgue": {
     "names": [
-      "S\u221a\u00a9lestat Schwilgu\u221a\u00a9"
+      "Selestat Schwilgue"
     ],
     "stop_ids": [
       "StopArea:OCE87640391"
     ]
   },
-  "s lestat r ste marie a mines": {
+  "selestat r ste marie a mines": {
     "names": [
-      "S\u221a\u00a9lestat R. Ste-Marie-a.-Mines"
+      "Selestat R. Ste-Marie-a.-Mines"
     ],
     "stop_ids": [
       "StopArea:OCE87640409"
@@ -17585,15 +17577,15 @@
   },
   "ch tenois gare": {
     "names": [
-      "Ch\u221a\u00a2tenois Gare"
+      "Ch\u00a2tenois Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87640441"
     ]
   },
-  "ch tenois val de vill gare": {
+  "ch tenois val de ville gare": {
     "names": [
-      "Ch\u221a\u00a2tenois Val-de-Vill\u221a\u00a9 Gare"
+      "Ch\u00a2tenois Val-de-Ville Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87640458"
@@ -17617,7 +17609,7 @@
   },
   "li pvre route la vancelle": {
     "names": [
-      "Li\u221a\u00aepvre Route La Vancelle"
+      "Li\u00aepvre Route La Vancelle"
     ],
     "stop_ids": [
       "StopArea:OCE87640482"
@@ -17625,15 +17617,15 @@
   },
   "li pvre bois l abesse zi": {
     "names": [
-      "Li\u221a\u00aepvre Bois l'Abesse ZI"
+      "Li\u00aepvre Bois l'Abesse ZI"
     ],
     "stop_ids": [
       "StopArea:OCE87640490"
     ]
   },
-  "saint c saire mas du cheylon": {
+  "saint cesaire mas du cheylon": {
     "names": [
-      "Saint-C\u221a\u00a9saire Mas du Cheylon"
+      "Saint-Cesaire Mas du Cheylon"
     ],
     "stop_ids": [
       "StopArea:OCE87640623"
@@ -17657,7 +17649,7 @@
   },
   "balsi ges arr t rn88": {
     "names": [
-      "Balsi\u221a\u00aeges Arr\u221a\u2122t RN88"
+      "Balsi\u00aeges Arr\u2122t RN88"
     ],
     "stop_ids": [
       "StopArea:OCE87640656"
@@ -17705,7 +17697,7 @@
   },
   "li pvre centre": {
     "names": [
-      "Li\u221a\u00aepvre Centre"
+      "Li\u00aepvre Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87640789"
@@ -17713,7 +17705,7 @@
   },
   "li pvre acoles": {
     "names": [
-      "Li\u221a\u00aepvre \u221a\u00e2coles"
+      "Li\u00aepvre \u00e2coles"
     ],
     "stop_ids": [
       "StopArea:OCE87640797"
@@ -17721,7 +17713,7 @@
   },
   "rombach le franc place des f tes": {
     "names": [
-      "Rombach-le-Franc  Place des F\u221a\u2122tes"
+      "Rombach-le-Franc  Place des F\u2122tes"
     ],
     "stop_ids": [
       "StopArea:OCE87640805"
@@ -17737,7 +17729,7 @@
   },
   "li pvre rue du vieux moulin": {
     "names": [
-      "Li\u221a\u00aepvre Rue du Vieux Moulin"
+      "Li\u00aepvre Rue du Vieux Moulin"
     ],
     "stop_ids": [
       "StopArea:OCE87640821"
@@ -17745,7 +17737,7 @@
   },
   "li pvre rue robert guth": {
     "names": [
-      "Li\u221a\u00aepvre Rue Robert Guth"
+      "Li\u00aepvre Rue Robert Guth"
     ],
     "stop_ids": [
       "StopArea:OCE87640839"
@@ -17753,7 +17745,7 @@
   },
   "li pvre musloch": {
     "names": [
-      "Li\u221a\u00aepvre Musloch"
+      "Li\u00aepvre Musloch"
     ],
     "stop_ids": [
       "StopArea:OCE87640847"
@@ -17783,9 +17775,9 @@
       "StopArea:OCE87640912"
     ]
   },
-  "ste marie aux mines espace mus es": {
+  "ste marie aux mines espace musees": {
     "names": [
-      "Ste-Marie-aux-Mines Espace Mus\u221a\u00a9es"
+      "Ste-Marie-aux-Mines Espace Musees"
     ],
     "stop_ids": [
       "StopArea:OCE87640920"
@@ -17807,9 +17799,9 @@
       "StopArea:OCE87640946"
     ]
   },
-  "ste marie aux mines th tre": {
+  "ste marie aux mines the tre": {
     "names": [
-      "Ste-Marie-aux-Mines Th\u221a\u00a9\u221a\u00a2tre"
+      "Ste-Marie-aux-Mines The\u00a2tre"
     ],
     "stop_ids": [
       "StopArea:OCE87640953"
@@ -17849,7 +17841,7 @@
   },
   "montlu on": {
     "names": [
-      "Montlu\u221a\u00dfon"
+      "Montlu\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87641001"
@@ -17911,9 +17903,9 @@
       "StopArea:OCE87641217"
     ]
   },
-  "saint di rue d alsace": {
+  "saint die rue d alsace": {
     "names": [
-      "Saint-Di\u221a\u00a9 Rue d'Alsace"
+      "Saint-Die Rue d'Alsace"
     ],
     "stop_ids": [
       "StopArea:OCE87641332"
@@ -17967,9 +17959,9 @@
       "StopArea:OCE87641449"
     ]
   },
-  "saverne lyc e verne": {
+  "saverne lycee verne": {
     "names": [
-      "Saverne Lyc\u221a\u00a9e Verne"
+      "Saverne Lycee Verne"
     ],
     "stop_ids": [
       "StopArea:OCE87642223"
@@ -18023,9 +18015,9 @@
       "StopArea:OCE87642298"
     ]
   },
-  "bouxwiller lyc e schattenmann": {
+  "bouxwiller lycee schattenmann": {
     "names": [
-      "Bouxwiller Lyc\u221a\u00a9e Schattenmann"
+      "Bouxwiller Lycee Schattenmann"
     ],
     "stop_ids": [
       "StopArea:OCE87642306"
@@ -18121,7 +18113,7 @@
   },
   "saint hippolyte h tel munsch": {
     "names": [
-      "Saint-Hippolyte H\u221a\u00a5tel Munsch"
+      "Saint-Hippolyte H\u00a5tel Munsch"
     ],
     "stop_ids": [
       "StopArea:OCE87643437"
@@ -18225,7 +18217,7 @@
   },
   "vic sur c re": {
     "names": [
-      "Vic-sur-C\u221a\u00aere"
+      "Vic-sur-C\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87645440"
@@ -18274,7 +18266,7 @@
   },
   "lichtenberg aglise": {
     "names": [
-      "Lichtenberg \u221a\u00e2glise"
+      "Lichtenberg \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87654384"
@@ -18312,9 +18304,9 @@
       "StopArea:OCE87654475"
     ]
   },
-  "merxheim pl g n ral de gaulle": {
+  "merxheim pl general de gaulle": {
     "names": [
-      "Merxheim Pl. G\u221a\u00a9n\u221a\u00a9ral de Gaulle"
+      "Merxheim Pl. General de Gaulle"
     ],
     "stop_ids": [
       "StopArea:OCE87654541"
@@ -18338,7 +18330,7 @@
   },
   "stephansfeld h pital": {
     "names": [
-      "Stephansfeld H\u221a\u00a5pital"
+      "Stephansfeld H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87654590"
@@ -18352,17 +18344,17 @@
       "StopArea:OCE87654673"
     ]
   },
-  "schwindratzheim g n ral leclerc": {
+  "schwindratzheim general leclerc": {
     "names": [
-      "Schwindratzheim G\u221a\u00a9n\u221a\u00a9ral Leclerc"
+      "Schwindratzheim General Leclerc"
     ],
     "stop_ids": [
       "StopArea:OCE87658716"
     ]
   },
-  "wilwisheim haute mont e": {
+  "wilwisheim haute montee": {
     "names": [
-      "Wilwisheim Haute-Mont\u221a\u00a9e"
+      "Wilwisheim Haute-Montee"
     ],
     "stop_ids": [
       "StopArea:OCE87658740"
@@ -18378,7 +18370,7 @@
   },
   "adamswiller lotissement la for t": {
     "names": [
-      "Adamswiller Lotissement la For\u221a\u2122t"
+      "Adamswiller Lotissement la For\u2122t"
     ],
     "stop_ids": [
       "StopArea:OCE87658856"
@@ -18394,7 +18386,7 @@
   },
   "bischheim arr t cts r gare": {
     "names": [
-      "Bischheim Arr\u221a\u2122t CTS R. Gare"
+      "Bischheim Arr\u2122t CTS R. Gare"
     ],
     "stop_ids": [
       "StopArea:OCE87658930"
@@ -18410,7 +18402,7 @@
   },
   "bouverans halte routi re": {
     "names": [
-      "Bouverans Halte Routi\u221a\u00aere"
+      "Bouverans Halte Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87659631"
@@ -18418,7 +18410,7 @@
   },
   "domblans halte routi re": {
     "names": [
-      "Domblans Halte Routi\u221a\u00aere"
+      "Domblans Halte Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87659649"
@@ -18426,7 +18418,7 @@
   },
   "buvilly halte routi re": {
     "names": [
-      "Buvilly Halte Routi\u221a\u00aere"
+      "Buvilly Halte Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87659656"
@@ -18434,7 +18426,7 @@
   },
   "dompierre halte routi re": {
     "names": [
-      "Dompierre Halte Routi\u221a\u00aere"
+      "Dompierre Halte Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87659664"
@@ -18442,7 +18434,7 @@
   },
   "voiteur halte routi re": {
     "names": [
-      "Voiteur Halte Routi\u221a\u00aere"
+      "Voiteur Halte Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87659722"
@@ -18472,9 +18464,9 @@
       "StopArea:OCE87659763"
     ]
   },
-  "weyersheim rue r publique": {
+  "weyersheim rue republique": {
     "names": [
-      "Weyersheim Rue R\u221a\u00a9publique"
+      "Weyersheim Rue Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87659771"
@@ -18498,7 +18490,7 @@
   },
   "bischwiller aglise catholique": {
     "names": [
-      "Bischwiller \u221a\u00e2glise Catholique"
+      "Bischwiller \u00e2glise Catholique"
     ],
     "stop_ids": [
       "StopArea:OCE87659805"
@@ -18536,9 +18528,9 @@
       "StopArea:OCE87659847"
     ]
   },
-  "rixheim arr t sol a barri res": {
+  "rixheim arr t solea barri res": {
     "names": [
-      "Rixheim Arr\u221a\u2122t Sol\u221a\u00a9a Barri\u221a\u00aeres"
+      "Rixheim Arr\u2122t Solea Barri\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87659854"
@@ -18570,7 +18562,7 @@
   },
   "fellering aglise": {
     "names": [
-      "Fellering \u221a\u00e2glise"
+      "Fellering \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87659896"
@@ -18586,7 +18578,7 @@
   },
   "saint amarin h tel le cheval blanc": {
     "names": [
-      "Saint-Amarin H\u221a\u00a5tel Le Cheval Blanc"
+      "Saint-Amarin H\u00a5tel Le Cheval Blanc"
     ],
     "stop_ids": [
       "StopArea:OCE87659912"
@@ -18618,7 +18610,7 @@
   },
   "bitschwiller l s thann mairie": {
     "names": [
-      "Bitschwiller-l\u221a\u00aes-Thann Mairie"
+      "Bitschwiller-l\u00aes-Thann Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87659953"
@@ -18642,7 +18634,7 @@
   },
   "cernay aglise": {
     "names": [
-      "Cernay \u221a\u00e2glise"
+      "Cernay \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87659987"
@@ -18656,9 +18648,9 @@
       "StopArea:OCE87659995"
     ]
   },
-  "walbourg s minaire": {
+  "walbourg seminaire": {
     "names": [
-      "Walbourg S\u221a\u00a9minaire"
+      "Walbourg Seminaire"
     ],
     "stop_ids": [
       "StopArea:OCE87660043"
@@ -18690,7 +18682,7 @@
   },
   "riedseltz arr t chapelle": {
     "names": [
-      "Riedseltz Arr\u221a\u2122t Chapelle"
+      "Riedseltz Arr\u2122t Chapelle"
     ],
     "stop_ids": [
       "StopArea:OCE87660365"
@@ -18714,7 +18706,7 @@
   },
   "mutzig passage niveau": {
     "names": [
-      "Mutzig Passage \u221a\u2020 Niveau"
+      "Mutzig Passage \u2020 Niveau"
     ],
     "stop_ids": [
       "StopArea:OCE87660548"
@@ -18738,7 +18730,7 @@
   },
   "lutzelhouse abri aglise": {
     "names": [
-      "Lutzelhouse Abri \u221a\u00e2glise"
+      "Lutzelhouse Abri \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87660605"
@@ -18746,7 +18738,7 @@
   },
   "wisches aglise": {
     "names": [
-      "Wisches \u221a\u00e2glise"
+      "Wisches \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87660688"
@@ -18762,7 +18754,7 @@
   },
   "bourg bruche aglise": {
     "names": [
-      "Bourg-Bruche \u221a\u00e2glise"
+      "Bourg-Bruche \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87660886"
@@ -18770,7 +18762,7 @@
   },
   "obernai passage niveau": {
     "names": [
-      "Obernai Passage \u221a\u2020 Niveau"
+      "Obernai Passage \u2020 Niveau"
     ],
     "stop_ids": [
       "StopArea:OCE87660910"
@@ -18786,23 +18778,23 @@
   },
   "epfig croisement aglise rn": {
     "names": [
-      "Epfig Croisement \u221a\u00e2glise - RN"
+      "Epfig Croisement \u00e2glise - RN"
     ],
     "stop_ids": [
       "StopArea:OCE87660977"
     ]
   },
-  "colmar st joseph rue du val st gr goire": {
+  "colmar st joseph rue du val st gregoire": {
     "names": [
-      "Colmar St-Joseph Rue du Val St-Gr\u221a\u00a9goire"
+      "Colmar St-Joseph Rue du Val St-Gregoire"
     ],
     "stop_ids": [
       "StopArea:OCE87665240"
     ]
   },
-  "ingersheim lyc e r turckheim": {
+  "ingersheim lycee r turckheim": {
     "names": [
-      "Ingersheim Lyc\u221a\u00a9e R. Turckheim"
+      "Ingersheim Lycee R. Turckheim"
     ],
     "stop_ids": [
       "StopArea:OCE87665265"
@@ -18816,17 +18808,17 @@
       "StopArea:OCE87665331"
     ]
   },
-  "ingersheim place du g n ral de gaulle": {
+  "ingersheim place du general de gaulle": {
     "names": [
-      "Ingersheim Place du G\u221a\u00a9n\u221a\u00a9ral de Gaulle"
+      "Ingersheim Place du General de Gaulle"
     ],
     "stop_ids": [
       "StopArea:OCE87665356"
     ]
   },
-  "turckheim place de la r publique": {
+  "turckheim place de la republique": {
     "names": [
-      "Turckheim Place de la R\u221a\u00a9publique"
+      "Turckheim Place de la Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87665380"
@@ -18946,15 +18938,15 @@
   },
   "aguelshardt abri": {
     "names": [
-      "\u221a\u00e2guelshardt Abri"
+      "\u00e2guelshardt Abri"
     ],
     "stop_ids": [
       "StopArea:OCE87668152"
     ]
   },
-  "s verac d aveyron embrachement le massegros": {
+  "severac d aveyron embrachement le massegros": {
     "names": [
-      "S\u221a\u00a9verac d'Aveyron Embrachement le Massegros"
+      "Severac d'Aveyron Embrachement le Massegros"
     ],
     "stop_ids": [
       "StopArea:OCE87668376"
@@ -18968,9 +18960,9 @@
       "StopArea:OCE87668384"
     ]
   },
-  "auch all e baylac": {
+  "auch allee baylac": {
     "names": [
-      "Auch All\u221a\u00a9e Baylac"
+      "Auch Allee Baylac"
     ],
     "stop_ids": [
       "StopArea:OCE87668459"
@@ -19024,9 +19016,9 @@
       "StopArea:OCE87671339"
     ]
   },
-  "saint p de bigorre": {
+  "saint pe de bigorre": {
     "names": [
-      "Saint-P\u221a\u00a9-de-Bigorre"
+      "Saint-Pe-de-Bigorre"
     ],
     "stop_ids": [
       "StopArea:OCE87671362"
@@ -19064,9 +19056,9 @@
       "StopArea:OCE87672006"
     ]
   },
-  "montaut b tharram": {
+  "montaut betharram": {
     "names": [
-      "Montaut B\u221a\u00a9tharram"
+      "Montaut Betharram"
     ],
     "stop_ids": [
       "StopArea:OCE87672113"
@@ -19106,7 +19098,7 @@
   },
   "puyo": {
     "names": [
-      "Puyo\u221a\u00a5"
+      "Puyo\u00a5"
     ],
     "stop_ids": [
       "StopArea:OCE87672279"
@@ -19144,9 +19136,9 @@
       "StopArea:OCE87672618"
     ]
   },
-  "buzy en b arn": {
+  "buzy en bearn": {
     "names": [
-      "Buzy en B\u221a\u00a9arn"
+      "Buzy en Bearn"
     ],
     "stop_ids": [
       "StopArea:OCE87672634"
@@ -19248,9 +19240,9 @@
       "StopArea:OCE87673277"
     ]
   },
-  "b nesse maremne": {
+  "benesse maremne": {
     "names": [
-      "B\u221a\u00a9nesse-Maremne"
+      "Benesse-Maremne"
     ],
     "stop_ids": [
       "StopArea:OCE87673285"
@@ -19280,9 +19272,9 @@
       "StopArea:OCE87673400"
     ]
   },
-  "gu thary": {
+  "guethary": {
     "names": [
-      "Gu\u221a\u00a9thary"
+      "Guethary"
     ],
     "stop_ids": [
       "StopArea:OCE87673459"
@@ -19338,7 +19330,7 @@
   },
   "oss s saint martin d arrossa": {
     "names": [
-      "Oss\u221a\u00aes - Saint-Martin-d'Arrossa"
+      "Oss\u00aes - Saint-Martin-d'Arrossa"
     ],
     "stop_ids": [
       "StopArea:OCE87673707"
@@ -19354,15 +19346,15 @@
   },
   "saint aloi aglise": {
     "names": [
-      "Saint-\u221a\u00e2loi \u221a\u00e2glise"
+      "Saint-\u00e2loi \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87676833"
     ]
   },
-  "saint l ger des vignes mairie": {
+  "saint leger des vignes mairie": {
     "names": [
-      "Saint-L\u221a\u00a9ger-des-Vignes Mairie"
+      "Saint-Leger-des-Vignes Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87676874"
@@ -19464,9 +19456,9 @@
       "StopArea:OCE87678466"
     ]
   },
-  "gu mar rond point sony": {
+  "guemar rond point sony": {
     "names": [
-      "Gu\u221a\u00a9mar Rond-point Sony"
+      "Guemar Rond-point Sony"
     ],
     "stop_ids": [
       "StopArea:OCE87678474"
@@ -19482,7 +19474,7 @@
   },
   "li pvre pharmacie": {
     "names": [
-      "Li\u221a\u00aepvre Pharmacie"
+      "Li\u00aepvre Pharmacie"
     ],
     "stop_ids": [
       "StopArea:OCE87678490"
@@ -19498,7 +19490,7 @@
   },
   "haguenau arr t ritmo moulin neuf": {
     "names": [
-      "Haguenau Arr\u221a\u2122t Ritmo Moulin Neuf"
+      "Haguenau Arr\u2122t Ritmo Moulin Neuf"
     ],
     "stop_ids": [
       "StopArea:OCE87678680"
@@ -19506,15 +19498,15 @@
   },
   "schweighouse agl protestante": {
     "names": [
-      "Schweighouse \u221a\u00e2gl. protestante"
+      "Schweighouse \u00e2gl. protestante"
     ],
     "stop_ids": [
       "StopArea:OCE87678698"
     ]
   },
-  "schweighouse mar chal leclerc": {
+  "schweighouse marechal leclerc": {
     "names": [
-      "Schweighouse Mar\u221a\u00a9chal Leclerc"
+      "Schweighouse Marechal Leclerc"
     ],
     "stop_ids": [
       "StopArea:OCE87678706"
@@ -19522,15 +19514,15 @@
   },
   "neubourg aglise": {
     "names": [
-      "Neubourg \u221a\u00e2glise"
+      "Neubourg \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87678714"
     ]
   },
-  "pfaffenhoffen pl r publique": {
+  "pfaffenhoffen pl republique": {
     "names": [
-      "Pfaffenhoffen Pl. R\u221a\u00a9publique"
+      "Pfaffenhoffen Pl. Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87678730"
@@ -19560,9 +19552,9 @@
       "StopArea:OCE87680694"
     ]
   },
-  "clermont universit t2c": {
+  "clermont universite t2c": {
     "names": [
-      "Clermont Universit\u221a\u00a9 T2C"
+      "Clermont Universite T2C"
     ],
     "stop_ids": [
       "StopArea:OCE87680702"
@@ -19586,7 +19578,7 @@
   },
   "lavoute arr t cg": {
     "names": [
-      "Lavoute Arr\u221a\u2122t CG"
+      "Lavoute Arr\u2122t CG"
     ],
     "stop_ids": [
       "StopArea:OCE87680736"
@@ -19640,9 +19632,9 @@
       "StopArea:OCE87683136"
     ]
   },
-  "atigny v ron": {
+  "atigny veron": {
     "names": [
-      "\u221a\u00e2tigny - V\u221a\u00a9ron"
+      "\u00e2tigny - Veron"
     ],
     "stop_ids": [
       "StopArea:OCE87683201"
@@ -19704,9 +19696,9 @@
       "StopArea:OCE87683532"
     ]
   },
-  "mon teau gurgy": {
+  "moneteau gurgy": {
     "names": [
-      "Mon\u221a\u00a9teau - Gurgy"
+      "Moneteau - Gurgy"
     ],
     "stop_ids": [
       "StopArea:OCE87683557"
@@ -19760,9 +19752,9 @@
       "StopArea:OCE87683680"
     ]
   },
-  "sermizelles v zelay": {
+  "sermizelles vezelay": {
     "names": [
-      "Sermizelles - V\u221a\u00a9zelay"
+      "Sermizelles - Vezelay"
     ],
     "stop_ids": [
       "StopArea:OCE87683722"
@@ -19816,9 +19808,9 @@
       "StopArea:OCE87684290"
     ]
   },
-  "r milly le charnay pont bulvin": {
+  "remilly le charnay pont bulvin": {
     "names": [
-      "R\u221a\u00a9milly Le Charnay Pont Bulvin"
+      "Remilly Le Charnay Pont Bulvin"
     ],
     "stop_ids": [
       "StopArea:OCE87685776"
@@ -19842,7 +19834,7 @@
   },
   "serre chevalier le monetier l aglise": {
     "names": [
-      "Serre-Chevalier le Monetier l'\u221a\u00e2glise"
+      "Serre-Chevalier le Monetier l'\u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87686048"
@@ -19914,7 +19906,7 @@
   },
   "les perri res": {
     "names": [
-      "Les Perri\u221a\u00aeres"
+      "Les Perri\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87691600"
@@ -19928,9 +19920,9 @@
       "StopArea:OCE87691675"
     ]
   },
-  "avr e": {
+  "avree": {
     "names": [
-      "Avr\u221a\u00a9e"
+      "Avree"
     ],
     "stop_ids": [
       "StopArea:OCE87691725"
@@ -19970,7 +19962,7 @@
   },
   "atang sur arroux": {
     "names": [
-      "\u221a\u00e2tang-sur-Arroux"
+      "\u00e2tang-sur-Arroux"
     ],
     "stop_ids": [
       "StopArea:OCE87694141"
@@ -20024,9 +20016,9 @@
       "StopArea:OCE87694307"
     ]
   },
-  "saint l ger sur dheune": {
+  "saint leger sur dheune": {
     "names": [
-      "Saint-L\u221a\u00a9ger-sur-Dheune"
+      "Saint-Leger-sur-Dheune"
     ],
     "stop_ids": [
       "StopArea:OCE87694364"
@@ -20034,7 +20026,7 @@
   },
   "cheilly l s maranges": {
     "names": [
-      "Cheilly-l\u221a\u00aes-Maranges"
+      "Cheilly-l\u00aes-Maranges"
     ],
     "stop_ids": [
       "StopArea:OCE87694398"
@@ -20088,9 +20080,9 @@
       "StopArea:OCE87694646"
     ]
   },
-  "g nelard": {
+  "genelard": {
     "names": [
-      "G\u221a\u00a9nelard"
+      "Genelard"
     ],
     "stop_ids": [
       "StopArea:OCE87694653"
@@ -20176,9 +20168,9 @@
       "StopArea:OCE87695965"
     ]
   },
-  "bellignat lyc e arbez carme": {
+  "bellignat lycee arbez carme": {
     "names": [
-      "Bellignat - Lyc\u221a\u00a9e-Arbez-Carme"
+      "Bellignat - Lycee-Arbez-Carme"
     ],
     "stop_ids": [
       "StopArea:OCE87695973"
@@ -20202,7 +20194,7 @@
   },
   "bourg en bresse gare routi re": {
     "names": [
-      "Bourg-en-Bresse Gare Routi\u221a\u00aere"
+      "Bourg-en-Bresse Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87696013"
@@ -20248,9 +20240,9 @@
       "StopArea:OCE87696187"
     ]
   },
-  "la charit sur loire": {
+  "la charite sur loire": {
     "names": [
-      "La Charit\u221a\u00a9-sur-Loire"
+      "La Charite-sur-Loire"
     ],
     "stop_ids": [
       "StopArea:OCE87696195"
@@ -20290,7 +20282,7 @@
   },
   "saint pierre le mo tier": {
     "names": [
-      "Saint-Pierre-le-Mo\u221a\u00aatier"
+      "Saint-Pierre-le-Mo\u00aatier"
     ],
     "stop_ids": [
       "StopArea:OCE87696294"
@@ -20352,9 +20344,9 @@
       "StopArea:OCE87696427"
     ]
   },
-  "moutiers lyc e": {
+  "moutiers lycee": {
     "names": [
-      "Moutiers-Lyc\u221a\u00a9e"
+      "Moutiers-Lycee"
     ],
     "stop_ids": [
       "StopArea:OCE87696443"
@@ -20368,9 +20360,9 @@
       "StopArea:OCE87696450"
     ]
   },
-  "b ard": {
+  "beard": {
     "names": [
-      "B\u221a\u00a9ard"
+      "Beard"
     ],
     "stop_ids": [
       "StopArea:OCE87696468"
@@ -20434,7 +20426,7 @@
   },
   "saint paul coll ge": {
     "names": [
-      "Saint-Paul Coll\u221a\u00aege"
+      "Saint-Paul Coll\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87696658"
@@ -20458,7 +20450,7 @@
   },
   "ch tel censoir": {
     "names": [
-      "Ch\u221a\u00a2tel-Censoir"
+      "Ch\u00a2tel-Censoir"
     ],
     "stop_ids": [
       "StopArea:OCE87696856"
@@ -20498,7 +20490,7 @@
   },
   "lyon vaise gare routi re": {
     "names": [
-      "Lyon-Vaise-Gare-Routi\u221a\u00aere"
+      "Lyon-Vaise-Gare-Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87697045"
@@ -20506,7 +20498,7 @@
   },
   "lyon part dieu gare routi re": {
     "names": [
-      "Lyon-Part-Dieu Gare Routi\u221a\u00aere"
+      "Lyon-Part-Dieu Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87697128"
@@ -20514,7 +20506,7 @@
   },
   "lyon perrache gare routi re": {
     "names": [
-      "Lyon-Perrache Gare Routi\u221a\u00aere"
+      "Lyon-Perrache Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87697136"
@@ -20562,7 +20554,7 @@
   },
   "grenoble eug ne chavant": {
     "names": [
-      "Grenoble-Eug\u221a\u00aene-Chavant"
+      "Grenoble-Eug\u00aene-Chavant"
     ],
     "stop_ids": [
       "StopArea:OCE87697466"
@@ -20616,9 +20608,9 @@
       "StopArea:OCE87697524"
     ]
   },
-  "bourg en bresse charit": {
+  "bourg en bresse charite": {
     "names": [
-      "Bourg-en-Bresse Charit\u221a\u00a9"
+      "Bourg-en-Bresse Charite"
     ],
     "stop_ids": [
       "StopArea:OCE87697672"
@@ -20650,7 +20642,7 @@
   },
   "saint atienne de cuines": {
     "names": [
-      "Saint-\u221a\u00e2tienne-de-Cuines"
+      "Saint-\u00e2tienne-de-Cuines"
     ],
     "stop_ids": [
       "StopArea:OCE87697722"
@@ -20666,7 +20658,7 @@
   },
   "perl gare routi re": {
     "names": [
-      "Perl Gare Routi\u221a\u00aere"
+      "Perl Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87697839"
@@ -20674,7 +20666,7 @@
   },
   "ecully arr t tcl demi lune vauboin": {
     "names": [
-      "Ecully Arr\u221a\u2122t TCL Demi-Lune Vauboin"
+      "Ecully Arr\u2122t TCL Demi-Lune Vauboin"
     ],
     "stop_ids": [
       "StopArea:OCE87698274"
@@ -20696,9 +20688,9 @@
       "StopArea:OCE87698290"
     ]
   },
-  "gr sy sur aix le chevret ond a": {
+  "gresy sur aix le chevret ondea": {
     "names": [
-      "Gr\u221a\u00a9sy-sur-Aix Le Chevret Ond\u221a\u00a9a"
+      "Gresy-sur-Aix Le Chevret Ondea"
     ],
     "stop_ids": [
       "StopArea:OCE87698308"
@@ -20728,9 +20720,9 @@
       "StopArea:OCE87698332"
     ]
   },
-  "lyon saint paul la feuill e": {
+  "lyon saint paul la feuillee": {
     "names": [
-      "Lyon-Saint-Paul La Feuill\u221a\u00a9e"
+      "Lyon-Saint-Paul La Feuillee"
     ],
     "stop_ids": [
       "StopArea:OCE87698340"
@@ -20738,7 +20730,7 @@
   },
   "alai arr t tcl": {
     "names": [
-      "Alai Arr\u221a\u2122t TCL"
+      "Alai Arr\u2122t TCL"
     ],
     "stop_ids": [
       "StopArea:OCE87698381"
@@ -20770,7 +20762,7 @@
   },
   "communay les bonni res": {
     "names": [
-      "Communay Les Bonni\u221a\u00aeres"
+      "Communay Les Bonni\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87698456"
@@ -20810,15 +20802,15 @@
   },
   "meg ve autogare": {
     "names": [
-      "Meg\u221a\u00aeve-Autogare"
+      "Meg\u00aeve-Autogare"
     ],
     "stop_ids": [
       "StopArea:OCE87698563"
     ]
   },
-  "miribel rd1084 alys e": {
+  "miribel rd1084 alysee": {
     "names": [
-      "Miribel-RD1084-\u221a\u00e2lys\u221a\u00a9e"
+      "Miribel-RD1084-\u00e2lysee"
     ],
     "stop_ids": [
       "StopArea:OCE87698571"
@@ -20842,7 +20834,7 @@
   },
   "roanne gare routi re": {
     "names": [
-      "Roanne-Gare-Routi\u221a\u00aere"
+      "Roanne-Gare-Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87698639"
@@ -20850,7 +20842,7 @@
   },
   "romans gare routi re": {
     "names": [
-      "Romans-Gare-Routi\u221a\u00aere"
+      "Romans-Gare-Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87698647"
@@ -20858,7 +20850,7 @@
   },
   "st etienne ch tcrx g routi re": {
     "names": [
-      "St-Etienne-Ch\u221a\u00a2tcrx. G Routi\u221a\u00aere"
+      "St-Etienne-Ch\u00a2tcrx. G Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87698662"
@@ -20938,7 +20930,7 @@
   },
   "vienne gare routi re": {
     "names": [
-      "Vienne-Gare-Routi\u221a\u00aere"
+      "Vienne-Gare-Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87698803"
@@ -20952,9 +20944,9 @@
       "StopArea:OCE87699009"
     ]
   },
-  "base a rienne": {
+  "base aerienne": {
     "names": [
-      "Base A\u221a\u00a9rienne"
+      "Base Aerienne"
     ],
     "stop_ids": [
       "StopArea:OCE87699223"
@@ -20992,9 +20984,9 @@
       "StopArea:OCE87700906"
     ]
   },
-  "praye sous vaud mont pn": {
+  "praye sous vaudemont pn": {
     "names": [
-      "Praye-sous-Vaud\u221a\u00a9mont PN"
+      "Praye-sous-Vaudemont PN"
     ],
     "stop_ids": [
       "StopArea:OCE87700914"
@@ -21024,17 +21016,17 @@
       "StopArea:OCE87700963"
     ]
   },
-  "har ville sous monfort centre": {
+  "hareville sous monfort centre": {
     "names": [
-      "Har\u221a\u00a9ville sous Monfort Centre"
+      "Hareville sous Monfort Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87700971"
     ]
   },
-  "martigny les bains thi baut": {
+  "martigny les bains thiebaut": {
     "names": [
-      "Martigny-les-Bains Thi\u221a\u00a9baut"
+      "Martigny-les-Bains Thiebaut"
     ],
     "stop_ids": [
       "StopArea:OCE87700989"
@@ -21056,9 +21048,9 @@
       "StopArea:OCE87701102"
     ]
   },
-  "tr laz": {
+  "trelaze": {
     "names": [
-      "Tr\u221a\u00a9laz\u221a\u00a9"
+      "Trelaze"
     ],
     "stop_ids": [
       "StopArea:OCE87701532"
@@ -21088,9 +21080,9 @@
       "StopArea:OCE87702084"
     ]
   },
-  "r melfing centre": {
+  "remelfing centre": {
     "names": [
-      "R\u221a\u00a9melfing Centre"
+      "Remelfing Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87703421"
@@ -21106,7 +21098,7 @@
   },
   "zetting salle des f tes": {
     "names": [
-      "Zetting Salle des F\u221a\u2122tes"
+      "Zetting Salle des F\u2122tes"
     ],
     "stop_ids": [
       "StopArea:OCE87703447"
@@ -21122,7 +21114,7 @@
   },
   "sarrewerden aglise": {
     "names": [
-      "Sarrewerden \u221a\u00e2glise"
+      "Sarrewerden \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87703462"
@@ -21178,7 +21170,7 @@
   },
   "saint jean de bassel aglise": {
     "names": [
-      "Saint-Jean-de-Bassel \u221a\u00e2glise"
+      "Saint-Jean-de-Bassel \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87703587"
@@ -21208,9 +21200,9 @@
       "StopArea:OCE87703678"
     ]
   },
-  "sarraltroff rue de f n trange": {
+  "sarraltroff rue de fenetrange": {
     "names": [
-      "Sarraltroff Rue de F\u221a\u00a9n\u221a\u00a9trange"
+      "Sarraltroff Rue de Fenetrange"
     ],
     "stop_ids": [
       "StopArea:OCE87703686"
@@ -21218,7 +21210,7 @@
   },
   "koenigsmacker metrich acole": {
     "names": [
-      "Koenigsmacker Metrich \u221a\u00e2cole"
+      "Koenigsmacker Metrich \u00e2cole"
     ],
     "stop_ids": [
       "StopArea:OCE87703694"
@@ -21226,7 +21218,7 @@
   },
   "sarrebourg h pital": {
     "names": [
-      "Sarrebourg H\u221a\u00a5pital"
+      "Sarrebourg H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87703744"
@@ -21242,7 +21234,7 @@
   },
   "n mes pont du gard": {
     "names": [
-      "N\u221a\u00c6mes Pont du Gard"
+      "N\u00c6mes Pont du Gard"
     ],
     "stop_ids": [
       "StopArea:OCE87703975"
@@ -21250,7 +21242,7 @@
   },
   "sarraltroff rue de la for t": {
     "names": [
-      "Sarraltroff Rue de la For\u221a\u2122t"
+      "Sarraltroff Rue de la For\u2122t"
     ],
     "stop_ids": [
       "StopArea:OCE87707588"
@@ -21290,7 +21282,7 @@
   },
   "neuilly l s dijon": {
     "names": [
-      "Neuilly-l\u221a\u00aes-Dijon"
+      "Neuilly-l\u00aes-Dijon"
     ],
     "stop_ids": [
       "StopArea:OCE87712182"
@@ -21362,7 +21354,7 @@
   },
   "m lain": {
     "names": [
-      "M\u221a\u00a2lain"
+      "M\u00a2lain"
     ],
     "stop_ids": [
       "StopArea:OCE87713065"
@@ -21392,9 +21384,9 @@
       "StopArea:OCE87713099"
     ]
   },
-  "les laumes al sia": {
+  "les laumes alesia": {
     "names": [
-      "Les Laumes - Al\u221a\u00a9sia"
+      "Les Laumes - Alesia"
     ],
     "stop_ids": [
       "StopArea:OCE87713115"
@@ -21410,7 +21402,7 @@
   },
   "nuits sous ravi res": {
     "names": [
-      "Nuits sous Ravi\u221a\u00aeres"
+      "Nuits sous Ravi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87713156"
@@ -21474,7 +21466,7 @@
   },
   "vougeot gilly l s c teaux": {
     "names": [
-      "Vougeot - Gilly-l\u221a\u00aes-C\u221a\u00c6teaux"
+      "Vougeot - Gilly-l\u00aes-C\u00c6teaux"
     ],
     "stop_ids": [
       "StopArea:OCE87713511"
@@ -21624,9 +21616,9 @@
       "StopArea:OCE87713826"
     ]
   },
-  "saint julien cl nay": {
+  "saint julien clenay": {
     "names": [
-      "Saint-Julien - Cl\u221a\u00a9nay"
+      "Saint-Julien - Clenay"
     ],
     "stop_ids": [
       "StopArea:OCE87713834"
@@ -21650,7 +21642,7 @@
   },
   "damblain aglise": {
     "names": [
-      "Damblain \u221a\u00e2glise"
+      "Damblain \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87714162"
@@ -21664,17 +21656,17 @@
       "StopArea:OCE87714204"
     ]
   },
-  "ars sur moselle tim r publique": {
+  "ars sur moselle tim republique": {
     "names": [
-      "Ars-sur-Moselle TIM R\u221a\u00a9publique"
+      "Ars-sur-Moselle TIM Republique"
     ],
     "stop_ids": [
       "StopArea:OCE87714378"
     ]
   },
-  "r moncourt route principale": {
+  "remoncourt route principale": {
     "names": [
-      "R\u221a\u00a9moncourt Route Principale"
+      "Remoncourt Route Principale"
     ],
     "stop_ids": [
       "StopArea:OCE87714998"
@@ -21706,7 +21698,7 @@
   },
   "la rivi re": {
     "names": [
-      "La Rivi\u221a\u00aere"
+      "La Rivi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87715144"
@@ -21776,9 +21768,9 @@
       "StopArea:OCE87715250"
     ]
   },
-  "m tabief": {
+  "metabief": {
     "names": [
-      "M\u221a\u00a9tabief"
+      "Metabief"
     ],
     "stop_ids": [
       "StopArea:OCE87715268"
@@ -21834,7 +21826,7 @@
   },
   "les h pitaux neufs": {
     "names": [
-      "Les H\u221a\u00a5pitaux-Neufs"
+      "Les H\u00a5pitaux-Neufs"
     ],
     "stop_ids": [
       "StopArea:OCE87715516"
@@ -21850,15 +21842,15 @@
   },
   "mirecourt h pital": {
     "names": [
-      "Mirecourt H\u221a\u00a5pital"
+      "Mirecourt H\u00a5pital"
     ],
     "stop_ids": [
       "StopArea:OCE87715821"
     ]
   },
-  "saint l onard centre": {
+  "saint leonard centre": {
     "names": [
-      "Saint-L\u221a\u00a9onard Centre"
+      "Saint-Leonard Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87716449"
@@ -21872,9 +21864,9 @@
       "StopArea:OCE87716456"
     ]
   },
-  "l panges vologn r poste": {
+  "lepanges vologn r poste": {
     "names": [
-      "L\u221a\u00a9panges-Vologn R. Poste"
+      "Lepanges-Vologn R. Poste"
     ],
     "stop_ids": [
       "StopArea:OCE87716472"
@@ -21888,9 +21880,9 @@
       "StopArea:OCE87716696"
     ]
   },
-  "la houssi re van mont centre": {
+  "la houssi re vanemont centre": {
     "names": [
-      "La Houssi\u221a\u00aere Van\u221a\u00a9mont Centre"
+      "La Houssi\u00aere Vanemont Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87716811"
@@ -21898,15 +21890,15 @@
   },
   "laveline devant bruy res maison pour tous": {
     "names": [
-      "Laveline-devant-Bruy\u221a\u00aeres Maison pour Tous"
+      "Laveline-devant-Bruy\u00aeres Maison pour Tous"
     ],
     "stop_ids": [
       "StopArea:OCE87716829"
     ]
   },
-  "morez lyc e": {
+  "morez lycee": {
     "names": [
-      "Morez Lyc\u221a\u00a9e"
+      "Morez Lycee"
     ],
     "stop_ids": [
       "StopArea:OCE87716910"
@@ -21920,9 +21912,9 @@
       "StopArea:OCE87717090"
     ]
   },
-  "v zelise beauregard": {
+  "vezelise beauregard": {
     "names": [
-      "V\u221a\u00a9zelise Beauregard"
+      "Vezelise Beauregard"
     ],
     "stop_ids": [
       "StopArea:OCE87717108"
@@ -21962,7 +21954,7 @@
   },
   "besan on viotte": {
     "names": [
-      "Besan\u221a\u00dfon Viotte"
+      "Besan\u00dfon Viotte"
     ],
     "stop_ids": [
       "StopArea:OCE87718007"
@@ -21970,7 +21962,7 @@
   },
   "besan on mouill re": {
     "names": [
-      "Besan\u221a\u00dfon Mouill\u221a\u00aere"
+      "Besan\u00dfon Mouill\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87718015"
@@ -21986,7 +21978,7 @@
   },
   "torpes boussi res": {
     "names": [
-      "Torpes - Boussi\u221a\u00aeres"
+      "Torpes - Boussi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87718114"
@@ -22120,9 +22112,9 @@
       "StopArea:OCE87718361"
     ]
   },
-  "roche lez beaupr": {
+  "roche lez beaupre": {
     "names": [
-      "Roche-lez-Beaupr\u221a\u00a9"
+      "Roche-lez-Beaupre"
     ],
     "stop_ids": [
       "StopArea:OCE87718403"
@@ -22162,7 +22154,7 @@
   },
   "sa ne": {
     "names": [
-      "Sa\u221a\u00a5ne"
+      "Sa\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87718502"
@@ -22178,7 +22170,7 @@
   },
   "l h pital du grosbois": {
     "names": [
-      "L'H\u221a\u00a5pital-du-Grosbois"
+      "L'H\u00a5pital-du-Grosbois"
     ],
     "stop_ids": [
       "StopArea:OCE87718528"
@@ -22186,7 +22178,7 @@
   },
   "atalans": {
     "names": [
-      "\u221a\u00e2talans"
+      "\u00e2talans"
     ],
     "stop_ids": [
       "StopArea:OCE87718536"
@@ -22280,9 +22272,9 @@
       "StopArea:OCE87721043"
     ]
   },
-  "r gny": {
+  "regny": {
     "names": [
-      "R\u221a\u00a9gny"
+      "Regny"
     ],
     "stop_ids": [
       "StopArea:OCE87721050"
@@ -22354,7 +22346,7 @@
   },
   "villefranche sur sa ne": {
     "names": [
-      "Villefranche-sur-Sa\u221a\u00a5ne"
+      "Villefranche-sur-Sa\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87721332"
@@ -22370,7 +22362,7 @@
   },
   "belleville sur s one": {
     "names": [
-      "Belleville sur S\u221a\u00a2one"
+      "Belleville sur S\u00a2one"
     ],
     "stop_ids": [
       "StopArea:OCE87721357"
@@ -22442,7 +22434,7 @@
   },
   "acully la demi lune": {
     "names": [
-      "\u221a\u00e2cully la Demi-Lune"
+      "\u00e2cully la Demi-Lune"
     ],
     "stop_ids": [
       "StopArea:OCE87721506"
@@ -22456,9 +22448,9 @@
       "StopArea:OCE87721514"
     ]
   },
-  "le m ridien la ferri re": {
+  "le meridien la ferri re": {
     "names": [
-      "Le M\u221a\u00a9ridien La Ferri\u221a\u00aere"
+      "Le Meridien La Ferri\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87721522"
@@ -22466,7 +22458,7 @@
   },
   "charbonni res les bains": {
     "names": [
-      "Charbonni\u221a\u00aeres-les-Bains"
+      "Charbonni\u00aeres-les-Bains"
     ],
     "stop_ids": [
       "StopArea:OCE87721530"
@@ -22514,7 +22506,7 @@
   },
   "les flach res": {
     "names": [
-      "Les Flach\u221a\u00aeres"
+      "Les Flach\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87721704"
@@ -22538,7 +22530,7 @@
   },
   "ch tillon d azergues": {
     "names": [
-      "Ch\u221a\u00a2tillon d'Azergues"
+      "Ch\u00a2tillon d'Azergues"
     ],
     "stop_ids": [
       "StopArea:OCE87721753"
@@ -22554,15 +22546,15 @@
   },
   "le breuil rh ne": {
     "names": [
-      "Le Breuil (Rh\u221a\u00a5ne)"
+      "Le Breuil (Rh\u00a5ne)"
     ],
     "stop_ids": [
       "StopArea:OCE87721779"
     ]
   },
-  "bois d oingt l gny": {
+  "bois d oingt legny": {
     "names": [
-      "Bois-d'Oingt - L\u221a\u00a9gny"
+      "Bois-d'Oingt - Legny"
     ],
     "stop_ids": [
       "StopArea:OCE87721787"
@@ -22586,7 +22578,7 @@
   },
   "chambost alli res": {
     "names": [
-      "Chambost-Alli\u221a\u00aeres"
+      "Chambost-Alli\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87721845"
@@ -22594,7 +22586,7 @@
   },
   "grandris la folleti re": {
     "names": [
-      "Grandris La Folleti\u221a\u00aere"
+      "Grandris La Folleti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87721852"
@@ -22640,9 +22632,9 @@
       "StopArea:OCE87722207"
     ]
   },
-  "pierre b nite": {
+  "pierre benite": {
     "names": [
-      "Pierre-B\u221a\u00a9nite"
+      "Pierre-Benite"
     ],
     "stop_ids": [
       "StopArea:OCE87722231"
@@ -22696,9 +22688,9 @@
       "StopArea:OCE87722538"
     ]
   },
-  "s r zin": {
+  "serezin": {
     "names": [
-      "S\u221a\u00a9r\u221a\u00a9zin"
+      "Serezin"
     ],
     "stop_ids": [
       "StopArea:OCE87722546"
@@ -22706,7 +22698,7 @@
   },
   "chasse sur rh ne": {
     "names": [
-      "Chasse-sur-Rh\u221a\u00a5ne"
+      "Chasse-sur-Rh\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87722561"
@@ -22736,9 +22728,9 @@
       "StopArea:OCE87722652"
     ]
   },
-  "le p age de roussillon": {
+  "le peage de roussillon": {
     "names": [
-      "Le P\u221a\u00a9age-de-Roussillon"
+      "Le Peage-de-Roussillon"
     ],
     "stop_ids": [
       "StopArea:OCE87722678"
@@ -22770,7 +22762,7 @@
   },
   "ala": {
     "names": [
-      "Ala\u221a\u00d8"
+      "Ala\u00d8"
     ],
     "stop_ids": [
       "StopArea:OCE87722744"
@@ -22784,9 +22776,9 @@
       "StopArea:OCE87723197"
     ]
   },
-  "v nissieux": {
+  "venissieux": {
     "names": [
-      "V\u221a\u00a9nissieux"
+      "Venissieux"
     ],
     "stop_ids": [
       "StopArea:OCE87723320"
@@ -22818,7 +22810,7 @@
   },
   "la verpilli re": {
     "names": [
-      "La Verpilli\u221a\u00aere"
+      "La Verpilli\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87723395"
@@ -22848,17 +22840,17 @@
       "StopArea:OCE87723478"
     ]
   },
-  "saint andr le gaz": {
+  "saint andre le gaz": {
     "names": [
-      "Saint-Andr\u221a\u00a9-le-Gaz"
+      "Saint-Andre-le-Gaz"
     ],
     "stop_ids": [
       "StopArea:OCE87723494"
     ]
   },
-  "cr pieux la pape": {
+  "crepieux la pape": {
     "names": [
-      "Cr\u221a\u00a9pieux la Pape"
+      "Crepieux la Pape"
     ],
     "stop_ids": [
       "StopArea:OCE87723502"
@@ -22904,9 +22896,9 @@
       "StopArea:OCE87723577"
     ]
   },
-  "meximieux p rouges": {
+  "meximieux perouges": {
     "names": [
-      "Meximieux - P\u221a\u00a9rouges"
+      "Meximieux - Perouges"
     ],
     "stop_ids": [
       "StopArea:OCE87723585"
@@ -22922,7 +22914,7 @@
   },
   "les achets": {
     "names": [
-      "Les \u221a\u00e2chets"
+      "Les \u00e2chets"
     ],
     "stop_ids": [
       "StopArea:OCE87723718"
@@ -22936,9 +22928,9 @@
       "StopArea:OCE87723726"
     ]
   },
-  "saint andr de corcy": {
+  "saint andre de corcy": {
     "names": [
-      "Saint-Andr\u221a\u00a9-de-Corcy"
+      "Saint-Andre-de-Corcy"
     ],
     "stop_ids": [
       "StopArea:OCE87723734"
@@ -22962,7 +22954,7 @@
   },
   "marlieux ch tillon": {
     "names": [
-      "Marlieux - Ch\u221a\u00a2tillon"
+      "Marlieux - Ch\u00a2tillon"
     ],
     "stop_ids": [
       "StopArea:OCE87723767"
@@ -22986,7 +22978,7 @@
   },
   "chalon sur sa ne": {
     "names": [
-      "Chalon-sur-Sa\u221a\u00a5ne"
+      "Chalon-sur-Sa\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87725002"
@@ -23000,9 +22992,9 @@
       "StopArea:OCE87725168"
     ]
   },
-  "st pierre c zi porte dauphin": {
+  "st pierre c zi porte dauphine": {
     "names": [
-      "ST PIERRE C. ZI porte Dauphin\u221a\u00a9"
+      "ST PIERRE C. ZI porte Dauphine"
     ],
     "stop_ids": [
       "StopArea:OCE87725192"
@@ -23010,7 +23002,7 @@
   },
   "toussieu la c te": {
     "names": [
-      "Toussieu la C\u221a\u00a5te"
+      "Toussieu la C\u00a5te"
     ],
     "stop_ids": [
       "StopArea:OCE87725309"
@@ -23066,15 +23058,15 @@
   },
   "m con": {
     "names": [
-      "M\u221a\u00a2con"
+      "M\u00a2con"
     ],
     "stop_ids": [
       "StopArea:OCE87725689"
     ]
   },
-  "m con loch tgv": {
+  "m con loche tgv": {
     "names": [
-      "M\u221a\u00a2con - Loch\u221a\u00a9 TGV"
+      "M\u00a2con - Loche TGV"
     ],
     "stop_ids": [
       "StopArea:OCE87725705"
@@ -23082,7 +23074,7 @@
   },
   "cr ches sur sa ne": {
     "names": [
-      "Cr\u221a\u2122ches-sur-Sa\u221a\u00a5ne"
+      "Cr\u2122ches-sur-Sa\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87725713"
@@ -23098,7 +23090,7 @@
   },
   "roman che thorins maison blanche": {
     "names": [
-      "Roman\u221a\u00aeche-Thorins-Maison Blanche"
+      "Roman\u00aeche-Thorins-Maison Blanche"
     ],
     "stop_ids": [
       "StopArea:OCE87725739"
@@ -23128,9 +23120,9 @@
       "StopArea:OCE87725820"
     ]
   },
-  "m z riat": {
+  "mezeriat": {
     "names": [
-      "M\u221a\u00a9z\u221a\u00a9riat"
+      "Mezeriat"
     ],
     "stop_ids": [
       "StopArea:OCE87725838"
@@ -23146,7 +23138,7 @@
   },
   "achirolles": {
     "names": [
-      "\u221a\u00e2chirolles"
+      "\u00e2chirolles"
     ],
     "stop_ids": [
       "StopArea:OCE87725895"
@@ -23154,7 +23146,7 @@
   },
   "saint atienne ch teaucreux": {
     "names": [
-      "Saint-\u221a\u00e2tienne Ch\u221a\u00a2teaucreux"
+      "Saint-\u00e2tienne Ch\u00a2teaucreux"
     ],
     "stop_ids": [
       "StopArea:OCE87726000"
@@ -23178,7 +23170,7 @@
   },
   "saint atienne la terrasse": {
     "names": [
-      "Saint-\u221a\u00e2tienne La Terrasse"
+      "Saint-\u00e2tienne La Terrasse"
     ],
     "stop_ids": [
       "StopArea:OCE87726158"
@@ -23186,7 +23178,7 @@
   },
   "saint atienne le clapier": {
     "names": [
-      "Saint-\u221a\u00e2tienne Le Clapier"
+      "Saint-\u00e2tienne Le Clapier"
     ],
     "stop_ids": [
       "StopArea:OCE87726174"
@@ -23194,7 +23186,7 @@
   },
   "saint atienne bellevue": {
     "names": [
-      "Saint-\u221a\u00e2tienne Bellevue"
+      "Saint-\u00e2tienne Bellevue"
     ],
     "stop_ids": [
       "StopArea:OCE87726190"
@@ -23208,9 +23200,9 @@
       "StopArea:OCE87726208"
     ]
   },
-  "bouth on": {
+  "boutheon": {
     "names": [
-      "Bouth\u221a\u00a9on"
+      "Boutheon"
     ],
     "stop_ids": [
       "StopArea:OCE87726216"
@@ -23240,9 +23232,9 @@
       "StopArea:OCE87726331"
     ]
   },
-  "andr zieux": {
+  "andrezieux": {
     "names": [
-      "Andr\u221a\u00a9zieux"
+      "Andrezieux"
     ],
     "stop_ids": [
       "StopArea:OCE87726406"
@@ -23282,7 +23274,7 @@
   },
   "bo n": {
     "names": [
-      "Bo\u221a\u00b4n"
+      "Bo\u00b4n"
     ],
     "stop_ids": [
       "StopArea:OCE87726471"
@@ -23402,15 +23394,15 @@
   },
   "saint atienne carnot": {
     "names": [
-      "Saint-\u221a\u00e2tienne Carnot"
+      "Saint-\u00e2tienne Carnot"
     ],
     "stop_ids": [
       "StopArea:OCE87726901"
     ]
   },
-  "troyes th tre de champagne": {
+  "troyes the tre de champagne": {
     "names": [
-      "Troyes Th\u221a\u00a9\u221a\u00a2tre de Champagne"
+      "Troyes The\u00a2tre de Champagne"
     ],
     "stop_ids": [
       "StopArea:OCE87727735"
@@ -23424,25 +23416,25 @@
       "StopArea:OCE87727743"
     ]
   },
-  "saint ly mantenay": {
+  "saint lye mantenay": {
     "names": [
-      "Saint-Ly\u221a\u00a9 Mantenay"
+      "Saint-Lye Mantenay"
     ],
     "stop_ids": [
       "StopArea:OCE87727750"
     ]
   },
-  "saint ly gravi res": {
+  "saint lye gravi res": {
     "names": [
-      "Saint Ly\u221a\u00a9 Gravi\u221a\u00aeres"
+      "Saint Lye Gravi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87727768"
     ]
   },
-  "saint ly r gales": {
+  "saint lye regales": {
     "names": [
-      "Saint-Ly\u221a\u00a9 R\u221a\u00a9gales"
+      "Saint-Lye Regales"
     ],
     "stop_ids": [
       "StopArea:OCE87727776"
@@ -23450,23 +23442,23 @@
   },
   "payns aglise": {
     "names": [
-      "Payns \u221a\u00e2glise"
+      "Payns \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87727784"
     ]
   },
-  "payns abri c t savi res": {
+  "payns abri c te savi res": {
     "names": [
-      "Payns Abri C\u221a\u00a5t\u221a\u00a9 Savi\u221a\u00aeres"
+      "Payns Abri C\u00a5te Savi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87727792"
     ]
   },
-  "savi res arbre de la libert": {
+  "savi res arbre de la liberte": {
     "names": [
-      "Savi\u221a\u00aeres Arbre de la Libert\u221a\u00a9"
+      "Savi\u00aeres Arbre de la Liberte"
     ],
     "stop_ids": [
       "StopArea:OCE87727800"
@@ -23474,15 +23466,15 @@
   },
   "savi res rue saint gilles": {
     "names": [
-      "Savi\u221a\u00aeres Rue Saint-Gilles"
+      "Savi\u00aeres Rue Saint-Gilles"
     ],
     "stop_ids": [
       "StopArea:OCE87727818"
     ]
   },
-  "fontaine les gr s mairie": {
+  "fontaine les gres mairie": {
     "names": [
-      "Fontaine-les-Gr\u221a\u00a9s Mairie"
+      "Fontaine-les-Gres Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87727826"
@@ -23506,7 +23498,7 @@
   },
   "maizi res la grande paroisse pont de clairvaux": {
     "names": [
-      "Maizi\u221a\u00aeres la Grande Paroisse Pont de Clairvaux"
+      "Maizi\u00aeres la Grande Paroisse Pont de Clairvaux"
     ],
     "stop_ids": [
       "StopArea:OCE87727859"
@@ -23520,33 +23512,33 @@
       "StopArea:OCE87727867"
     ]
   },
-  "saint pouange lyc e agricole": {
+  "saint pouange lycee agricole": {
     "names": [
-      "Saint Pouange Lyc\u221a\u00a9e Agricole"
+      "Saint Pouange Lycee Agricole"
     ],
     "stop_ids": [
       "StopArea:OCE87727875"
     ]
   },
-  "ville sous la fert tramway": {
+  "ville sous la ferte tramway": {
     "names": [
-      "Ville-sous-la-Fert\u221a\u00a9 Tramway"
+      "Ville-sous-la-Ferte Tramway"
     ],
     "stop_ids": [
       "StopArea:OCE87727883"
     ]
   },
-  "ville sous la fert four chaux": {
+  "ville sous la ferte four chaux": {
     "names": [
-      "Ville sous la Fert\u221a\u00a9 Four \u221a\u2020 Chaux"
+      "Ville sous la Ferte Four \u2020 Chaux"
     ],
     "stop_ids": [
       "StopArea:OCE87727891"
     ]
   },
-  "bar sur aube coll ge": {
+  "bar sur aube college": {
     "names": [
-      "Bar sur Aube Coll\u221a\u00a9ge"
+      "Bar sur Aube College"
     ],
     "stop_ids": [
       "StopArea:OCE87727909"
@@ -23592,9 +23584,9 @@
       "StopArea:OCE87728592"
     ]
   },
-  "keskastel rue de la lib ration": {
+  "keskastel rue de la liberation": {
     "names": [
-      "Keskastel Rue de la Lib\u221a\u00a9ration"
+      "Keskastel Rue de la Liberation"
     ],
     "stop_ids": [
       "StopArea:OCE87730994"
@@ -23602,7 +23594,7 @@
   },
   "celles sur durolle arr t des cars": {
     "names": [
-      "Celles-sur-Durolle Arr\u221a\u2122t des Cars"
+      "Celles-sur-Durolle Arr\u2122t des Cars"
     ],
     "stop_ids": [
       "StopArea:OCE87731604"
@@ -23640,17 +23632,17 @@
       "StopArea:OCE87732008"
     ]
   },
-  "saint germain des foss s": {
+  "saint germain des fosses": {
     "names": [
-      "Saint-Germain-des-Foss\u221a\u00a9s"
+      "Saint-Germain-des-Fosses"
     ],
     "stop_ids": [
       "StopArea:OCE87732206"
     ]
   },
-  "bar sur aube lyc e": {
+  "bar sur aube lycee": {
     "names": [
-      "Bar-sur-Aube Lyc\u221a\u00a9e"
+      "Bar-sur-Aube Lycee"
     ],
     "stop_ids": [
       "StopArea:OCE87732222"
@@ -23682,7 +23674,7 @@
   },
   "gap gare routi re": {
     "names": [
-      "Gap Gare Routi\u221a\u00aere"
+      "Gap Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87733592"
@@ -23690,7 +23682,7 @@
   },
   "lucay le m le champ de foire": {
     "names": [
-      "Lucay-le-M\u221a\u00a2le Champ de Foire"
+      "Lucay-le-M\u00a2le Champ de Foire"
     ],
     "stop_ids": [
       "StopArea:OCE87733733"
@@ -23706,7 +23698,7 @@
   },
   "royat chamali res": {
     "names": [
-      "Royat - Chamali\u221a\u00aeres"
+      "Royat - Chamali\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87734038"
@@ -23722,7 +23714,7 @@
   },
   "riom ch tel guyon": {
     "names": [
-      "Riom - Ch\u221a\u00a2tel-Guyon"
+      "Riom - Ch\u00a2tel-Guyon"
     ],
     "stop_ids": [
       "StopArea:OCE87734053"
@@ -23730,7 +23722,7 @@
   },
   "pont du ch teau": {
     "names": [
-      "Pont-du-Ch\u221a\u00a2teau"
+      "Pont-du-Ch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87734087"
@@ -23762,7 +23754,7 @@
   },
   "sarli ve cournon": {
     "names": [
-      "Sarli\u221a\u00aeve - Cournon"
+      "Sarli\u00aeve - Cournon"
     ],
     "stop_ids": [
       "StopArea:OCE87734152"
@@ -23888,6 +23880,14 @@
       "StopArea:OCE87734350"
     ]
   },
+  "luc": {
+    "names": [
+      "Luc"
+    ],
+    "stop_ids": [
+      "StopArea:OCE87734368"
+    ]
+  },
   "vertaizon": {
     "names": [
       "Vertaizon"
@@ -23954,7 +23954,7 @@
   },
   "lavo te sur loire": {
     "names": [
-      "Lavo\u221a\u00aate-sur-Loire"
+      "Lavo\u00aate-sur-Loire"
     ],
     "stop_ids": [
       "StopArea:OCE87734707"
@@ -23962,7 +23962,7 @@
   },
   "saint vincent le ch teau": {
     "names": [
-      "Saint-Vincent le Ch\u221a\u00a2teau"
+      "Saint-Vincent le Ch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87734715"
@@ -23978,7 +23978,7 @@
   },
   "chamali res sur loire": {
     "names": [
-      "Chamali\u221a\u00aeres-sur-Loire"
+      "Chamali\u00aeres-sur-Loire"
     ],
     "stop_ids": [
       "StopArea:OCE87734731"
@@ -24010,7 +24010,7 @@
   },
   "les aubrais gare routi re": {
     "names": [
-      "Les Aubrais Gare Routi\u221a\u00aere"
+      "Les Aubrais Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87737411"
@@ -24026,15 +24026,15 @@
   },
   "sarreguemines coll ge fulrad": {
     "names": [
-      "Sarreguemines Coll\u221a\u00aege Fulrad"
+      "Sarreguemines Coll\u00aege Fulrad"
     ],
     "stop_ids": [
       "StopArea:OCE87737585"
     ]
   },
-  "sarreguemines lyc e technique": {
+  "sarreguemines lycee technique": {
     "names": [
-      "Sarreguemines Lyc\u221a\u00a9e Technique"
+      "Sarreguemines Lycee Technique"
     ],
     "stop_ids": [
       "StopArea:OCE87737593"
@@ -24050,7 +24050,7 @@
   },
   "sarreguemines coll ge himmelsberg": {
     "names": [
-      "Sarreguemines Coll\u221a\u00aege Himmelsberg"
+      "Sarreguemines Coll\u00aege Himmelsberg"
     ],
     "stop_ids": [
       "StopArea:OCE87737676"
@@ -24058,15 +24058,15 @@
   },
   "sarreguemines coll ge jean jaur s": {
     "names": [
-      "Sarreguemines Coll\u221a\u00aege Jean Jaur\u221a\u00aes"
+      "Sarreguemines Coll\u00aege Jean Jaur\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87737684"
     ]
   },
-  "sarreguemines lyc e pange": {
+  "sarreguemines lycee pange": {
     "names": [
-      "Sarreguemines Lyc\u221a\u00a9e Pange"
+      "Sarreguemines Lycee Pange"
     ],
     "stop_ids": [
       "StopArea:OCE87737692"
@@ -24112,9 +24112,9 @@
       "StopArea:OCE87739961"
     ]
   },
-  "chamb ry challes les eaux": {
+  "chambery challes les eaux": {
     "names": [
-      "Chamb\u221a\u00a9ry - Challes-les-Eaux"
+      "Chambery - Challes-les-Eaux"
     ],
     "stop_ids": [
       "StopArea:OCE87741009"
@@ -24160,9 +24160,9 @@
       "StopArea:OCE87741140"
     ]
   },
-  "montm lian": {
+  "montmelian": {
     "names": [
-      "Montm\u221a\u00a9lian"
+      "Montmelian"
     ],
     "stop_ids": [
       "StopArea:OCE87741181"
@@ -24208,17 +24208,17 @@
       "StopArea:OCE87741272"
     ]
   },
-  "apierre saint l ger": {
+  "apierre saint leger": {
     "names": [
-      "\u221a\u00e2pierre - Saint-L\u221a\u00a9ger"
+      "\u00e2pierre - Saint-Leger"
     ],
     "stop_ids": [
       "StopArea:OCE87741280"
     ]
   },
-  "les chavannes saint r my": {
+  "les chavannes saint remy": {
     "names": [
-      "Les Chavannes-Saint-R\u221a\u00a9my"
+      "Les Chavannes-Saint-Remy"
     ],
     "stop_ids": [
       "StopArea:OCE87741298"
@@ -24240,9 +24240,9 @@
       "StopArea:OCE87741421"
     ]
   },
-  "l pin le lac la bauche": {
+  "lepin le lac la bauche": {
     "names": [
-      "L\u221a\u00a9pin-le-Lac - La Bauche"
+      "Lepin-le-Lac - La Bauche"
     ],
     "stop_ids": [
       "StopArea:OCE87741439"
@@ -24256,9 +24256,9 @@
       "StopArea:OCE87741447"
     ]
   },
-  "saint b ron la bridoire": {
+  "saint beron la bridoire": {
     "names": [
-      "Saint-B\u221a\u00a9ron - La Bridoire"
+      "Saint-Beron - La Bridoire"
     ],
     "stop_ids": [
       "StopArea:OCE87741454"
@@ -24296,9 +24296,9 @@
       "StopArea:OCE87741504"
     ]
   },
-  "gr sy sur is re": {
+  "gresy sur is re": {
     "names": [
-      "Gr\u221a\u00a9sy-sur-Is\u221a\u00aere"
+      "Gresy-sur-Is\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87741611"
@@ -24328,9 +24328,9 @@
       "StopArea:OCE87741678"
     ]
   },
-  "c vins changeur": {
+  "cevins echangeur": {
     "names": [
-      "C\u221a\u00a9vins-\u221a\u00a9changeur"
+      "Cevins-echangeur"
     ],
     "stop_ids": [
       "StopArea:OCE87741686"
@@ -24338,15 +24338,15 @@
   },
   "notre dame de brian on": {
     "names": [
-      "Notre-Dame de Brian\u221a\u00dfon"
+      "Notre-Dame de Brian\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87741694"
     ]
   },
-  "la l ch re les bains petit coeur": {
+  "la lech re les bains petit coeur": {
     "names": [
-      "La L\u221a\u00a9ch\u221a\u00aere les Bains Petit Coeur"
+      "La Lech\u00aere les Bains Petit Coeur"
     ],
     "stop_ids": [
       "StopArea:OCE87741702"
@@ -24362,7 +24362,7 @@
   },
   "mo tiers salins brides les b": {
     "names": [
-      "Mo\u221a\u00aatiers-Salins-Brides-les-B."
+      "Mo\u00aatiers-Salins-Brides-les-B."
     ],
     "stop_ids": [
       "StopArea:OCE87741728"
@@ -24400,25 +24400,25 @@
       "StopArea:OCE87742007"
     ]
   },
-  "noir table place passeli re": {
+  "noiretable place passeli re": {
     "names": [
-      "Noir\u221a\u00a9table Place Passeli\u221a\u00aere"
+      "Noiretable Place Passeli\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87742015"
     ]
   },
-  "grenoble cit internationale": {
+  "grenoble cite internationale": {
     "names": [
-      "Grenoble Cit\u221a\u00a9 Internationale"
+      "Grenoble Cite Internationale"
     ],
     "stop_ids": [
       "StopArea:OCE87742056"
     ]
   },
-  "schirmeck cit scolaire": {
+  "schirmeck cite scolaire": {
     "names": [
-      "Schirmeck Cit\u221a\u00a9 Scolaire"
+      "Schirmeck Cite Scolaire"
     ],
     "stop_ids": [
       "StopArea:OCE87742197"
@@ -24426,15 +24426,15 @@
   },
   "ch lons en champagne marne": {
     "names": [
-      "Ch\u221a\u00a2lons-en-Champagne Marne"
+      "Ch\u00a2lons-en-Champagne Marne"
     ],
     "stop_ids": [
       "StopArea:OCE87742221"
     ]
   },
-  "aubou centre": {
+  "auboue centre": {
     "names": [
-      "Aubou\u221a\u00a9 Centre"
+      "Auboue Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87742247"
@@ -24512,9 +24512,9 @@
       "StopArea:OCE87743146"
     ]
   },
-  "ceyz riat": {
+  "ceyzeriat": {
     "names": [
-      "Ceyz\u221a\u00a9riat"
+      "Ceyzeriat"
     ],
     "stop_ids": [
       "StopArea:OCE87743302"
@@ -24584,9 +24584,9 @@
       "StopArea:OCE87743633"
     ]
   },
-  "amb rieu en bugey": {
+  "amberieu en bugey": {
     "names": [
-      "Amb\u221a\u00a9rieu-en-Bugey"
+      "Amberieu-en-Bugey"
     ],
     "stop_ids": [
       "StopArea:OCE87743716"
@@ -24608,9 +24608,9 @@
       "StopArea:OCE87743757"
     ]
   },
-  "le mans h pital universit": {
+  "le mans h pital universite": {
     "names": [
-      "Le Mans H\u221a\u00a5pital-Universit\u221a\u00a9"
+      "Le Mans H\u00a5pital-Universite"
     ],
     "stop_ids": [
       "StopArea:OCE87743872"
@@ -24642,15 +24642,15 @@
   },
   "ch tenois coll ge": {
     "names": [
-      "Ch\u221a\u00a2tenois Coll\u221a\u00aege"
+      "Ch\u00a2tenois Coll\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87744235"
     ]
   },
-  "orl ans avenue de paris": {
+  "orleans avenue de paris": {
     "names": [
-      "Orl\u221a\u00a9ans Avenue de Paris"
+      "Orleans Avenue de Paris"
     ],
     "stop_ids": [
       "StopArea:OCE87744243"
@@ -24730,7 +24730,7 @@
   },
   "avian les bains": {
     "names": [
-      "\u221a\u00e2vian-les-Bains"
+      "\u00e2vian-les-Bains"
     ],
     "stop_ids": [
       "StopArea:OCE87745679"
@@ -24752,9 +24752,9 @@
       "StopArea:OCE87746008"
     ]
   },
-  "gr sy sur aix": {
+  "gresy sur aix": {
     "names": [
-      "Gr\u221a\u00a9sy-sur-Aix"
+      "Gresy-sur-Aix"
     ],
     "stop_ids": [
       "StopArea:OCE87746107"
@@ -24842,7 +24842,7 @@
   },
   "sallanches combloux meg ve": {
     "names": [
-      "Sallanches - Combloux - Meg\u221a\u00aeve"
+      "Sallanches - Combloux - Meg\u00aeve"
     ],
     "stop_ids": [
       "StopArea:OCE87746438"
@@ -24920,9 +24920,9 @@
       "StopArea:OCE87746768"
     ]
   },
-  "les p lerins": {
+  "les pelerins": {
     "names": [
-      "Les P\u221a\u00a9lerins"
+      "Les Pelerins"
     ],
     "stop_ids": [
       "StopArea:OCE87746776"
@@ -24946,7 +24946,7 @@
   },
   "epernon gare routi re": {
     "names": [
-      "Epernon Gare Routi\u221a\u00aere"
+      "Epernon Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746800"
@@ -24986,7 +24986,7 @@
   },
   "argenti re": {
     "names": [
-      "Argenti\u221a\u00aere"
+      "Argenti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746859"
@@ -25018,7 +25018,7 @@
   },
   "maintenon gare routi re": {
     "names": [
-      "Maintenon Gare Routi\u221a\u00aere"
+      "Maintenon Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746891"
@@ -25026,7 +25026,7 @@
   },
   "saint piat gare routi re": {
     "names": [
-      "Saint-Piat Gare Routi\u221a\u00aere"
+      "Saint-Piat Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746909"
@@ -25034,7 +25034,7 @@
   },
   "jouy gare routi re": {
     "names": [
-      "Jouy Gare Routi\u221a\u00aere"
+      "Jouy Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746917"
@@ -25042,7 +25042,7 @@
   },
   "la villette saint prest gare routi re": {
     "names": [
-      "La Villette-Saint Prest Gare Routi\u221a\u00aere"
+      "La Villette-Saint Prest Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87746925"
@@ -25056,9 +25056,9 @@
       "StopArea:OCE87746933"
     ]
   },
-  "troyes qu bec": {
+  "troyes quebec": {
     "names": [
-      "Troyes Qu\u221a\u00a9bec"
+      "Troyes Quebec"
     ],
     "stop_ids": [
       "StopArea:OCE87747121"
@@ -25066,7 +25066,7 @@
   },
   "troyes h pital simone veil": {
     "names": [
-      "Troyes H\u221a\u00a5pital Simone Veil"
+      "Troyes H\u00a5pital Simone Veil"
     ],
     "stop_ids": [
       "StopArea:OCE87747147"
@@ -25080,9 +25080,9 @@
       "StopArea:OCE87747170"
     ]
   },
-  "vou mairie": {
+  "voue mairie": {
     "names": [
-      "Vou\u221a\u00a9 Mairie"
+      "Voue Mairie"
     ],
     "stop_ids": [
       "StopArea:OCE87747188"
@@ -25090,7 +25090,7 @@
   },
   "arcis sur aube rue de ch lons": {
     "names": [
-      "Arcis-sur-Aube Rue de Ch\u221a\u00a2lons"
+      "Arcis-sur-Aube Rue de Ch\u00a2lons"
     ],
     "stop_ids": [
       "StopArea:OCE87747196"
@@ -25106,7 +25106,7 @@
   },
   "ch bons": {
     "names": [
-      "Ch\u221a\u00a2bons"
+      "Ch\u00a2bons"
     ],
     "stop_ids": [
       "StopArea:OCE87747212"
@@ -25144,9 +25144,9 @@
       "StopArea:OCE87747261"
     ]
   },
-  "r aumont saint cassien": {
+  "reaumont saint cassien": {
     "names": [
-      "R\u221a\u00a9aumont - Saint-Cassien"
+      "Reaumont - Saint-Cassien"
     ],
     "stop_ids": [
       "StopArea:OCE87747279"
@@ -25170,7 +25170,7 @@
   },
   "ch lons en champagne tissier": {
     "names": [
-      "Ch\u221a\u00a2lons-en-Champagne Tissier"
+      "Ch\u00a2lons-en-Champagne Tissier"
     ],
     "stop_ids": [
       "StopArea:OCE87747303"
@@ -25194,7 +25194,7 @@
   },
   "ch lons en champagne greta": {
     "names": [
-      "Ch\u221a\u00a2lons-en-Champagne Greta"
+      "Ch\u00a2lons-en-Champagne Greta"
     ],
     "stop_ids": [
       "StopArea:OCE87747345"
@@ -25202,7 +25202,7 @@
   },
   "saint agr ve saint robert": {
     "names": [
-      "Saint-\u221a\u00e2gr\u221a\u00aeve Saint-Robert"
+      "Saint-\u00e2gr\u00aeve Saint-Robert"
     ],
     "stop_ids": [
       "StopArea:OCE87747352"
@@ -25224,9 +25224,9 @@
       "StopArea:OCE87747378"
     ]
   },
-  "grenoble universit s gi res": {
+  "grenoble universites gi res": {
     "names": [
-      "Grenoble Universit\u221a\u00a9s - Gi\u221a\u00aeres"
+      "Grenoble Universites - Gi\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87747402"
@@ -25248,9 +25248,9 @@
       "StopArea:OCE87747477"
     ]
   },
-  "pontcharra sur br da": {
+  "pontcharra sur breda": {
     "names": [
-      "Pontcharra sur Br\u221a\u00a9da"
+      "Pontcharra sur Breda"
     ],
     "stop_ids": [
       "StopArea:OCE87747493"
@@ -25312,25 +25312,25 @@
       "StopArea:OCE87747691"
     ]
   },
-  "wissembourg lyc e stanislas": {
+  "wissembourg lycee stanislas": {
     "names": [
-      "Wissembourg Lyc\u221a\u00a9e Stanislas"
+      "Wissembourg Lycee Stanislas"
     ],
     "stop_ids": [
       "StopArea:OCE87747881"
     ]
   },
-  "talence m doquine": {
+  "talence medoquine": {
     "names": [
-      "Talence-M\u221a\u00a9doquine"
+      "Talence-Medoquine"
     ],
     "stop_ids": [
       "StopArea:OCE87748350"
     ]
   },
-  "la pelleti re cr pieux la pape arr t tcl": {
+  "la pelleti re crepieux la pape arr t tcl": {
     "names": [
-      "La Pelleti\u221a\u00aere Cr\u221a\u00a9pieux-la-Pape (arr\u221a\u2122t Tcl)"
+      "La Pelleti\u00aere Crepieux-la-Pape (arr\u2122t Tcl)"
     ],
     "stop_ids": [
       "StopArea:OCE87748525"
@@ -25346,31 +25346,31 @@
   },
   "rorschwihr cimeti re": {
     "names": [
-      "Rorschwihr Cimeti\u221a\u00aere"
+      "Rorschwihr Cimeti\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87748749"
     ]
   },
-  "ancelle pr joubert t l si ge": {
+  "ancelle pre joubert telesi ge": {
     "names": [
-      "Ancelle Pr\u221a\u00a9 Joubert T\u221a\u00a9l\u221a\u00a9si\u221a\u00aege"
+      "Ancelle Pre Joubert Telesi\u00aege"
     ],
     "stop_ids": [
       "StopArea:OCE87749382"
     ]
   },
-  "serre chevalier pr long": {
+  "serre chevalier prelong": {
     "names": [
-      "Serre Chevalier Pr\u221a\u00a9long"
+      "Serre Chevalier Prelong"
     ],
     "stop_ids": [
       "StopArea:OCE87749622"
     ]
   },
-  "saint l ger les m l zes le village": {
+  "saint leger les mel zes le village": {
     "names": [
-      "Saint-L\u221a\u00a9ger-les-M\u221a\u00a9l\u221a\u00aezes le Village"
+      "Saint-Leger-les-Mel\u00aezes le Village"
     ],
     "stop_ids": [
       "StopArea:OCE87749747"
@@ -25402,7 +25402,7 @@
   },
   "ch teau arnoux saint auban": {
     "names": [
-      "Ch\u221a\u00a2teau-Arnoux-Saint-Auban"
+      "Ch\u00a2teau-Arnoux-Saint-Auban"
     ],
     "stop_ids": [
       "StopArea:OCE87751230"
@@ -25416,9 +25416,9 @@
       "StopArea:OCE87751271"
     ]
   },
-  "manosque gr oux les bains": {
+  "manosque greoux les bains": {
     "names": [
-      "Manosque - Gr\u221a\u00a9oux-les-Bains"
+      "Manosque - Greoux-les-Bains"
     ],
     "stop_ids": [
       "StopArea:OCE87751321"
@@ -25464,9 +25464,9 @@
       "StopArea:OCE87751438"
     ]
   },
-  "l ariane la trinit": {
+  "l ariane la trinite": {
     "names": [
-      "L'Ariane La Trinit\u221a\u00a9"
+      "L'Ariane La Trinite"
     ],
     "stop_ids": [
       "StopArea:OCE87751529"
@@ -25530,7 +25530,7 @@
   },
   "sept mes": {
     "names": [
-      "Sept\u221a\u00aemes"
+      "Sept\u00aemes"
     ],
     "stop_ids": [
       "StopArea:OCE87751800"
@@ -25578,7 +25578,7 @@
   },
   "pont de claix l atoile": {
     "names": [
-      "Pont-de-Claix l'\u221a\u00e2toile"
+      "Pont-de-Claix l'\u00e2toile"
     ],
     "stop_ids": [
       "StopArea:OCE87752899"
@@ -25754,7 +25754,7 @@
   },
   "la redonne ensu s": {
     "names": [
-      "La Redonne Ensu\u221a\u00aes"
+      "La Redonne Ensu\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87753574"
@@ -25792,9 +25792,9 @@
       "StopArea:OCE87753707"
     ]
   },
-  "s nas": {
+  "senas": {
     "names": [
-      "S\u221a\u00a9nas"
+      "Senas"
     ],
     "stop_ids": [
       "StopArea:OCE87753715"
@@ -25824,9 +25824,9 @@
       "StopArea:OCE87754192"
     ]
   },
-  "mon id e": {
+  "mon idee": {
     "names": [
-      "Mon Id\u221a\u00a9e"
+      "Mon Idee"
     ],
     "stop_ids": [
       "StopArea:OCE87754549"
@@ -25856,9 +25856,9 @@
       "StopArea:OCE87755009"
     ]
   },
-  "onet le ch teau route de s v rac": {
+  "onet le ch teau route de severac": {
     "names": [
-      "Onet-le-Ch\u221a\u00a2teau Route de S\u221a\u00a9v\u221a\u00a9rac"
+      "Onet-le-Ch\u00a2teau Route de Severac"
     ],
     "stop_ids": [
       "StopArea:OCE87755140"
@@ -25866,7 +25866,7 @@
   },
   "saint cyr les lecques la cadi re": {
     "names": [
-      "Saint-Cyr Les Lecques - La Cadi\u221a\u00aere"
+      "Saint-Cyr Les Lecques - La Cadi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87755215"
@@ -25914,7 +25914,7 @@
   },
   "solli s pont": {
     "names": [
-      "Solli\u221a\u00aes-Pont"
+      "Solli\u00aes-Pont"
     ],
     "stop_ids": [
       "StopArea:OCE87755330"
@@ -25994,7 +25994,7 @@
   },
   "hy res": {
     "names": [
-      "Hy\u221a\u00aeres"
+      "Hy\u00aeres"
     ],
     "stop_ids": [
       "StopArea:OCE87755629"
@@ -26074,7 +26074,7 @@
   },
   "aze": {
     "names": [
-      "\u221a\u00e0ze"
+      "\u00e0ze"
     ],
     "stop_ids": [
       "StopArea:OCE87756387"
@@ -26128,9 +26128,9 @@
       "StopArea:OCE87756494"
     ]
   },
-  "la trinit victor": {
+  "la trinite victor": {
     "names": [
-      "La Trinit\u221a\u00a9 Victor"
+      "La Trinite Victor"
     ],
     "stop_ids": [
       "StopArea:OCE87756767"
@@ -26146,7 +26146,7 @@
   },
   "peillon sainte th cle": {
     "names": [
-      "Peillon - Sainte-Th\u221a\u00aecle"
+      "Peillon - Sainte-Th\u00aecle"
     ],
     "stop_ids": [
       "StopArea:OCE87756783"
@@ -26162,7 +26162,7 @@
   },
   "l escar ne": {
     "names": [
-      "L'Escar\u221a\u00aene"
+      "L'Escar\u00aene"
     ],
     "stop_ids": [
       "StopArea:OCE87756809"
@@ -26170,7 +26170,7 @@
   },
   "tou t de l escar ne": {
     "names": [
-      "Tou\u221a\u00b4t-de-l'Escar\u221a\u00aene"
+      "Tou\u00b4t-de-l'Escar\u00aene"
     ],
     "stop_ids": [
       "StopArea:OCE87756817"
@@ -26226,15 +26226,15 @@
   },
   "la wantzenau aglise": {
     "names": [
-      "La Wantzenau \u221a\u00e2glise"
+      "La Wantzenau \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87757419"
     ]
   },
-  "fr jus": {
+  "frejus": {
     "names": [
-      "Fr\u221a\u00a9jus"
+      "Frejus"
     ],
     "stop_ids": [
       "StopArea:OCE87757500"
@@ -26242,7 +26242,7 @@
   },
   "saint rapha l valescure": {
     "names": [
-      "Saint-Rapha\u221a\u00b4l Valescure"
+      "Saint-Rapha\u00b4l Valescure"
     ],
     "stop_ids": [
       "StopArea:OCE87757526"
@@ -26272,9 +26272,9 @@
       "StopArea:OCE87757559"
     ]
   },
-  "anth or cap roux": {
+  "antheor cap roux": {
     "names": [
-      "Anth\u221a\u00a9or Cap Roux"
+      "Antheor Cap Roux"
     ],
     "stop_ids": [
       "StopArea:OCE87757567"
@@ -26288,9 +26288,9 @@
       "StopArea:OCE87757575"
     ]
   },
-  "th oule sur mer": {
+  "theoule sur mer": {
     "names": [
-      "Th\u221a\u00a9oule-sur-Mer"
+      "Theoule-sur-Mer"
     ],
     "stop_ids": [
       "StopArea:OCE87757583"
@@ -26370,7 +26370,7 @@
   },
   "la fray re": {
     "names": [
-      "La Fray\u221a\u00aere"
+      "La Fray\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87757740"
@@ -26442,7 +26442,7 @@
   },
   "saint vallier sur rh ne": {
     "names": [
-      "Saint-Vallier sur Rh\u221a\u00a5ne"
+      "Saint-Vallier sur Rh\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87761130"
@@ -26482,7 +26482,7 @@
   },
   "annonay gare routi re": {
     "names": [
-      "Annonay-Gare Routi\u221a\u00aere"
+      "Annonay-Gare Routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87761270"
@@ -26496,9 +26496,9 @@
       "StopArea:OCE87761460"
     ]
   },
-  "saint p ray": {
+  "saint peray": {
     "names": [
-      "Saint-P\u221a\u00a9ray"
+      "Saint-Peray"
     ],
     "stop_ids": [
       "StopArea:OCE87761494"
@@ -26514,7 +26514,7 @@
   },
   "charmes sur rh ne centre": {
     "names": [
-      "Charmes-sur-Rh\u221a\u00a5ne-centre"
+      "Charmes-sur-Rh\u00a5ne-centre"
     ],
     "stop_ids": [
       "StopArea:OCE87761510"
@@ -26528,9 +26528,9 @@
       "StopArea:OCE87761528"
     ]
   },
-  "romans bourg de p age": {
+  "romans bourg de peage": {
     "names": [
-      "Romans - Bourg-de-P\u221a\u00a9age"
+      "Romans - Bourg-de-Peage"
     ],
     "stop_ids": [
       "StopArea:OCE87761650"
@@ -26560,9 +26560,9 @@
       "StopArea:OCE87761726"
     ]
   },
-  "poli nas": {
+  "polienas": {
     "names": [
-      "Poli\u221a\u00a9nas"
+      "Polienas"
     ],
     "stop_ids": [
       "StopArea:OCE87761742"
@@ -26616,9 +26616,9 @@
       "StopArea:OCE87762583"
     ]
   },
-  "lyon saint exup ry tgv": {
+  "lyon saint exupery tgv": {
     "names": [
-      "Lyon Saint-Exup\u221a\u00a9ry TGV"
+      "Lyon Saint-Exupery TGV"
     ],
     "stop_ids": [
       "StopArea:OCE87762906"
@@ -26634,7 +26634,7 @@
   },
   "valence tgv rh ne alpes sud": {
     "names": [
-      "Valence TGV Rh\u221a\u00a5ne-Alpes Sud"
+      "Valence TGV Rh\u00a5ne-Alpes Sud"
     ],
     "stop_ids": [
       "StopArea:OCE87763029"
@@ -26642,7 +26642,7 @@
   },
   "griesbach le bastberg aglise": {
     "names": [
-      "Griesbach-le-Bastberg \u221a\u00e2glise"
+      "Griesbach-le-Bastberg \u00e2glise"
     ],
     "stop_ids": [
       "StopArea:OCE87763177"
@@ -26650,15 +26650,15 @@
   },
   "aspres sur bu ch": {
     "names": [
-      "Aspres-sur-Bu\u221a\u00b4ch"
+      "Aspres-sur-Bu\u00b4ch"
     ],
     "stop_ids": [
       "StopArea:OCE87763250"
     ]
   },
-  "veynes d voluy": {
+  "veynes devoluy": {
     "names": [
-      "Veynes D\u221a\u00a9voluy"
+      "Veynes Devoluy"
     ],
     "stop_ids": [
       "StopArea:OCE87763300"
@@ -26690,7 +26690,7 @@
   },
   "l argenti re les acrins": {
     "names": [
-      "L'Argenti\u221a\u00aere les \u221a\u00e2crins"
+      "L'Argenti\u00aere les \u00e2crins"
     ],
     "stop_ids": [
       "StopArea:OCE87763557"
@@ -26698,7 +26698,7 @@
   },
   "brian on": {
     "names": [
-      "Brian\u221a\u00dfon"
+      "Brian\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87763607"
@@ -26720,9 +26720,9 @@
       "StopArea:OCE87763755"
     ]
   },
-  "mont limar": {
+  "montelimar": {
     "names": [
-      "Mont\u221a\u00a9limar"
+      "Montelimar"
     ],
     "stop_ids": [
       "StopArea:OCE87764001"
@@ -26730,7 +26730,7 @@
   },
   "donz re": {
     "names": [
-      "Donz\u221a\u00aere"
+      "Donz\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87764290"
@@ -26746,15 +26746,15 @@
   },
   "boll ne la croisi re": {
     "names": [
-      "Boll\u221a\u00aene la Croisi\u221a\u00aere"
+      "Boll\u00aene la Croisi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87764357"
     ]
   },
-  "le pouzin place mar chal leclerc": {
+  "le pouzin place marechal leclerc": {
     "names": [
-      "Le Pouzin Place Mar\u221a\u00a9chal Leclerc"
+      "Le Pouzin Place Marechal Leclerc"
     ],
     "stop_ids": [
       "StopArea:OCE87764407"
@@ -26778,7 +26778,7 @@
   },
   "bagnols sur c ze": {
     "names": [
-      "Bagnols-sur-C\u221a\u00aeze"
+      "Bagnols-sur-C\u00aeze"
     ],
     "stop_ids": [
       "StopArea:OCE87764571"
@@ -26816,17 +26816,17 @@
       "StopArea:OCE87765107"
     ]
   },
-  "courth zon": {
+  "courthezon": {
     "names": [
-      "Courth\u221a\u00a9zon"
+      "Courthezon"
     ],
     "stop_ids": [
       "StopArea:OCE87765180"
     ]
   },
-  "b darrides": {
+  "bedarrides": {
     "names": [
-      "B\u221a\u00a9darrides"
+      "Bedarrides"
     ],
     "stop_ids": [
       "StopArea:OCE87765198"
@@ -26834,7 +26834,7 @@
   },
   "sorgues ch teauneuf du pape": {
     "names": [
-      "Sorgues - Ch\u221a\u00a2teauneuf-du-Pape"
+      "Sorgues - Ch\u00a2teauneuf-du-Pape"
     ],
     "stop_ids": [
       "StopArea:OCE87765206"
@@ -26842,7 +26842,7 @@
   },
   "tarascon sur rh ne": {
     "names": [
-      "Tarascon-sur-Rh\u221a\u00a5ne"
+      "Tarascon-sur-Rh\u00a5ne"
     ],
     "stop_ids": [
       "StopArea:OCE87765354"
@@ -26874,7 +26874,7 @@
   },
   "mori res l s avignon": {
     "names": [
-      "Mori\u221a\u00aeres-l\u221a\u00aes-Avignon"
+      "Mori\u00aeres-l\u00aes-Avignon"
     ],
     "stop_ids": [
       "StopArea:OCE87765420"
@@ -26882,7 +26882,7 @@
   },
   "saint saturnin l s avignon": {
     "names": [
-      "Saint-Saturnin-l\u221a\u00aes-Avignon"
+      "Saint-Saturnin-l\u00aes-Avignon"
     ],
     "stop_ids": [
       "StopArea:OCE87765438"
@@ -26946,15 +26946,15 @@
   },
   "saint florentin gare routi re": {
     "names": [
-      "Saint-Florentin Gare routi\u221a\u00aere"
+      "Saint-Florentin Gare routi\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87765941"
     ]
   },
-  "vallon en sully march couvert": {
+  "vallon en sully marche couvert": {
     "names": [
-      "Vallon-en-Sully March\u221a\u00a9 couvert"
+      "Vallon-en-Sully Marche couvert"
     ],
     "stop_ids": [
       "StopArea:OCE87765990"
@@ -26962,15 +26962,15 @@
   },
   "valen ay coll ge alain fournier": {
     "names": [
-      "Valen\u221a\u00dfay Coll\u221a\u00aege Alain Fournier"
+      "Valen\u00dfay Coll\u00aege Alain Fournier"
     ],
     "stop_ids": [
       "StopArea:OCE87766824"
     ]
   },
-  "le teil rond point b nistant": {
+  "le teil rond point benistant": {
     "names": [
-      "Le Teil Rond-point B\u221a\u00a9nistant"
+      "Le Teil Rond-point Benistant"
     ],
     "stop_ids": [
       "StopArea:OCE87766832"
@@ -26984,17 +26984,17 @@
       "StopArea:OCE87767269"
     ]
   },
-  "saint c saire v3": {
+  "saint cesaire v3": {
     "names": [
-      "Saint-C\u221a\u00a9saire V3"
+      "Saint-Cesaire V3"
     ],
     "stop_ids": [
       "StopArea:OCE87767871"
     ]
   },
-  "contrex ville centre": {
+  "contrexeville centre": {
     "names": [
-      "Contrex\u221a\u00a9ville Centre"
+      "Contrexeville Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87768960"
@@ -27010,7 +27010,7 @@
   },
   "s te": {
     "names": [
-      "S\u221a\u00aete"
+      "S\u00aete"
     ],
     "stop_ids": [
       "StopArea:OCE87773200"
@@ -27050,7 +27050,7 @@
   },
   "saint aun s": {
     "names": [
-      "Saint-Aun\u221a\u00aes"
+      "Saint-Aun\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87773465"
@@ -27058,7 +27058,7 @@
   },
   "villeneuve l s maguelone": {
     "names": [
-      "Villeneuve-l\u221a\u00aes-Maguelone"
+      "Villeneuve-l\u00aes-Maguelone"
     ],
     "stop_ids": [
       "StopArea:OCE87773515"
@@ -27082,7 +27082,7 @@
   },
   "n mes centre": {
     "names": [
-      "N\u221a\u00c6mes Centre"
+      "N\u00c6mes Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87775007"
@@ -27096,9 +27096,9 @@
       "StopArea:OCE87775023"
     ]
   },
-  "saint c saire": {
+  "saint cesaire": {
     "names": [
-      "Saint-C\u221a\u00a9saire"
+      "Saint-Cesaire"
     ],
     "stop_ids": [
       "StopArea:OCE87775072"
@@ -27122,7 +27122,7 @@
   },
   "verg ze codognan": {
     "names": [
-      "Verg\u221a\u00aeze - Codognan"
+      "Verg\u00aeze - Codognan"
     ],
     "stop_ids": [
       "StopArea:OCE87775114"
@@ -27138,7 +27138,7 @@
   },
   "chasserad s": {
     "names": [
-      "Chasserad\u221a\u00aes"
+      "Chasserad\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87775148"
@@ -27160,9 +27160,9 @@
       "StopArea:OCE87775197"
     ]
   },
-  "g nolhac": {
+  "genolhac": {
     "names": [
-      "G\u221a\u00a9nolhac"
+      "Genolhac"
     ],
     "stop_ids": [
       "StopArea:OCE87775213"
@@ -27176,9 +27176,9 @@
       "StopArea:OCE87775221"
     ]
   },
-  "sainte c cile d andorge": {
+  "sainte cecile d andorge": {
     "names": [
-      "Sainte-C\u221a\u00a9cile-d'Andorge"
+      "Sainte-Cecile-d'Andorge"
     ],
     "stop_ids": [
       "StopArea:OCE87775239"
@@ -27202,7 +27202,7 @@
   },
   "al s": {
     "names": [
-      "Al\u221a\u00aes"
+      "Al\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87775288"
@@ -27218,7 +27218,7 @@
   },
   "nozi res brignon": {
     "names": [
-      "Nozi\u221a\u00aeres - Brignon"
+      "Nozi\u00aeres - Brignon"
     ],
     "stop_ids": [
       "StopArea:OCE87775353"
@@ -27226,7 +27226,7 @@
   },
   "saint geni s de malgoir s": {
     "names": [
-      "Saint-Geni\u221a\u00aes-de-Malgoir\u221a\u00aes"
+      "Saint-Geni\u00aes-de-Malgoir\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87775361"
@@ -27240,9 +27240,9 @@
       "StopArea:OCE87775379"
     ]
   },
-  "g n rac": {
+  "generac": {
     "names": [
-      "G\u221a\u00a9n\u221a\u00a9rac"
+      "Generac"
     ],
     "stop_ids": [
       "StopArea:OCE87775791"
@@ -27304,9 +27304,9 @@
       "StopArea:OCE87775866"
     ]
   },
-  "b ziers": {
+  "beziers": {
     "names": [
-      "B\u221a\u00a9ziers"
+      "Beziers"
     ],
     "stop_ids": [
       "StopArea:OCE87781005"
@@ -27408,9 +27408,9 @@
       "StopArea:OCE87781583"
     ]
   },
-  "b darieux": {
+  "bedarieux": {
     "names": [
-      "B\u221a\u00a9darieux"
+      "Bedarieux"
     ],
     "stop_ids": [
       "StopArea:OCE87781609"
@@ -27448,9 +27448,9 @@
       "StopArea:OCE87783175"
     ]
   },
-  "saint ch ly d apcher": {
+  "saint chely d apcher": {
     "names": [
-      "Saint-Ch\u221a\u00a9ly-d'Apcher"
+      "Saint-Chely-d'Apcher"
     ],
     "stop_ids": [
       "StopArea:OCE87783241"
@@ -27504,9 +27504,9 @@
       "StopArea:OCE87783340"
     ]
   },
-  "s v rac le ch teau": {
+  "severac le ch teau": {
     "names": [
-      "S\u221a\u00a9v\u221a\u00a9rac-le-Ch\u221a\u00a2teau"
+      "Severac-le-Ch\u00a2teau"
     ],
     "stop_ids": [
       "StopArea:OCE87783365"
@@ -27522,7 +27522,7 @@
   },
   "saint georges de luzen on": {
     "names": [
-      "Saint-Georges-de-Luzen\u221a\u00dfon"
+      "Saint-Georges-de-Luzen\u00dfon"
     ],
     "stop_ids": [
       "StopArea:OCE87783423"
@@ -27610,7 +27610,7 @@
   },
   "berthol ne centre": {
     "names": [
-      "Berthol\u221a\u00aene Centre"
+      "Berthol\u00aene Centre"
     ],
     "stop_ids": [
       "StopArea:OCE87783753"
@@ -27658,7 +27658,7 @@
   },
   "argel s sur mer": {
     "names": [
-      "Argel\u221a\u00aes-sur-Mer"
+      "Argel\u00aes-sur-Mer"
     ],
     "stop_ids": [
       "StopArea:OCE87784231"
@@ -27696,9 +27696,9 @@
       "StopArea:OCE87784512"
     ]
   },
-  "saint f liu d avall": {
+  "saint feliu d avall": {
     "names": [
-      "Saint-F\u221a\u00a9liu-d'Avall"
+      "Saint-Feliu-d'Avall"
     ],
     "stop_ids": [
       "StopArea:OCE87784520"
@@ -27714,7 +27714,7 @@
   },
   "ille sur t t": {
     "names": [
-      "Ille-sur-T\u221a\u2122t"
+      "Ille-sur-T\u2122t"
     ],
     "stop_ids": [
       "StopArea:OCE87784561"
@@ -27722,7 +27722,7 @@
   },
   "vin a": {
     "names": [
-      "Vin\u221a\u00dfa"
+      "Vin\u00dfa"
     ],
     "stop_ids": [
       "StopArea:OCE87784611"
@@ -27794,7 +27794,7 @@
   },
   "thu s les bains": {
     "names": [
-      "Thu\u221a\u00aes les Bains"
+      "Thu\u00aes les Bains"
     ],
     "stop_ids": [
       "StopArea:OCE87784744"
@@ -27802,15 +27802,15 @@
   },
   "thu s caren a": {
     "names": [
-      "Thu\u221a\u00aes Caren\u221a\u00dfa"
+      "Thu\u00aes Caren\u00dfa"
     ],
     "stop_ids": [
       "StopArea:OCE87784751"
     ]
   },
-  "fontp drouse st thomas les b": {
+  "fontpedrouse st thomas les b": {
     "names": [
-      "Fontp\u221a\u00a9drouse St-Thomas les B."
+      "Fontpedrouse St-Thomas les B."
     ],
     "stop_ids": [
       "StopArea:OCE87784769"
@@ -27826,7 +27826,7 @@
   },
   "plan s": {
     "names": [
-      "Plan\u221a\u00aes"
+      "Plan\u00aes"
     ],
     "stop_ids": [
       "StopArea:OCE87784785"
@@ -27842,7 +27842,7 @@
   },
   "bolqu re eyne": {
     "names": [
-      "Bolqu\u221a\u00aere - Eyne"
+      "Bolqu\u00aere - Eyne"
     ],
     "stop_ids": [
       "StopArea:OCE87784801"
@@ -27880,17 +27880,17 @@
       "StopArea:OCE87784843"
     ]
   },
-  "sainte l ocadie": {
+  "sainte leocadie": {
     "names": [
-      "Sainte-L\u221a\u00a9ocadie"
+      "Sainte-Leocadie"
     ],
     "stop_ids": [
       "StopArea:OCE87784850"
     ]
   },
-  "oss ja": {
+  "osseja": {
     "names": [
-      "Oss\u221a\u00a9ja"
+      "Osseja"
     ],
     "stop_ids": [
       "StopArea:OCE87784868"
@@ -27922,7 +27922,7 @@
   },
   "cerb re": {
     "names": [
-      "Cerb\u221a\u00aere"
+      "Cerb\u00aere"
     ],
     "stop_ids": [
       "StopArea:OCE87785006"

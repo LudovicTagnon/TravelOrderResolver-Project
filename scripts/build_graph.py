@@ -5,6 +5,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
+from openpyxl import load_workbook
+
 
 def sniff_dialect(path: Path) -> csv.Dialect:
     with path.open("r", encoding="utf-8") as handle:
@@ -15,10 +17,62 @@ def sniff_dialect(path: Path) -> csv.Dialect:
         return csv.excel
 
 
+def load_stop_parent_map(stops_path: Path) -> dict:
+    if not stops_path.exists():
+        return {}
+    if stops_path.suffix.lower() == ".xlsx":
+        workbook = load_workbook(stops_path, read_only=True, data_only=True)
+        worksheet = workbook[workbook.sheetnames[0]]
+        rows = worksheet.iter_rows(values_only=True)
+        header_row = next(rows, None)
+        if not header_row:
+            return {}
+        header = [str(value).strip() for value in header_row if value is not None]
+        col = {name: idx for idx, name in enumerate(header)}
+        stop_id_idx = col.get("stop_id")
+        parent_idx = col.get("parent_station")
+        location_idx = col.get("location_type")
+        if stop_id_idx is None:
+            return {}
+        mapping = {}
+        for row in rows:
+            if not row or stop_id_idx >= len(row):
+                continue
+            stop_id = row[stop_id_idx]
+            if not stop_id:
+                continue
+            parent = None
+            if parent_idx is not None and parent_idx < len(row):
+                parent = row[parent_idx]
+            if location_idx is not None and location_idx < len(row):
+                if row[location_idx] == 1:
+                    parent = stop_id
+            mapping[str(stop_id).strip()] = str(parent).strip() if parent else None
+        return mapping
+
+    mapping = {}
+    dialect = sniff_dialect(stops_path)
+    with stops_path.open("r", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle, dialect=dialect)
+        if not reader.fieldnames:
+            return mapping
+        for row in reader:
+            stop_id = row.get("stop_id")
+            if not stop_id:
+                continue
+            parent = row.get("parent_station")
+            location = row.get("location_type")
+            if location in ("1", 1):
+                parent = stop_id
+            mapping[str(stop_id).strip()] = str(parent).strip() if parent else None
+    return mapping
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build a stop graph from GTFS stop_times.")
     parser.add_argument("--stop-times", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=Path("data/graph.json"))
+    parser.add_argument("--stops", type=Path, default=None)
     parser.add_argument("--limit-trips", type=int, default=None)
     args = parser.parse_args()
 
@@ -27,6 +81,7 @@ def main() -> int:
 
     dialect = sniff_dialect(args.stop_times)
     trips = defaultdict(list)
+    parent_map = load_stop_parent_map(args.stops) if args.stops else {}
 
     with args.stop_times.open("r", encoding="utf-8") as handle:
         reader = csv.DictReader(handle, dialect=dialect)
@@ -40,6 +95,8 @@ def main() -> int:
             stop_id = row.get("stop_id")
             if not trip_id or not stop_id:
                 continue
+            if parent_map:
+                stop_id = parent_map.get(stop_id, stop_id)
             if sequence_field:
                 try:
                     seq = int(row.get(sequence_field, 0))

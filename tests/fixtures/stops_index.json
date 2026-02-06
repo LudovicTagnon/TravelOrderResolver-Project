@@ -1,0 +1,5 @@
+{
+  "gare a": {"names": ["Gare A"], "stop_ids": ["StopArea:A"]},
+  "gare b": {"names": ["Gare B"], "stop_ids": ["StopArea:B"]},
+  "gare c": {"names": ["Gare C"], "stop_ids": ["StopArea:C"]}
+}

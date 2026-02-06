@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import csv
+import json
 from pathlib import Path
 
 from joblib import load
@@ -35,20 +36,14 @@ def load_outputs(path: Path) -> dict:
     return data
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Evaluate ML baseline.")
-    parser.add_argument("--input", type=Path, default=Path("datasets/dev_input.txt"))
-    parser.add_argument("--expected", type=Path, default=Path("datasets/dev_output.txt"))
-    parser.add_argument("--model-dir", type=Path, default=Path("models"))
-    args = parser.parse_args()
-
-    origin_model_path = args.model_dir / "origin_model.joblib"
-    dest_model_path = args.model_dir / "dest_model.joblib"
+def compute_metrics(input_path: Path, expected_path: Path, model_dir: Path) -> dict | None:
+    origin_model_path = model_dir / "origin_model.joblib"
+    dest_model_path = model_dir / "dest_model.joblib"
     if not origin_model_path.exists() or not dest_model_path.exists():
-        return 1
+        return None
 
-    inputs = load_inputs(args.input)
-    outputs = load_outputs(args.expected)
+    inputs = load_inputs(input_path)
+    outputs = load_outputs(expected_path)
 
     origin_model = load(origin_model_path)
     dest_model = load(dest_model_path)
@@ -108,20 +103,54 @@ def main() -> int:
     origin_accuracy = (origin_correct / valid_expected) if valid_expected else 0.0
     destination_accuracy = (destination_correct / valid_expected) if valid_expected else 0.0
 
-    print(f"total={total}")
-    print(f"correct={correct}")
-    print(f"accuracy={accuracy:.3f}")
-    print(f"invalid_expected={invalid_expected}")
-    print(f"invalid_correct={invalid_correct}")
-    print(f"invalid_accuracy={invalid_accuracy:.3f}")
-    print(f"valid_expected={valid_expected}")
-    print(f"valid_predicted={valid_predicted}")
-    print(f"valid_correct={valid_correct}")
-    print(f"valid_precision={valid_precision:.3f}")
-    print(f"valid_recall={valid_recall:.3f}")
-    print(f"valid_f1={valid_f1:.3f}")
-    print(f"origin_accuracy={origin_accuracy:.3f}")
-    print(f"destination_accuracy={destination_accuracy:.3f}")
+    return {
+        "total": total,
+        "correct": correct,
+        "accuracy": accuracy,
+        "invalid_expected": invalid_expected,
+        "invalid_correct": invalid_correct,
+        "invalid_accuracy": invalid_accuracy,
+        "valid_expected": valid_expected,
+        "valid_predicted": valid_predicted,
+        "valid_correct": valid_correct,
+        "valid_precision": valid_precision,
+        "valid_recall": valid_recall,
+        "valid_f1": valid_f1,
+        "origin_accuracy": origin_accuracy,
+        "destination_accuracy": destination_accuracy,
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Evaluate ML baseline.")
+    parser.add_argument("--input", type=Path, default=Path("datasets/dev_input.txt"))
+    parser.add_argument("--expected", type=Path, default=Path("datasets/dev_output.txt"))
+    parser.add_argument("--model-dir", type=Path, default=Path("models"))
+    parser.add_argument("--format", choices=["text", "json"], default="text")
+    args = parser.parse_args()
+
+    metrics = compute_metrics(args.input, args.expected, args.model_dir)
+    if metrics is None:
+        return 1
+
+    if args.format == "json":
+        print(json.dumps(metrics, ensure_ascii=True, indent=2))
+        return 0
+
+    print(f"total={metrics['total']}")
+    print(f"correct={metrics['correct']}")
+    print(f"accuracy={metrics['accuracy']:.3f}")
+    print(f"invalid_expected={metrics['invalid_expected']}")
+    print(f"invalid_correct={metrics['invalid_correct']}")
+    print(f"invalid_accuracy={metrics['invalid_accuracy']:.3f}")
+    print(f"valid_expected={metrics['valid_expected']}")
+    print(f"valid_predicted={metrics['valid_predicted']}")
+    print(f"valid_correct={metrics['valid_correct']}")
+    print(f"valid_precision={metrics['valid_precision']:.3f}")
+    print(f"valid_recall={metrics['valid_recall']:.3f}")
+    print(f"valid_f1={metrics['valid_f1']:.3f}")
+    print(f"origin_accuracy={metrics['origin_accuracy']:.3f}")
+    print(f"destination_accuracy={metrics['destination_accuracy']:.3f}")
 
     return 0
 

@@ -72,6 +72,10 @@ def pathfind(origin: str, destination: str, graph: dict, index: dict) -> list[st
     return bfs(graph, sources, targets)
 
 
+def pathfind_ids(origin: str, destination: str, graph: dict) -> list[str] | None:
+    return bfs(graph, [origin], {destination})
+
+
 def iter_inputs(path: Path | None):
     if path is None:
         for line in sys.stdin:
@@ -88,6 +92,8 @@ def main() -> int:
     parser.add_argument("--stops-index", type=Path, default=Path("data/stops_index.json"))
     parser.add_argument("--stops-areas", type=Path, default=Path("data/stops_areas.csv"))
     parser.add_argument("--input", type=Path, default=None)
+    parser.add_argument("--output-ids", action="store_true")
+    parser.add_argument("--ids", action="store_true")
     args = parser.parse_args()
 
     if not args.graph.exists() or not args.stops_index.exists():
@@ -104,12 +110,18 @@ def main() -> int:
         if len(parts) != 3:
             continue
         sentence_id, origin, destination = parts
-        path = pathfind(origin, destination, graph, index)
+        if args.ids:
+            path = pathfind_ids(origin, destination, graph)
+        else:
+            path = pathfind(origin, destination, graph, index)
         if not path:
             print(f"{sentence_id},INVALID,")
             continue
-        readable = [stop_names.get(stop_id, stop_id) for stop_id in path]
-        print(f"{sentence_id}," + ",".join(readable))
+        if args.output_ids:
+            print(f"{sentence_id}," + ",".join(path))
+        else:
+            readable = [stop_names.get(stop_id, stop_id) for stop_id in path]
+            print(f"{sentence_id}," + ",".join(readable))
 
     return 0
 

@@ -24,6 +24,8 @@
 - `scripts/pathfind.py` : plus court chemin entre deux gares à partir d'un triplet `id,origin,destination`.
 - `scripts/fetch_gtfs.py` : téléchargement/extraction du GTFS SNCF.
 - `data/graph.json` : graphe généré (liaisons entre stop areas).
+- `scripts/sample_triplets.py` : génération de triplets connectés pour test pathfinding.
+- `scripts/validate_pathfinding.py` : validation des trajets attendus.
 - `docs/report_outline.md` : plan de rapport (NLP + métriques).
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
@@ -47,3 +49,5 @@
 - `python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv`
 - `python3 scripts/fetch_gtfs.py --extract`
 - `python3 src/travel_order_resolver.py --places data/places.txt input.txt | python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json`
+- `python3 scripts/sample_triplets.py --graph data/graph.json --stops-areas data/stops_areas.csv --output-triplets datasets/path_triplets.csv --output-expected datasets/path_expected.csv`
+- `python3 scripts/validate_pathfinding.py --graph data/graph.json --stops-index data/stops_index.json --triplets datasets/path_triplets.csv --expected datasets/path_expected.csv`

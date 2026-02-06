@@ -21,7 +21,22 @@ def read_rows(path: Path) -> tuple[list[str], list[list]]:
         if not rows:
             return [], []
         header = [str(value).strip() for value in rows[0] if value is not None]
-        return header, rows[1:]
+    return header, rows[1:]
+
+
+def build_variant_keys(name: str) -> list[str]:
+    variants = set()
+    normalized = normalize(name)
+    if normalized:
+        variants.add(normalized)
+    # Clean common encoding glitches like "√©" -> "e"
+    cleaned = name.replace("√", "").replace("©", "e")
+    cleaned_norm = normalize(cleaned)
+    if cleaned_norm:
+        variants.add(cleaned_norm)
+    if "" in variants:
+        variants.discard("")
+    return sorted(variants)
 
     with path.open("r", encoding="utf-8") as handle:
         sample = handle.read(2048)
@@ -73,7 +88,10 @@ def main() -> int:
         stop_name = row[col["stop_name"]]
         if not stop_id or not stop_name:
             continue
-        areas.append((str(stop_id).strip(), str(stop_name).strip()))
+        stop_name_text = str(stop_name).strip()
+        if "√" in stop_name_text or "©" in stop_name_text:
+            stop_name_text = stop_name_text.replace("√", "").replace("©", "e")
+        areas.append((str(stop_id).strip(), stop_name_text))
 
     args.output_csv.parent.mkdir(parents=True, exist_ok=True)
     with args.output_csv.open("w", encoding="utf-8", newline="") as handle:
@@ -84,10 +102,10 @@ def main() -> int:
 
     index = {}
     for stop_id, stop_name in areas:
-        key = normalize(stop_name)
-        entry = index.setdefault(key, {"names": set(), "stop_ids": set()})
-        entry["names"].add(stop_name)
-        entry["stop_ids"].add(stop_id)
+        for key in build_variant_keys(stop_name):
+            entry = index.setdefault(key, {"names": set(), "stop_ids": set()})
+            entry["names"].add(stop_name)
+            entry["stop_ids"].add(stop_id)
 
     for key in index:
         index[key]["names"] = sorted(index[key]["names"])

@@ -20,6 +20,8 @@
 - `reports/metrics.json` : résultats des métriques par split.
 - `scripts/import_places.py` : import CSV de lieux (option d'alias gare).
 - `scripts/build_stop_index.py` : extraction des stop areas + index JSON depuis `stops.xlsx`.
+- `scripts/build_graph.py` : construction du graphe depuis un fichier `stop_times` GTFS.
+- `scripts/pathfind.py` : plus court chemin entre deux gares à partir d'un triplet `id,origin,destination`.
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
@@ -38,3 +40,5 @@
 - `python3 src/travel_order_resolver.py --places data/places_imported.txt students_project/sample_nlp_input.txt`
 - `python3 scripts/import_places.py --input stops.xlsx --column stop_name --add-gare-alias --output data/places_stops.txt`
 - `python3 scripts/build_stop_index.py --input stops.xlsx --output-csv data/stops_areas.csv --output-json data/stops_index.json`
+- `python3 scripts/build_graph.py --stop-times path/to/stop_times.txt --output data/graph.json`
+- `python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv`

@@ -5,6 +5,8 @@
 - `data/places.txt` : gazetteer de lieux.
 - `data/places_imported.txt` : liste de gares importées (SNCF).
 - `data/places_stops.txt` : liste générée depuis `stops.xlsx`.
+- `data/stops_areas.csv` : arrêts (stop_id, stop_name, normalized).
+- `data/stops_index.json` : index normalisé -> stop_ids.
 - `students_project/sample_nlp_input.txt` : entrées d'exemple.
 - `students_project/sample_nlp_output.txt` : sorties attendues.
 - `project.pdf` : sujet et contraintes.
@@ -17,6 +19,7 @@
 - `scripts/run_benchmarks.py` : exécution des métriques sur train/dev/test.
 - `reports/metrics.json` : résultats des métriques par split.
 - `scripts/import_places.py` : import CSV de lieux (option d'alias gare).
+- `scripts/build_stop_index.py` : extraction des stop areas + index JSON depuis `stops.xlsx`.
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
@@ -34,3 +37,4 @@
 - `python3 src/travel_order_resolver.py --places data/places.txt students_project/sample_nlp_input.txt`
 - `python3 src/travel_order_resolver.py --places data/places_imported.txt students_project/sample_nlp_input.txt`
 - `python3 scripts/import_places.py --input stops.xlsx --column stop_name --add-gare-alias --output data/places_stops.txt`
+- `python3 scripts/build_stop_index.py --input stops.xlsx --output-csv data/stops_areas.csv --output-json data/stops_index.json`

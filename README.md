@@ -32,6 +32,10 @@
 - `docs/annotation_guide.md` : guide d'annotation manuel.
 - `docs/manual_dataset_template.md` : modèle de format pour dataset manuel.
 - `scripts/validate_manual_dataset.py` : contrôle rapide d'un dataset annoté.
+- `scripts/bootstrap_manual_dataset.py` : generation d'un starter dataset manuel.
+- `scripts/run_ml_benchmarks.py` : metriques ML train/dev/test en JSON.
+- `reports/ml_metrics.json` : resultats du baseline ML.
+- `docs/report_draft.md` : brouillon de rapport avec metriques actuelles.
 - `data/places.txt` : lignes simples ou format `alias|canonique`.
 
 ## Format des données
@@ -59,3 +63,5 @@
 - `python3 scripts/train_ml.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models`
 - `python3 scripts/evaluate_ml.py --input datasets/dev_input.txt --expected datasets/dev_output.txt --model-dir models`
 - `python3 scripts/validate_manual_dataset.py --input datasets/manual/input.csv --output datasets/manual/output.csv`
+- `python3 scripts/bootstrap_manual_dataset.py --source datasets/all_input.txt --count 120 --output-input datasets/manual/input_starter.csv --output-template datasets/manual/output_template.csv`
+- `python3 scripts/run_ml_benchmarks.py --datasets datasets --model-dir models --output reports/ml_metrics.json`

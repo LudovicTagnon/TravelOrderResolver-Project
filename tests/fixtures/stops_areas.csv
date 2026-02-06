@@ -1,0 +1,4 @@
+stop_id,stop_name,normalized
+StopArea:A,Gare A,gare a
+StopArea:B,Gare B,gare b
+StopArea:C,Gare C,gare c

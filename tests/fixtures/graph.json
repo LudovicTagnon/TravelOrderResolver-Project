@@ -1,0 +1,11 @@
+{
+  "edges": {
+    "StopArea:A": ["StopArea:B"],
+    "StopArea:B": ["StopArea:A", "StopArea:C"],
+    "StopArea:C": ["StopArea:B"]
+  },
+  "meta": {
+    "node_count": 3,
+    "edge_count": 4
+  }
+}

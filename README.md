@@ -45,3 +45,4 @@
 - `python3 scripts/build_graph.py --stop-times path/to/stop_times.txt --output data/graph.json`
 - `python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv`
 - `python3 scripts/fetch_gtfs.py --extract`
+- `python3 src/travel_order_resolver.py --places data/places.txt input.txt | python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json`

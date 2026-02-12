@@ -18,7 +18,7 @@ make pipeline-sample
 ```
 3. Évaluation gold set:
 ```bash
-make manual-gold-eval
+make manual-gold-eval-camembert-v2
 ```
 4. Snapshot consolidé:
 ```bash
@@ -34,8 +34,10 @@ make bundle
 - ML baseline test: `41.8%` accuracy (`reports/ml_metrics.json`).
 - Gold set manuel:
   - rule-based: `100.0%` (`reports/manual_gold_metrics_rule_based.json`)
+  - CamemBERT v2: `99.2%` (`reports/manual_gold_metrics_camembert_v2.json`)
   - ML: `55.8%` (`reports/manual_gold_metrics_ml.json`)
-- End-to-end gold set: `115/120` (`95.8%`) (`reports/e2e_manual_gold_120_summary.json`).
+- End-to-end gold set (rule-based): `115/120` (`95.8%`) (`reports/e2e_manual_gold_120_summary.json`).
+- End-to-end gold set (CamemBERT v2): `115/120` (`95.8%`) (`reports/e2e_manual_gold_120_camembert_v2_summary.json`).
 - Pathfinding validation: `30/30` (`reports/pathfinding_metrics.txt`).
 
 ## Questions probables (réponses courtes)

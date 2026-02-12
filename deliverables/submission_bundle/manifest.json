@@ -1,16 +1,16 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 26,
+  "file_count": 28,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 12402,
-      "sha256": "49998b45a60eba5ca2816b0ab21851d804c3390305663fb156cd3ac0c0fa443a"
+      "size_bytes": 12732,
+      "sha256": "f7848361826e1529d10c9abdff74844ff5167b130e1ae2f15b505df408245a3f"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 7468,
-      "sha256": "96f0afafd05a9ae14315b0365e39e6f854a519702f92dfa7b69d99d77e515a95"
+      "size_bytes": 7754,
+      "sha256": "215d53daeeb5d12a7bd2f29aca5e8e9186327ae6bd51983490c0edaf9a778d5f"
     },
     {
       "path": "docs/coverage_matrix.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "reports/manual_gold_dashboard.json",
-      "size_bytes": 1267,
-      "sha256": "f3bcc96022465148fb89dad8e4eef2db045053bfad9efea4276293248e0282be"
+      "size_bytes": 2525,
+      "sha256": "3e524d373f749b7b70c33cdbd506f686cb2acd33318ab9b4733fbfbd583b23d5"
     },
     {
       "path": "reports/manual_gold_metrics_rule_based.json",
@@ -44,8 +44,8 @@
     },
     {
       "path": "reports/manual_gold_metrics_camembert_v2.json",
-      "size_bytes": 437,
-      "sha256": "d35fd5b21fbe53ba5cb46680a0f4da17a574e0781dc82fb96628e46c1529983c"
+      "size_bytes": 436,
+      "sha256": "b0433ae931393b859ec5c226b2f88dd1b836a66bfdeb13a9a3d3b3fe82b13f43"
     },
     {
       "path": "reports/manual_gold_camembert_v2_summary.md",
@@ -54,6 +54,11 @@
     },
     {
       "path": "reports/e2e_manual_gold_120_summary.json",
+      "size_bytes": 285,
+      "sha256": "a6e6880e5d67d3d70d9c27b646361df2d852ea9267bef37a3dd0886a89147252"
+    },
+    {
+      "path": "reports/e2e_manual_gold_120_camembert_v2_summary.json",
       "size_bytes": 285,
       "sha256": "a6e6880e5d67d3d70d9c27b646361df2d852ea9267bef37a3dd0886a89147252"
     },
@@ -116,6 +121,11 @@
       "path": "datasets/manual/e2e_manual_gold_120.csv",
       "size_bytes": 20083,
       "sha256": "022b45977efcb5941a65b9506de927f45075eff7cc9cc4a1e326feac394b78eb"
+    },
+    {
+      "path": "datasets/manual/e2e_manual_gold_120_camembert_v2.csv",
+      "size_bytes": 20183,
+      "sha256": "db4a4f03f94cedb269ec538f971b62e093023794e387bb47ded8d9004605e26b"
     },
     {
       "path": "datasets/manual/e2e_manual_120_camembert_v2.csv",

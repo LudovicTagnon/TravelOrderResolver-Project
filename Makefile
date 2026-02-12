@@ -1,7 +1,7 @@
 PYTHON ?= python3
 VENV_PY ?= .venv/bin/python
 
-.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench train-camembert-ft-v2 camembert-ft-v2-bench e2e-camembert-ft-v2
+.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval manual-gold-eval-camembert-v2 pipeline-sample bundle train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench train-camembert-ft-v2 camembert-ft-v2-bench e2e-camembert-ft-v2
 
 test:
 	$(PYTHON) -m unittest discover -s tests
@@ -20,6 +20,9 @@ snapshot:
 
 manual-gold-eval:
 	$(PYTHON) scripts/run_manual_gold_eval.py --input datasets/manual/input_starter.csv --gold-output datasets/manual/output_gold_120.csv --places data/places.txt --model-dir models --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --reports reports --datasets datasets
+
+manual-gold-eval-camembert-v2:
+	$(PYTHON) scripts/run_manual_gold_eval.py --input datasets/manual/input_starter.csv --gold-output datasets/manual/output_gold_120.csv --places data/places.txt --model-dir models --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --reports reports --datasets datasets --with-camembert-ft --python-bin $(VENV_PY) --camembert-origin-model-dir models/camembert_finetune_v2/origin --camembert-destination-model-dir models/camembert_finetune_v2/destination
 
 pipeline-sample:
 	$(PYTHON) scripts/run_pipeline.py students_project/sample_nlp_input.txt --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-nlp students_project/sample_pipeline_nlp_output.txt --output-path students_project/sample_pipeline_path_output.txt

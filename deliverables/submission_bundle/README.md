@@ -139,6 +139,15 @@ Sorties:
 - `reports/e2e_manual_gold_120_summary.json`
 - `reports/manual_gold_dashboard.json`
 
+Comparatif avec CamemBERT v2 (dashboard enrichi + leaderboard):
+```bash
+make manual-gold-eval-camembert-v2
+```
+Sorties ajoutees:
+- `reports/manual_gold_metrics_camembert_v2.json`
+- `reports/e2e_manual_gold_120_camembert_v2_summary.json`
+- `datasets/manual/e2e_manual_gold_120_camembert_v2.csv`
+
 ## Workflow 10 - Construire un bundle de rendu
 ```bash
 python3 scripts/build_submission_bundle.py --output-dir deliverables/submission_bundle --manifest deliverables/submission_bundle/manifest.json
@@ -216,6 +225,7 @@ make camembert-ft-bench
 make train-camembert-ft-v2
 make camembert-ft-v2-bench
 make e2e-camembert-ft-v2
+make manual-gold-eval-camembert-v2
 make snapshot
 make manual-gold-eval
 make pipeline-sample

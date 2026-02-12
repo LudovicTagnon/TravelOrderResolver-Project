@@ -110,8 +110,11 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 - Sorties :
   - `reports/manual_gold_metrics_rule_based.json`
   - `reports/manual_gold_metrics_ml.json`
+  - `reports/manual_gold_metrics_camembert_v2.json` (option `--with-camembert-ft`)
   - `reports/e2e_manual_gold_120_summary.json`
+  - `reports/e2e_manual_gold_120_camembert_v2_summary.json` (option `--with-camembert-ft`)
   - `reports/manual_gold_dashboard.json`
+- Le dashboard inclut un `nlp_leaderboard` (accuracy/f1) pour comparer rule-based, Camembert v2 et baseline ML.
 
 ## 14. Bundle de rendu
 - Script : `scripts/build_submission_bundle.py`

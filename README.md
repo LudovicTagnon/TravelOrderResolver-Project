@@ -179,3 +179,4 @@ python3 -m unittest discover -s tests
 - Dashboard gold set : `reports/manual_gold_dashboard.json`.
 - Bundle de rendu : `deliverables/submission_bundle/`.
 - Draft rapport : `docs/report_draft.md`.
+- Matrice sujet->evidence : `docs/coverage_matrix.md`.

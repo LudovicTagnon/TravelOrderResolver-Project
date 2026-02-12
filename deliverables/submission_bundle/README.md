@@ -214,6 +214,21 @@ Pipeline sample avec CamemBERT:
 python3 scripts/run_pipeline.py students_project/sample_nlp_input.txt --nlp-backend camembert-ft --origin-model-dir models/camembert_finetune_v2/origin --destination-model-dir models/camembert_finetune_v2/destination --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-nlp students_project/sample_pipeline_nlp_output_camembert_v2.txt --output-path students_project/sample_pipeline_path_output_camembert_v2.txt
 ```
 
+## Workflow 14 - Rapport PDF final
+Generer la version markdown prete a exporter:
+```bash
+make report-pdf-ready
+```
+Exporter en PDF:
+```bash
+make report-pdf
+```
+Sorties et sources:
+- `docs/report_pdf_ready.md`
+- `deliverables/report_final.pdf`
+- `docs/references.bib`
+- `docs/figures/README.md`
+
 ## Raccourcis Makefile
 ```bash
 make test
@@ -226,6 +241,8 @@ make train-camembert-ft-v2
 make camembert-ft-v2-bench
 make e2e-camembert-ft-v2
 make manual-gold-eval-camembert-v2
+make report-pdf-ready
+make report-pdf
 make snapshot
 make manual-gold-eval
 make pipeline-sample
@@ -261,5 +278,6 @@ python3 -m unittest discover -s tests
 - Resume benchmarks fine-tune v2 : `reports/camembert_finetune_v2_summary.md`.
 - Resume gold manuel CamemBERT v2 : `reports/manual_gold_camembert_v2_summary.md`.
 - Draft rapport : `docs/report_draft.md`.
+- Version PDF du rapport : `deliverables/report_final.pdf`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
 - Runbook soutenance : `docs/soutenance_runbook.md`.

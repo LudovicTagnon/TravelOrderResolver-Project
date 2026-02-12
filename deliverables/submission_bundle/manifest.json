@@ -1,16 +1,31 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 28,
+  "file_count": 32,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 12732,
-      "sha256": "f7848361826e1529d10c9abdff74844ff5167b130e1ae2f15b505df408245a3f"
+      "size_bytes": 13125,
+      "sha256": "dbca2758c17c89e91549e25ff8bcfffd4a1557ad84fb4a4d55dab7258e67e99a"
     },
     {
       "path": "docs/report_draft.md",
       "size_bytes": 39225,
       "sha256": "5e992af783aa2a6077db132cc13c786969756c3bab700ca15543dd691a1f932a"
+    },
+    {
+      "path": "docs/report_pdf_ready.md",
+      "size_bytes": 39774,
+      "sha256": "0c6a9c201102cc6e34899ad7b13370c8a04803c89a52014640749207e2655046"
+    },
+    {
+      "path": "docs/references.bib",
+      "size_bytes": 1387,
+      "sha256": "906c6ee643324f753cbb428ebacb81a4a4ea942b7395b9caf0e256e800438460"
+    },
+    {
+      "path": "docs/figures/README.md",
+      "size_bytes": 477,
+      "sha256": "3ced60a692396b9d694e46e995304f6885151cee85f467c4ecea0317ff77913f"
     },
     {
       "path": "docs/coverage_matrix.md",
@@ -131,6 +146,11 @@
       "path": "datasets/manual/e2e_manual_120_camembert_v2.csv",
       "size_bytes": 20183,
       "sha256": "db4a4f03f94cedb269ec538f971b62e093023794e387bb47ded8d9004605e26b"
+    },
+    {
+      "path": "deliverables/report_final.pdf",
+      "size_bytes": 116399,
+      "sha256": "ffad5fba49b83a426fd2518b53080b1bb875012fc17a62905b3ea6a1d14f95c5"
     },
     {
       "path": "students_project/sample_pipeline_nlp_output.txt",

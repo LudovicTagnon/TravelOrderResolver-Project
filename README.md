@@ -48,6 +48,12 @@ python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter
 ```
 Guides : `docs/annotation_guide.md`, `docs/manual_dataset_template.md`.
 
+Prefill automatique pour accelerer l'annotation (a relire/corriger manuellement) :
+```bash
+python3 src/travel_order_resolver.py --places data/places.txt - < datasets/manual/input_starter.csv > datasets/manual/output_prefill_120.csv
+python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output datasets/manual/output_prefill_120.csv
+```
+
 Evaluer sur un lot annote (exemple 50 lignes) :
 ```bash
 python3 scripts/evaluate.py --input datasets/manual/input_annotated_50.csv --expected datasets/manual/output_annotated_50.csv --format json > reports/manual_metrics_rule_based.json
@@ -90,5 +96,6 @@ python3 -m unittest discover -s tests
 - Baseline rule-based : solide sur le dataset synthetique (`reports/metrics.json`).
 - Baseline ML actuel : inferieur au rule-based (`reports/ml_metrics.json`), sert de reference.
 - Lot annote 50 lignes : rule-based `1.00` (`reports/manual_metrics_rule_based.json`), ML `0.50` (`reports/manual_metrics_ml.json`).
+- Prefill 120 lignes : `datasets/manual/output_prefill_120.csv` (6 lignes marquees INVALID, IDs dans `reports/manual_prefill_invalid_ids.txt`).
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - Draft rapport : `docs/report_draft.md`.

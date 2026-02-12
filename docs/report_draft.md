@@ -16,6 +16,9 @@
 - Lot annote :
   - `datasets/manual/input_annotated_50.csv`
   - `datasets/manual/output_annotated_50.csv`
+- Prefill annotation :
+  - `datasets/manual/output_prefill_120.csv` (a corriger manuellement)
+  - `reports/manual_prefill_invalid_ids.txt` (IDs detectes INVALID)
 
 ## 3. Metriques NLP (baseline rule-based)
 Source : `reports/metrics.json`.
@@ -59,6 +62,6 @@ Constat : sur ce lot, le baseline rule-based reste largement devant.
   - scripts `scripts/sample_triplets.py` et `scripts/validate_pathfinding.py`
 
 ## 8. Limites et suite
-- Etendre l'annotation manuelle (50 -> 120) et valider a deux annotateurs.
+- Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

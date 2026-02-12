@@ -12,7 +12,7 @@ Le pipeline vise a :
 - `datasets/` : datasets synthetiques (`train/dev/test`) + starter manuel.
 - `data/` : listes de lieux, index gares, artefacts derives.
 - `reports/` : metriques rule-based et ML.
-- `docs/` : guide d'annotation + draft du rapport.
+- `docs/` : guide d'annotation + documents du rapport.
 
 ## Pre-requis
 - Python 3.10+
@@ -285,7 +285,7 @@ python3 -m unittest discover -s tests
 - Resume benchmarks fine-tune : `reports/camembert_finetune_summary.md`.
 - Resume benchmarks fine-tune v2 : `reports/camembert_finetune_v2_summary.md`.
 - Resume gold manuel CamemBERT v2 : `reports/manual_gold_camembert_v2_summary.md`.
-- Draft rapport : `docs/report_draft.md`.
+- Rapport long (source): `docs/report_draft.md`.
 - Version PDF du rapport : `deliverables/report_final.pdf`.
 - Version PDF jury (compacte) : `deliverables/report_final_jury.pdf`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.

@@ -12,7 +12,7 @@ lang: "fr-FR"
 **Projet:** Travel Order Resolver  
 **Formation:** EPITECH  
 **Auteur principal:** Ludovic Tagnon  
-**Version:** Draft scientifique longue  
+**Version:** Finale longue  
 **Date:** 2026-02-12
 
 \newpage
@@ -27,7 +27,7 @@ lang: "fr-FR"
 
 \newpage
 
-# Travel Order Resolver - Rapport scientifique (draft long)
+# Travel Order Resolver - Rapport scientifique (version longue)
 
 ## Resume
 Ce document decrit de maniere scientifique la conception, l'implementation et l'evaluation d'un systeme de resolution d'ordres de voyage ferroviaire en langage naturel. Le projet vise a transformer une phrase libre de type chatbot en deux sorties operationnelles: (1) un triplet NLP `id,origin,destination` ou `id,INVALID,` et (2) un itineraire exploitable par un module de pathfinding.
@@ -604,7 +604,7 @@ Pour atteindre un rendu academique de ~20 pages sans "blabla" inutile:
 4. ajouter 1 section "Etude de cas" avec 10 exemples commentes,
 5. conserver interligne 1.15 et police standard academique.
 
-Ces ajouts visuels convertissent naturellement ce draft long en un document final de taille attendue.
+Ces ajouts visuels convertissent naturellement cette version longue en un document final de taille attendue.
 
 ## 21. Etudes de cas detaillees
 
@@ -938,14 +938,14 @@ La vraie valeur n'est pas seulement le score final; c'est la capacite a explique
 8. Integration backend multi-mode et dashboard comparatif.
 9. Snapshot global et bundle de rendu hashé.
 
-## Annexe G - Checklist finale avant export PDF
+## Annexe G - Checklist finale avant export PDF (etat)
 
-- [ ] Inserer schema architecture (module + flux)
-- [ ] Inserer schema data pipeline (generation -> annotation -> eval)
-- [ ] Numeroter figures et tableaux
-- [ ] Ajouter page de garde + abstract anglais (optionnel)
-- [ ] Ajouter section references bibliographiques formelles
-- [ ] Export PDF final et verifier pagination (~20 pages)
+- [x] Inserer page de garde PDF.
+- [x] Ajouter section references bibliographiques (`docs/references.bib`).
+- [x] Export PDF final long (`deliverables/report_final.pdf`).
+- [x] Export PDF jury compact (`deliverables/report_final_jury.pdf`, 20 pages).
+- [ ] Remplacer les placeholders `docs/figures/*.png` par les figures finales.
+- [ ] Numeroter explicitement les figures/tableaux dans la version remise.
 
 ## 28. Details algorithmiques
 
@@ -1191,7 +1191,7 @@ Pour converger vers un format final de ~20 pages en style scientifique:
 Ces visuels font naturellement gagner plusieurs pages tout en augmentant la lisibilite scientifique.
 
 ### 33.3 Texte deja pret
-Le present draft contient deja:
+Le present rapport contient deja:
 - la narration technique,
 - les metriques exactes,
 - les details d'implementation,

@@ -29,7 +29,7 @@ lang: "fr-FR"
 **Projet:** Travel Order Resolver  
 **Formation:** EPITECH  
 **Auteur principal:** Ludovic Tagnon  
-**Version:** Draft scientifique longue  
+**Version:** Finale longue  
 **Date:** {today}
 
 \\newpage

@@ -4,23 +4,23 @@
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 13374,
-      "sha256": "6e6b046bf5b114511c0ca608cc1eeb7cd8d65b32379f1779e44ae5e753779333"
+      "size_bytes": 13385,
+      "sha256": "0d3792dd4c9a10142746be148cd5079203836f41796cde4aea5ac19e70c8fcc0"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 39225,
-      "sha256": "5e992af783aa2a6077db132cc13c786969756c3bab700ca15543dd691a1f932a"
+      "size_bytes": 39317,
+      "sha256": "6c6f27c2850c769fcc9125f10b08d0db456841bfce0227b5104cfcaf297af9fb"
     },
     {
       "path": "docs/report_pdf_ready.md",
-      "size_bytes": 39774,
-      "sha256": "0c6a9c201102cc6e34899ad7b13370c8a04803c89a52014640749207e2655046"
+      "size_bytes": 39854,
+      "sha256": "48111f093acf7a2bcac93a67c08956fda4ecedf605c10f6e65d30ab21f43d9e2"
     },
     {
       "path": "docs/report_jury_ready.md",
-      "size_bytes": 26488,
-      "sha256": "8751f57e27b0d8735a997f00823d2bf114c71ce377e261bf9cc29906de38842e"
+      "size_bytes": 26567,
+      "sha256": "274579f4f8112f70fd39eb18a297aab72562a889e58b9b734cb4a7338b2cb6e1"
     },
     {
       "path": "docs/references.bib",
@@ -34,8 +34,8 @@
     },
     {
       "path": "docs/coverage_matrix.md",
-      "size_bytes": 3790,
-      "sha256": "5ff3a89bedd1e0fa99ed1f3bbe315d959d3dd9885814889dedd5d7fcb039847f"
+      "size_bytes": 3806,
+      "sha256": "3951153a6c403e41724235b53b66170051ac5b5ca686710da614da2104eef63c"
     },
     {
       "path": "reports/snapshot.md",
@@ -154,13 +154,13 @@
     },
     {
       "path": "deliverables/report_final.pdf",
-      "size_bytes": 116399,
-      "sha256": "ffad5fba49b83a426fd2518b53080b1bb875012fc17a62905b3ea6a1d14f95c5"
+      "size_bytes": 117712,
+      "sha256": "20a765e95a87bd9c90961a84df6bc2963aba1836c13fef78381783ad991c44d0"
     },
     {
       "path": "deliverables/report_final_jury.pdf",
-      "size_bytes": 90929,
-      "sha256": "e737fc2a08e3bee458f8f75cce12b244b87b68523207221af0c8d1fcd0b212b6"
+      "size_bytes": 92161,
+      "sha256": "c7682aefba070276b8ea6f2e3ab3ba9835f19b0e84d129465166b793e7956b5c"
     },
     {
       "path": "students_project/sample_pipeline_nlp_output.txt",

@@ -74,6 +74,11 @@ def main() -> int:
         type=Path,
         default=ROOT / "reports" / "snapshot.json",
     )
+    parser.add_argument(
+        "--markdown-output",
+        type=Path,
+        default=ROOT / "reports" / "snapshot.md",
+    )
     args = parser.parse_args()
 
     args.reports.mkdir(parents=True, exist_ok=True)
@@ -186,7 +191,19 @@ def main() -> int:
     with args.output.open("w", encoding="utf-8") as handle:
         json.dump(snapshot, handle, ensure_ascii=True, indent=2)
 
+    subprocess.check_call(
+        [
+            sys.executable,
+            str(ROOT / "scripts" / "render_snapshot_md.py"),
+            "--input",
+            str(args.output),
+            "--output",
+            str(args.markdown_output),
+        ]
+    )
+
     print(f"snapshot={args.output}")
+    print(f"snapshot_markdown={args.markdown_output}")
     return 0
 
 

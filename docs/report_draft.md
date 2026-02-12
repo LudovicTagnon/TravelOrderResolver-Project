@@ -86,7 +86,7 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 
 ## 10. Snapshot global
 - Script : `scripts/run_snapshot.py`
-- Sortie consolidee : `reports/snapshot.json`
+- Sortie consolidee : `reports/snapshot.json` et `reports/snapshot.md`
 - Objectif : figer l'etat des metriques (NLP rule-based, ML, manuel, pathfinding, end-to-end) en un seul artefact.
 
 ## 11. Limites et suite

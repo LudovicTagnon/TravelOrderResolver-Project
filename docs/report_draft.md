@@ -909,15 +909,6 @@ La vraie valeur n'est pas seulement le score final; c'est la capacite a explique
 8. Integration backend multi-mode et dashboard comparatif.
 9. Snapshot global et bundle de rendu hashé.
 
-## Annexe G - Checklist finale avant export PDF (etat)
-
-- [x] Inserer page de garde PDF.
-- [x] Ajouter section references bibliographiques (`docs/references.bib`).
-- [x] Export PDF final long (`deliverables/report_final.pdf`).
-- [x] Export PDF jury compact (`deliverables/report_final_jury.pdf`, 20 pages).
-- [ ] Remplacer les placeholders `docs/figures/*.png` par les figures finales.
-- [ ] Numeroter explicitement les figures/tableaux dans la version remise.
-
 ## 28. Details algorithmiques
 
 Cette section formalise les principaux blocs pour renforcer le caractere scientifique du document.

@@ -760,12 +760,3 @@ Ajouter dashboard gold avec leaderboard.
 Raison: arbitrage de modele lisible et rapide.
 Impact: argumentaire de soutenance plus solide.
 
-## Annexe G - Checklist finale avant export PDF (etat)
-
-- [x] Inserer page de garde PDF.
-- [x] Ajouter section references bibliographiques (`docs/references.bib`).
-- [x] Export PDF final long (`deliverables/report_final.pdf`).
-- [x] Export PDF jury compact (`deliverables/report_final_jury.pdf`, 20 pages).
-- [ ] Remplacer les placeholders `docs/figures/*.png` par les figures finales.
-- [ ] Numeroter explicitement les figures/tableaux dans la version remise.
-

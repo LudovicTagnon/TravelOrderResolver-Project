@@ -79,7 +79,6 @@ def main() -> int:
         "Annexe A - Commandes de reproduction",
         "Annexe B - Tableau comparatif principal",
         "Annexe C - Journal de decisions",
-        "Annexe G - Checklist finale avant export PDF",
     ]
     picked_sections = pick_sections(sections, selected_prefixes)
 

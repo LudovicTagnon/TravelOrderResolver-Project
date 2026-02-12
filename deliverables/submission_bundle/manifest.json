@@ -9,18 +9,18 @@
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 39317,
-      "sha256": "6c6f27c2850c769fcc9125f10b08d0db456841bfce0227b5104cfcaf297af9fb"
+      "size_bytes": 38855,
+      "sha256": "1113cfe23d88b7c12eb03285d54e8c1c6e74fcbcda70732ef9060278f3789f5a"
     },
     {
       "path": "docs/report_pdf_ready.md",
-      "size_bytes": 39854,
-      "sha256": "48111f093acf7a2bcac93a67c08956fda4ecedf605c10f6e65d30ab21f43d9e2"
+      "size_bytes": 39392,
+      "sha256": "c52f874ff1b68ff44c9e00e300762064b0a62d1847b9aa54fd46e11c072d74d4"
     },
     {
       "path": "docs/report_jury_ready.md",
-      "size_bytes": 26567,
-      "sha256": "274579f4f8112f70fd39eb18a297aab72562a889e58b9b734cb4a7338b2cb6e1"
+      "size_bytes": 26105,
+      "sha256": "2223b47ae363b4b3c109985ac14aa08c082ad8fe525e3145911f541e124d590c"
     },
     {
       "path": "docs/references.bib",
@@ -154,13 +154,13 @@
     },
     {
       "path": "deliverables/report_final.pdf",
-      "size_bytes": 117712,
-      "sha256": "20a765e95a87bd9c90961a84df6bc2963aba1836c13fef78381783ad991c44d0"
+      "size_bytes": 114931,
+      "sha256": "1d7037892c9b3c63ed5f98e0e4662f66325b4cda7d376c3c0f46aaa702ba73cf"
     },
     {
       "path": "deliverables/report_final_jury.pdf",
-      "size_bytes": 92161,
-      "sha256": "c7682aefba070276b8ea6f2e3ab3ba9835f19b0e84d129465166b793e7956b5c"
+      "size_bytes": 88822,
+      "sha256": "062c656624532bc5f7cdce94453f4b29c4d7375635534c776bfc448835cea112"
     },
     {
       "path": "students_project/sample_pipeline_nlp_output.txt",

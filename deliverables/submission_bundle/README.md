@@ -245,9 +245,11 @@ python3 -m unittest discover -s tests
 - Benchmarks spaCy/CamemBERT : `reports/spacy_camembert_metrics.json`.
 - CamemBERT fine-tune (sequence classification) : dev `0.733`, test `0.735` (`reports/camembert_finetune_metrics.json`).
 - CamemBERT fine-tune v2 (train complet, 2 epochs) : dev `0.981`, test `0.973` (`reports/camembert_finetune_v2_metrics.json`).
+- CamemBERT v2 sur gold manuel 120 : `119/120` (`reports/manual_gold_metrics_camembert_v2.json`).
 - E2E CamemBERT v2 (120 phrases) : succes global `115/120` (`reports/e2e_manual_120_camembert_v2_summary.json`).
 - Resume benchmarks fine-tune : `reports/camembert_finetune_summary.md`.
 - Resume benchmarks fine-tune v2 : `reports/camembert_finetune_v2_summary.md`.
+- Resume gold manuel CamemBERT v2 : `reports/manual_gold_camembert_v2_summary.md`.
 - Draft rapport : `docs/report_draft.md`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
 - Runbook soutenance : `docs/soutenance_runbook.md`.

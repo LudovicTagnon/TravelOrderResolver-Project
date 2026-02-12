@@ -152,7 +152,7 @@ Sources : `reports/camembert_finetune_metrics.json`, `reports/camembert_finetune
 Constat : le fine-tuning CamemBERT v2 depasse nettement toutes les baselines ML, et se rapproche du rule-based (test `0.993`).
 
 ## 17. Integration E2E backend CamemBERT
-Sources : `scripts/run_pipeline.py`, `scripts/evaluate_end_to_end.py`, `reports/e2e_manual_120_camembert_v2_summary.json`.
+Sources : `scripts/run_pipeline.py`, `scripts/evaluate_end_to_end.py`, `reports/e2e_manual_120_camembert_v2_summary.json`, `reports/manual_gold_metrics_camembert_v2.json`.
 
 - Le pipeline supporte maintenant deux backends NLP :
   - `rule-based` (defaut)
@@ -161,6 +161,9 @@ Sources : `scripts/run_pipeline.py`, `scripts/evaluate_end_to_end.py`, `reports/
   - NLP valide `115/120`
   - pathfinding valide `115/115` apres NLP valide
   - succes global `115/120` (`95.8%`)
+- Evaluation NLP sur le gold manuel 120 :
+  - CamemBERT v2 : `119/120` (accuracy `0.992`)
+  - Rule-based : `120/120` (accuracy `1.000`)
 
 ## 18. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.

@@ -1,21 +1,21 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 24,
+  "file_count": 26,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 12221,
-      "sha256": "2caa0a5aaaf83a452d72b5d3f18f1dca90afff510576f8749bd61e2f30a828d4"
+      "size_bytes": 12402,
+      "sha256": "49998b45a60eba5ca2816b0ab21851d804c3390305663fb156cd3ac0c0fa443a"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 7283,
-      "sha256": "7792f46d5022f39797e7abc58a46c7d2d5b81011bd7635e5601da991df18b1bb"
+      "size_bytes": 7468,
+      "sha256": "96f0afafd05a9ae14315b0365e39e6f854a519702f92dfa7b69d99d77e515a95"
     },
     {
       "path": "docs/coverage_matrix.md",
-      "size_bytes": 3487,
-      "sha256": "f4343d0742c18de1e8238b623381994648d705ae034b955136b39d5964decbaa"
+      "size_bytes": 3582,
+      "sha256": "11eb62b7d23588d6561d036bf08bbf5274da4fe2a19c4b04e8036767a2ecb76d"
     },
     {
       "path": "reports/snapshot.md",
@@ -41,6 +41,16 @@
       "path": "reports/manual_gold_metrics_ml.json",
       "size_bytes": 419,
       "sha256": "9c03497eae64069cba74503deeafdc6d3766409382ab8c4aa7923778f1cc450f"
+    },
+    {
+      "path": "reports/manual_gold_metrics_camembert_v2.json",
+      "size_bytes": 437,
+      "sha256": "d35fd5b21fbe53ba5cb46680a0f4da17a574e0781dc82fb96628e46c1529983c"
+    },
+    {
+      "path": "reports/manual_gold_camembert_v2_summary.md",
+      "size_bytes": 437,
+      "sha256": "cbbbf686f3515d455f20053d18ac27b8e797fc4a62a8ec8cc0e2e4f7918197ef"
     },
     {
       "path": "reports/e2e_manual_gold_120_summary.json",

@@ -1,0 +1,17 @@
+{
+  "total": 120,
+  "correct": 119,
+  "accuracy": 0.9916666666666667,
+  "invalid_expected": 5,
+  "invalid_correct": 5,
+  "invalid_accuracy": 1.0,
+  "valid_expected": 115,
+  "valid_predicted": 115,
+  "valid_correct": 114,
+  "valid_precision": 0.991304347826087,
+  "valid_recall": 0.991304347826087,
+  "valid_f1": 0.991304347826087,
+  "origin_accuracy": 0.991304347826087,
+  "destination_accuracy": 0.991304347826087,
+  "device": "cuda"
+}

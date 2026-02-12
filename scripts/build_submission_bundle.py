@@ -17,6 +17,8 @@ DEFAULT_FILES = [
     "reports/manual_gold_dashboard.json",
     "reports/manual_gold_metrics_rule_based.json",
     "reports/manual_gold_metrics_ml.json",
+    "reports/manual_gold_metrics_camembert_v2.json",
+    "reports/manual_gold_camembert_v2_summary.md",
     "reports/e2e_manual_gold_120_summary.json",
     "reports/spacy_camembert_metrics.json",
     "reports/spacy_camembert_summary.md",

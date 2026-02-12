@@ -68,6 +68,11 @@ python3 scripts/build_graph.py --stop-times data/gtfs/stop_times.txt --stops dat
 ```bash
 python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv
 ```
+4) Generer/valider un echantillon de reference :
+```bash
+python3 scripts/sample_triplets.py --graph data/graph.json --stops-areas data/stops_areas.csv --count 30 --output-triplets datasets/path_triplets.csv --output-expected datasets/path_expected.csv
+python3 scripts/validate_pathfinding.py --graph data/graph.json --stops-index data/stops_index.json --triplets datasets/path_triplets.csv --expected datasets/path_expected.csv
+```
 
 ## Workflow 4 - Baseline ML (reference)
 ```bash
@@ -85,4 +90,5 @@ python3 -m unittest discover -s tests
 - Baseline rule-based : solide sur le dataset synthetique (`reports/metrics.json`).
 - Baseline ML actuel : inferieur au rule-based (`reports/ml_metrics.json`), sert de reference.
 - Lot annote 50 lignes : rule-based `1.00` (`reports/manual_metrics_rule_based.json`), ML `0.50` (`reports/manual_metrics_ml.json`).
+- Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - Draft rapport : `docs/report_draft.md`.

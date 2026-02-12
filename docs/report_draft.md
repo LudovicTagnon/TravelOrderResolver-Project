@@ -50,6 +50,10 @@ Constat : sur ce lot, le baseline rule-based reste largement devant.
 - Donnees d'entree : GTFS (`stops.txt`, `stop_times.txt`).
 - Index gares : `data/stops_index.json`.
 - Graphe genere : `data/graph.json` (fichier derive, non versionne).
+- Jeux de validation :
+  - `datasets/path_triplets.csv`
+  - `datasets/path_expected.csv`
+- Metriques : `reports/pathfinding_metrics.txt` (`accuracy=1.000` sur 30 trajets echantillonnes).
 - Validation :
   - unit tests `tests/test_pathfind.py`
   - scripts `scripts/sample_triplets.py` et `scripts/validate_pathfinding.py`

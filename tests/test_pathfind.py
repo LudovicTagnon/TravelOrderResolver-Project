@@ -41,6 +41,13 @@ class PathfindTest(unittest.TestCase):
             set(ids),
         )
 
+    def test_resolve_stop_ids_saint_abbreviation_fallback(self) -> None:
+        index = {
+            "st etienne ch tcrx": {"stop_ids": ["StopArea:ST_ETIENNE"]},
+        }
+        ids = pathfind.resolve_stop_ids(index, "Saint-Etienne")
+        self.assertEqual(["StopArea:ST_ETIENNE"], ids)
+
 
 if __name__ == "__main__":
     unittest.main()

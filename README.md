@@ -120,6 +120,6 @@ python3 -m unittest discover -s tests
 - Relecture 120 lignes : `datasets/manual/review_sheet_120.csv` + shortlist `datasets/manual/review_actionable_120.csv` (22 cas actionnables, `reports/manual_review_summary.json`).
 - Metriques "self-check" sur prefill 120 (coherence technique, pas qualite humaine) : `reports/manual_prefill_metrics_rule_based.json`, `reports/manual_prefill_metrics_ml.json`.
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
-- End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `104/115`, succes global `104/120` (`reports/e2e_manual_120_summary.json`).
+- End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `115/115`, succes global `115/120` (`reports/e2e_manual_120_summary.json`).
 - Snapshot global : `reports/snapshot.json`.
 - Draft rapport : `docs/report_draft.md`.

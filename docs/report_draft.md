@@ -65,6 +65,7 @@ Note : ces metriques utilisent le prefill comme pseudo-reference technique. Elle
 - Donnees d'entree : GTFS (`stops.txt`, `stop_times.txt`).
 - Index gares : `data/stops_index.json`.
 - Graphe genere : `data/graph.json` (fichier derive, non versionne).
+- Resolution nom ville -> stop_ids : exact, prefixe, puis fuzzy (gestion `Saint`/`St` et bruit d'encodage).
 - Jeux de validation :
   - `datasets/path_triplets.csv`
   - `datasets/path_expected.csv`
@@ -78,8 +79,8 @@ Source : `reports/e2e_manual_120_summary.json`.
 
 - Total phrases : `120`
 - NLP valide : `115` (`95.8%`)
-- Pathfinding valide sur NLP valide : `104/115` (`90.4%`)
-- Succes global NLP+pathfinding : `104/120` (`86.7%`)
+- Pathfinding valide sur NLP valide : `115/115` (`100.0%`)
+- Succes global NLP+pathfinding : `115/120` (`95.8%`)
 
 Export detail : `datasets/manual/e2e_manual_120.csv`.
 

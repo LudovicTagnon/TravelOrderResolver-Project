@@ -9,7 +9,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT))
 
-from src.travel_order_resolver import normalize
+from src.travel_order_resolver import levenshtein, max_distance, normalize
+
+GENERIC_TOKENS = {"gare", "station", "halte", "arret", "stop"}
 
 
 def load_graph(path: Path) -> dict:
@@ -60,17 +62,72 @@ def resolve_stop_ids(index: dict, name: str) -> list[str]:
     key = normalize(name)
     if not key:
         return []
-    entry = index.get(key)
-    if not entry:
-        # Fallback: query by prefix on normalized stop names
-        # (e.g. "paris" -> "paris gare de lyon", "paris montparnasse ...").
-        matched_ids = set()
-        prefix = f"{key} "
+
+    key_variants = {key}
+    if "saint " in key:
+        key_variants.add(key.replace("saint ", "st "))
+    if "st " in key:
+        key_variants.add(key.replace("st ", "saint "))
+
+    matched_ids = set()
+    for variant in key_variants:
+        entry = index.get(variant)
+        if entry:
+            matched_ids.update(entry.get("stop_ids", []))
+
+    if matched_ids:
+        return sorted(matched_ids)
+
+    for variant in key_variants:
+        prefix = f"{variant} "
         for candidate_key, candidate_entry in index.items():
             if candidate_key.startswith(prefix):
                 matched_ids.update(candidate_entry.get("stop_ids", []))
+
+    if matched_ids:
         return sorted(matched_ids)
-    return entry.get("stop_ids", [])
+
+    # Fuzzy fallback for noisy stop names (encoding glitches, abbreviations).
+    for variant in key_variants:
+        variant_tokens = variant.split()
+        if not variant_tokens:
+            continue
+        informative_tokens = [
+            token for token in variant_tokens if len(token) >= 3 and token not in GENERIC_TOKENS
+        ]
+        if not informative_tokens:
+            continue
+        token_count = len(variant_tokens)
+        best_distance = None
+        best_ids = set()
+        for candidate_key, candidate_entry in index.items():
+            candidate_tokens = candidate_key.split()
+            if len(candidate_tokens) < token_count:
+                continue
+            candidate_prefix = " ".join(candidate_tokens[:token_count])
+            distance = levenshtein(variant, candidate_prefix)
+            if distance > max_distance(variant):
+                continue
+            if best_distance is None or distance < best_distance:
+                best_distance = distance
+                best_ids = set(candidate_entry.get("stop_ids", []))
+            elif distance == best_distance:
+                best_ids.update(candidate_entry.get("stop_ids", []))
+        matched_ids.update(best_ids)
+
+    if matched_ids:
+        return sorted(matched_ids)
+
+    # Last-resort contains fallback.
+    for variant in key_variants:
+        for candidate_key, candidate_entry in index.items():
+            if variant in candidate_key:
+                matched_ids.update(candidate_entry.get("stop_ids", []))
+
+    if matched_ids:
+        return sorted(matched_ids)
+
+    return []
 
 
 def pathfind(origin: str, destination: str, graph: dict, index: dict) -> list[str] | None:

@@ -6,6 +6,7 @@
 - `scripts/build_stop_index.py` : index gares (`stop_name -> stop_ids`) depuis `stops.xlsx`.
 - `scripts/build_graph.py` : graphe de connectivite depuis `stop_times.txt` GTFS.
 - `scripts/pathfind.py` : plus court chemin (BFS) entre gares.
+- CI : `.github/workflows/ci.yml` (tests + smoke scripts).
 
 ## 2. Jeux de donnees
 - Synthese principale : `datasets/all_input.txt`, `datasets/all_output.txt`.
@@ -112,7 +113,12 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
   - `reports/e2e_manual_gold_120_summary.json`
   - `reports/manual_gold_dashboard.json`
 
-## 14. Limites et suite
+## 14. Bundle de rendu
+- Script : `scripts/build_submission_bundle.py`
+- Dossier cible : `deliverables/submission_bundle/`
+- Manifest : `deliverables/submission_bundle/manifest.json` (hash SHA256 des fichiers inclus)
+
+## 15. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_FILES = [
     "README.md",
     "docs/report_draft.md",
+    "docs/coverage_matrix.md",
     "reports/snapshot.md",
     "reports/snapshot.json",
     "reports/manual_gold_dashboard.json",

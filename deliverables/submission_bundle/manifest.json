@@ -1,16 +1,21 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 15,
+  "file_count": 16,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 8882,
-      "sha256": "4910f89af9429f5597b7fb8b13ebee1f3628628b747a91aaaf6fb05c687bcf3b"
+      "size_bytes": 9546,
+      "sha256": "76e1cf15d6ffc77cf1db6c2c4a70e7b8bebdcc0f796221d5425bcb07d2724394"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 5174,
-      "sha256": "3666e4a49a3d1722df850b9517a174a4cfd31fa86c8d843bc09dd2418d897c68"
+      "size_bytes": 5451,
+      "sha256": "e3afd03ef9b336b78cbc8ecb982fab1b80044ba3c6f4f7e29cd9c15457dacf8d"
+    },
+    {
+      "path": "docs/coverage_matrix.md",
+      "size_bytes": 2718,
+      "sha256": "7010ef571cda301d1a4a5152c32a8739c7bf673b796c15b8b5ac5383283c88d6"
     },
     {
       "path": "reports/snapshot.md",

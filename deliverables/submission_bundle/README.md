@@ -137,16 +137,6 @@ Sorties:
 - `reports/e2e_manual_gold_120_summary.json`
 - `reports/manual_gold_dashboard.json`
 
-## Workflow 10 - Construire un bundle de rendu
-```bash
-python3 scripts/build_submission_bundle.py --output-dir deliverables/submission_bundle --manifest deliverables/submission_bundle/manifest.json
-```
-Contenu:
-- artefacts de rapport (`reports/*`)
-- gold set manuel et evaluation e2e
-- outputs pipeline sample
-- manifeste SHA256 (`deliverables/submission_bundle/manifest.json`)
-
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -166,5 +156,4 @@ python3 -m unittest discover -s tests
 - Pipeline sample (8 phrases) : `6` succes complets, `2` INVALID NLP, `0` echec pathfinding apres NLP.
 - Template de correction manuelle : `datasets/manual/corrections_120.csv` (22 lignes a valider).
 - Dashboard gold set : `reports/manual_gold_dashboard.json`.
-- Bundle de rendu : `deliverables/submission_bundle/`.
 - Draft rapport : `docs/report_draft.md`.

@@ -1,0 +1,16 @@
+{
+  "total": 120,
+  "correct": 67,
+  "accuracy": 0.5583333333333333,
+  "invalid_expected": 5,
+  "invalid_correct": 5,
+  "invalid_accuracy": 1.0,
+  "valid_expected": 115,
+  "valid_predicted": 115,
+  "valid_correct": 62,
+  "valid_precision": 0.5391304347826087,
+  "valid_recall": 0.5391304347826087,
+  "valid_f1": 0.5391304347826087,
+  "origin_accuracy": 0.6260869565217392,
+  "destination_accuracy": 0.6086956521739131
+}

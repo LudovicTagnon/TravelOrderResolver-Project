@@ -1,0 +1,82 @@
+{
+  "bundle_root": "deliverables/submission_bundle",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 8882,
+      "sha256": "4910f89af9429f5597b7fb8b13ebee1f3628628b747a91aaaf6fb05c687bcf3b"
+    },
+    {
+      "path": "docs/report_draft.md",
+      "size_bytes": 5174,
+      "sha256": "3666e4a49a3d1722df850b9517a174a4cfd31fa86c8d843bc09dd2418d897c68"
+    },
+    {
+      "path": "reports/snapshot.md",
+      "size_bytes": 730,
+      "sha256": "6fa8f65794216d7d60963b6f80e4f5e4e74bcb439c25fb1fdebca02f2e4c895a"
+    },
+    {
+      "path": "reports/snapshot.json",
+      "size_bytes": 6200,
+      "sha256": "f2f7d966170d505e88a0b195d754f7da94a1d2de4e4f0ba503510df80c54ceeb"
+    },
+    {
+      "path": "reports/manual_gold_dashboard.json",
+      "size_bytes": 1267,
+      "sha256": "f3bcc96022465148fb89dad8e4eef2db045053bfad9efea4276293248e0282be"
+    },
+    {
+      "path": "reports/manual_gold_metrics_rule_based.json",
+      "size_bytes": 331,
+      "sha256": "9ae7d872709e957ebec1023662b93b03bcd7cc68dcc394ab4d4b1f702d948cbd"
+    },
+    {
+      "path": "reports/manual_gold_metrics_ml.json",
+      "size_bytes": 419,
+      "sha256": "9c03497eae64069cba74503deeafdc6d3766409382ab8c4aa7923778f1cc450f"
+    },
+    {
+      "path": "reports/e2e_manual_gold_120_summary.json",
+      "size_bytes": 285,
+      "sha256": "a6e6880e5d67d3d70d9c27b646361df2d852ea9267bef37a3dd0886a89147252"
+    },
+    {
+      "path": "reports/pathfinding_metrics.txt",
+      "size_bytes": 35,
+      "sha256": "aa7852bca4e0621800250388f2e2deb06e5b73c4af10cf1c4b990e9502693604"
+    },
+    {
+      "path": "reports/ml_error_analysis_dev.json",
+      "size_bytes": 11198,
+      "sha256": "8397abc871e0ece5ff4f7349c865b1ba250c05ea9a64151eaca5d73c9d88e84e"
+    },
+    {
+      "path": "reports/ml_error_analysis_test.json",
+      "size_bytes": 11439,
+      "sha256": "7bc5ab1029a759474ec31e56481bbffdd3c1c5196daaa1012859f1c295474a5d"
+    },
+    {
+      "path": "datasets/manual/output_gold_120.csv",
+      "size_bytes": 2652,
+      "sha256": "2f6c950d2136b78c94135e8de26ad08eccb5f44edcc63125221fb19764b69f1f"
+    },
+    {
+      "path": "datasets/manual/e2e_manual_gold_120.csv",
+      "size_bytes": 20083,
+      "sha256": "022b45977efcb5941a65b9506de927f45075eff7cc9cc4a1e326feac394b78eb"
+    },
+    {
+      "path": "students_project/sample_pipeline_nlp_output.txt",
+      "size_bytes": 148,
+      "sha256": "7ec872d597f2478b68369bd9a0d23e52e88834499f69fa56f856d3c22ec19682"
+    },
+    {
+      "path": "students_project/sample_pipeline_path_output.txt",
+      "size_bytes": 314,
+      "sha256": "41f9bdf022bb22a1a4baa56d0c6e9f7f64dc00428651c82be3b7295d128ff279"
+    }
+  ],
+  "missing": []
+}

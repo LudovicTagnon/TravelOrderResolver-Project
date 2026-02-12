@@ -1,0 +1,47 @@
+{
+  "input": "datasets/manual/input_starter.csv",
+  "gold_output": "datasets/manual/output_gold_120.csv",
+  "rule_based": {
+    "total": 120,
+    "correct": 120,
+    "accuracy": 1.0,
+    "invalid_expected": 5,
+    "invalid_correct": 5,
+    "invalid_accuracy": 1.0,
+    "valid_expected": 115,
+    "valid_predicted": 115,
+    "valid_correct": 115,
+    "valid_precision": 1.0,
+    "valid_recall": 1.0,
+    "valid_f1": 1.0,
+    "origin_accuracy": 1.0,
+    "destination_accuracy": 1.0
+  },
+  "ml": {
+    "total": 120,
+    "correct": 67,
+    "accuracy": 0.5583333333333333,
+    "invalid_expected": 5,
+    "invalid_correct": 5,
+    "invalid_accuracy": 1.0,
+    "valid_expected": 115,
+    "valid_predicted": 115,
+    "valid_correct": 62,
+    "valid_precision": 0.5391304347826087,
+    "valid_recall": 0.5391304347826087,
+    "valid_f1": 0.5391304347826087,
+    "origin_accuracy": 0.6260869565217392,
+    "destination_accuracy": 0.6086956521739131
+  },
+  "end_to_end": {
+    "total": 120,
+    "nlp_valid": 115,
+    "nlp_invalid": 5,
+    "nlp_valid_rate": 0.9583333333333334,
+    "path_valid_on_nlp_valid": 115,
+    "path_invalid_on_nlp_valid": 0,
+    "path_success_rate_on_nlp_valid": 1.0,
+    "end_to_end_success": 115,
+    "end_to_end_success_rate": 0.9583333333333334
+  }
+}

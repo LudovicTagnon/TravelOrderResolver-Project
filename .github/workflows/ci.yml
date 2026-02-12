@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scikit-learn joblib openpyxl
+
+      - name: Run unit tests
+        run: make test
+
+      - name: Smoke evaluate sample NLP
+        run: |
+          python scripts/evaluate.py --input students_project/sample_nlp_input.txt --expected students_project/sample_nlp_output.txt --places data/places.txt --format json > /tmp/sample_eval.json
+
+      - name: Smoke manual correction tooling
+        run: |
+          python scripts/prepare_manual_corrections.py --review-actionable datasets/manual/review_actionable_120.csv --output /tmp/corrections.csv
+          python scripts/apply_manual_corrections.py --base-output datasets/manual/output_prefill_120.csv --corrections /tmp/corrections.csv --output /tmp/output_gold.csv
+          python scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output /tmp/output_gold.csv

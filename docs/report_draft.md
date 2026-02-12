@@ -6,6 +6,7 @@
 - `scripts/build_stop_index.py` : index gares (`stop_name -> stop_ids`) depuis `stops.xlsx`.
 - `scripts/build_graph.py` : graphe de connectivite depuis `stop_times.txt` GTFS.
 - `scripts/pathfind.py` : plus court chemin (BFS) entre gares.
+- CI : `.github/workflows/ci.yml` (tests + smoke scripts).
 
 ## 2. Jeux de donnees
 - Synthese principale : `datasets/all_input.txt`, `datasets/all_output.txt`.

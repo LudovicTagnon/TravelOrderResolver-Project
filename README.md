@@ -17,6 +17,7 @@ Le pipeline vise a :
 ## Pre-requis
 - Python 3.10+
 - Dependances utilisees dans ce repo : `scikit-learn`, `joblib`, `openpyxl`
+- `make` (optionnel, raccourcis de commandes)
 
 ## Format de donnees
 - Entree NLP : `id,phrase`
@@ -146,6 +147,16 @@ Contenu:
 - gold set manuel et evaluation e2e
 - outputs pipeline sample
 - manifeste SHA256 (`deliverables/submission_bundle/manifest.json`)
+
+## Raccourcis Makefile
+```bash
+make test
+make train-ml
+make snapshot
+make manual-gold-eval
+make pipeline-sample
+make bundle
+```
 
 ## Tests
 ```bash

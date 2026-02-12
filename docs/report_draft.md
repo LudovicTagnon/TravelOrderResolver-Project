@@ -13,6 +13,9 @@
 - Starter annotation manuelle :
   - `datasets/manual/input_starter.csv` (120 phrases)
   - `datasets/manual/output_template.csv` (template vide)
+- Lot annote :
+  - `datasets/manual/input_annotated_50.csv`
+  - `datasets/manual/output_annotated_50.csv`
 
 ## 3. Metriques NLP (baseline rule-based)
 Source : `reports/metrics.json`.
@@ -35,7 +38,15 @@ Constat : le baseline ML actuel est nettement inferieur au baseline rule-based.
 - Sortie NLP : `id,origin,destination` ou `id,INVALID,`
 - Sortie pathfinding : `id,Step0,Step1,...,StepN`
 
-## 6. Pathfinding
+## 6. Evaluation sur lot annote (50)
+Sources : `reports/manual_metrics_rule_based.json`, `reports/manual_metrics_ml.json`.
+
+- Rule-based : accuracy `1.000`, valid_f1 `1.000`
+- ML baseline : accuracy `0.500`, valid_f1 `0.500`
+
+Constat : sur ce lot, le baseline rule-based reste largement devant.
+
+## 7. Pathfinding
 - Donnees d'entree : GTFS (`stops.txt`, `stop_times.txt`).
 - Index gares : `data/stops_index.json`.
 - Graphe genere : `data/graph.json` (fichier derive, non versionne).
@@ -43,7 +54,7 @@ Constat : le baseline ML actuel est nettement inferieur au baseline rule-based.
   - unit tests `tests/test_pathfind.py`
   - scripts `scripts/sample_triplets.py` et `scripts/validate_pathfinding.py`
 
-## 7. Limites et suite
-- Dataset manuel reel encore a annoter (template pret).
+## 8. Limites et suite
+- Etendre l'annotation manuelle (50 -> 120) et valider a deux annotateurs.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

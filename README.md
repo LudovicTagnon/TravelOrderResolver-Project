@@ -48,6 +48,12 @@ python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter
 ```
 Guides : `docs/annotation_guide.md`, `docs/manual_dataset_template.md`.
 
+Evaluer sur un lot annote (exemple 50 lignes) :
+```bash
+python3 scripts/evaluate.py --input datasets/manual/input_annotated_50.csv --expected datasets/manual/output_annotated_50.csv --format json > reports/manual_metrics_rule_based.json
+python3 scripts/evaluate_ml.py --input datasets/manual/input_annotated_50.csv --expected datasets/manual/output_annotated_50.csv --model-dir models --format json > reports/manual_metrics_ml.json
+```
+
 ## Workflow 3 - GTFS et pathfinding
 1) Recuperer GTFS :
 ```bash
@@ -78,4 +84,5 @@ python3 -m unittest discover -s tests
 ## Etat actuel
 - Baseline rule-based : solide sur le dataset synthetique (`reports/metrics.json`).
 - Baseline ML actuel : inferieur au rule-based (`reports/ml_metrics.json`), sert de reference.
+- Lot annote 50 lignes : rule-based `1.00` (`reports/manual_metrics_rule_based.json`), ML `0.50` (`reports/manual_metrics_ml.json`).
 - Draft rapport : `docs/report_draft.md`.

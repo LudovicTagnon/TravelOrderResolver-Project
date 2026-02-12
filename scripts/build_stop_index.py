@@ -20,8 +20,22 @@ def read_rows(path: Path) -> tuple[list[str], list[list]]:
         rows = list(worksheet.iter_rows(values_only=True))
         if not rows:
             return [], []
-        header = [str(value).strip() for value in rows[0] if value is not None]
-    return header, rows[1:]
+        header = [str(value).strip() if value is not None else "" for value in rows[0]]
+        return header, rows[1:]
+
+    with path.open("r", encoding="utf-8") as handle:
+        sample = handle.read(2048)
+        handle.seek(0)
+        try:
+            dialect = csv.Sniffer().sniff(sample, delimiters=";,	")
+        except csv.Error:
+            dialect = csv.excel
+        reader = csv.reader(handle, dialect=dialect)
+        rows = list(reader)
+        if not rows:
+            return [], []
+        header = [value.strip() for value in rows[0]]
+        return header, rows[1:]
 
 
 def build_variant_keys(name: str) -> list[str]:
@@ -37,20 +51,6 @@ def build_variant_keys(name: str) -> list[str]:
     if "" in variants:
         variants.discard("")
     return sorted(variants)
-
-    with path.open("r", encoding="utf-8") as handle:
-        sample = handle.read(2048)
-        handle.seek(0)
-        try:
-            dialect = csv.Sniffer().sniff(sample, delimiters=";,	")
-        except csv.Error:
-            dialect = csv.excel
-        reader = csv.reader(handle, dialect=dialect)
-        rows = list(reader)
-        if not rows:
-            return [], []
-        header = [value.strip() for value in rows[0]]
-        return header, rows[1:]
 
 
 def main() -> int:

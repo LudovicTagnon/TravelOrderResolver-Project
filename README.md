@@ -101,6 +101,12 @@ Sorties :
 - detail par phrase : `datasets/manual/e2e_manual_120.csv`
 - resume global : `reports/e2e_manual_120_summary.json`
 
+## Workflow 6 - Snapshot global (soutenance)
+```bash
+python3 scripts/run_snapshot.py --datasets datasets --reports reports --model-dir models --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --manual-input datasets/manual/input_starter.csv --manual-output datasets/manual/output_prefill_120.csv --output reports/snapshot.json
+```
+Le snapshot consolide les metriques principales dans `reports/snapshot.json`.
+
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -115,4 +121,5 @@ python3 -m unittest discover -s tests
 - Metriques "self-check" sur prefill 120 (coherence technique, pas qualite humaine) : `reports/manual_prefill_metrics_rule_based.json`, `reports/manual_prefill_metrics_ml.json`.
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `104/115`, succes global `104/120` (`reports/e2e_manual_120_summary.json`).
+- Snapshot global : `reports/snapshot.json`.
 - Draft rapport : `docs/report_draft.md`.

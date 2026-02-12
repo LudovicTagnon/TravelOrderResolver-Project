@@ -83,7 +83,12 @@ Source : `reports/e2e_manual_120_summary.json`.
 
 Export detail : `datasets/manual/e2e_manual_120.csv`.
 
-## 10. Limites et suite
+## 10. Snapshot global
+- Script : `scripts/run_snapshot.py`
+- Sortie consolidee : `reports/snapshot.json`
+- Objectif : figer l'etat des metriques (NLP rule-based, ML, manuel, pathfinding, end-to-end) en un seul artefact.
+
+## 11. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

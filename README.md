@@ -1,67 +1,81 @@
 # Travel Order Resolver
 
-## Contenu
-- `src/travel_order_resolver.py` : extracteur CLI (origine/destination).
-- `data/places.txt` : gazetteer de lieux.
-- `data/places_imported.txt` : liste de gares importées (SNCF).
-- `data/places_stops.txt` : liste générée depuis `stops.xlsx`.
-- `data/stops_areas.csv` : arrêts (stop_id, stop_name, normalized).
-- `data/stops_index.json` : index normalisé -> stop_ids.
-- `students_project/sample_nlp_input.txt` : entrées d'exemple.
-- `students_project/sample_nlp_output.txt` : sorties attendues.
-- `project.pdf` : sujet et contraintes.
-- `tests/test_sample.py` : test de cohérence sur les exemples fournis.
-- `scripts/evaluate.py` : métriques simples sur le jeu d'exemple.
-- `scripts/generate_dataset.py` : génération de jeux synthétiques (entrées + sorties attendues).
-- `scripts/dataset_report.py` : statistiques sur un jeu (volumétrie, lieux, tokens).
-- `scripts/split_dataset.py` : découpage train/dev/test.
-- `datasets/` : jeu synthétique (all/train/dev/test, variantes avec fautes).
-- `scripts/run_benchmarks.py` : exécution des métriques sur train/dev/test.
-- `reports/metrics.json` : résultats des métriques par split.
-- `scripts/import_places.py` : import CSV de lieux (option d'alias gare).
-- `scripts/build_stop_index.py` : extraction des stop areas + index JSON depuis `stops.xlsx`.
-- `scripts/build_graph.py` : construction du graphe depuis un fichier `stop_times` GTFS.
-- `scripts/pathfind.py` : plus court chemin entre deux gares à partir d'un triplet `id,origin,destination`.
-- `scripts/fetch_gtfs.py` : téléchargement/extraction du GTFS SNCF.
-- `data/graph.json` : graphe généré (liaisons entre stop areas).
-- `scripts/sample_triplets.py` : génération de triplets connectés pour test pathfinding.
-- `scripts/validate_pathfinding.py` : validation des trajets attendus.
-- `docs/report_outline.md` : plan de rapport (NLP + métriques).
-- `scripts/train_ml.py` : entraînement baseline ML (origine/destination).
-- `scripts/evaluate_ml.py` : évaluation baseline ML.
-- `docs/annotation_guide.md` : guide d'annotation manuel.
-- `docs/manual_dataset_template.md` : modèle de format pour dataset manuel.
-- `scripts/validate_manual_dataset.py` : contrôle rapide d'un dataset annoté.
-- `scripts/bootstrap_manual_dataset.py` : generation d'un starter dataset manuel.
-- `scripts/run_ml_benchmarks.py` : metriques ML train/dev/test en JSON.
-- `reports/ml_metrics.json` : resultats du baseline ML.
-- `docs/report_draft.md` : brouillon de rapport avec metriques actuelles.
-- `data/places.txt` : lignes simples ou format `alias|canonique`.
+Projet EPITECH NLP + pathfinding ferroviaire.
+Le pipeline vise a :
+- extraire `origine/destination` depuis une phrase (`id,phrase`)
+- produire `id,origine,destination` ou `id,INVALID,`
+- calculer un chemin entre gares a partir des donnees GTFS
 
-## Format des données
-- Entrée : `id,phrase`.
-- Sortie : `id,origine,destination` ou `id,INVALID,`.
-- Encodage : UTF-8.
-- Entrées possibles : fichier, stdin (`-`), URL HTTP(S).
+## Structure utile
+- `src/travel_order_resolver.py` : baseline NLP rule-based (CLI).
+- `scripts/` : generation de donnees, evaluation, GTFS, pathfinding, baseline ML.
+- `datasets/` : datasets synthetiques (`train/dev/test`) + starter manuel.
+- `data/` : listes de lieux, index gares, artefacts derives.
+- `reports/` : metriques rule-based et ML.
+- `docs/` : guide d'annotation + draft du rapport.
 
-## Exemple
-- `1,je voudrais aller de Toulouse a bordeaux`
-- `1,Toulouse,Bordeaux`
+## Pre-requis
+- Python 3.10+
+- Dependances utilisees dans ce repo : `scikit-learn`, `joblib`, `openpyxl`
 
-## Exemples de commandes
-- `python3 src/travel_order_resolver.py --places data/places.txt < students_project/sample_nlp_input.txt`
-- `python3 src/travel_order_resolver.py --places data/places.txt students_project/sample_nlp_input.txt`
-- `python3 src/travel_order_resolver.py --places data/places_imported.txt students_project/sample_nlp_input.txt`
-- `python3 scripts/import_places.py --input stops.xlsx --column stop_name --add-gare-alias --output data/places_stops.txt`
-- `python3 scripts/build_stop_index.py --input stops.xlsx --output-csv data/stops_areas.csv --output-json data/stops_index.json`
-- `python3 scripts/build_graph.py --stop-times path/to/stop_times.txt --output data/graph.json`
-- `python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv`
-- `python3 scripts/fetch_gtfs.py --extract`
-- `python3 src/travel_order_resolver.py --places data/places.txt input.txt | python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json`
-- `python3 scripts/sample_triplets.py --graph data/graph.json --stops-areas data/stops_areas.csv --output-triplets datasets/path_triplets.csv --output-expected datasets/path_expected.csv`
-- `python3 scripts/validate_pathfinding.py --graph data/graph.json --stops-index data/stops_index.json --triplets datasets/path_triplets.csv --expected datasets/path_expected.csv`
-- `python3 scripts/train_ml.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models`
-- `python3 scripts/evaluate_ml.py --input datasets/dev_input.txt --expected datasets/dev_output.txt --model-dir models`
-- `python3 scripts/validate_manual_dataset.py --input datasets/manual/input.csv --output datasets/manual/output.csv`
-- `python3 scripts/bootstrap_manual_dataset.py --source datasets/all_input.txt --count 120 --output-input datasets/manual/input_starter.csv --output-template datasets/manual/output_template.csv`
-- `python3 scripts/run_ml_benchmarks.py --datasets datasets --model-dir models --output reports/ml_metrics.json`
+## Format de donnees
+- Entree NLP : `id,phrase`
+- Sortie NLP : `id,origine,destination` ou `id,INVALID,`
+- Encodage : UTF-8
+
+Exemple :
+```text
+1,je voudrais aller de Toulouse a Bordeaux
+1,Toulouse,Bordeaux
+```
+
+## Workflow 1 - Baseline NLP (rule-based)
+```bash
+python3 src/travel_order_resolver.py --places data/places.txt < students_project/sample_nlp_input.txt
+python3 scripts/evaluate.py --input datasets/dev_input.txt --expected datasets/dev_output.txt
+python3 scripts/run_benchmarks.py
+```
+Resultats consolides : `reports/metrics.json`.
+
+## Workflow 2 - Dataset manuel (annotation humaine)
+Generer un starter :
+```bash
+python3 scripts/bootstrap_manual_dataset.py --source datasets/all_input.txt --count 120 --output-input datasets/manual/input_starter.csv --output-template datasets/manual/output_template.csv
+```
+Verifier la coherence apres annotation :
+```bash
+python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output datasets/manual/output_template.csv
+```
+Guides : `docs/annotation_guide.md`, `docs/manual_dataset_template.md`.
+
+## Workflow 3 - GTFS et pathfinding
+1) Recuperer GTFS :
+```bash
+python3 scripts/fetch_gtfs.py --extract
+```
+2) Construire index gares et graphe :
+```bash
+python3 scripts/build_stop_index.py --input stops.xlsx --output-csv data/stops_areas.csv --output-json data/stops_index.json
+python3 scripts/build_graph.py --stop-times data/gtfs/stop_times.txt --stops data/gtfs/stops.txt --output data/graph.json
+```
+3) Lancer pathfinding :
+```bash
+python3 scripts/pathfind.py --graph data/graph.json --stops-index data/stops_index.json --input path/to/triplets.csv
+```
+
+## Workflow 4 - Baseline ML (reference)
+```bash
+python3 scripts/train_ml.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models
+python3 scripts/run_ml_benchmarks.py --datasets datasets --model-dir models --output reports/ml_metrics.json
+```
+Resultats : `reports/ml_metrics.json`.
+
+## Tests
+```bash
+python3 -m unittest discover -s tests
+```
+
+## Etat actuel
+- Baseline rule-based : solide sur le dataset synthetique (`reports/metrics.json`).
+- Baseline ML actuel : inferieur au rule-based (`reports/ml_metrics.json`), sert de reference.
+- Draft rapport : `docs/report_draft.md`.

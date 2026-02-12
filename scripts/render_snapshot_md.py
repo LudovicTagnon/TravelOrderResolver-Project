@@ -23,8 +23,10 @@ def main() -> int:
     rule = data.get("rule_based_benchmarks", {})
     ml = data.get("ml_benchmarks", {})
     ml_error = data.get("ml_error_analysis", {})
-    manual_rule = data.get("manual_prefill_rule_based", {})
-    manual_ml = data.get("manual_prefill_ml", {})
+    manual_rule = data.get("manual_reference_rule_based") or data.get(
+        "manual_prefill_rule_based", {}
+    )
+    manual_ml = data.get("manual_reference_ml") or data.get("manual_prefill_ml", {})
     path = data.get("pathfinding_validation", {})
     e2e = data.get("end_to_end_manual_120", {})
 
@@ -60,7 +62,7 @@ def main() -> int:
     lines.extend(
         [
             "",
-        "## Manuel 120 (prefill technique)",
+        "## Manuel 120 (reference)",
         f"- Rule-based accuracy: `{pct(manual_rule.get('accuracy', 0.0))}`",
         f"- ML accuracy: `{pct(manual_ml.get('accuracy', 0.0))}`",
         "",

@@ -16,7 +16,7 @@
 - Dev top confusion origine: `INVALID -> Tours` (`3`)
 - Test top confusion origine: `Nice -> Grenoble` (`3`)
 
-## Manuel 120 (prefill technique)
+## Manuel 120 (reference)
 - Rule-based accuracy: `100.0%`
 - ML accuracy: `55.8%`
 

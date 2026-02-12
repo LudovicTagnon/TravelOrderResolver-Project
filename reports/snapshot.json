@@ -215,7 +215,7 @@
       ]
     }
   },
-  "manual_prefill_rule_based": {
+  "manual_reference_rule_based": {
     "total": 120,
     "correct": 120,
     "accuracy": 1.0,
@@ -231,7 +231,7 @@
     "origin_accuracy": 1.0,
     "destination_accuracy": 1.0
   },
-  "manual_prefill_ml": {
+  "manual_reference_ml": {
     "total": 120,
     "correct": 67,
     "accuracy": 0.5583333333333333,

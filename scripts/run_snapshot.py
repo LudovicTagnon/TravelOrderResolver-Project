@@ -67,7 +67,7 @@ def main() -> int:
     parser.add_argument(
         "--manual-output",
         type=Path,
-        default=ROOT / "datasets" / "manual" / "output_prefill_120.csv",
+        default=ROOT / "datasets" / "manual" / "output_gold_120.csv",
     )
     parser.add_argument(
         "--output",
@@ -228,8 +228,8 @@ def main() -> int:
                 "destination_top_confusions": ml_error_test.get("destination_top_confusions", [])[:5],
             },
         },
-        "manual_prefill_rule_based": manual_rule,
-        "manual_prefill_ml": manual_ml,
+        "manual_reference_rule_based": manual_rule,
+        "manual_reference_ml": manual_ml,
         "pathfinding_validation": path_metrics,
         "end_to_end_manual_120": e2e,
     }

@@ -27,9 +27,9 @@
 ## 3. Metriques NLP (baseline rule-based)
 Source : `reports/metrics.json`.
 
-- Train : accuracy `0.971`, valid_f1 `0.979`, invalid_accuracy `1.000`
-- Dev : accuracy `0.979`, valid_f1 `0.984`, invalid_accuracy `1.000`
-- Test : accuracy `0.978`, valid_f1 `0.986`, invalid_accuracy `1.000`
+- Train : accuracy `0.983`, valid_f1 `0.987`, invalid_accuracy `1.000`
+- Dev : accuracy `0.991`, valid_f1 `0.993`, invalid_accuracy `1.000`
+- Test : accuracy `0.993`, valid_f1 `0.995`, invalid_accuracy `1.000`
 
 ## 4. Metriques NLP (baseline ML)
 Source : `reports/ml_metrics.json`.
@@ -57,7 +57,7 @@ Constat : sur ce lot, le baseline rule-based reste largement devant.
 Sources : `reports/manual_prefill_metrics_rule_based.json`, `reports/manual_prefill_metrics_ml.json`.
 
 - Rule-based : accuracy `1.000`
-- ML baseline : accuracy `0.550`
+- ML baseline : accuracy `0.558`
 
 Note : ces metriques utilisent le prefill comme pseudo-reference technique. Elles ne remplacent pas une annotation humaine finale.
 
@@ -104,7 +104,15 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 - Fichier de travail : `datasets/manual/corrections_120.csv` (22 lignes prioritaires)
 - Cible de sortie : `datasets/manual/output_gold_120.csv`
 
-## 13. Limites et suite
+## 13. Evaluation gold set
+- Script : `scripts/run_manual_gold_eval.py`
+- Sorties :
+  - `reports/manual_gold_metrics_rule_based.json`
+  - `reports/manual_gold_metrics_ml.json`
+  - `reports/e2e_manual_gold_120_summary.json`
+  - `reports/manual_gold_dashboard.json`
+
+## 14. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

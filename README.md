@@ -103,7 +103,7 @@ Sorties :
 
 ## Workflow 6 - Snapshot global (soutenance)
 ```bash
-python3 scripts/run_snapshot.py --datasets datasets --reports reports --model-dir models --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --manual-input datasets/manual/input_starter.csv --manual-output datasets/manual/output_prefill_120.csv --output reports/snapshot.json --markdown-output reports/snapshot.md
+python3 scripts/run_snapshot.py --datasets datasets --reports reports --model-dir models --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --manual-input datasets/manual/input_starter.csv --manual-output datasets/manual/output_gold_120.csv --output reports/snapshot.json --markdown-output reports/snapshot.md
 ```
 Le snapshot consolide les metriques principales dans `reports/snapshot.json` et `reports/snapshot.md`.
 Inclut aussi l'analyse d'erreurs ML : `reports/ml_error_analysis_dev.json` et `reports/ml_error_analysis_test.json`.
@@ -127,6 +127,16 @@ python3 scripts/apply_manual_corrections.py --base-output datasets/manual/output
 python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output datasets/manual/output_gold_120.csv
 ```
 
+## Workflow 9 - Evaluer le gold set manuel
+```bash
+python3 scripts/run_manual_gold_eval.py --input datasets/manual/input_starter.csv --gold-output datasets/manual/output_gold_120.csv --places data/places.txt --model-dir models --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --reports reports --datasets datasets
+```
+Sorties:
+- `reports/manual_gold_metrics_rule_based.json`
+- `reports/manual_gold_metrics_ml.json`
+- `reports/e2e_manual_gold_120_summary.json`
+- `reports/manual_gold_dashboard.json`
+
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -145,4 +155,5 @@ python3 -m unittest discover -s tests
 - Analyse erreurs ML : `reports/ml_error_analysis_dev.json` + `reports/ml_error_analysis_test.json`.
 - Pipeline sample (8 phrases) : `6` succes complets, `2` INVALID NLP, `0` echec pathfinding apres NLP.
 - Template de correction manuelle : `datasets/manual/corrections_120.csv` (22 lignes a valider).
+- Dashboard gold set : `reports/manual_gold_dashboard.json`.
 - Draft rapport : `docs/report_draft.md`.

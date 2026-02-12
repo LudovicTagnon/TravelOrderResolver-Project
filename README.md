@@ -107,6 +107,14 @@ python3 scripts/run_snapshot.py --datasets datasets --reports reports --model-di
 ```
 Le snapshot consolide les metriques principales dans `reports/snapshot.json` et `reports/snapshot.md`.
 
+## Workflow 7 - Pipeline complet (NLP + path output)
+```bash
+python3 scripts/run_pipeline.py students_project/sample_nlp_input.txt --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-nlp students_project/sample_pipeline_nlp_output.txt --output-path students_project/sample_pipeline_path_output.txt
+```
+Sorties :
+- NLP : `students_project/sample_pipeline_nlp_output.txt`
+- Pathfinding : `students_project/sample_pipeline_path_output.txt`
+
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -122,4 +130,5 @@ python3 -m unittest discover -s tests
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `115/115`, succes global `115/120` (`reports/e2e_manual_120_summary.json`).
 - Snapshot global : `reports/snapshot.json` + `reports/snapshot.md`.
+- Pipeline sample (8 phrases) : `6` succes complets, `2` INVALID NLP, `0` echec pathfinding apres NLP.
 - Draft rapport : `docs/report_draft.md`.

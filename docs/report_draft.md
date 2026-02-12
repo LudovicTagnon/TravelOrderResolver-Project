@@ -89,7 +89,15 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 - Sortie consolidee : `reports/snapshot.json` et `reports/snapshot.md`
 - Objectif : figer l'etat des metriques (NLP rule-based, ML, manuel, pathfinding, end-to-end) en un seul artefact.
 
-## 11. Limites et suite
+## 11. Pipeline operationnel
+- Script d'execution bout-en-bout : `scripts/run_pipeline.py`
+- Entree : `id,phrase`
+- Sorties :
+  - `id,origin,destination` (NLP)
+  - `id,Step0,Step1,...` (pathfinding)
+- Exemple genere : `students_project/sample_pipeline_nlp_output.txt` et `students_project/sample_pipeline_path_output.txt`.
+
+## 12. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

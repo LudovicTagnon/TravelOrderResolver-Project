@@ -58,9 +58,18 @@ def bfs(graph: dict, sources: list[str], targets: set[str]) -> list[str] | None:
 
 def resolve_stop_ids(index: dict, name: str) -> list[str]:
     key = normalize(name)
+    if not key:
+        return []
     entry = index.get(key)
     if not entry:
-        return []
+        # Fallback: query by prefix on normalized stop names
+        # (e.g. "paris" -> "paris gare de lyon", "paris montparnasse ...").
+        matched_ids = set()
+        prefix = f"{key} "
+        for candidate_key, candidate_entry in index.items():
+            if candidate_key.startswith(prefix):
+                matched_ids.update(candidate_entry.get("stop_ids", []))
+        return sorted(matched_ids)
     return entry.get("stop_ids", [])
 
 

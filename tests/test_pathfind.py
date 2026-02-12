@@ -30,6 +30,17 @@ class PathfindTest(unittest.TestCase):
         readable = [self.stop_names.get(stop_id, stop_id) for stop_id in path]
         self.assertEqual(["Gare A", "Gare B", "Gare C"], readable)
 
+    def test_resolve_stop_ids_prefix_fallback(self) -> None:
+        index = {
+            "paris gare de lyon": {"stop_ids": ["StopArea:PARIS_LYON"]},
+            "paris montparnasse": {"stop_ids": ["StopArea:PARIS_MONTP"]},
+        }
+        ids = pathfind.resolve_stop_ids(index, "Paris")
+        self.assertEqual(
+            {"StopArea:PARIS_LYON", "StopArea:PARIS_MONTP"},
+            set(ids),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,121 @@
+id,sentence,origin,destination,nlp_status,path_status,path_length,path
+1,depuis saint-raphael je veux aller a aix-en-provence,Saint-Raphael,Aix-en-Provence,valid,invalid,0,
+2,aller de saint-nazaire vers pris,Saint-Nazaire,Paris,valid,valid,3,Saint-Nazaire > Nantes > Paris Montparnasse Hall 1 - 2
+3,je veux aller a Nice en partant de Saint Etienne,Saint-Etienne,Nice,valid,invalid,0,
+4,je voudrais aller de clermont-ferrand a saint-denis,Clermont-Ferrand,Saint-Denis,valid,valid,5,Clermont-Ferrand > Paris Bercy Bourg. Pays d'Auv. > Les Aubrais > Paris Austerlitz > Saint-Denis-Pr®s-Martel
+5,aller de bordeaux vers saint-nazaire,Bordeaux,Saint-Nazaire,valid,valid,4,Bordeaux Saint-Jean > Paris Montparnasse Hall 1 - 2 > Nantes > Saint-Nazaire
+6,billet port-boulet saint-jean-de-luz,Port-Boulet,Saint-Jean-de-Luz,valid,valid,8,Port Boulet > Saumur > Saint-Pierre-des-Corps > Bordeaux Saint-Jean > Dax > Bayonne > Biarritz > Saint-Jean-de-Luz - Ciboure
+7,depuis Lyon je veux aller a Saint Etienne,Lyon,Saint-Etienne,valid,invalid,0,
+8,depuis dijon je veux aller a saint etienne,Dijon,Saint-Etienne,valid,invalid,0,
+9,je voudrais aller de caen a saint-malo,Caen,Saint-Malo,valid,valid,6,Caen > Mantes-la-Jolie > Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Rennes > Saint-Malo
+10,billet Saint Malo Montaigu,Saint-Malo,Montaigu,valid,valid,5,Saint-Malo > Rennes > Nantes > Clisson > Montaigu
+11,je pars de rennes pour saint-jean-de-luz,Rennes,Saint-Jean-de-Luz,valid,valid,7,Rennes > Paris Montparnasse Hall 1 - 2 > Bordeaux Saint-Jean > Dax > Bayonne > Biarritz > Saint-Jean-de-Luz - Ciboure
+12,billet reims saint-denis,Reims,Saint-Denis,valid,valid,6,Reims > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Juvisy > Paris Austerlitz > Saint-Denis-Pr®s-Martel
+13,aller de Versailles vers La Rochelle,Versailles,La Rochelle,valid,valid,4,Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Niort > La Rochelle
+14,besoin d un trajet saint-denis tours,Saint-Denis,Tours,valid,valid,5,Saint-Denis-de-Pile > Libourne > Bordeaux Saint-Jean > Saint-Pierre-des-Corps > Tours
+15,je voudrais aller de saint jean de luz a lyon,Saint-Jean-de-Luz,Lyon,valid,valid,7,Saint-Jean-de-Luz - Ciboure > Biarritz > Bayonne > Dax > Bordeaux Saint-Jean > Massy TGV > Lyon Part Dieu
+16,je voudrais aller de saint-raphael a port-boulet,Saint-Raphael,Port-Boulet,valid,invalid,0,
+17,je souhaite me rendre a valence depuis port boulet,Port-Boulet,Valence,valid,valid,5,Port Boulet > Saumur > Angers Saint-Laud > Paris Montparnasse Hall 1 - 2 > Valence TGV Rh¥ne-Alpes Sud
+18,y a t il un train de le mans a cherbougr en passant par Valence,Le Mans,Cherbourg,valid,valid,9,Le Mans > Versailles Chantiers > Mantes-la-Jolie > Caen > Bayeux > Lison > Carentan > Valognes > Cherbourg
+19,je veux aller a versailles en partant de limoges en passant par Saint-Malo,Limoges,Versailles,valid,valid,5,Limoges Benedictins > Ch¢teauroux > Les Aubrais > Juvisy > Versailles Chantiers
+20,aller de saint-nazajre vers versailles en passant par Le Mans,Saint-Nazaire,Versailles,valid,valid,4,Saint-Nazaire > Nantes > Paris Montparnasse Hall 1 - 2 > Versailles Chantiers
+21,je souhaite me rendre a poitiers depuis toulon en passant par Saint-Jean-de-Luz,Toulon,Poitiers,valid,valid,4,Toulon > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Poitiers
+22,je souhaite me rendre a saint-nazaire depuis montpellier en passant par Aix-en-Provence,Montpellier,Saint-Nazaire,valid,valid,6,Montpellier Sud de France > NÆmes Pont du Gard > Lyon Part Dieu > Massy TGV > Nantes > Saint-Nazaire
+23,depuis aix-en-provence je veux aller a lyon en passant par Perpginan,Aix-en-Provence,Lyon,valid,valid,7,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Aeroport Charles de Gaulle 2 TGV > Lyon Part Dieu
+24,depuis limoges je veux aller a rouen en passant par Port-Boulet,Limoges,Rouen,valid,valid,6,Limoges Benedictins > Ch¢teauroux > Les Aubrais > Juvisy > Versailles Chantiers > Rouen Rive Droite
+25,depart Orleans destination Paris en passant par Rouen,Orleans,Paris,valid,valid,3,Orleans > Les Aubrais > Paris Austerlitz
+26,trains saint-malo angers en passant par Bayonne,Saint-Malo,Angers,valid,valid,4,Saint-Malo > Rennes > Paris Montparnasse Hall 1 - 2 > Angers Saint-Laud
+27,y a t il un train de saint denis a bordeaux en passant par Amiens,Saint-Denis,Bordeaux,valid,valid,3,Saint-Denis-de-Pile > Libourne > Bordeaux Saint-Jean
+28,est ce quil y a des trains vers paris depuis versailles en passant par Angers,Versailles,Paris,valid,valid,2,Versailles Chantiers > Paris Montparnasse Hall 1 - 2
+29,billet metz caen en passant par Saint-Malo,Metz,Caen,valid,valid,7,Metz > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Le Mans > Versailles Chantiers > Mantes-la-Jolie > Caen
+30,est ce quil y a des trains vers perpignan depuis lyon en passant par Tours,Lyon,Perpignan,valid,valid,6,Lyon Perrache > NÆmes Pont du Gard > Montpellier Sud de France > S®te > Narbonne > Perpignan
+31,aller de Saint-Nazaire vers Saint-Malo en passant par Aix-en-Provence,Saint-Nazaire,Saint-Malo,valid,valid,4,Saint-Nazaire > Nantes > Rennes > Saint-Malo
+32,je veux un billet de Nancy pour Montaigu en passant par Versailles,Nancy,Montaigu,valid,valid,7,Nancy > Neufch¢teau > Dijon > Paris Montparnasse Hall 1 - 2 > Nantes > Clisson > Montaigu
+33,depuis brest je veux aller a marseille en passant par Perpignan,Brest,Marseille,valid,valid,5,Brest > Saint-Brieuc > Paris Montparnasse Hall 1 - 2 > Avignon TGV > Marseille Saint-Charles
+34,depart versailles destination dijon en passant par Bayonne,Versailles,Dijon,valid,valid,3,Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Dijon
+35,depart cannes destination rouen,Cannes,Rouen,valid,valid,7,Cannes > Les Arcs - Draguignan > Toulon > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Versailles Chantiers > Rouen Rive Droite
+36,depart bayonne destination le havre,Bayonne,Le Havre,valid,valid,7,Bayonne > Dax > Bordeaux Saint-Jean > Paris Montparnasse Hall 1 - 2 > Versailles Chantiers > Rouen Rive Droite > Le Havre
+37,depart reims destination nantes,Reims,Nantes,valid,valid,5,Reims > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Massy TGV > Nantes
+38,depart strasbourg destination poitiers,Strasbourg,Poitiers,valid,valid,4,Strasbourg > Marne-la-Vallee Chessy > Massy TGV > Poitiers
+39,depart le havre destination versailles,Le Havre,Versailles,valid,valid,3,Le Havre > Rouen Rive Droite > Versailles Chantiers
+40,depart Tours destination Bayonne,Tours,Bayonne,valid,valid,5,Tours > Saint-Pierre-des-Corps > Bordeaux Saint-Jean > Dax > Bayonne
+41,depart tours destination avignon,Tours,Avignon,valid,valid,4,Tours > Saint-Pierre-des-Corps > Marne-la-Vallee Chessy > Avignon TGV
+42,depart reims destination avignon,Reims,Avignon,valid,valid,4,Reims > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Avignon TGV
+43,depart Strasbourg destination Saint-Nazaire,Strasbourg,Saint-Nazaire,valid,valid,5,Strasbourg > Marne-la-Vallee Chessy > Massy TGV > Nantes > Saint-Nazaire
+44,depart Annecy destination Le Mans,Annecy,Le Mans,valid,valid,4,Annecy > Grenoble > Albertville > Le Mans
+45,depart dijok destination versailles,Dijon,Versailles,valid,valid,3,Dijon > Paris Montparnasse Hall 1 - 2 > Versailles Chantiers
+46,depart caen destination avignon,Caen,Avignon,valid,valid,5,Caen > Mantes-la-Jolie > Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Avignon TGV
+47,depart bayonne destination saint-malo,Bayonne,Saint-Malo,valid,valid,6,Bayonne > Dax > Bordeaux Saint-Jean > Paris Montparnasse Hall 1 - 2 > Rennes > Saint-Malo
+48,depart brest destination montpellier,Brest,Montpellier,valid,valid,6,Brest > Saint-Brieuc > Paris Montparnasse Hall 1 - 2 > Valence TGV Rh¥ne-Alpes Sud > NÆmes Pont du Gard > Montpellier Sud de France
+49,depart aix en provence destination montaigu,Aix-en-Provence,Montaigu,valid,valid,10,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Nantes > Clisson > Montaigu
+50,depart angers destination limoges,Angers,Limoges,valid,valid,5,Angers Saint-Laud > Saint-Pierre-des-Corps > Les Aubrais > Ch¢teauroux > Limoges Benedictins
+51,depart Troyes destination Angers,Troyes,Angers,valid,valid,6,Troyes > Ch¢lons-en-Champagne > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Massy TGV > Angers Saint-Laud
+52,comment aller a Strasbourg depuis Port-Boulet,Port-Boulet,Strasbourg,valid,valid,5,Port Boulet > Saumur > Saint-Pierre-des-Corps > Marne-la-Vallee Chessy > Strasbourg
+53,comment aller a Caen depuis Rouen,Rouen,Caen,valid,valid,3,Rouen Rive Droite > Mantes-la-Jolie > Caen
+54,comment aller a Tours depuis trasbourg,Strasbourg,Tours,valid,valid,4,Strasbourg > Marne-la-Vallee Chessy > Saint-Pierre-des-Corps > Tours
+55,comment aller a paris depuis montpellier,Montpellier,Paris,valid,valid,3,Montpellier Saint-Roch > NÆmes Centre > Paris Austerlitz
+56,comment aller a clermont-ferrand depuis angers,Angers,Clermont-Ferrand,valid,valid,4,Angers Saint-Laud > Massy TGV > Lyon Part Dieu > Clermont-Ferrand
+57,comment aller a montpellier depuis metz,Metz,Montpellier,valid,valid,6,Metz > Paris Est > Mulhouse > Paris Gare de Lyon Hall 1 - 2 > NÆmes Centre > Montpellier Saint-Roch
+58,comment aller a vannes depuis nice,Nice,Vannes,valid,valid,8,Nice-Ville > Antibes > Cannes > Les Arcs - Draguignan > Toulon > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Vannes
+59,comment aller a Saint-Etienne depuis Rouen,Rouen,Saint-Etienne,valid,invalid,0,
+60,comment aller a Valence depuis Paris,Paris,Valence,valid,valid,2,Paris Montparnasse Hall 1 - 2 > Valence TGV Rh¥ne-Alpes Sud
+61,comment aller a lille depuis cannes,Cannes,Lille,valid,valid,6,Cannes > Les Arcs - Draguignan > Toulon > Avignon TGV > Aeroport Charles de Gaulle 2 TGV > Lille Europe
+62,comment aller a bayonne depuis caen,Caen,Bayonne,valid,valid,7,Caen > Mantes-la-Jolie > Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Bordeaux Saint-Jean > Dax > Bayonne
+63,comment aller a Le Mans depuis Aix-en-Provence,Aix-en-Provence,Le Mans,valid,valid,8,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Aeroport Charles de Gaulle 2 TGV > Marne-la-Vallee Chessy > Le Mans
+64,comment aller a cannes depuis saint-malo,Saint-Malo,Cannes,valid,valid,7,Saint-Malo > Rennes > Paris Montparnasse Hall 1 - 2 > Avignon TGV > Toulon > Les Arcs - Draguignan > Cannes
+65,comment aller a Troyes depuis Albert,Albert,Troyes,valid,valid,7,Albert > Arras > Lille Europe > Aeroport Charles de Gaulle 2 TGV > Champagne-Ardenne TGV > Ch¢lons-en-Champagne > Troyes
+66,comment aller a Limoges depuis Saint-Etienne,Saint-Etienne,Limoges,valid,invalid,0,
+67,comment aller a le havre depuis nancy,Nancy,Le Havre,valid,valid,7,Nancy > Neufch¢teau > Dijon > Paris Montparnasse Hall 1 - 2 > Versailles Chantiers > Rouen Rive Droite > Le Havre
+68,comment aller a aix-en-provence depuis cannes,Cannes,Aix-en-Provence,valid,valid,8,Cannes > Les Arcs - Draguignan > Toulon > Marseille Saint-Charles > Saint-Antoine > Simiane > Gardanne > Aix-en-Provence
+69,est ce quil y a des trains vers aix-en-provence depuis orleans,Orleans,Aix-en-Provence,valid,valid,9,Orleans > Les Aubrais > Paris Austerlitz > Marseille Blancarde > Marseille Saint-Charles > Saint-Antoine > Simiane > Gardanne > Aix-en-Provence
+70,y a t il un train de Saint-Denis a Nancy,Saint-Denis,Nancy,valid,valid,6,Saint-Denis-Pr®s-Martel > Paris Austerlitz > Juvisy > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Nancy
+71,trains Metz Saint Denis,Metz,Saint-Denis,valid,valid,6,Metz > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Juvisy > Paris Austerlitz > Saint-Denis-Pr®s-Martel
+72,trains Paris Brest,Paris,Brest,valid,valid,3,Paris Montparnasse Hall 1 - 2 > Saint-Brieuc > Brest
+73,trains saint-raphael versailles,Saint-Raphael,Versailles,valid,invalid,0,
+74,y a t il un train de Vannes a Rennes,Vannes,Rennes,valid,valid,2,Vannes > Rennes
+75,est ce quil y a des trains vers marseille depuis nice,Nice,Marseille,valid,valid,6,Nice-Ville > Antibes > Cannes > Les Arcs - Draguignan > Toulon > Marseille Saint-Charles
+76,train en retard,,,invalid,skipped,0,
+77,est ce quil y a des trains vers saint etienne depuis srtasbourg,Strasbourg,Saint-Etienne,valid,invalid,0,
+78,est ce quil y a des trains vers metz depuis valence,Valence,Metz,valid,valid,4,Valence TGV Rh¥ne-Alpes Sud > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Metz
+79,y a t il un train de le mans a colmar,Le Mans,Colmar,valid,valid,4,Le Mans > Marne-la-Vallee Chessy > Strasbourg > Colmar
+80,est ce quil y a des trains vers saint etienne depuis angers,Angers,Saint-Etienne,valid,invalid,0,
+81,trains Touloa jvignon,Toulon,Avignon,valid,valid,2,Toulon > Avignon TGV
+82,trains qoulon Montpellier,Toulon,Montpellier,valid,valid,4,Toulon > Paris Gare de Lyon Hall 1 - 2 > NÆmes Centre > Montpellier Saint-Roch
+83,y a t il un train de amiens a aix-en-provence,Amiens,Aix-en-Provence,valid,valid,9,Amiens > Arras > Lille Europe > Aeroport Charles de Gaulle 2 TGV > Marseille Saint-Charles > Saint-Antoine > Simiane > Gardanne > Aix-en-Provence
+84,y a t il un train de albert a nice,Albert,Nice,valid,valid,10,Albert > Arras > Lille Europe > Aeroport Charles de Gaulle 2 TGV > Avignon TGV > Toulon > Les Arcs - Draguignan > Cannes > Antibes > Nice-Ville
+85,trains strasbourg angers,Strasbourg,Angers,valid,valid,4,Strasbourg > Marne-la-Vallee Chessy > Massy TGV > Angers Saint-Laud
+86,je veux aller a le mans en partant de le havre,Le Havre,Le Mans,valid,valid,4,Le Havre > Rouen Rive Droite > Versailles Chantiers > Le Mans
+87,je veux aller a clermont-ferrand en partant de le mans,Le Mans,Clermont-Ferrand,valid,valid,4,Le Mans > Marne-la-Vallee Chessy > Lyon Part Dieu > Clermont-Ferrand
+88,je veux un billet de le mans pour le havre,Le Mans,Le Havre,valid,valid,4,Le Mans > Versailles Chantiers > Rouen Rive Droite > Le Havre
+89,je veux aller a brest en partant de aix en provence,Aix-en-Provence,Brest,valid,valid,9,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Saint-Brieuc > Brest
+90,je souhaite me rendre a sain raphael depuis aix en provnece,Aix-en-Provence,Saint-Raphael,valid,invalid,0,
+91,je veux aller a le havre en partant de rouen,Rouen,Le Havre,valid,valid,2,Rouen Rive Droite > Le Havre
+92,je veux aller a sant malo en partant de perignan,Perpignan,Saint-Malo,valid,valid,8,Perpignan > Narbonne > Carcassonne > Toulouse Matabiau > Bordeaux Saint-Jean > Paris Montparnasse Hall 1 - 2 > Rennes > Saint-Malo
+93,je veux un billet de aix en provence pour saitn denis,Aix-en-Provence,Saint-Denis,valid,valid,8,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Marseille Blancarde > Paris Austerlitz > Saint-Denis-Pr®s-Martel
+94,je veux aller a le havre en partant de tours,Tours,Le Havre,valid,valid,6,Tours > Ch¢teau-du-Loir > Le Mans > Versailles Chantiers > Rouen Rive Droite > Le Havre
+95,je veux aller a orleans en partant de aix en provence,Aix-en-Provence,Orleans,valid,valid,9,Aix-en-Provence > Gardanne > Simiane > Saint-Antoine > Marseille Saint-Charles > Marseille Blancarde > Paris Austerlitz > Les Aubrais > Orleans
+96,je veux aller a le mans en partant de nice,Nice,Le Mans,valid,valid,8,Nice-Ville > Antibes > Cannes > Les Arcs - Draguignan > Toulon > Avignon TGV > Marne-la-Vallee Chessy > Le Mans
+97,je veux aller a nancy en partant de le mans,Le Mans,Nancy,valid,valid,4,Le Mans > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Nancy
+98,je souhaite me rendre a aix en provence depuis le havre,Le Havre,Aix-en-Provence,valid,valid,10,Le Havre > Rouen Rive Droite > Versailles Chantiers > Paris Montparnasse Hall 1 - 2 > Avignon TGV > Marseille Saint-Charles > Saint-Antoine > Simiane > Gardanne > Aix-en-Provence
+99,je veux aller a Toulon en partant de Le Mans,Le Mans,Toulon,valid,valid,4,Le Mans > Marne-la-Vallee Chessy > Avignon TGV > Toulon
+100,je veux aller a orleans en partant de le havre,Le Havre,Orleans,valid,valid,6,Le Havre > Rouen Rive Droite > Versailles Chantiers > Juvisy > Les Aubrais > Orleans
+101,je veux aller a aix en provence en partant de lille,Lille,Aix-en-Provence,valid,valid,7,Lille Europe > Aeroport Charles de Gaulle 2 TGV > Marseille Saint-Charles > Saint-Antoine > Simiane > Gardanne > Aix-en-Provence
+102,je veux aller a Valence en partant de Le Mans,Le Mans,Valence,valid,valid,3,Le Mans > Marne-la-Vallee Chessy > Valence TGV Rh¥ne-Alpes Sud
+103,horaires pour demain,,,invalid,skipped,0,
+104,je pars de dijon pour troyes,Dijon,Troyes,valid,valid,5,Dijon > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Ch¢lons-en-Champagne > Troyes
+105,je souhaite me rendre a orleans depuis lyon,Lyon,Orleans,valid,valid,5,Lyon Perrache > Marne-la-Vallee Chessy > Juvisy > Les Aubrais > Orleans
+106,billet Grenoble Toulon,Grenoble,Toulon,valid,valid,3,Grenoble > Valence TGV Rh¥ne-Alpes Sud > Toulon
+107,aller de toulon vers nantes,Toulon,Nantes,valid,valid,4,Toulon > Avignon TGV > Paris Montparnasse Hall 1 - 2 > Nantes
+108,depuis Nancy je veux aller a Clermont-Ferran,Nancy,Clermont-Ferrand,valid,valid,5,Nancy > Neufch¢teau > Dijon > Lyon Part Dieu > Clermont-Ferrand
+109,besoin d un trajet lille marseille,Lille,Marseille,valid,valid,3,Lille Europe > Aeroport Charles de Gaulle 2 TGV > Marseille Saint-Charles
+110,depuis biarritz je veux aller a tours,Biarritz,Tours,valid,valid,6,Biarritz > Bayonne > Dax > Bordeaux Saint-Jean > Saint-Pierre-des-Corps > Tours
+111,aller de rennes vers grenoble,Rennes,Grenoble,valid,valid,4,Rennes > Paris Montparnasse Hall 1 - 2 > Valence TGV Rh¥ne-Alpes Sud > Grenoble
+112,aller de montpellier vers paris,Montpellier,Paris,valid,valid,3,Montpellier Saint-Roch > NÆmes Centre > Paris Austerlitz
+113,aller de reims vers strasbourd,Reims,Strasbourg,valid,valid,3,Reims > Paris Est > Strasbourg
+114,depuis Troyes je veux aller a Toulouse,Troyes,Toulouse,valid,valid,7,Troyes > Ch¢lons-en-Champagne > Champagne-Ardenne TGV > Marne-la-Vallee Chessy > Massy TGV > Bordeaux Saint-Jean > Toulouse Matabiau
+115,depuis montpellier je veux aller a paris,Montpellier,Paris,valid,valid,3,Montpellier Saint-Roch > NÆmes Centre > Paris Austerlitz
+116,billet orleans nancy,Orleans,Nancy,valid,valid,6,Orleans > Les Aubrais > Juvisy > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Nancy
+117,je voudrais aller de annecy a troyes,Annecy,Troyes,valid,valid,6,Annecy > Chambery - Challes-les-Eaux > Marne-la-Vallee Chessy > Champagne-Ardenne TGV > Ch¢lons-en-Champagne > Troyes
+118,horaires pour demain,,,invalid,skipped,0,
+119,horaires pour demain,,,invalid,skipped,0,
+120,une phrase sans trajet,,,invalid,skipped,0,

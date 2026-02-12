@@ -73,7 +73,17 @@ Note : ces metriques utilisent le prefill comme pseudo-reference technique. Elle
   - unit tests `tests/test_pathfind.py`
   - scripts `scripts/sample_triplets.py` et `scripts/validate_pathfinding.py`
 
-## 9. Limites et suite
+## 9. Evaluation bout-en-bout
+Source : `reports/e2e_manual_120_summary.json`.
+
+- Total phrases : `120`
+- NLP valide : `115` (`95.8%`)
+- Pathfinding valide sur NLP valide : `104/115` (`90.4%`)
+- Succes global NLP+pathfinding : `104/120` (`86.7%`)
+
+Export detail : `datasets/manual/e2e_manual_120.csv`.
+
+## 10. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

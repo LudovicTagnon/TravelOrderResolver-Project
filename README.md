@@ -93,6 +93,14 @@ python3 scripts/run_ml_benchmarks.py --datasets datasets --model-dir models --ou
 ```
 Resultats : `reports/ml_metrics.json`.
 
+## Workflow 5 - Evaluation bout-en-bout (NLP + pathfinding)
+```bash
+python3 scripts/evaluate_end_to_end.py --input datasets/manual/input_starter.csv --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-csv datasets/manual/e2e_manual_120.csv --summary reports/e2e_manual_120_summary.json
+```
+Sorties :
+- detail par phrase : `datasets/manual/e2e_manual_120.csv`
+- resume global : `reports/e2e_manual_120_summary.json`
+
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -106,4 +114,5 @@ python3 -m unittest discover -s tests
 - Relecture 120 lignes : `datasets/manual/review_sheet_120.csv` + shortlist `datasets/manual/review_actionable_120.csv` (22 cas actionnables, `reports/manual_review_summary.json`).
 - Metriques "self-check" sur prefill 120 (coherence technique, pas qualite humaine) : `reports/manual_prefill_metrics_rule_based.json`, `reports/manual_prefill_metrics_ml.json`.
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
+- End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `104/115`, succes global `104/120` (`reports/e2e_manual_120_summary.json`).
 - Draft rapport : `docs/report_draft.md`.

@@ -47,6 +47,6 @@
 ## Reste a finaliser avant soutenance
 | Item | Evidence cible | Statut |
 |---|---|---|
-| Validation humaine finale des 22 corrections prioritaires | `datasets/manual/corrections_120.csv` | A finaliser |
+| Validation humaine finale des 22 corrections prioritaires | `datasets/manual/corrections_120.csv`, `datasets/manual/output_gold_120.csv` | Fait (simple passage, double annotation recommandee) |
 | Rapport PDF final (version propre) | export depuis `docs/report_draft.md` | A finaliser |
-| Evaluation manuelle et comparaison robuste Rule-based vs CamemBERT v2 | `datasets/manual/*` + rapport metriques comparatives | A finaliser |
+| Evaluation manuelle et comparaison robuste Rule-based vs CamemBERT v2 | `reports/manual_gold_dashboard.json`, `reports/manual_gold_metrics_camembert_v2.json`, `reports/e2e_manual_gold_120_camembert_v2_summary.json` | Fait sur gold 120 (extension dataset recommandee) |

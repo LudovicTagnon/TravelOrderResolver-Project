@@ -54,6 +54,12 @@ python3 src/travel_order_resolver.py --places data/places.txt - < datasets/manua
 python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output datasets/manual/output_prefill_120.csv
 ```
 
+Construire une feuille de relecture priorisee :
+```bash
+python3 scripts/build_manual_review_sheet.py --input datasets/manual/input_starter.csv --prefill datasets/manual/output_prefill_120.csv --model-dir models --output datasets/manual/review_sheet_120.csv --output-actionable datasets/manual/review_actionable_120.csv --summary reports/manual_review_summary.json
+```
+`review_actionable_120.csv` contient uniquement les cas haute/moyenne priorite.
+
 Evaluer sur un lot annote (exemple 50 lignes) :
 ```bash
 python3 scripts/evaluate.py --input datasets/manual/input_annotated_50.csv --expected datasets/manual/output_annotated_50.csv --format json > reports/manual_metrics_rule_based.json
@@ -96,6 +102,8 @@ python3 -m unittest discover -s tests
 - Baseline rule-based : solide sur le dataset synthetique (`reports/metrics.json`).
 - Baseline ML actuel : inferieur au rule-based (`reports/ml_metrics.json`), sert de reference.
 - Lot annote 50 lignes : rule-based `1.00` (`reports/manual_metrics_rule_based.json`), ML `0.50` (`reports/manual_metrics_ml.json`).
-- Prefill 120 lignes : `datasets/manual/output_prefill_120.csv` (6 lignes marquees INVALID, IDs dans `reports/manual_prefill_invalid_ids.txt`).
+- Prefill 120 lignes : `datasets/manual/output_prefill_120.csv` (5 lignes marquees INVALID, IDs dans `reports/manual_prefill_invalid_ids.txt`).
+- Relecture 120 lignes : `datasets/manual/review_sheet_120.csv` + shortlist `datasets/manual/review_actionable_120.csv` (22 cas actionnables, `reports/manual_review_summary.json`).
+- Metriques "self-check" sur prefill 120 (coherence technique, pas qualite humaine) : `reports/manual_prefill_metrics_rule_based.json`, `reports/manual_prefill_metrics_ml.json`.
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - Draft rapport : `docs/report_draft.md`.

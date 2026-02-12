@@ -1,0 +1,23 @@
+id,sentence,prefill_origin,prefill_destination,rule_based_origin,rule_based_destination,ml_origin,ml_destination,flags,priority
+18,y a t il un train de le mans a cherbougr en passant par Valence,Le Mans,Cherbourg,Le Mans,Cherbourg,Le Mans,Valence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+19,je veux aller a versailles en partant de limoges en passant par Saint-Malo,Limoges,Versailles,Limoges,Versailles,Saint-Malo,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+20,aller de saint-nazajre vers versailles en passant par Le Mans,Saint-Nazaire,Versailles,Saint-Nazaire,Versailles,Versailles,Le Mans,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+21,je souhaite me rendre a poitiers depuis toulon en passant par Saint-Jean-de-Luz,Toulon,Poitiers,Toulon,Poitiers,Toulon,Saint-Jean-de-Luz,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+22,je souhaite me rendre a saint-nazaire depuis montpellier en passant par Aix-en-Provence,Montpellier,Saint-Nazaire,Montpellier,Saint-Nazaire,Montpellier,Aix-en-Provence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+23,depuis aix-en-provence je veux aller a lyon en passant par Perpginan,Aix-en-Provence,Lyon,Aix-en-Provence,Lyon,Aix-en-Provence,Lyon,contains_intermediate,medium
+24,depuis limoges je veux aller a rouen en passant par Port-Boulet,Limoges,Rouen,Limoges,Rouen,Limoges,Rouen,contains_intermediate,medium
+25,depart Orleans destination Paris en passant par Rouen,Orleans,Paris,Orleans,Paris,Paris,Orleans,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+26,trains saint-malo angers en passant par Bayonne,Saint-Malo,Angers,Saint-Malo,Angers,Saint-Malo,Angers,contains_intermediate,medium
+27,y a t il un train de saint denis a bordeaux en passant par Amiens,Saint-Denis,Bordeaux,Saint-Denis,Bordeaux,Saint-Denis,Bordeaux,contains_intermediate,medium
+28,est ce quil y a des trains vers paris depuis versailles en passant par Angers,Versailles,Paris,Versailles,Paris,Paris,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+29,billet metz caen en passant par Saint-Malo,Metz,Caen,Metz,Caen,Metz,Caen,contains_intermediate,medium
+30,est ce quil y a des trains vers perpignan depuis lyon en passant par Tours,Lyon,Perpignan,Lyon,Perpignan,Lyon,Perpignan,contains_intermediate,medium
+31,aller de Saint-Nazaire vers Saint-Malo en passant par Aix-en-Provence,Saint-Nazaire,Saint-Malo,Saint-Nazaire,Saint-Malo,Saint-Nazaire,Aix-en-Provence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+32,je veux un billet de Nancy pour Montaigu en passant par Versailles,Nancy,Montaigu,Nancy,Montaigu,Versailles,Montaigu,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+33,depuis brest je veux aller a marseille en passant par Perpignan,Brest,Marseille,Brest,Marseille,Marseille,Brest,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+34,depart versailles destination dijon en passant par Bayonne,Versailles,Dijon,Versailles,Dijon,Versailles,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+76,train en retard,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+103,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+118,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+119,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+120,une phrase sans trajet,INVALID,,INVALID,,INVALID,,prefill_invalid,high

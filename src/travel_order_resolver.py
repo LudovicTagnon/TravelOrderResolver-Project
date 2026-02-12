@@ -3,7 +3,6 @@ import argparse
 import re
 import sys
 import urllib.request
-from typing import Iterable
 import unicodedata
 from pathlib import Path
 from typing import Iterable
@@ -109,6 +108,34 @@ def levenshtein(a: str, b: str) -> int:
     return distance[-1][-1]
 
 
+def find_best_variant(
+    candidate: str,
+    buckets: dict[str, list[tuple[str, str]]],
+) -> tuple[str, int] | None:
+    best: tuple[str, int] | None = None
+
+    def update_best(variants: list[tuple[str, str]], current_best: tuple[str, int] | None):
+        best_local = current_best
+        for variant, canonical in variants:
+            distance = levenshtein(candidate, variant)
+            if distance > max_distance(variant):
+                continue
+            if best_local is None or distance < best_local[1]:
+                best_local = (canonical, distance)
+        return best_local
+
+    first_char = candidate[0] if candidate else ""
+    by_first_char = buckets.get(first_char, [])
+    all_variants = buckets.get("_all", [])
+
+    best = update_best(by_first_char, best)
+    # Fallback to all variants to handle first-letter typos like "trasbourg".
+    if best is None:
+        best = update_best(all_variants, best)
+
+    return best
+
+
 def extract_candidates(
     sentence_norm: str,
     cue_pattern: str,
@@ -186,19 +213,17 @@ def collect_fuzzy_candidates(
                     break
                 candidate_tokens = tokens[token_index : token_index + length]
                 candidate = " ".join(token for token, _, _ in candidate_tokens)
-                first_char = candidate[0] if candidate else ""
                 buckets = place_index.get(length, {})
-                variants = buckets.get(first_char) or buckets.get("_all", [])
-                for variant, canonical in variants:
-                    distance = levenshtein(candidate, variant)
-                    if distance > max_distance(variant):
-                        continue
-                    if best is None or distance < best[2]:
-                        best = (
-                            candidate_tokens[0][1],
-                            canonical,
-                            distance,
-                        )
+                match = find_best_variant(candidate, buckets)
+                if match is None:
+                    continue
+                canonical, distance = match
+                if best is None or distance < best[2]:
+                    best = (
+                        candidate_tokens[0][1],
+                        canonical,
+                        distance,
+                    )
             if best is None:
                 continue
             key = (best[0], best[1])
@@ -234,15 +259,13 @@ def extract_places_fuzzy(
                 break
             candidate_tokens = tokens[idx : idx + length]
             candidate = " ".join(token for token, _, _ in candidate_tokens)
-            first_char = candidate[0] if candidate else ""
             buckets = place_index.get(length, {})
-            variants = buckets.get(first_char) or buckets.get("_all", [])
-            for variant, canonical in variants:
-                distance = levenshtein(candidate, variant)
-                if distance > max_distance(variant):
-                    continue
-                if best is None or distance < best[2]:
-                    best = (candidate_tokens[0][1], canonical, distance)
+            match = find_best_variant(candidate, buckets)
+            if match is None:
+                continue
+            canonical, distance = match
+            if best is None or distance < best[2]:
+                best = (candidate_tokens[0][1], canonical, distance)
         if best is None:
             continue
         key = (best[0], best[1])

@@ -1,0 +1,121 @@
+id,sentence,prefill_origin,prefill_destination,rule_based_origin,rule_based_destination,ml_origin,ml_destination,flags,priority
+1,depuis saint-raphael je veux aller a aix-en-provence,Saint-Raphael,Aix-en-Provence,Saint-Raphael,Aix-en-Provence,Aix-en-Provence,Saint-Raphael,ml_rule_based_diff|ml_prefill_diff,low
+2,aller de saint-nazaire vers pris,Saint-Nazaire,Paris,Saint-Nazaire,Paris,Saint-Nazaire,Paris,,none
+3,je veux aller a Nice en partant de Saint Etienne,Saint-Etienne,Nice,Saint-Etienne,Nice,Saint-Etienne,Nice,,none
+4,je voudrais aller de clermont-ferrand a saint-denis,Clermont-Ferrand,Saint-Denis,Clermont-Ferrand,Saint-Denis,Clermont-Ferrand,Saint-Denis,,none
+5,aller de bordeaux vers saint-nazaire,Bordeaux,Saint-Nazaire,Bordeaux,Saint-Nazaire,Bordeaux,Saint-Nazaire,,none
+6,billet port-boulet saint-jean-de-luz,Port-Boulet,Saint-Jean-de-Luz,Port-Boulet,Saint-Jean-de-Luz,Saint-Jean-de-Luz,Port-Boulet,ml_rule_based_diff|ml_prefill_diff,low
+7,depuis Lyon je veux aller a Saint Etienne,Lyon,Saint-Etienne,Lyon,Saint-Etienne,Lyon,Saint-Etienne,,none
+8,depuis dijon je veux aller a saint etienne,Dijon,Saint-Etienne,Dijon,Saint-Etienne,Dijon,Saint-Etienne,,none
+9,je voudrais aller de caen a saint-malo,Caen,Saint-Malo,Caen,Saint-Malo,Saint-Malo,Caen,ml_rule_based_diff|ml_prefill_diff,low
+10,billet Saint Malo Montaigu,Saint-Malo,Montaigu,Saint-Malo,Montaigu,Saint-Malo,Montaigu,,none
+11,je pars de rennes pour saint-jean-de-luz,Rennes,Saint-Jean-de-Luz,Rennes,Saint-Jean-de-Luz,Saint-Jean-de-Luz,Rennes,ml_rule_based_diff|ml_prefill_diff,low
+12,billet reims saint-denis,Reims,Saint-Denis,Reims,Saint-Denis,Reims,Saint-Denis,,none
+13,aller de Versailles vers La Rochelle,Versailles,La Rochelle,Versailles,La Rochelle,La Rochelle,Versailles,ml_rule_based_diff|ml_prefill_diff,low
+14,besoin d un trajet saint-denis tours,Saint-Denis,Tours,Saint-Denis,Tours,Tours,Saint-Denis,ml_rule_based_diff|ml_prefill_diff,low
+15,je voudrais aller de saint jean de luz a lyon,Saint-Jean-de-Luz,Lyon,Saint-Jean-de-Luz,Lyon,Saint-Jean-de-Luz,Lyon,,none
+16,je voudrais aller de saint-raphael a port-boulet,Saint-Raphael,Port-Boulet,Saint-Raphael,Port-Boulet,Port-Boulet,Saint-Raphael,ml_rule_based_diff|ml_prefill_diff,low
+17,je souhaite me rendre a valence depuis port boulet,Port-Boulet,Valence,Port-Boulet,Valence,Valence,Port-Boulet,ml_rule_based_diff|ml_prefill_diff,low
+18,y a t il un train de le mans a cherbougr en passant par Valence,Le Mans,Cherbourg,Le Mans,Cherbourg,Le Mans,Valence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+19,je veux aller a versailles en partant de limoges en passant par Saint-Malo,Limoges,Versailles,Limoges,Versailles,Saint-Malo,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+20,aller de saint-nazajre vers versailles en passant par Le Mans,Saint-Nazaire,Versailles,Saint-Nazaire,Versailles,Versailles,Le Mans,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+21,je souhaite me rendre a poitiers depuis toulon en passant par Saint-Jean-de-Luz,Toulon,Poitiers,Toulon,Poitiers,Toulon,Saint-Jean-de-Luz,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+22,je souhaite me rendre a saint-nazaire depuis montpellier en passant par Aix-en-Provence,Montpellier,Saint-Nazaire,Montpellier,Saint-Nazaire,Montpellier,Aix-en-Provence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+23,depuis aix-en-provence je veux aller a lyon en passant par Perpginan,Aix-en-Provence,Lyon,Aix-en-Provence,Lyon,Aix-en-Provence,Lyon,contains_intermediate,medium
+24,depuis limoges je veux aller a rouen en passant par Port-Boulet,Limoges,Rouen,Limoges,Rouen,Limoges,Rouen,contains_intermediate,medium
+25,depart Orleans destination Paris en passant par Rouen,Orleans,Paris,Orleans,Paris,Paris,Orleans,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+26,trains saint-malo angers en passant par Bayonne,Saint-Malo,Angers,Saint-Malo,Angers,Saint-Malo,Angers,contains_intermediate,medium
+27,y a t il un train de saint denis a bordeaux en passant par Amiens,Saint-Denis,Bordeaux,Saint-Denis,Bordeaux,Saint-Denis,Bordeaux,contains_intermediate,medium
+28,est ce quil y a des trains vers paris depuis versailles en passant par Angers,Versailles,Paris,Versailles,Paris,Paris,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+29,billet metz caen en passant par Saint-Malo,Metz,Caen,Metz,Caen,Metz,Caen,contains_intermediate,medium
+30,est ce quil y a des trains vers perpignan depuis lyon en passant par Tours,Lyon,Perpignan,Lyon,Perpignan,Lyon,Perpignan,contains_intermediate,medium
+31,aller de Saint-Nazaire vers Saint-Malo en passant par Aix-en-Provence,Saint-Nazaire,Saint-Malo,Saint-Nazaire,Saint-Malo,Saint-Nazaire,Aix-en-Provence,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+32,je veux un billet de Nancy pour Montaigu en passant par Versailles,Nancy,Montaigu,Nancy,Montaigu,Versailles,Montaigu,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+33,depuis brest je veux aller a marseille en passant par Perpignan,Brest,Marseille,Brest,Marseille,Marseille,Brest,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+34,depart versailles destination dijon en passant par Bayonne,Versailles,Dijon,Versailles,Dijon,Versailles,Versailles,contains_intermediate|ml_rule_based_diff|ml_prefill_diff,medium
+35,depart cannes destination rouen,Cannes,Rouen,Cannes,Rouen,Cannes,Rouen,,none
+36,depart bayonne destination le havre,Bayonne,Le Havre,Bayonne,Le Havre,Bayonne,Le Havre,,none
+37,depart reims destination nantes,Reims,Nantes,Reims,Nantes,Nantes,Reims,ml_rule_based_diff|ml_prefill_diff,low
+38,depart strasbourg destination poitiers,Strasbourg,Poitiers,Strasbourg,Poitiers,Poitiers,Strasbourg,ml_rule_based_diff|ml_prefill_diff,low
+39,depart le havre destination versailles,Le Havre,Versailles,Le Havre,Versailles,Le Havre,Versailles,,none
+40,depart Tours destination Bayonne,Tours,Bayonne,Tours,Bayonne,Bayonne,Tours,ml_rule_based_diff|ml_prefill_diff,low
+41,depart tours destination avignon,Tours,Avignon,Tours,Avignon,Tours,Avignon,,none
+42,depart reims destination avignon,Reims,Avignon,Reims,Avignon,Reims,Avignon,,none
+43,depart Strasbourg destination Saint-Nazaire,Strasbourg,Saint-Nazaire,Strasbourg,Saint-Nazaire,Strasbourg,Saint-Nazaire,,none
+44,depart Annecy destination Le Mans,Annecy,Le Mans,Annecy,Le Mans,Annecy,Le Mans,,none
+45,depart dijok destination versailles,Dijon,Versailles,Dijon,Versailles,Dijon,Versailles,,none
+46,depart caen destination avignon,Caen,Avignon,Caen,Avignon,Caen,Avignon,,none
+47,depart bayonne destination saint-malo,Bayonne,Saint-Malo,Bayonne,Saint-Malo,Saint-Malo,Bayonne,ml_rule_based_diff|ml_prefill_diff,low
+48,depart brest destination montpellier,Brest,Montpellier,Brest,Montpellier,Montpellier,Brest,ml_rule_based_diff|ml_prefill_diff,low
+49,depart aix en provence destination montaigu,Aix-en-Provence,Montaigu,Aix-en-Provence,Montaigu,Aix-en-Provence,Montaigu,,none
+50,depart angers destination limoges,Angers,Limoges,Angers,Limoges,Limoges,Angers,ml_rule_based_diff|ml_prefill_diff,low
+51,depart Troyes destination Angers,Troyes,Angers,Troyes,Angers,Troyes,Angers,,none
+52,comment aller a Strasbourg depuis Port-Boulet,Port-Boulet,Strasbourg,Port-Boulet,Strasbourg,Strasbourg,Port-Boulet,ml_rule_based_diff|ml_prefill_diff,low
+53,comment aller a Caen depuis Rouen,Rouen,Caen,Rouen,Caen,Rouen,Caen,,none
+54,comment aller a Tours depuis trasbourg,Strasbourg,Tours,Strasbourg,Tours,Strasbourg,Tours,,none
+55,comment aller a paris depuis montpellier,Montpellier,Paris,Montpellier,Paris,Montpellier,Montpellier,ml_rule_based_diff|ml_prefill_diff,low
+56,comment aller a clermont-ferrand depuis angers,Angers,Clermont-Ferrand,Angers,Clermont-Ferrand,Angers,Clermont-Ferrand,,none
+57,comment aller a montpellier depuis metz,Metz,Montpellier,Metz,Montpellier,Metz,Montpellier,,none
+58,comment aller a vannes depuis nice,Nice,Vannes,Nice,Vannes,Nice,Vannes,,none
+59,comment aller a Saint-Etienne depuis Rouen,Rouen,Saint-Etienne,Rouen,Saint-Etienne,Rouen,Saint-Etienne,,none
+60,comment aller a Valence depuis Paris,Paris,Valence,Paris,Valence,Paris,Valence,,none
+61,comment aller a lille depuis cannes,Cannes,Lille,Cannes,Lille,Cannes,Lille,,none
+62,comment aller a bayonne depuis caen,Caen,Bayonne,Caen,Bayonne,Caen,Bayonne,,none
+63,comment aller a Le Mans depuis Aix-en-Provence,Aix-en-Provence,Le Mans,Aix-en-Provence,Le Mans,Aix-en-Provence,Le Mans,,none
+64,comment aller a cannes depuis saint-malo,Saint-Malo,Cannes,Saint-Malo,Cannes,Saint-Malo,Saint-Malo,ml_rule_based_diff|ml_prefill_diff,low
+65,comment aller a Troyes depuis Albert,Albert,Troyes,Albert,Troyes,Albert,Troyes,,none
+66,comment aller a Limoges depuis Saint-Etienne,Saint-Etienne,Limoges,Saint-Etienne,Limoges,Limoges,Saint-Etienne,ml_rule_based_diff|ml_prefill_diff,low
+67,comment aller a le havre depuis nancy,Nancy,Le Havre,Nancy,Le Havre,Nancy,Le Havre,,none
+68,comment aller a aix-en-provence depuis cannes,Cannes,Aix-en-Provence,Cannes,Aix-en-Provence,Cannes,Aix-en-Provence,,none
+69,est ce quil y a des trains vers aix-en-provence depuis orleans,Orleans,Aix-en-Provence,Orleans,Aix-en-Provence,Orleans,Aix-en-Provence,,none
+70,y a t il un train de Saint-Denis a Nancy,Saint-Denis,Nancy,Saint-Denis,Nancy,Nancy,Saint-Denis,ml_rule_based_diff|ml_prefill_diff,low
+71,trains Metz Saint Denis,Metz,Saint-Denis,Metz,Saint-Denis,Metz,Saint-Denis,,none
+72,trains Paris Brest,Paris,Brest,Paris,Brest,Brest,Brest,ml_rule_based_diff|ml_prefill_diff,low
+73,trains saint-raphael versailles,Saint-Raphael,Versailles,Saint-Raphael,Versailles,Versailles,Saint-Raphael,ml_rule_based_diff|ml_prefill_diff,low
+74,y a t il un train de Vannes a Rennes,Vannes,Rennes,Vannes,Rennes,Vannes,Rennes,,none
+75,est ce quil y a des trains vers marseille depuis nice,Nice,Marseille,Nice,Marseille,Nice,Marseille,,none
+76,train en retard,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+77,est ce quil y a des trains vers saint etienne depuis srtasbourg,Strasbourg,Saint-Etienne,Strasbourg,Saint-Etienne,Strasbourg,Saint-Etienne,,none
+78,est ce quil y a des trains vers metz depuis valence,Valence,Metz,Valence,Metz,Valence,Metz,,none
+79,y a t il un train de le mans a colmar,Le Mans,Colmar,Le Mans,Colmar,Le Mans,Colmar,,none
+80,est ce quil y a des trains vers saint etienne depuis angers,Angers,Saint-Etienne,Angers,Saint-Etienne,Saint-Etienne,Saint-Etienne,ml_rule_based_diff|ml_prefill_diff,low
+81,trains Touloa jvignon,Toulon,Avignon,Toulon,Avignon,Avignon,Toulon,ml_rule_based_diff|ml_prefill_diff,low
+82,trains qoulon Montpellier,Toulon,Montpellier,Toulon,Montpellier,Montpellier,Montpellier,ml_rule_based_diff|ml_prefill_diff,low
+83,y a t il un train de amiens a aix-en-provence,Amiens,Aix-en-Provence,Amiens,Aix-en-Provence,Amiens,Aix-en-Provence,,none
+84,y a t il un train de albert a nice,Albert,Nice,Albert,Nice,Nice,Albert,ml_rule_based_diff|ml_prefill_diff,low
+85,trains strasbourg angers,Strasbourg,Angers,Strasbourg,Angers,Angers,Strasbourg,ml_rule_based_diff|ml_prefill_diff,low
+86,je veux aller a le mans en partant de le havre,Le Havre,Le Mans,Le Havre,Le Mans,Le Mans,Le Havre,ml_rule_based_diff|ml_prefill_diff,low
+87,je veux aller a clermont-ferrand en partant de le mans,Le Mans,Clermont-Ferrand,Le Mans,Clermont-Ferrand,Clermont-Ferrand,Clermont-Ferrand,ml_rule_based_diff|ml_prefill_diff,low
+88,je veux un billet de le mans pour le havre,Le Mans,Le Havre,Le Mans,Le Havre,Le Mans,Le Havre,,none
+89,je veux aller a brest en partant de aix en provence,Aix-en-Provence,Brest,Aix-en-Provence,Brest,Aix-en-Provence,Aix-en-Provence,ml_rule_based_diff|ml_prefill_diff,low
+90,je souhaite me rendre a sain raphael depuis aix en provnece,Aix-en-Provence,Saint-Raphael,Aix-en-Provence,Saint-Raphael,Aix-en-Provence,Saint-Raphael,,none
+91,je veux aller a le havre en partant de rouen,Rouen,Le Havre,Rouen,Le Havre,Rouen,Rouen,ml_rule_based_diff|ml_prefill_diff,low
+92,je veux aller a sant malo en partant de perignan,Perpignan,Saint-Malo,Perpignan,Saint-Malo,Perpignan,Saint-Malo,,none
+93,je veux un billet de aix en provence pour saitn denis,Aix-en-Provence,Saint-Denis,Aix-en-Provence,Saint-Denis,Aix-en-Provence,Saint-Denis,,none
+94,je veux aller a le havre en partant de tours,Tours,Le Havre,Tours,Le Havre,Tours,Le Havre,,none
+95,je veux aller a orleans en partant de aix en provence,Aix-en-Provence,Orleans,Aix-en-Provence,Orleans,Orleans,Aix-en-Provence,ml_rule_based_diff|ml_prefill_diff,low
+96,je veux aller a le mans en partant de nice,Nice,Le Mans,Nice,Le Mans,Le Mans,Nice,ml_rule_based_diff|ml_prefill_diff,low
+97,je veux aller a nancy en partant de le mans,Le Mans,Nancy,Le Mans,Nancy,Nancy,Le Mans,ml_rule_based_diff|ml_prefill_diff,low
+98,je souhaite me rendre a aix en provence depuis le havre,Le Havre,Aix-en-Provence,Le Havre,Aix-en-Provence,Aix-en-Provence,Aix-en-Provence,ml_rule_based_diff|ml_prefill_diff,low
+99,je veux aller a Toulon en partant de Le Mans,Le Mans,Toulon,Le Mans,Toulon,Toulon,Le Mans,ml_rule_based_diff|ml_prefill_diff,low
+100,je veux aller a orleans en partant de le havre,Le Havre,Orleans,Le Havre,Orleans,Le Havre,Orleans,,none
+101,je veux aller a aix en provence en partant de lille,Lille,Aix-en-Provence,Lille,Aix-en-Provence,Lille,Aix-en-Provence,,none
+102,je veux aller a Valence en partant de Le Mans,Le Mans,Valence,Le Mans,Valence,Le Mans,Valence,,none
+103,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+104,je pars de dijon pour troyes,Dijon,Troyes,Dijon,Troyes,Troyes,Dijon,ml_rule_based_diff|ml_prefill_diff,low
+105,je souhaite me rendre a orleans depuis lyon,Lyon,Orleans,Lyon,Orleans,Orleans,Lyon,ml_rule_based_diff|ml_prefill_diff,low
+106,billet Grenoble Toulon,Grenoble,Toulon,Grenoble,Toulon,Toulon,Grenoble,ml_rule_based_diff|ml_prefill_diff,low
+107,aller de toulon vers nantes,Toulon,Nantes,Toulon,Nantes,Toulon,Toulon,ml_rule_based_diff|ml_prefill_diff,low
+108,depuis Nancy je veux aller a Clermont-Ferran,Nancy,Clermont-Ferrand,Nancy,Clermont-Ferrand,Nancy,Clermont-Ferrand,,none
+109,besoin d un trajet lille marseille,Lille,Marseille,Lille,Marseille,Marseille,Marseille,ml_rule_based_diff|ml_prefill_diff,low
+110,depuis biarritz je veux aller a tours,Biarritz,Tours,Biarritz,Tours,Biarritz,Tours,,none
+111,aller de rennes vers grenoble,Rennes,Grenoble,Rennes,Grenoble,Rennes,Grenoble,,none
+112,aller de montpellier vers paris,Montpellier,Paris,Montpellier,Paris,Montpellier,Paris,,none
+113,aller de reims vers strasbourd,Reims,Strasbourg,Reims,Strasbourg,Reims,Strasbourg,,none
+114,depuis Troyes je veux aller a Toulouse,Troyes,Toulouse,Troyes,Toulouse,Troyes,Toulouse,,none
+115,depuis montpellier je veux aller a paris,Montpellier,Paris,Montpellier,Paris,Montpellier,Paris,,none
+116,billet orleans nancy,Orleans,Nancy,Orleans,Nancy,Nancy,Orleans,ml_rule_based_diff|ml_prefill_diff,low
+117,je voudrais aller de annecy a troyes,Annecy,Troyes,Annecy,Troyes,Troyes,Annecy,ml_rule_based_diff|ml_prefill_diff,low
+118,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+119,horaires pour demain,INVALID,,INVALID,,INVALID,,prefill_invalid,high
+120,une phrase sans trajet,INVALID,,INVALID,,INVALID,,prefill_invalid,high

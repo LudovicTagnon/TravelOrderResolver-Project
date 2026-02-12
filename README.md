@@ -180,3 +180,4 @@ python3 -m unittest discover -s tests
 - Bundle de rendu : `deliverables/submission_bundle/`.
 - Draft rapport : `docs/report_draft.md`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
+- Runbook soutenance : `docs/soutenance_runbook.md`.

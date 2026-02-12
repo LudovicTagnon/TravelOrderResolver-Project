@@ -1,7 +1,7 @@
 PYTHON ?= python3
 VENV_PY ?= .venv/bin/python
 
-.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval manual-gold-eval-camembert-v2 pipeline-sample bundle report-pdf-ready report-pdf train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench train-camembert-ft-v2 camembert-ft-v2-bench e2e-camembert-ft-v2
+.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval manual-gold-eval-camembert-v2 pipeline-sample bundle report-pdf-ready report-pdf report-pdf-jury-ready report-pdf-jury train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench train-camembert-ft-v2 camembert-ft-v2-bench e2e-camembert-ft-v2
 
 test:
 	$(PYTHON) -m unittest discover -s tests
@@ -35,6 +35,12 @@ report-pdf-ready:
 
 report-pdf: report-pdf-ready
 	bash scripts/export_report_pdf.sh deliverables/report_final.pdf
+
+report-pdf-jury-ready:
+	$(PYTHON) scripts/build_report_jury_ready.py
+
+report-pdf-jury: report-pdf-jury-ready
+	bash scripts/export_report_pdf.sh deliverables/report_final_jury.pdf docs/report_jury_ready.md
 
 train-camembert:
 	$(VENV_PY) scripts/train_camembert.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models/camembert --hf-model camembert-base --batch-size 32 --max-length 64 --max-samples 4000

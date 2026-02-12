@@ -2,8 +2,8 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-INPUT="${ROOT}/docs/report_pdf_ready.md"
 OUTPUT="${1:-${ROOT}/deliverables/report_final.pdf}"
+INPUT="${2:-${ROOT}/docs/report_pdf_ready.md}"
 BIB="${ROOT}/docs/references.bib"
 
 mkdir -p "$(dirname "${OUTPUT}")"

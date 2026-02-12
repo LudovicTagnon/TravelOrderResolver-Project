@@ -49,6 +49,7 @@ make bundle
   - Finalisation humaine des corrections manuelles et amélioration modèle NLP avancé (bonus).
 
 ## Fichiers jury à ouvrir
+- `deliverables/report_final_jury.pdf`
 - `deliverables/report_final.pdf`
 - `reports/snapshot.md`
 - `reports/manual_gold_dashboard.json`

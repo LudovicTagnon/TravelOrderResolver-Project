@@ -223,9 +223,15 @@ Exporter en PDF:
 ```bash
 make report-pdf
 ```
+Version compacte soutenance:
+```bash
+make report-pdf-jury
+```
 Sorties et sources:
 - `docs/report_pdf_ready.md`
+- `docs/report_jury_ready.md`
 - `deliverables/report_final.pdf`
+- `deliverables/report_final_jury.pdf`
 - `docs/references.bib`
 - `docs/figures/README.md`
 
@@ -243,6 +249,8 @@ make e2e-camembert-ft-v2
 make manual-gold-eval-camembert-v2
 make report-pdf-ready
 make report-pdf
+make report-pdf-jury-ready
+make report-pdf-jury
 make snapshot
 make manual-gold-eval
 make pipeline-sample
@@ -279,5 +287,6 @@ python3 -m unittest discover -s tests
 - Resume gold manuel CamemBERT v2 : `reports/manual_gold_camembert_v2_summary.md`.
 - Draft rapport : `docs/report_draft.md`.
 - Version PDF du rapport : `deliverables/report_final.pdf`.
+- Version PDF jury (compacte) : `deliverables/report_final_jury.pdf`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
 - Runbook soutenance : `docs/soutenance_runbook.md`.

@@ -1,11 +1,11 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 32,
+  "file_count": 34,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 13125,
-      "sha256": "dbca2758c17c89e91549e25ff8bcfffd4a1557ad84fb4a4d55dab7258e67e99a"
+      "size_bytes": 13374,
+      "sha256": "6e6b046bf5b114511c0ca608cc1eeb7cd8d65b32379f1779e44ae5e753779333"
     },
     {
       "path": "docs/report_draft.md",
@@ -16,6 +16,11 @@
       "path": "docs/report_pdf_ready.md",
       "size_bytes": 39774,
       "sha256": "0c6a9c201102cc6e34899ad7b13370c8a04803c89a52014640749207e2655046"
+    },
+    {
+      "path": "docs/report_jury_ready.md",
+      "size_bytes": 26488,
+      "sha256": "8751f57e27b0d8735a997f00823d2bf114c71ce377e261bf9cc29906de38842e"
     },
     {
       "path": "docs/references.bib",
@@ -151,6 +156,11 @@
       "path": "deliverables/report_final.pdf",
       "size_bytes": 116399,
       "sha256": "ffad5fba49b83a426fd2518b53080b1bb875012fc17a62905b3ea6a1d14f95c5"
+    },
+    {
+      "path": "deliverables/report_final_jury.pdf",
+      "size_bytes": 90929,
+      "sha256": "e737fc2a08e3bee458f8f75cce12b244b87b68523207221af0c8d1fcd0b212b6"
     },
     {
       "path": "students_project/sample_pipeline_nlp_output.txt",

@@ -12,6 +12,7 @@ DEFAULT_FILES = [
     "README.md",
     "docs/report_draft.md",
     "docs/report_pdf_ready.md",
+    "docs/report_jury_ready.md",
     "docs/references.bib",
     "docs/figures/README.md",
     "docs/coverage_matrix.md",
@@ -39,6 +40,7 @@ DEFAULT_FILES = [
     "datasets/manual/e2e_manual_gold_120_camembert_v2.csv",
     "datasets/manual/e2e_manual_120_camembert_v2.csv",
     "deliverables/report_final.pdf",
+    "deliverables/report_final_jury.pdf",
     "students_project/sample_pipeline_nlp_output.txt",
     "students_project/sample_pipeline_path_output.txt",
 ]

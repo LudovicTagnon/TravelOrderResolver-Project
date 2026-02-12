@@ -15,7 +15,8 @@
 | Gestion fautes/variantes (`Saint`/`St`, typos) | `src/travel_order_resolver.py`, `tests/test_resolve_typos.py` | Fait |
 | Baseline ML de reference | `scripts/train_ml.py`, `scripts/evaluate_ml.py`, `reports/ml_metrics.json` | Fait |
 | Benchmark spaCy | `scripts/evaluate_spacy.py`, `reports/spacy_camembert_metrics.json` | Fait |
-| Benchmark CamemBERT | `scripts/train_camembert.py`, `scripts/evaluate_camembert.py`, `reports/spacy_camembert_metrics.json` | Fait |
+| Benchmark CamemBERT (embeddings figes + SVC) | `scripts/train_camembert.py`, `scripts/evaluate_camembert.py`, `reports/spacy_camembert_metrics.json` | Fait |
+| CamemBERT fine-tune (sequence classification) | `scripts/train_camembert_finetune.py`, `scripts/evaluate_camembert_finetune.py`, `reports/camembert_finetune_metrics.json` | Fait (bonus) |
 | Analyse d'erreurs ML | `scripts/analyze_ml_errors.py`, `reports/ml_error_analysis_*.json` | Fait |
 
 ## Donnees
@@ -45,4 +46,3 @@
 |---|---|---|
 | Validation humaine finale des 22 corrections prioritaires | `datasets/manual/corrections_120.csv` | A finaliser |
 | Rapport PDF final (version propre) | export depuis `docs/report_draft.md` | A finaliser |
-| Eventuel modele NLP plus avance (CamemBERT fine-tuning) | nouveau dossier `models_bert/` + metriques | Optionnel / bonus |

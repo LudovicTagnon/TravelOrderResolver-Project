@@ -130,7 +130,20 @@ Source : `reports/spacy_camembert_metrics.json`.
 
 Constat : spaCy surperforme le baseline ML classique et ce premier setup CamemBERT, mais reste sous le rule-based principal.
 
-## 16. Limites et suite
+## 16. CamemBERT fine-tune (sequence classification)
+Source : `reports/camembert_finetune_metrics.json`.
+
+- Setup :
+  - modele de base `camembert-base`
+  - entrainement separe `origin` / `destination`
+  - configuration rapide : `1` epoch, `4000` phrases, batch `16`, max_len `64`
+- Resultats :
+  - Dev accuracy `0.733`, valid_f1 `0.753`
+  - Test accuracy `0.735`, valid_f1 `0.751`
+
+Constat : le fine-tuning CamemBERT depasse les baselines ML classiques et le setup CamemBERT fige, mais reste sous le rule-based principal.
+
+## 17. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
-- Version CamemBERT actuelle non fine-tunee (embeddings figes) ; prochaine etape = fine-tuning sequence/NER.
+- Refaire le fine-tuning CamemBERT avec plus d'epochs et un train set complet pour verifier le plafond reel.
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

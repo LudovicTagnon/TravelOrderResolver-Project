@@ -1,21 +1,21 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 18,
+  "file_count": 20,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 10264,
-      "sha256": "63ce2d775216443eb2f5f29881657f88551f66fa8d3436959b7be934073b7012"
+      "size_bytes": 10868,
+      "sha256": "59cd9c8447d657df1ab903e8520b6b40645144ca9768826c2f36780e383f7057"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 5965,
-      "sha256": "a88caa96fc653c1cec60182560804c267dcd94382a18b3fadcca86def0f63579"
+      "size_bytes": 6488,
+      "sha256": "d041fe7adfd83bccce5f327a4b9eb512f2979760347882d0449bae0da0171cad"
     },
     {
       "path": "docs/coverage_matrix.md",
-      "size_bytes": 2950,
-      "sha256": "8caa6afe85d5e2f98573351297e7de74bc3d3f77334821318656fefcc7e63424"
+      "size_bytes": 3040,
+      "sha256": "fc6a7b4858d499c776c09600bb0f5271f4ef15508c9845c71059f80ba0558bd1"
     },
     {
       "path": "reports/snapshot.md",
@@ -56,6 +56,16 @@
       "path": "reports/spacy_camembert_summary.md",
       "size_bytes": 693,
       "sha256": "0b5e2bd73b90e7749ac1772bfcbe726fb127cfe529816972abde8ec75d351b87"
+    },
+    {
+      "path": "reports/camembert_finetune_metrics.json",
+      "size_bytes": 955,
+      "sha256": "dbc191da06c9576f5c2f47a731e1c25730f7cbbd076a3fdd783e7dfde2846844"
+    },
+    {
+      "path": "reports/camembert_finetune_summary.md",
+      "size_bytes": 706,
+      "sha256": "00b5d54261c1ba29cc3f41f96785647b1fa31654875cb3666ccfc4c75db3eaac"
     },
     {
       "path": "reports/pathfinding_metrics.txt",

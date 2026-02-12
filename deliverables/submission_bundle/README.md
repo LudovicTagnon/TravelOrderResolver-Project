@@ -149,7 +149,7 @@ Contenu:
 - outputs pipeline sample
 - manifeste SHA256 (`deliverables/submission_bundle/manifest.json`)
 
-## Workflow 11 - Tester spaCy et CamemBERT
+## Workflow 11 - Tester spaCy et CamemBERT (baselines rapides)
 Initialiser `.venv`:
 ```bash
 python3 -m venv .venv
@@ -167,6 +167,20 @@ make spacy-camembert-bench
 ```
 Sortie:
 - `reports/spacy_camembert_metrics.json`
+- `reports/spacy_camembert_summary.md`
+
+## Workflow 12 - Fine-tuner CamemBERT
+Entrainement des deux modeles (origine puis destination):
+```bash
+make train-camembert-ft
+```
+Benchmarks `dev/test` du duo fine-tune:
+```bash
+make camembert-ft-bench
+```
+Sortie:
+- `reports/camembert_finetune_metrics.json`
+- `reports/camembert_finetune_summary.md`
 
 ## Raccourcis Makefile
 ```bash
@@ -174,6 +188,8 @@ make test
 make train-ml
 make train-camembert
 make spacy-camembert-bench
+make train-camembert-ft
+make camembert-ft-bench
 make snapshot
 make manual-gold-eval
 make pipeline-sample
@@ -201,6 +217,8 @@ python3 -m unittest discover -s tests
 - Dashboard gold set : `reports/manual_gold_dashboard.json`.
 - Bundle de rendu : `deliverables/submission_bundle/`.
 - Benchmarks spaCy/CamemBERT : `reports/spacy_camembert_metrics.json`.
+- CamemBERT fine-tune (sequence classification) : dev `0.733`, test `0.735` (`reports/camembert_finetune_metrics.json`).
+- Resume benchmarks fine-tune : `reports/camembert_finetune_summary.md`.
 - Draft rapport : `docs/report_draft.md`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
 - Runbook soutenance : `docs/soutenance_runbook.md`.

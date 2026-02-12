@@ -1,7 +1,7 @@
 PYTHON ?= python3
 VENV_PY ?= .venv/bin/python
 
-.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench
+.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench
 
 test:
 	$(PYTHON) -m unittest discover -s tests
@@ -32,3 +32,10 @@ train-camembert:
 
 spacy-camembert-bench:
 	$(VENV_PY) scripts/run_spacy_camembert_benchmarks.py --python-bin $(VENV_PY) --datasets datasets --places data/places.txt --spacy-model fr_core_news_sm --camembert-model-dir models/camembert --output reports/spacy_camembert_metrics.json
+
+train-camembert-ft:
+	$(VENV_PY) scripts/train_camembert_finetune.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --dev-input datasets/dev_input.txt --dev-output datasets/dev_output.txt --target origin --output-dir models/camembert_finetune/origin --hf-model camembert-base --max-length 64 --batch-size 16 --epochs 1 --lr 2e-5 --max-train-samples 4000 --seed 42
+	$(VENV_PY) scripts/train_camembert_finetune.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --dev-input datasets/dev_input.txt --dev-output datasets/dev_output.txt --target destination --output-dir models/camembert_finetune/destination --hf-model camembert-base --max-length 64 --batch-size 16 --epochs 1 --lr 2e-5 --max-train-samples 4000 --seed 42
+
+camembert-ft-bench:
+	$(VENV_PY) scripts/run_camembert_finetune_benchmarks.py --python-bin $(VENV_PY) --datasets datasets --origin-model-dir models/camembert_finetune/origin --destination-model-dir models/camembert_finetune/destination --output reports/camembert_finetune_metrics.json

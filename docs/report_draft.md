@@ -97,7 +97,13 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
   - `id,Step0,Step1,...` (pathfinding)
 - Exemple genere : `students_project/sample_pipeline_nlp_output.txt` et `students_project/sample_pipeline_path_output.txt`.
 
-## 12. Limites et suite
+## 12. Gold set manuel final
+- Preparation des corrections : `scripts/prepare_manual_corrections.py`
+- Application sur base prefill : `scripts/apply_manual_corrections.py`
+- Fichier de travail : `datasets/manual/corrections_120.csv` (22 lignes prioritaires)
+- Cible de sortie : `datasets/manual/output_gold_120.csv`
+
+## 13. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
 - Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

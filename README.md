@@ -115,6 +115,17 @@ Sorties :
 - NLP : `students_project/sample_pipeline_nlp_output.txt`
 - Pathfinding : `students_project/sample_pipeline_path_output.txt`
 
+## Workflow 8 - Finaliser le gold set manuel
+Generer une feuille de corrections (22 lignes prioritaires) :
+```bash
+python3 scripts/prepare_manual_corrections.py --review-actionable datasets/manual/review_actionable_120.csv --output datasets/manual/corrections_120.csv
+```
+Appliquer les corrections vers un gold set final :
+```bash
+python3 scripts/apply_manual_corrections.py --base-output datasets/manual/output_prefill_120.csv --corrections datasets/manual/corrections_120.csv --output datasets/manual/output_gold_120.csv
+python3 scripts/validate_manual_dataset.py --input datasets/manual/input_starter.csv --output datasets/manual/output_gold_120.csv
+```
+
 ## Tests
 ```bash
 python3 -m unittest discover -s tests
@@ -131,4 +142,5 @@ python3 -m unittest discover -s tests
 - End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `115/115`, succes global `115/120` (`reports/e2e_manual_120_summary.json`).
 - Snapshot global : `reports/snapshot.json` + `reports/snapshot.md`.
 - Pipeline sample (8 phrases) : `6` succes complets, `2` INVALID NLP, `0` echec pathfinding apres NLP.
+- Template de correction manuelle : `datasets/manual/corrections_120.csv` (22 lignes a valider).
 - Draft rapport : `docs/report_draft.md`.

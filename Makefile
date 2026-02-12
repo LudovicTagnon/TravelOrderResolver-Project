@@ -1,6 +1,7 @@
 PYTHON ?= python3
+VENV_PY ?= .venv/bin/python
 
-.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle
+.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench
 
 test:
 	$(PYTHON) -m unittest discover -s tests
@@ -25,3 +26,9 @@ pipeline-sample:
 
 bundle:
 	$(PYTHON) scripts/build_submission_bundle.py --output-dir deliverables/submission_bundle --manifest deliverables/submission_bundle/manifest.json
+
+train-camembert:
+	$(VENV_PY) scripts/train_camembert.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --model-dir models/camembert --hf-model camembert-base --batch-size 32 --max-length 64 --max-samples 4000
+
+spacy-camembert-bench:
+	$(VENV_PY) scripts/run_spacy_camembert_benchmarks.py --python-bin $(VENV_PY) --datasets datasets --places data/places.txt --spacy-model fr_core_news_sm --camembert-model-dir models/camembert --output reports/spacy_camembert_metrics.json

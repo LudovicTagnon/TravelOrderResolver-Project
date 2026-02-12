@@ -14,6 +14,8 @@
 | Extraction origine/destination robuste | `src/travel_order_resolver.py`, `tests/test_sample.py`, `tests/test_resolve_typos.py` | Fait |
 | Gestion fautes/variantes (`Saint`/`St`, typos) | `src/travel_order_resolver.py`, `tests/test_resolve_typos.py` | Fait |
 | Baseline ML de reference | `scripts/train_ml.py`, `scripts/evaluate_ml.py`, `reports/ml_metrics.json` | Fait |
+| Benchmark spaCy | `scripts/evaluate_spacy.py`, `reports/spacy_camembert_metrics.json` | Fait |
+| Benchmark CamemBERT | `scripts/train_camembert.py`, `scripts/evaluate_camembert.py`, `reports/spacy_camembert_metrics.json` | Fait |
 | Analyse d'erreurs ML | `scripts/analyze_ml_errors.py`, `reports/ml_error_analysis_*.json` | Fait |
 
 ## Donnees

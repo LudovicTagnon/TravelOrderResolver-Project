@@ -5,3 +5,4 @@ data/gtfs/
 data/*.zip
 data/graph.json
 models/
+.venv/

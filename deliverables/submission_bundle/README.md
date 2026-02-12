@@ -18,6 +18,7 @@ Le pipeline vise a :
 - Python 3.10+
 - Dependances utilisees dans ce repo : `scikit-learn`, `joblib`, `openpyxl`
 - `make` (optionnel, raccourcis de commandes)
+- Pour tests `spaCy`/`CamemBERT` : utiliser `.venv` (workflow 11)
 
 ## Format de donnees
 - Entree NLP : `id,phrase`
@@ -148,10 +149,31 @@ Contenu:
 - outputs pipeline sample
 - manifeste SHA256 (`deliverables/submission_bundle/manifest.json`)
 
+## Workflow 11 - Tester spaCy et CamemBERT
+Initialiser `.venv`:
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install spacy transformers torch sentencepiece scikit-learn joblib
+.venv/bin/python -m spacy download fr_core_news_sm
+```
+Entrainement CamemBERT (embeddings figes + SVC):
+```bash
+make train-camembert
+```
+Benchmarks `dev/test`:
+```bash
+make spacy-camembert-bench
+```
+Sortie:
+- `reports/spacy_camembert_metrics.json`
+
 ## Raccourcis Makefile
 ```bash
 make test
 make train-ml
+make train-camembert
+make spacy-camembert-bench
 make snapshot
 make manual-gold-eval
 make pipeline-sample
@@ -178,5 +200,7 @@ python3 -m unittest discover -s tests
 - Template de correction manuelle : `datasets/manual/corrections_120.csv` (22 lignes a valider).
 - Dashboard gold set : `reports/manual_gold_dashboard.json`.
 - Bundle de rendu : `deliverables/submission_bundle/`.
+- Benchmarks spaCy/CamemBERT : `reports/spacy_camembert_metrics.json`.
 - Draft rapport : `docs/report_draft.md`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
+- Runbook soutenance : `docs/soutenance_runbook.md`.

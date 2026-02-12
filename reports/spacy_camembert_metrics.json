@@ -1,0 +1,76 @@
+{
+  "spacy": {
+    "dev": {
+      "total": 1000,
+      "correct": 694,
+      "accuracy": 0.694,
+      "invalid_expected": 133,
+      "invalid_correct": 133,
+      "invalid_accuracy": 1.0,
+      "valid_expected": 867,
+      "valid_predicted": 581,
+      "valid_correct": 561,
+      "valid_precision": 0.9655765920826161,
+      "valid_recall": 0.6470588235294118,
+      "valid_f1": 0.7748618784530388,
+      "origin_accuracy": 0.6608996539792388,
+      "destination_accuracy": 0.6516724336793541,
+      "spacy_model": "fr_core_news_sm"
+    },
+    "test": {
+      "total": 1000,
+      "correct": 693,
+      "accuracy": 0.693,
+      "invalid_expected": 145,
+      "invalid_correct": 145,
+      "invalid_accuracy": 1.0,
+      "valid_expected": 855,
+      "valid_predicted": 567,
+      "valid_correct": 548,
+      "valid_precision": 0.9664902998236331,
+      "valid_recall": 0.6409356725146199,
+      "valid_f1": 0.770745428973277,
+      "origin_accuracy": 0.6549707602339181,
+      "destination_accuracy": 0.6444444444444445,
+      "spacy_model": "fr_core_news_sm"
+    }
+  },
+  "camembert": {
+    "dev": {
+      "total": 1000,
+      "correct": 482,
+      "accuracy": 0.482,
+      "invalid_expected": 133,
+      "invalid_correct": 128,
+      "invalid_accuracy": 0.9624060150375939,
+      "valid_expected": 867,
+      "valid_predicted": 866,
+      "valid_correct": 354,
+      "valid_precision": 0.40877598152424943,
+      "valid_recall": 0.4083044982698962,
+      "valid_f1": 0.40854010386612816,
+      "origin_accuracy": 0.6078431372549019,
+      "destination_accuracy": 0.635524798154556,
+      "hf_model": "camembert-base",
+      "device": "cuda"
+    },
+    "test": {
+      "total": 1000,
+      "correct": 498,
+      "accuracy": 0.498,
+      "invalid_expected": 145,
+      "invalid_correct": 141,
+      "invalid_accuracy": 0.9724137931034482,
+      "valid_expected": 855,
+      "valid_predicted": 854,
+      "valid_correct": 357,
+      "valid_precision": 0.4180327868852459,
+      "valid_recall": 0.41754385964912283,
+      "valid_f1": 0.41778818022235226,
+      "origin_accuracy": 0.6070175438596491,
+      "destination_accuracy": 0.6421052631578947,
+      "hf_model": "camembert-base",
+      "device": "cuda"
+    }
+  }
+}

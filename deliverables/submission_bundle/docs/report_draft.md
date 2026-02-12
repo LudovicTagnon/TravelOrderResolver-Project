@@ -118,7 +118,19 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 - Dossier cible : `deliverables/submission_bundle/`
 - Manifest : `deliverables/submission_bundle/manifest.json` (hash SHA256 des fichiers inclus)
 
-## 15. Limites et suite
+## 15. Test spaCy et CamemBERT
+Source : `reports/spacy_camembert_metrics.json`.
+
+- spaCy (`fr_core_news_sm`) :
+  - Dev accuracy `0.694`, valid_f1 `0.775`
+  - Test accuracy `0.693`, valid_f1 `0.771`
+- CamemBERT (`camembert-base` embeddings figes + LinearSVC, train=4000) :
+  - Dev accuracy `0.482`, valid_f1 `0.409`
+  - Test accuracy `0.498`, valid_f1 `0.418`
+
+Constat : spaCy surperforme le baseline ML classique et ce premier setup CamemBERT, mais reste sous le rule-based principal.
+
+## 16. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
-- Baseline ML a remplacer par un modele plus adapte (ex: CamemBERT fine-tuning).
+- Version CamemBERT actuelle non fine-tunee (embeddings figes) ; prochaine etape = fine-tuning sequence/NER.
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

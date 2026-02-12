@@ -1,21 +1,21 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 16,
+  "file_count": 18,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 9546,
-      "sha256": "76e1cf15d6ffc77cf1db6c2c4a70e7b8bebdcc0f796221d5425bcb07d2724394"
+      "size_bytes": 10264,
+      "sha256": "63ce2d775216443eb2f5f29881657f88551f66fa8d3436959b7be934073b7012"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 5451,
-      "sha256": "e3afd03ef9b336b78cbc8ecb982fab1b80044ba3c6f4f7e29cd9c15457dacf8d"
+      "size_bytes": 5965,
+      "sha256": "a88caa96fc653c1cec60182560804c267dcd94382a18b3fadcca86def0f63579"
     },
     {
       "path": "docs/coverage_matrix.md",
-      "size_bytes": 2718,
-      "sha256": "7010ef571cda301d1a4a5152c32a8739c7bf673b796c15b8b5ac5383283c88d6"
+      "size_bytes": 2950,
+      "sha256": "8caa6afe85d5e2f98573351297e7de74bc3d3f77334821318656fefcc7e63424"
     },
     {
       "path": "reports/snapshot.md",
@@ -46,6 +46,16 @@
       "path": "reports/e2e_manual_gold_120_summary.json",
       "size_bytes": 285,
       "sha256": "a6e6880e5d67d3d70d9c27b646361df2d852ea9267bef37a3dd0886a89147252"
+    },
+    {
+      "path": "reports/spacy_camembert_metrics.json",
+      "size_bytes": 2218,
+      "sha256": "f16bfb20129b6968d48d3470062b0c4141c65e7d4fe475f11c1849ab4949e36e"
+    },
+    {
+      "path": "reports/spacy_camembert_summary.md",
+      "size_bytes": 693,
+      "sha256": "0b5e2bd73b90e7749ac1772bfcbe726fb127cfe529816972abde8ec75d351b87"
     },
     {
       "path": "reports/pathfinding_metrics.txt",

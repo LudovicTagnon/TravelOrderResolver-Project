@@ -7,7 +7,7 @@ Le travail a ete mene en plusieurs iterations, avec une logique de reduction de 
 
 Sur le split test synthetique, la baseline rule-based atteint `99.3%` d'accuracy, CamemBERT fine-tune v2 atteint `97.3%`, spaCy `69.3%`, et le baseline ML `41.8%`. Sur le gold set manuel (120 phrases), le rule-based atteint `120/120` et CamemBERT v2 `119/120`. Le pathfinding atteint `30/30` sur l'echantillon de validation dedie.
 
-Au-dela des resultats, ce rapport documente la demarche strategique, les erreurs, les impasses, les compromis techniques et les limites de validite du protocole. L'objectif est de produire une trace defendable en soutenance, reproductible et exploitable pour une poursuite de projet.
+Au-dela des resultats, ce rapport documente la demarche, les erreurs, les impasses, les compromis techniques et les limites du protocole. L'objectif est de garder une trace claire pour la soutenance et pour la suite du projet.
 
 ## 1. Introduction
 
@@ -16,10 +16,10 @@ Le sujet "Travel Order Resolver" demande de traiter des ordres de voyage en lang
 
 Dans un cadre academique, le risque principal est de concentrer l'effort sur un modele "avance" sans stabiliser les fondamentaux (I/O, robustesse, protocole d'evaluation, outillage reproductible). La strategie adoptee ici est l'inverse: stabiliser rapidement un pipeline mesurable puis complexifier par paliers.
 
-### 1.2 Objectif scientifique
+### 1.2 Objectif technique
 L'objectif n'est pas uniquement de "faire marcher" un parseur de phrases, mais de repondre a une question technique:
 
-"Quel compromis entre robustesse, cout de dev, cout de calcul et qualite predicitive permet une livraison defendable dans les contraintes du projet ?"
+"Quel compromis entre robustesse, temps de dev, cout de calcul et qualite predicitive est le plus realiste dans les contraintes du projet ?"
 
 Cette question est traitee par comparaison experimentale de plusieurs familles d'approches:
 - rule-based deterministe,
@@ -61,7 +61,7 @@ Nous avons organise le travail autour de 5 questions:
 1. Une approche rule-based bien ingenieriee suffit-elle pour un niveau de performance eleve ?
 2. Un baseline ML simple peut-il depasser le rule-based dans ce contexte de donnees ?
 3. Quelle valeur incrementale apportent spaCy et CamemBERT sans fine-tuning ?
-4. Le fine-tuning CamemBERT apporte-t-il un gain significatif et defendable ?
+4. Le fine-tuning CamemBERT apporte-t-il un gain significatif et utile en pratique ?
 5. Le gain NLP se traduit-il vraiment en gain end-to-end une fois le pathfinding applique ?
 
 ## 4. Strategie de realisation
@@ -407,7 +407,7 @@ Reponse strategique:
 - complexification progressive,
 - conservation d'un pipeline livrable a chaque etape.
 
-## 16. Discussion scientifique
+## 16. Discussion technique
 
 ### 16.1 Sur la performance
 Le resultat le plus fort est double:
@@ -472,7 +472,7 @@ Le bundle `deliverables/submission_bundle/` contient les fichiers cibles et un m
 - comparaison NLP multi-approches: faite,
 - dashboard comparatif gold: fait,
 - validations unitaires/CI: faites,
-- rapport long scientifique: en cours de finalisation editoriale.
+- rapport long: finalise.
 
 ### 19.2 Travail restant recommande
 1. augmenter le lot manuel annote (objectif > 300 phrases),
@@ -481,7 +481,7 @@ Le bundle `deliverables/submission_bundle/` contient les fichiers cibles et un m
 4. produire la version PDF finale avec schema d'architecture et tableaux numerotes.
 
 ## 20. Conclusion
-Le projet atteint un niveau de maturite technique defendable:
+Le projet atteint un niveau de maturite technique correct:
 - solution operationnelle complete NLP + pathfinding,
 - niveau de performance eleve et mesure,
 - documentation reproductible,
@@ -548,7 +548,7 @@ Impact: pipeline complet disponible tres tot.
 
 ### C.2 Decision 2
 Conserver un baseline ML faible mais instrumente.
-Raison: reference scientifique et analyse d'erreurs.
+Raison: point de comparaison simple et analyse d'erreurs.
 Impact: justification claire des pivots ulterieurs.
 
 ### C.3 Decision 3
@@ -802,7 +802,7 @@ Camembert v2:
 
 ### 24.2 Compromis court terme vs long terme
 Court terme (livraison):
-- rule-based est extremement solide, defendable immediatement.
+- rule-based est extremement solide, exploitable immediatement.
 
 Long terme (evolution):
 - Camembert v2 ouvre une trajectoire de generalisation si le dataset manuel grossit.
@@ -835,12 +835,12 @@ Q: "Pourquoi ne pas livrer uniquement Camembert v2 ?"
 R: la double voie (`rule-based` + `camembert-ft`) maximise la robustesse et permet de garder un mode hautement explicable.
 
 Q: "Pourquoi le ML baseline est-il faible ?"
-R: baseline volontairement simple pour reference scientifique; il permet de quantifier le gain des approches plus riches.
+R: baseline volontairement simple; il sert de point de comparaison pour quantifier le gain des approches plus riches.
 
 Q: "Comment prouvez-vous la reproductibilite ?"
 R: scripts eval et snapshot, commandes Make, bundle hashé, dashboard consolide.
 
-## 26. Extension scientifique envisagee
+## 26. Extensions envisagees
 
 ### 26.1 Experimentes non realises mais prioritaires
 - calibration de confiance des predictions Camembert,
@@ -867,7 +867,7 @@ Le projet demontre qu'une demarche d'ingenierie pragmatique peut produire:
 - des resultats de haut niveau,
 - une traçabilite scientifique,
 - une architecture evolutive,
-- un discours de soutenance defendable.
+- un discours de soutenance clair.
 
 Points saillants:
 - baseline rule-based extremement performante,

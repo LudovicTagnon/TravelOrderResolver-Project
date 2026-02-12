@@ -1,7 +1,7 @@
 PYTHON ?= python3
 VENV_PY ?= .venv/bin/python
 
-.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench
+.PHONY: test train-ml benchmarks ml-benchmarks snapshot manual-gold-eval pipeline-sample bundle train-camembert spacy-camembert-bench train-camembert-ft camembert-ft-bench train-camembert-ft-v2 camembert-ft-v2-bench e2e-camembert-ft-v2
 
 test:
 	$(PYTHON) -m unittest discover -s tests
@@ -39,3 +39,13 @@ train-camembert-ft:
 
 camembert-ft-bench:
 	$(VENV_PY) scripts/run_camembert_finetune_benchmarks.py --python-bin $(VENV_PY) --datasets datasets --origin-model-dir models/camembert_finetune/origin --destination-model-dir models/camembert_finetune/destination --output reports/camembert_finetune_metrics.json
+
+train-camembert-ft-v2:
+	$(VENV_PY) scripts/train_camembert_finetune.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --dev-input datasets/dev_input.txt --dev-output datasets/dev_output.txt --target origin --output-dir models/camembert_finetune_v2/origin --hf-model camembert-base --max-length 64 --batch-size 16 --epochs 2 --lr 2e-5 --seed 42
+	$(VENV_PY) scripts/train_camembert_finetune.py --train-input datasets/train_input.txt --train-output datasets/train_output.txt --dev-input datasets/dev_input.txt --dev-output datasets/dev_output.txt --target destination --output-dir models/camembert_finetune_v2/destination --hf-model camembert-base --max-length 64 --batch-size 16 --epochs 2 --lr 2e-5 --seed 42
+
+camembert-ft-v2-bench:
+	$(VENV_PY) scripts/run_camembert_finetune_benchmarks.py --python-bin $(VENV_PY) --datasets datasets --origin-model-dir models/camembert_finetune_v2/origin --destination-model-dir models/camembert_finetune_v2/destination --output reports/camembert_finetune_v2_metrics.json
+
+e2e-camembert-ft-v2:
+	$(VENV_PY) scripts/evaluate_end_to_end.py --input datasets/manual/input_starter.csv --nlp-backend camembert-ft --origin-model-dir models/camembert_finetune_v2/origin --destination-model-dir models/camembert_finetune_v2/destination --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-csv datasets/manual/e2e_manual_120_camembert_v2.csv --summary reports/e2e_manual_120_camembert_v2_summary.json

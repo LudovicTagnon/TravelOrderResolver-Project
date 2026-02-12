@@ -182,6 +182,29 @@ Sortie:
 - `reports/camembert_finetune_metrics.json`
 - `reports/camembert_finetune_summary.md`
 
+Version renforcee (train complet + 2 epochs):
+```bash
+make train-camembert-ft-v2
+make camembert-ft-v2-bench
+```
+Sortie:
+- `reports/camembert_finetune_v2_metrics.json`
+- `reports/camembert_finetune_v2_summary.md`
+
+## Workflow 13 - E2E avec backend CamemBERT
+Evaluation end-to-end sur 120 phrases:
+```bash
+make e2e-camembert-ft-v2
+```
+Sorties:
+- `datasets/manual/e2e_manual_120_camembert_v2.csv`
+- `reports/e2e_manual_120_camembert_v2_summary.json`
+
+Pipeline sample avec CamemBERT:
+```bash
+python3 scripts/run_pipeline.py students_project/sample_nlp_input.txt --nlp-backend camembert-ft --origin-model-dir models/camembert_finetune_v2/origin --destination-model-dir models/camembert_finetune_v2/destination --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --output-nlp students_project/sample_pipeline_nlp_output_camembert_v2.txt --output-path students_project/sample_pipeline_path_output_camembert_v2.txt
+```
+
 ## Raccourcis Makefile
 ```bash
 make test
@@ -190,6 +213,9 @@ make train-camembert
 make spacy-camembert-bench
 make train-camembert-ft
 make camembert-ft-bench
+make train-camembert-ft-v2
+make camembert-ft-v2-bench
+make e2e-camembert-ft-v2
 make snapshot
 make manual-gold-eval
 make pipeline-sample
@@ -218,7 +244,10 @@ python3 -m unittest discover -s tests
 - Bundle de rendu : `deliverables/submission_bundle/`.
 - Benchmarks spaCy/CamemBERT : `reports/spacy_camembert_metrics.json`.
 - CamemBERT fine-tune (sequence classification) : dev `0.733`, test `0.735` (`reports/camembert_finetune_metrics.json`).
+- CamemBERT fine-tune v2 (train complet, 2 epochs) : dev `0.981`, test `0.973` (`reports/camembert_finetune_v2_metrics.json`).
+- E2E CamemBERT v2 (120 phrases) : succes global `115/120` (`reports/e2e_manual_120_camembert_v2_summary.json`).
 - Resume benchmarks fine-tune : `reports/camembert_finetune_summary.md`.
+- Resume benchmarks fine-tune v2 : `reports/camembert_finetune_v2_summary.md`.
 - Draft rapport : `docs/report_draft.md`.
 - Matrice sujet->evidence : `docs/coverage_matrix.md`.
 - Runbook soutenance : `docs/soutenance_runbook.md`.

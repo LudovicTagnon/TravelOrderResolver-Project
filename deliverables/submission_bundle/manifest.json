@@ -1,21 +1,21 @@
 {
   "bundle_root": "deliverables/submission_bundle",
-  "file_count": 20,
+  "file_count": 24,
   "files": [
     {
       "path": "README.md",
-      "size_bytes": 10868,
-      "sha256": "59cd9c8447d657df1ab903e8520b6b40645144ca9768826c2f36780e383f7057"
+      "size_bytes": 12221,
+      "sha256": "2caa0a5aaaf83a452d72b5d3f18f1dca90afff510576f8749bd61e2f30a828d4"
     },
     {
       "path": "docs/report_draft.md",
-      "size_bytes": 6488,
-      "sha256": "d041fe7adfd83bccce5f327a4b9eb512f2979760347882d0449bae0da0171cad"
+      "size_bytes": 7283,
+      "sha256": "7792f46d5022f39797e7abc58a46c7d2d5b81011bd7635e5601da991df18b1bb"
     },
     {
       "path": "docs/coverage_matrix.md",
-      "size_bytes": 3040,
-      "sha256": "fc6a7b4858d499c776c09600bb0f5271f4ef15508c9845c71059f80ba0558bd1"
+      "size_bytes": 3487,
+      "sha256": "f4343d0742c18de1e8238b623381994648d705ae034b955136b39d5964decbaa"
     },
     {
       "path": "reports/snapshot.md",
@@ -68,6 +68,21 @@
       "sha256": "00b5d54261c1ba29cc3f41f96785647b1fa31654875cb3666ccfc4c75db3eaac"
     },
     {
+      "path": "reports/camembert_finetune_v2_metrics.json",
+      "size_bytes": 952,
+      "sha256": "26475bcbf8504758005accce3377109c48a8dbdb219724e30719183a591b693b"
+    },
+    {
+      "path": "reports/camembert_finetune_v2_summary.md",
+      "size_bytes": 701,
+      "sha256": "de83914b0d76d7ab8b18f275afbf942926d284d85604ff689337612a37e22976"
+    },
+    {
+      "path": "reports/e2e_manual_120_camembert_v2_summary.json",
+      "size_bytes": 285,
+      "sha256": "a6e6880e5d67d3d70d9c27b646361df2d852ea9267bef37a3dd0886a89147252"
+    },
+    {
       "path": "reports/pathfinding_metrics.txt",
       "size_bytes": 35,
       "sha256": "aa7852bca4e0621800250388f2e2deb06e5b73c4af10cf1c4b990e9502693604"
@@ -91,6 +106,11 @@
       "path": "datasets/manual/e2e_manual_gold_120.csv",
       "size_bytes": 20083,
       "sha256": "022b45977efcb5941a65b9506de927f45075eff7cc9cc4a1e326feac394b78eb"
+    },
+    {
+      "path": "datasets/manual/e2e_manual_120_camembert_v2.csv",
+      "size_bytes": 20183,
+      "sha256": "db4a4f03f94cedb269ec538f971b62e093023794e387bb47ded8d9004605e26b"
     },
     {
       "path": "students_project/sample_pipeline_nlp_output.txt",

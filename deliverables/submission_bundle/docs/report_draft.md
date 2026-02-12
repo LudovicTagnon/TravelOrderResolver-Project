@@ -131,19 +131,38 @@ Source : `reports/spacy_camembert_metrics.json`.
 Constat : spaCy surperforme le baseline ML classique et ce premier setup CamemBERT, mais reste sous le rule-based principal.
 
 ## 16. CamemBERT fine-tune (sequence classification)
-Source : `reports/camembert_finetune_metrics.json`.
+Sources : `reports/camembert_finetune_metrics.json`, `reports/camembert_finetune_v2_metrics.json`.
 
-- Setup :
+- Setup v1 (rapide) :
   - modele de base `camembert-base`
   - entrainement separe `origin` / `destination`
   - configuration rapide : `1` epoch, `4000` phrases, batch `16`, max_len `64`
-- Resultats :
+- Resultats v1 :
   - Dev accuracy `0.733`, valid_f1 `0.753`
   - Test accuracy `0.735`, valid_f1 `0.751`
 
-Constat : le fine-tuning CamemBERT depasse les baselines ML classiques et le setup CamemBERT fige, mais reste sous le rule-based principal.
+- Setup v2 (renforce) :
+  - entrainement separe `origin` / `destination`
+  - train complet `8000` phrases
+  - `2` epochs, batch `16`, max_len `64`
+- Resultats v2 :
+  - Dev accuracy `0.981`, valid_f1 `0.978`
+  - Test accuracy `0.973`, valid_f1 `0.968`
 
-## 17. Limites et suite
+Constat : le fine-tuning CamemBERT v2 depasse nettement toutes les baselines ML, et se rapproche du rule-based (test `0.993`).
+
+## 17. Integration E2E backend CamemBERT
+Sources : `scripts/run_pipeline.py`, `scripts/evaluate_end_to_end.py`, `reports/e2e_manual_120_camembert_v2_summary.json`.
+
+- Le pipeline supporte maintenant deux backends NLP :
+  - `rule-based` (defaut)
+  - `camembert-ft` (flag `--nlp-backend camembert-ft`)
+- Evaluation E2E sur les 120 phrases manuelles avec CamemBERT v2 :
+  - NLP valide `115/120`
+  - pathfinding valide `115/115` apres NLP valide
+  - succes global `115/120` (`95.8%`)
+
+## 18. Limites et suite
 - Corriger/valider humainement le prefill 120 lignes et viser une double annotation.
-- Refaire le fine-tuning CamemBERT avec plus d'epochs et un train set complet pour verifier le plafond reel.
+- Benchmarker CamemBERT v2 sur un jeu manuel annote plus large pour confirmer la generalisation hors dataset synthetique.
 - Pathfinding actuellement non pondere (pas de temps d'attente/horaires fins).

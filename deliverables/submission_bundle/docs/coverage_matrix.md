@@ -17,6 +17,8 @@
 | Benchmark spaCy | `scripts/evaluate_spacy.py`, `reports/spacy_camembert_metrics.json` | Fait |
 | Benchmark CamemBERT (embeddings figes + SVC) | `scripts/train_camembert.py`, `scripts/evaluate_camembert.py`, `reports/spacy_camembert_metrics.json` | Fait |
 | CamemBERT fine-tune (sequence classification) | `scripts/train_camembert_finetune.py`, `scripts/evaluate_camembert_finetune.py`, `reports/camembert_finetune_metrics.json` | Fait (bonus) |
+| CamemBERT fine-tune v2 (train complet) | `models/camembert_finetune_v2/*`, `reports/camembert_finetune_v2_metrics.json` | Fait (bonus) |
+| Pipeline multi-backend (`rule-based`/`camembert-ft`) | `scripts/run_pipeline.py`, `scripts/evaluate_end_to_end.py`, `scripts/camembert_finetune_infer.py` | Fait |
 | Analyse d'erreurs ML | `scripts/analyze_ml_errors.py`, `reports/ml_error_analysis_*.json` | Fait |
 
 ## Donnees
@@ -46,3 +48,4 @@
 |---|---|---|
 | Validation humaine finale des 22 corrections prioritaires | `datasets/manual/corrections_120.csv` | A finaliser |
 | Rapport PDF final (version propre) | export depuis `docs/report_draft.md` | A finaliser |
+| Evaluation manuelle et comparaison robuste Rule-based vs CamemBERT v2 | `datasets/manual/*` + rapport metriques comparatives | A finaliser |

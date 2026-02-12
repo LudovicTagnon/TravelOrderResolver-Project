@@ -3,6 +3,7 @@ import argparse
 import csv
 import sys
 from pathlib import Path
+from typing import Callable
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / "scripts"
@@ -30,10 +31,14 @@ def process_order(
     stops_index: dict,
     stop_names: dict,
     output_ids: bool = False,
+    nlp_predictor: Callable[[str], tuple[str | None, str | None]] | None = None,
 ) -> tuple[list[str], list[str], str]:
-    origin, destination = resolve_order(
-        sentence, mapping, place_pattern, place_index, max_place_tokens
-    )
+    if nlp_predictor is not None:
+        origin, destination = nlp_predictor(sentence)
+    else:
+        origin, destination = resolve_order(
+            sentence, mapping, place_pattern, place_index, max_place_tokens
+        )
 
     if origin is None or destination is None:
         return [sentence_id, "INVALID", ""], [sentence_id, "INVALID", ""], "nlp_invalid"
@@ -64,10 +69,28 @@ def parse_sentence_line(line: str) -> tuple[str, str] | None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run NLP + pathfinding pipeline.")
     parser.add_argument("inputs", nargs="*", help="Input files, URLs, or '-' for stdin")
+    parser.add_argument(
+        "--nlp-backend",
+        choices=["rule-based", "camembert-ft"],
+        default="rule-based",
+        help="NLP backend used to extract origin/destination.",
+    )
     parser.add_argument("--places", type=Path, default=ROOT / "data" / "places.txt")
     parser.add_argument("--graph", type=Path, default=ROOT / "data" / "graph.json")
     parser.add_argument("--stops-index", type=Path, default=ROOT / "data" / "stops_index.json")
     parser.add_argument("--stops-areas", type=Path, default=ROOT / "data" / "stops_areas.csv")
+    parser.add_argument(
+        "--origin-model-dir",
+        type=Path,
+        default=ROOT / "models" / "camembert_finetune" / "origin",
+    )
+    parser.add_argument(
+        "--destination-model-dir",
+        type=Path,
+        default=ROOT / "models" / "camembert_finetune" / "destination",
+    )
+    parser.add_argument("--camembert-batch-size", type=int, default=32)
+    parser.add_argument("--camembert-max-length", type=int, default=64)
     parser.add_argument(
         "--output-nlp", type=Path, default=ROOT / "reports" / "pipeline_nlp_output.csv"
     )
@@ -84,6 +107,24 @@ def main() -> int:
     mapping = load_places(args.places)
     place_pattern = build_place_pattern(list(mapping.keys()))
     place_index, max_place_tokens = build_place_index(mapping)
+    nlp_predictor: Callable[[str], tuple[str | None, str | None]] | None = None
+
+    if args.nlp_backend == "camembert-ft":
+        if not args.origin_model_dir.exists() or not args.destination_model_dir.exists():
+            print("Camembert model directories are missing.", file=sys.stderr)
+            return 1
+        try:
+            from scripts.camembert_finetune_infer import CamembertFineTunePredictor
+        except ModuleNotFoundError as exc:
+            print(f"Camembert dependencies missing: {exc}", file=sys.stderr)
+            return 1
+        predictor = CamembertFineTunePredictor(
+            origin_model_dir=args.origin_model_dir,
+            destination_model_dir=args.destination_model_dir,
+            batch_size=args.camembert_batch_size,
+            max_length=args.camembert_max_length,
+        )
+        nlp_predictor = predictor.predict_sentence
 
     graph = pathfind.load_graph(args.graph)
     stops_index = pathfind.load_stops_index(args.stops_index)
@@ -120,6 +161,7 @@ def main() -> int:
                 stops_index,
                 stop_names,
                 args.output_ids,
+                nlp_predictor,
             )
             nlp_writer.writerow(nlp_row)
             path_writer.writerow(path_row)

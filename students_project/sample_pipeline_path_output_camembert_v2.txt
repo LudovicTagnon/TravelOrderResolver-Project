@@ -1,0 +1,8 @@
+1,Toulouse Matabiau,Bordeaux Saint-Jean
+2,Tours,Saumur,Port Boulet
+3,Bordeaux Saint-Jean,Saint-Pierre-des-Corps,Tours
+4,Nantes,Clisson,Montaigu
+5,INVALID,
+7,Paris Austerlitz,Marseille Blancarde
+8,Paris Gare du Nord,Arras,Albert
+9,Saint-Denis-Pr®s-Martel,Paris Austerlitz,Crest,Valence Gare Routi®re,St-Etienne-Ch¢tcrx. G Routi®re

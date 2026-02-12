@@ -58,6 +58,42 @@ class RunPipelineTest(unittest.TestCase):
         self.assertEqual(["2", "INVALID", ""], nlp_row)
         self.assertEqual(["2", "INVALID", ""], path_row)
 
+    def test_process_order_with_custom_predictor_valid(self) -> None:
+        nlp_row, path_row, status = run_pipeline.process_order(
+            sentence_id="3",
+            sentence="texte quelconque",
+            mapping=self.mapping,
+            place_pattern=self.place_pattern,
+            place_index=self.place_index,
+            max_place_tokens=self.max_place_tokens,
+            graph=self.graph,
+            stops_index=self.stops_index,
+            stop_names=self.stop_names,
+            output_ids=False,
+            nlp_predictor=lambda _: ("Gare A", "Gare C"),
+        )
+        self.assertEqual("ok", status)
+        self.assertEqual(["3", "Gare A", "Gare C"], nlp_row)
+        self.assertEqual(["3", "Gare A", "Gare B", "Gare C"], path_row)
+
+    def test_process_order_with_custom_predictor_invalid(self) -> None:
+        nlp_row, path_row, status = run_pipeline.process_order(
+            sentence_id="4",
+            sentence="texte quelconque",
+            mapping=self.mapping,
+            place_pattern=self.place_pattern,
+            place_index=self.place_index,
+            max_place_tokens=self.max_place_tokens,
+            graph=self.graph,
+            stops_index=self.stops_index,
+            stop_names=self.stop_names,
+            output_ids=False,
+            nlp_predictor=lambda _: (None, None),
+        )
+        self.assertEqual("nlp_invalid", status)
+        self.assertEqual(["4", "INVALID", ""], nlp_row)
+        self.assertEqual(["4", "INVALID", ""], path_row)
+
 
 if __name__ == "__main__":
     unittest.main()

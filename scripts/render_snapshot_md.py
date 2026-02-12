@@ -22,6 +22,7 @@ def main() -> int:
 
     rule = data.get("rule_based_benchmarks", {})
     ml = data.get("ml_benchmarks", {})
+    ml_error = data.get("ml_error_analysis", {})
     manual_rule = data.get("manual_prefill_rule_based", {})
     manual_ml = data.get("manual_prefill_ml", {})
     path = data.get("pathfinding_validation", {})
@@ -40,6 +41,25 @@ def main() -> int:
         f"- Dev accuracy: `{pct(ml.get('dev', {}).get('accuracy', 0.0))}`",
         f"- Test accuracy: `{pct(ml.get('test', {}).get('accuracy', 0.0))}`",
         "",
+        "## Diagnostic ML (confusions)",
+        f"- Dev exact accuracy: `{pct(ml_error.get('dev', {}).get('exact_accuracy', 0.0))}`",
+        f"- Test exact accuracy: `{pct(ml_error.get('test', {}).get('exact_accuracy', 0.0))}`",
+    ]
+
+    dev_origin = ml_error.get("dev", {}).get("origin_top_confusions", [])
+    test_origin = ml_error.get("test", {}).get("origin_top_confusions", [])
+    if dev_origin:
+        lines.append(
+            f"- Dev top confusion origine: `{dev_origin[0][0]} -> {dev_origin[0][1]}` (`{dev_origin[0][2]}`)"
+        )
+    if test_origin:
+        lines.append(
+            f"- Test top confusion origine: `{test_origin[0][0]} -> {test_origin[0][1]}` (`{test_origin[0][2]}`)"
+        )
+
+    lines.extend(
+        [
+            "",
         "## Manuel 120 (prefill technique)",
         f"- Rule-based accuracy: `{pct(manual_rule.get('accuracy', 0.0))}`",
         f"- ML accuracy: `{pct(manual_ml.get('accuracy', 0.0))}`",
@@ -53,6 +73,7 @@ def main() -> int:
         f"- Succes global: `{e2e.get('end_to_end_success', 0)}/{e2e.get('total', 0)}` ({pct(e2e.get('end_to_end_success_rate', 0.0))})",
         "",
     ]
+    )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", encoding="utf-8") as handle:

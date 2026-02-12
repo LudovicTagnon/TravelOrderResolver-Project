@@ -1,0 +1,555 @@
+{
+  "total": 1000,
+  "exact_ok": 418,
+  "exact_accuracy": 0.418,
+  "invalid_expected": 145,
+  "invalid_predicted": 131,
+  "origin_top_confusions": [
+    [
+      "Nice",
+      "Grenoble",
+      3
+    ],
+    [
+      "Angers",
+      "Rouen",
+      3
+    ],
+    [
+      "Toulouse",
+      "Nancy",
+      3
+    ],
+    [
+      "Grenoble",
+      "La Rochelle",
+      2
+    ],
+    [
+      "Bayonne",
+      "Besancon",
+      2
+    ],
+    [
+      "Saint-Raphael",
+      "Perpignan",
+      2
+    ],
+    [
+      "Brest",
+      "Biarritz",
+      2
+    ],
+    [
+      "Montaigu",
+      "Metz",
+      2
+    ],
+    [
+      "Marseille",
+      "Caen",
+      2
+    ],
+    [
+      "INVALID",
+      "Rouen",
+      2
+    ],
+    [
+      "Orleans",
+      "Annecy",
+      2
+    ],
+    [
+      "Valence",
+      "Saint-Jean-de-Luz",
+      2
+    ],
+    [
+      "Rouen",
+      "Toulouse",
+      2
+    ],
+    [
+      "Cherbourg",
+      "Port-Boulet",
+      2
+    ],
+    [
+      "INVALID",
+      "Albert",
+      2
+    ],
+    [
+      "La Rochelle",
+      "Orleans",
+      2
+    ],
+    [
+      "Caen",
+      "Tours",
+      2
+    ],
+    [
+      "Troyes",
+      "Avignon",
+      2
+    ],
+    [
+      "Albert",
+      "Orleans",
+      2
+    ],
+    [
+      "Paris",
+      "Perpignan",
+      2
+    ]
+  ],
+  "destination_top_confusions": [
+    [
+      "Grenoble",
+      "Nice",
+      3
+    ],
+    [
+      "Grenoble",
+      "Clermont-Ferrand",
+      3
+    ],
+    [
+      "Toulouse",
+      "Colmar",
+      3
+    ],
+    [
+      "Strasbourg",
+      "Saint-Nazaire",
+      3
+    ],
+    [
+      "Perpignan",
+      "Saint-Raphael",
+      2
+    ],
+    [
+      "Troyes",
+      "Toulouse",
+      2
+    ],
+    [
+      "Biarritz",
+      "Brest",
+      2
+    ],
+    [
+      "Lyon",
+      "Nancy",
+      2
+    ],
+    [
+      "Orleans",
+      "Troyes",
+      2
+    ],
+    [
+      "Metz",
+      "Montaigu",
+      2
+    ],
+    [
+      "Caen",
+      "Marseille",
+      2
+    ],
+    [
+      "Limoges",
+      "Angers",
+      2
+    ],
+    [
+      "INVALID",
+      "Albert",
+      2
+    ],
+    [
+      "Rennes",
+      "Montpellier",
+      2
+    ],
+    [
+      "Tours",
+      "Caen",
+      2
+    ],
+    [
+      "Amiens",
+      "Versailles",
+      2
+    ],
+    [
+      "Toulouse",
+      "Saint-Malo",
+      2
+    ],
+    [
+      "Troyes",
+      "Rouen",
+      2
+    ],
+    [
+      "Perpignan",
+      "Paris",
+      2
+    ],
+    [
+      "Amiens",
+      "Colmar",
+      2
+    ]
+  ],
+  "exact_top_confusions": [
+    [
+      "Nice->Grenoble",
+      "Grenoble->Nice",
+      3
+    ],
+    [
+      "Grenoble->La Rochelle",
+      "La Rochelle->La Rochelle",
+      2
+    ],
+    [
+      "Saint-Raphael->Perpignan",
+      "Perpignan->Saint-Raphael",
+      2
+    ],
+    [
+      "Brest->Biarritz",
+      "Biarritz->Brest",
+      2
+    ],
+    [
+      "Montaigu->Metz",
+      "Metz->Montaigu",
+      2
+    ],
+    [
+      "Marseille->Caen",
+      "Caen->Marseille",
+      2
+    ],
+    [
+      "INVALID->INVALID",
+      "Rouen->INVALID",
+      2
+    ],
+    [
+      "Colmar->Toulouse",
+      "Colmar->Colmar",
+      2
+    ],
+    [
+      "INVALID->INVALID",
+      "Albert->Albert",
+      2
+    ],
+    [
+      "Caen->Tours",
+      "Tours->Caen",
+      2
+    ],
+    [
+      "Paris->Perpignan",
+      "Perpignan->Paris",
+      2
+    ],
+    [
+      "Versailles->Marseille",
+      "Marseille->Versailles",
+      2
+    ],
+    [
+      "Reims->Nantes",
+      "Nantes->Reims",
+      2
+    ],
+    [
+      "Annecy->Cannes",
+      "Cannes->Annecy",
+      2
+    ],
+    [
+      "Cherbourg->Dijon",
+      "Dijon->Cherbourg",
+      2
+    ],
+    [
+      "Clermont-Ferrand->Avignon",
+      "Clermont-Ferrand->Clermont-Ferrand",
+      2
+    ],
+    [
+      "Saint-Etienne->Port-Boulet",
+      "Port-Boulet->Saint-Etienne",
+      2
+    ],
+    [
+      "Saint-Jean-de-Luz->Metz",
+      "Metz->Saint-Jean-de-Luz",
+      2
+    ],
+    [
+      "Annecy->Saint-Nazaire",
+      "Saint-Nazaire->Saint-Nazaire",
+      2
+    ],
+    [
+      "Saint-Etienne->Troyes",
+      "Saint-Etienne->Saint-Etienne",
+      2
+    ]
+  ],
+  "samples": [
+    {
+      "id": "208",
+      "sentence": "depart montpellier destination port-boulet en passant par Marseille",
+      "expected_origin": "Montpellier",
+      "expected_destination": "Port-Boulet",
+      "pred_origin": "Montpellier",
+      "pred_destination": "Marseille"
+    },
+    {
+      "id": "5058",
+      "sentence": "depart saint-jean-de-luz destination aix-en-provence",
+      "expected_origin": "Saint-Jean-de-Luz",
+      "expected_destination": "Aix-en-Provence",
+      "pred_origin": "Saint-Jean-de-Luz",
+      "pred_destination": "Saint-Jean-de-Luz"
+    },
+    {
+      "id": "7465",
+      "sentence": "je souhaite me rendre a valence depuis port boulet",
+      "expected_origin": "Port-Boulet",
+      "expected_destination": "Valence",
+      "pred_origin": "Valence",
+      "pred_destination": "Port-Boulet"
+    },
+    {
+      "id": "8016",
+      "sentence": "besoin d un trajet Lille Angers",
+      "expected_origin": "Lille",
+      "expected_destination": "Angers",
+      "pred_origin": "Angers",
+      "pred_destination": "Lille"
+    },
+    {
+      "id": "1770",
+      "sentence": "besoin d un trajet saint etienne cherbourg",
+      "expected_origin": "Saint-Etienne",
+      "expected_destination": "Cherbourg",
+      "pred_origin": "Cherbourg",
+      "pred_destination": "Saint-Etienne"
+    },
+    {
+      "id": "2172",
+      "sentence": "je veux un billet de grenoble pour la rochelle",
+      "expected_origin": "Grenoble",
+      "expected_destination": "La Rochelle",
+      "pred_origin": "La Rochelle",
+      "pred_destination": "La Rochelle"
+    },
+    {
+      "id": "5792",
+      "sentence": "je voudrais aller de Perpignan a Avignon en passant par Saint-Etienne",
+      "expected_origin": "Perpignan",
+      "expected_destination": "Avignon",
+      "pred_origin": "Perpignan",
+      "pred_destination": "Saint-Etienne"
+    },
+    {
+      "id": "3829",
+      "sentence": "billet tours metz",
+      "expected_origin": "Tours",
+      "expected_destination": "Metz",
+      "pred_origin": "Metz",
+      "pred_destination": "Tours"
+    },
+    {
+      "id": "3856",
+      "sentence": "depart Limoges destination Montpellir",
+      "expected_origin": "Limoges",
+      "expected_destination": "Montpellier",
+      "pred_origin": "Limoges",
+      "pred_destination": "Limoges"
+    },
+    {
+      "id": "3384",
+      "sentence": "aller de metz vers lyon",
+      "expected_origin": "Metz",
+      "expected_destination": "Lyon",
+      "pred_origin": "Lyon",
+      "pred_destination": "Lyon"
+    },
+    {
+      "id": "2222",
+      "sentence": "est ce quil y a des trains vers montpellier depuis poiiters",
+      "expected_origin": "Poitiers",
+      "expected_destination": "Montpellier",
+      "pred_origin": "Montpellier",
+      "pred_destination": "Poitiers"
+    },
+    {
+      "id": "1253",
+      "sentence": "bayonne",
+      "expected_origin": "INVALID",
+      "expected_destination": "INVALID",
+      "pred_origin": "Bayonne",
+      "pred_destination": "Bayonne"
+    },
+    {
+      "id": "8364",
+      "sentence": "je veux aller a Reims en partant de Rennes en passant par Paris",
+      "expected_origin": "Rennes",
+      "expected_destination": "Reims",
+      "pred_origin": "Reims",
+      "pred_destination": "Rennes"
+    },
+    {
+      "id": "2897",
+      "sentence": "besoin d un trajet qayonne Besancon",
+      "expected_origin": "Bayonne",
+      "expected_destination": "Besancon",
+      "pred_origin": "Besancon",
+      "pred_destination": "Besancon"
+    },
+    {
+      "id": "2544",
+      "sentence": "je veux un billet de strasbourg pour orleans en passant par Cannes",
+      "expected_origin": "Strasbourg",
+      "expected_destination": "Orleans",
+      "pred_origin": "Orleans",
+      "pred_destination": "Strasbourg"
+    },
+    {
+      "id": "6482",
+      "sentence": "y a t il un train de saint-raphael a perpignan",
+      "expected_origin": "Saint-Raphael",
+      "expected_destination": "Perpignan",
+      "pred_origin": "Perpignan",
+      "pred_destination": "Saint-Raphael"
+    },
+    {
+      "id": "2128",
+      "sentence": "aller de metz vers bordeaux",
+      "expected_origin": "Metz",
+      "expected_destination": "Bordeaux",
+      "pred_origin": "Bordeaux",
+      "pred_destination": "Metz"
+    },
+    {
+      "id": "415",
+      "sentence": "aller de Dijon vers Le Havre",
+      "expected_origin": "Dijon",
+      "expected_destination": "Le Havre",
+      "pred_origin": "Le Havre",
+      "pred_destination": "Dijon"
+    },
+    {
+      "id": "6013",
+      "sentence": "je veux un billet de touloube pour tours",
+      "expected_origin": "Toulouse",
+      "expected_destination": "Tours",
+      "pred_origin": "Tours",
+      "pred_destination": "Tours"
+    },
+    {
+      "id": "254",
+      "sentence": "besoin d un trajet besancon troyes",
+      "expected_origin": "Besancon",
+      "expected_destination": "Troyes",
+      "pred_origin": "Troyes",
+      "pred_destination": "Besancon"
+    },
+    {
+      "id": "2250",
+      "sentence": "je veux aller a brest en partant de troyes",
+      "expected_origin": "Troyes",
+      "expected_destination": "Brest",
+      "pred_origin": "Troyes",
+      "pred_destination": "Troyes"
+    },
+    {
+      "id": "2808",
+      "sentence": "je pars de brest pour troyes en passant par Toulouse",
+      "expected_origin": "Brest",
+      "expected_destination": "Troyes",
+      "pred_origin": "Brest",
+      "pred_destination": "Toulouse"
+    },
+    {
+      "id": "4700",
+      "sentence": "billet vannes saint-etiene",
+      "expected_origin": "Vannes",
+      "expected_destination": "Saint-Etienne",
+      "pred_origin": "Vannes",
+      "pred_destination": "Vannes"
+    },
+    {
+      "id": "5363",
+      "sentence": "est ce quil y a des trains vers montpellier depuis metz en passant par Valence",
+      "expected_origin": "Metz",
+      "expected_destination": "Montpellier",
+      "pred_origin": "Metz",
+      "pred_destination": "Valence"
+    },
+    {
+      "id": "1062",
+      "sentence": "billet Montpellier La Rochelle",
+      "expected_origin": "Montpellier",
+      "expected_destination": "La Rochelle",
+      "pred_origin": "La Rochelle",
+      "pred_destination": "Montpellier"
+    },
+    {
+      "id": "8957",
+      "sentence": "je veux aller a dijon en partant de rouen",
+      "expected_origin": "Rouen",
+      "expected_destination": "Dijon",
+      "pred_origin": "Dijon",
+      "pred_destination": "Rouen"
+    },
+    {
+      "id": "3762",
+      "sentence": "comment aller a grenoble depuis nice",
+      "expected_origin": "Nice",
+      "expected_destination": "Grenoble",
+      "pred_origin": "Grenoble",
+      "pred_destination": "Nice"
+    },
+    {
+      "id": "4465",
+      "sentence": "je souhaite me rendre a troyes depuis clermont-ferrand",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_destination": "Troyes",
+      "pred_origin": "Clermont-Ferrand",
+      "pred_destination": "Clermont-Ferrand"
+    },
+    {
+      "id": "9115",
+      "sentence": "je voudrais aller de Vanne a Le Mans",
+      "expected_origin": "Vannes",
+      "expected_destination": "Le Mans",
+      "pred_origin": "Le Mans",
+      "pred_destination": "Vannes"
+    },
+    {
+      "id": "1996",
+      "sentence": "depart eordeaux destination Strasbourg en passant par Perpignan",
+      "expected_origin": "Bordeaux",
+      "expected_destination": "Strasbourg",
+      "pred_origin": "Strasbourg",
+      "pred_destination": "Strasbourg"
+    }
+  ]
+}

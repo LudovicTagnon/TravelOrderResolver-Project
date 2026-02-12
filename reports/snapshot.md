@@ -10,6 +10,12 @@
 - Dev accuracy: `40.4%`
 - Test accuracy: `41.8%`
 
+## Diagnostic ML (confusions)
+- Dev exact accuracy: `40.4%`
+- Test exact accuracy: `41.8%`
+- Dev top confusion origine: `INVALID -> Tours` (`3`)
+- Test top confusion origine: `Nice -> Grenoble` (`3`)
+
 ## Manuel 120 (prefill technique)
 - Rule-based accuracy: `100.0%`
 - ML accuracy: `55.8%`

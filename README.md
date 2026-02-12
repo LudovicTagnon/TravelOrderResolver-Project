@@ -106,6 +106,7 @@ Sorties :
 python3 scripts/run_snapshot.py --datasets datasets --reports reports --model-dir models --places data/places.txt --graph data/graph.json --stops-index data/stops_index.json --stops-areas data/stops_areas.csv --manual-input datasets/manual/input_starter.csv --manual-output datasets/manual/output_prefill_120.csv --output reports/snapshot.json --markdown-output reports/snapshot.md
 ```
 Le snapshot consolide les metriques principales dans `reports/snapshot.json` et `reports/snapshot.md`.
+Inclut aussi l'analyse d'erreurs ML : `reports/ml_error_analysis_dev.json` et `reports/ml_error_analysis_test.json`.
 
 ## Workflow 7 - Pipeline complet (NLP + path output)
 ```bash
@@ -141,6 +142,7 @@ python3 -m unittest discover -s tests
 - Pathfinding echantillon 30 trajets : `1.00` (`reports/pathfinding_metrics.txt`).
 - End-to-end manuel 120 : NLP valide `115/120`, succes pathfinding `115/115`, succes global `115/120` (`reports/e2e_manual_120_summary.json`).
 - Snapshot global : `reports/snapshot.json` + `reports/snapshot.md`.
+- Analyse erreurs ML : `reports/ml_error_analysis_dev.json` + `reports/ml_error_analysis_test.json`.
 - Pipeline sample (8 phrases) : `6` succes complets, `2` INVALID NLP, `0` echec pathfinding apres NLP.
 - Template de correction manuelle : `datasets/manual/corrections_120.csv` (22 lignes a valider).
 - Draft rapport : `docs/report_draft.md`.

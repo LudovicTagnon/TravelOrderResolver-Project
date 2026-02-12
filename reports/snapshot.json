@@ -99,6 +99,122 @@
       "destination_accuracy": 0.4654970760233918
     }
   },
+  "ml_error_analysis": {
+    "dev": {
+      "exact_accuracy": 0.404,
+      "origin_top_confusions": [
+        [
+          "INVALID",
+          "Tours",
+          3
+        ],
+        [
+          "Saint-Denis",
+          "Clermont-Ferrand",
+          3
+        ],
+        [
+          "Versailles",
+          "Port-Boulet",
+          3
+        ],
+        [
+          "Nantes",
+          "Toulon",
+          2
+        ],
+        [
+          "Lyon",
+          "Orleans",
+          2
+        ]
+      ],
+      "destination_top_confusions": [
+        [
+          "INVALID",
+          "Tours",
+          3
+        ],
+        [
+          "Port-Boulet",
+          "Versailles",
+          3
+        ],
+        [
+          "Orleans",
+          "Perpignan",
+          2
+        ],
+        [
+          "Strasbourg",
+          "Valence",
+          2
+        ],
+        [
+          "Avignon",
+          "Toulon",
+          2
+        ]
+      ]
+    },
+    "test": {
+      "exact_accuracy": 0.418,
+      "origin_top_confusions": [
+        [
+          "Nice",
+          "Grenoble",
+          3
+        ],
+        [
+          "Angers",
+          "Rouen",
+          3
+        ],
+        [
+          "Toulouse",
+          "Nancy",
+          3
+        ],
+        [
+          "Grenoble",
+          "La Rochelle",
+          2
+        ],
+        [
+          "Bayonne",
+          "Besancon",
+          2
+        ]
+      ],
+      "destination_top_confusions": [
+        [
+          "Grenoble",
+          "Nice",
+          3
+        ],
+        [
+          "Grenoble",
+          "Clermont-Ferrand",
+          3
+        ],
+        [
+          "Toulouse",
+          "Colmar",
+          3
+        ],
+        [
+          "Strasbourg",
+          "Saint-Nazaire",
+          3
+        ],
+        [
+          "Perpignan",
+          "Saint-Raphael",
+          2
+        ]
+      ]
+    }
+  },
   "manual_prefill_rule_based": {
     "total": 120,
     "correct": 120,

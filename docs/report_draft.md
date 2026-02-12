@@ -87,6 +87,7 @@ Export detail : `datasets/manual/e2e_manual_120.csv`.
 ## 10. Snapshot global
 - Script : `scripts/run_snapshot.py`
 - Sortie consolidee : `reports/snapshot.json` et `reports/snapshot.md`
+- Analyse d'erreurs ML : `reports/ml_error_analysis_dev.json` et `reports/ml_error_analysis_test.json`
 - Objectif : figer l'etat des metriques (NLP rule-based, ML, manuel, pathfinding, end-to-end) en un seul artefact.
 
 ## 11. Pipeline operationnel

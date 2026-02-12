@@ -112,6 +112,41 @@ def main() -> int:
         args.reports / "ml_metrics.json",
     )
 
+    ml_error_dev = run_and_load_json(
+        [
+            sys.executable,
+            str(ROOT / "scripts" / "analyze_ml_errors.py"),
+            "--input",
+            str(args.datasets / "dev_input.txt"),
+            "--expected",
+            str(args.datasets / "dev_output.txt"),
+            "--model-dir",
+            str(args.model_dir),
+            "--output",
+            str(args.reports / "ml_error_analysis_dev.json"),
+            "--max-samples",
+            "30",
+        ],
+        args.reports / "ml_error_analysis_dev.json",
+    )
+    ml_error_test = run_and_load_json(
+        [
+            sys.executable,
+            str(ROOT / "scripts" / "analyze_ml_errors.py"),
+            "--input",
+            str(args.datasets / "test_input.txt"),
+            "--expected",
+            str(args.datasets / "test_output.txt"),
+            "--model-dir",
+            str(args.model_dir),
+            "--output",
+            str(args.reports / "ml_error_analysis_test.json"),
+            "--max-samples",
+            "30",
+        ],
+        args.reports / "ml_error_analysis_test.json",
+    )
+
     manual_rule = run_json(
         [
             sys.executable,
@@ -181,6 +216,18 @@ def main() -> int:
     snapshot = {
         "rule_based_benchmarks": rule_metrics,
         "ml_benchmarks": ml_metrics,
+        "ml_error_analysis": {
+            "dev": {
+                "exact_accuracy": ml_error_dev.get("exact_accuracy", 0.0),
+                "origin_top_confusions": ml_error_dev.get("origin_top_confusions", [])[:5],
+                "destination_top_confusions": ml_error_dev.get("destination_top_confusions", [])[:5],
+            },
+            "test": {
+                "exact_accuracy": ml_error_test.get("exact_accuracy", 0.0),
+                "origin_top_confusions": ml_error_test.get("origin_top_confusions", [])[:5],
+                "destination_top_confusions": ml_error_test.get("destination_top_confusions", [])[:5],
+            },
+        },
         "manual_prefill_rule_based": manual_rule,
         "manual_prefill_ml": manual_ml,
         "pathfinding_validation": path_metrics,
